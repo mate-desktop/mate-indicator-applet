@@ -7,5 +7,5 @@ Description=Indicator Applet Appmenu Factory
 [IndicatorAppletAppmenu]
 _Name=Indicator Applet Appmenu
 _Description=A applet containing the application menus.
-Icon=indicator-applet
+Icon=mate-indicator-applet
 MateComponentId=OAFIID:MATE_IndicatorAppletAppmenu

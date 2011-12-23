@@ -7,5 +7,5 @@ Description=Indicator Applet Factory
 [FastUserSwitchApplet]
 _Name=Indicator Applet Session
 _Description=A place to adjust your status, change users or exit your session.
-Icon=indicator-applet
+Icon=mate-indicator-applet
 MateComponentId=OAFIID:MATE_FastUserSwitchApplet

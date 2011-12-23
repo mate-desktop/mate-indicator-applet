@@ -7,5 +7,5 @@ Description=Indicator Applet Complete Factory
 [IndicatorAppletComplete]
 _Name=Indicator Applet Complete
 _Description=A unified applet containing all of the indicators.
-Icon=indicator-applet
+Icon=mate-indicator-applet
 MateComponentId=OAFIID:MATE_IndicatorAppletComplete

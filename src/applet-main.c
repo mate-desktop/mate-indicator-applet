@@ -644,7 +644,7 @@ about_cb (GtkAction *action G_GNUC_UNUSED,
 		"translator-credits", _("translator-credits"),
 		"logo-icon-name", "indicator-applet",
 		"icon-name", "indicator-applet",
-		"website", "http://launchpad.net/indicator-applet",
+		"website", "http://www.mate-desktop.org",
 		"website-label", _("Indicator Applet Website"),
 		NULL
 	);

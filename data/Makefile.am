@@ -44,7 +44,7 @@ service_DATA     = $(service_in_files:.service.in=.service)
 
 iconsdir = $(datadir)/icons/hicolor/scalable/apps
 
-icons_DATA = indicator-applet.svg
+icons_DATA = mate-indicator-applet.svg
 
 gtk_update_icon_cache = gtk-update-icon-cache -f -t $(datadir)/icons/hicolor
 

@@ -1,0 +1,11 @@
+[Applet Factory]
+Id=IndicatorAppletFactory
+Location=@LIBEXECDIR@/indicator-applet
+Name=Indicator Applet Factory
+Description=Indicator Applet Factory
+
+[IndicatorApplet]
+_Name=Indicator Applet
+_Description=An indicator of something that needs your attention on the desktop
+Icon=indicator-applet
+MateComponentId=OAFIID:MATE_IndicatorApplet

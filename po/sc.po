@@ -1,0 +1,128 @@
+# Sardinian translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-applet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-03-24 11:46+0000\n"
+"PO-Revision-Date: 2010-07-22 14:38+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Sardinian <sc@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
+"X-Generator: Launchpad (build 12792)\n"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr ""
+"Un indicadore de calchi cosa chi pidet s'atintzione tua in su desktop"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:799
+msgid "Indicator Applet"
+msgstr "Mini-aplicatzione de indicadores"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+msgid "A unified applet containing all of the indicators."
+msgstr "Una mini-aplicatzione unificada chi cuntenit totus sos indicadores."
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:805
+msgid "Indicator Applet Complete"
+msgstr "Mini-aplicatzione cumpleta de indicadores"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+msgid "A applet containing the application menus."
+msgstr ""
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "Indicator Applet Appmenu"
+msgstr ""
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:623
+msgid "A place to adjust your status, change users or exit your session."
+msgstr ""
+"Unu ispàtziu pro adecuare s'istadu tou, cambiare de utente o bessire da-e sa "
+"sessione."
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:802
+msgid "Indicator Applet Session"
+msgstr "Mini-aplicatzione de indicadores de sessione"
+
+#: ../src/applet-main.c:604
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by "
+"the Free Software Foundation."
+msgstr ""
+"Custu est unu programa lìberu: lu podes torrare a pònnere in circulatzione o "
+"lu podes finas modificare suta sos tèrmines de Licèntzia Pùblica GNU "
+"versione 3, a su matessi modu de comente est istada publicada da-e sa \"Free "
+"Software Foundation\"."
+
+#: ../src/applet-main.c:607
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
+msgstr ""
+"Custu programa si ponet in circulatzione cun s'isperàntzia chi siet ùtile, "
+"però CHENTZA PERUNA GARANTZIA; finas chentza garantzias de CUMERCIABILIDADE, "
+"GALIDADE SODDISFATÒRIA o IDONEIDADE PRO UN ISCOPU PARTICULARE. Pro pius "
+"detàllios si cunsìgiat de si lègere sa Licèntzia Pùblica Generale GNU."
+
+#: ../src/applet-main.c:611
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Dias dèver àer àpidu ritzèvidu una còpia de sa Licèntzia Pùblica Generale "
+"GNU cun custu programa. Si no est gai vìsita <http://www.gnu.org/licenses/>."
+
+#: ../src/applet-main.c:626
+msgid "An applet to hold your application menus."
+msgstr ""
+
+#: ../src/applet-main.c:628
+msgid "An applet to hold all of the system indicators."
+msgstr ""
+"Una mini-aplicatzione pro mantènnere totus sos indicadores de su sistema."
+
+#: ../src/applet-main.c:633
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Dàriu Piga https://launchpad.net/~nurdarios"
+
+#: ../src/applet-main.c:637
+msgid "Indicator Applet Website"
+msgstr "Jassu web de sa mini-aplicatzione de sos indicadores"
+
+#: ../src/applet-main.c:778
+msgid "_About"
+msgstr "_Iscedas"
+
+#: ../src/applet-main.c:808
+msgid "Indicator Applet Application Menu"
+msgstr ""
+
+#. A label to allow for click through
+#: ../src/applet-main.c:934
+msgid "No Indicators"
+msgstr "Chentza indicadores"
+
+#~ msgid "Building up install directories. Need a dummy value."
+#~ msgstr ""
+#~ "Construende sas \"directories\" de installatzione. Est netzessàriu "
+#~ "introdùere unu balore calesisiet."
+
+#~ msgid "Setting up basic MateConf"
+#~ msgstr "Configuratzione bàsica de MateConf"

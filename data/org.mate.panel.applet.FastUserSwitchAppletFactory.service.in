@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.mate.panel.applet.FastUserSwitchAppletFactory
+Exec=@LIBEXECDIR@/indicator-applet-session

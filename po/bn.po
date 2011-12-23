@@ -1,0 +1,124 @@
+# Bengali translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-applet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-03-24 11:46+0000\n"
+"PO-Revision-Date: 2010-09-08 15:49+0000\n"
+"Last-Translator: nasir khan saikat <nasir8891@gmail.com>\n"
+"Language-Team: Bengali <bn@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
+"X-Generator: Launchpad (build 12792)\n"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "এমন কিছুর নির্দেশক যেটি ডেক্সটপে আপনার দৃষ্টি আকর্ষন করবে"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:799
+msgid "Indicator Applet"
+msgstr "নির্দেশক অ্যাপ্লেট"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+msgid "A unified applet containing all of the indicators."
+msgstr "সকল নির্দেশক ধারন করে এমন অ্যাপ্লেট।"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:805
+msgid "Indicator Applet Complete"
+msgstr "নির্দেশক অ্যাপ্লেট সম্পন্ন"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+msgid "A applet containing the application menus."
+msgstr "অ্যাপলিকেশন মেনু রয়েছে এমন অ্যাপ্লেট।"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "Indicator Applet Appmenu"
+msgstr "ইন্ডিকেটর অ্যাপ্লেট"
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:623
+msgid "A place to adjust your status, change users or exit your session."
+msgstr ""
+"একটি স্থান যেখান থেকে আপনার অবস্থা, ব্যবহারকারী পরিবর্তন অথবা সেশন থেকে "
+"প্রস্থানের কাজটি করা যাবে।"
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:802
+msgid "Indicator Applet Session"
+msgstr "নির্দেশক অ্যাপ্লেট সেশন"
+
+#: ../src/applet-main.c:604
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by "
+"the Free Software Foundation."
+msgstr ""
+"এই প্রোগ্রামটি একটি মুক্ত সফটওয়্যার: আপনি একটি পুনঃবিতরণ এবং সম্পাদনা করতে "
+"পারবেন। তবে অবশ্যই এটি ফ্রি সফটওয়্যার ফাউন্ডেশন প্রকাশিত GNU General Public "
+"License version 3 এর অধীনে হতে হবে।"
+
+#: ../src/applet-main.c:607
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
+msgstr ""
+"এই প্রোগ্রামটি বিতরণ করা হয়েছে এই আশা নিয়ে যে, এটি উপকারী হবে, কিন্তু কোন "
+"প্রকার ওয়ারেন্টি ব্যতিত; এমনকি ব্যবসায়িক ব্যবহার, সন্তুষ্টিমূলক গুণাবলী "
+"কিংবা একটি নির্দিষ্ট উদ্দেশ্যে ব্যবহারের জন্য উপযোগীতার ওয়ারেন্টি ব্যতিত। "
+"বিস্তারিত তথ্যের জন্য GNU General Public License দেখুন।"
+
+#: ../src/applet-main.c:611
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"এই প্রোগ্রামটির সাথে আপনি হয়ত GNU সাধারণ পাবলিক লাইসেন্সের একটি অনুলিপি "
+"পেয়ে থাকবেন।  যদি না পান, <http://www.gnu.org/licenses/> দেখুন।"
+
+#: ../src/applet-main.c:626
+msgid "An applet to hold your application menus."
+msgstr "আপনার অ্যাপলিকেশন মেনু রয়েছে এমন অ্যাপ্লেট।"
+
+#: ../src/applet-main.c:628
+msgid "An applet to hold all of the system indicators."
+msgstr "সকল সিস্টেম ইন্ডিকেটর ধারণ করতে পারে এমন অ্যাপ্লেট।"
+
+#: ../src/applet-main.c:633
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Aniruddha Adhikary https://launchpad.net/~digitiger1\n"
+"  nasir khan saikat https://launchpad.net/~nasir8891"
+
+#: ../src/applet-main.c:637
+msgid "Indicator Applet Website"
+msgstr "নির্দেশক অ্যাল্পেট ওয়েবসাইট"
+
+#: ../src/applet-main.c:778
+msgid "_About"
+msgstr "পরিচিতি (_A)"
+
+#: ../src/applet-main.c:808
+msgid "Indicator Applet Application Menu"
+msgstr "ইন্ডিকেটর অ্যাপ্লেট অ্যাপলিকেশন মেনু"
+
+#. A label to allow for click through
+#: ../src/applet-main.c:934
+msgid "No Indicators"
+msgstr "কোন নির্দেশন না"
+
+#~ msgid "Setting up basic MateConf"
+#~ msgstr "সাধারণ MateConf ব্যবস্থাপনা"
+
+#~ msgid "Building up install directories. Need a dummy value."
+#~ msgstr "ইনস্টলেশন ডিরেক্টরি তৈরী করা হচ্ছে। একটি মান প্রয়োজন।"

@@ -1,0 +1,120 @@
+# Traditional Chinese translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-applet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-03-24 11:46+0000\n"
+"PO-Revision-Date: 2010-09-27 09:00+0000\n"
+"Last-Translator: Roy Chan <roy.chan@linux.org.hk>\n"
+"Language-Team: Traditional Chinese <zh_TW@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
+"X-Generator: Launchpad (build 12792)\n"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "一個讓您知道桌面上有什麼值得注意的指示器"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:799
+msgid "Indicator Applet"
+msgstr "指示器面板程式"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+msgid "A unified applet containing all of the indicators."
+msgstr "一個統合的面板程式包含所有的指示器。"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:805
+msgid "Indicator Applet Complete"
+msgstr "指示器面板完成"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+msgid "A applet containing the application menus."
+msgstr "包含應用軟體選單的面板程式。"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "Indicator Applet Appmenu"
+msgstr "指示器面板程式之程式選單"
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:623
+msgid "A place to adjust your status, change users or exit your session."
+msgstr "用來調整您的狀態、變更使用者或離開您的作業階段的地方。"
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:802
+msgid "Indicator Applet Session"
+msgstr "指示器面板作業階段"
+
+#: ../src/applet-main.c:604
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by "
+"the Free Software Foundation."
+msgstr "這個程式屬於自由軟體：您可以在符合自由軟體基金會公布的GNU GPLv3授權的前題下，自由的散佈、修改這個程式。"
+
+#: ../src/applet-main.c:607
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
+msgstr ""
+"這個程式是在希望能對大家有幫助的前題下散佈的，但「我們不提供任何類型的擔保」，不論是明確的，還是隱含的，包括但不限於可銷售和適合特定用途的隱含保證。全部的"
+"風險，如程式的質量和性能問題都由您來承擔。更詳細的資訊，請參見 GNU GPL。"
+
+#: ../src/applet-main.c:611
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr "您應能在本程式中取得一份 GNU GPL 的複本。如果沒有的話， 請參照 <http://www.gnu.org/licenses/>."
+
+#: ../src/applet-main.c:626
+msgid "An applet to hold your application menus."
+msgstr "包含您應用程式選單的面板程式。"
+
+#: ../src/applet-main.c:628
+msgid "An applet to hold all of the system indicators."
+msgstr "一個記錄所有系統指示的面板程式。"
+
+#: ../src/applet-main.c:633
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Chao-Hsiung Liao https://launchpad.net/~j-h-liau\n"
+"  Cheng-Chia Tseng https://launchpad.net/~zerng07\n"
+"  Elmaz Yu https://launchpad.net/~elmazyu\n"
+"  Ronmi Ren https://launchpad.net/~ronmi\n"
+"  Roy Chan https://launchpad.net/~roy-chan-linux\n"
+"  Taiten Peng https://launchpad.net/~taitenpeng\n"
+"  Toomore https://launchpad.net/~toomore"
+
+#: ../src/applet-main.c:637
+msgid "Indicator Applet Website"
+msgstr "指示器面板程式的網站"
+
+#: ../src/applet-main.c:778
+msgid "_About"
+msgstr "關於(_A)"
+
+#: ../src/applet-main.c:808
+msgid "Indicator Applet Application Menu"
+msgstr "指示器面板程式之應用程式選單"
+
+#. A label to allow for click through
+#: ../src/applet-main.c:934
+msgid "No Indicators"
+msgstr "沒有指示"
+
+#~ msgid "Setting up basic MateConf"
+#~ msgstr "正在設定基礎的 MateConf"
+
+#~ msgid "Building up install directories. Need a dummy value."
+#~ msgstr "建立安裝目錄中。需要一個虛擬值。"

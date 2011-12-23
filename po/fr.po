@@ -1,0 +1,153 @@
+# French translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-applet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-03-24 11:46+0000\n"
+"PO-Revision-Date: 2010-12-12 12:20+0000\n"
+"Last-Translator: Pierre Slamich <pierre.slamich@gmail.com>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
+"X-Generator: Launchpad (build 12792)\n"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr ""
+"Un indicateur qui signale que quelque chose réclame votre attention sur le "
+"bureau"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:799
+msgid "Indicator Applet"
+msgstr "Applet de notification"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+msgid "A unified applet containing all of the indicators."
+msgstr "Un applet unifié contenant tous les indicateurs."
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:805
+msgid "Indicator Applet Complete"
+msgstr "Applet de notification général"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+msgid "A applet containing the application menus."
+msgstr "Un applet affichant les menus des applications."
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "Indicator Applet Appmenu"
+msgstr "Applet indicateur Appmenu"
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:623
+msgid "A place to adjust your status, change users or exit your session."
+msgstr ""
+"Un endroit pour modifier votre état de présence, changer d'utilisateur ou "
+"fermer votre session."
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:802
+msgid "Indicator Applet Session"
+msgstr "Applet de notification de session"
+
+#: ../src/applet-main.c:604
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by "
+"the Free Software Foundation."
+msgstr ""
+"Ce programme est un logiciel libre : vous pouvez le redistribuer et/ou le "
+"modifier selon les termes de la version 3 de la « GNU General Public "
+"License », telle qu'elle est publiée par la Free Software Foundation."
+
+#: ../src/applet-main.c:607
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
+msgstr ""
+"Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE "
+"GARANTIE ; sans même les garanties implicites de CONFORMITÉ, de QUALITÉ "
+"SATISFAISANTE ou  D'ADÉQUATION À UNE UTILISATION PARTICULIÈRE. Voir la « GNU "
+"General Public License » pour plus de précisions."
+
+#: ../src/applet-main.c:611
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Vous devriez avoir reçu une copie de la « GNU General Public License » avec "
+"ce programme. Sinon, voir <http://www.gnu.org/licenses/>."
+
+#: ../src/applet-main.c:626
+msgid "An applet to hold your application menus."
+msgstr "Un applet pour afficher les menus de vos applications."
+
+#: ../src/applet-main.c:628
+msgid "An applet to hold all of the system indicators."
+msgstr "Un applet pour regrouper toutes les notifications du système."
+
+#: ../src/applet-main.c:633
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  65GYgzf https://launchpad.net/~65gygzf\n"
+"  Anerty https://launchpad.net/~bamou-mehdi\n"
+"  BR451 https://launchpad.net/~br451\n"
+"  Bernard Opic https://launchpad.net/~cpio\n"
+"  Bruno Patri https://launchpad.net/~bruno-patri\n"
+"  Corentin Mornet https://launchpad.net/~cam0217\n"
+"  Damien Haïkal https://launchpad.net/~damien-haikal\n"
+"  David LOPEZ https://launchpad.net/~david-lopez-free\n"
+"  Emmanuel Sunyer https://launchpad.net/~esunyer\n"
+"  Florent (LSc) https://launchpad.net/~lorkscorguar\n"
+"  Laurent P. Le Thuaut https://launchpad.net/~tellurant\n"
+"  Michel Boisset https://launchpad.net/~michel-boisset\n"
+"  NicBou https://launchpad.net/~nicolasbouliane\n"
+"  Nicolas DERIVE https://launchpad.net/~kalon33\n"
+"  PEIGNOT Kévin https://launchpad.net/~winniemiel05\n"
+"  Pierre Slamich https://launchpad.net/~pierre-slamich\n"
+"  Romaric Philogène https://launchpad.net/~evoxmusic\n"
+"  Simon https://launchpad.net/~simon-chatain\n"
+"  Stanislas Michalak https://launchpad.net/~stanislas-michalak-live\n"
+"  Stéphane V https://launchpad.net/~svergeylen\n"
+"  Surfoo https://launchpad.net/~surfooo\n"
+"  Sylvain Lasnier https://launchpad.net/~sylvain-lasnier\n"
+"  Sébastien Besson https://launchpad.net/~sebastien-besson\n"
+"  Wassim Derguech https://launchpad.net/~derwas\n"
+"  agatzebluz https://launchpad.net/~agatzebluz\n"
+"  axx https://launchpad.net/~axx\n"
+"  imme https://launchpad.net/~mat-ber\n"
+"  vyncere https://launchpad.net/~vyncere"
+
+#: ../src/applet-main.c:637
+msgid "Indicator Applet Website"
+msgstr "Site Web de l'applet de notification"
+
+#: ../src/applet-main.c:778
+msgid "_About"
+msgstr "_À propos"
+
+#: ../src/applet-main.c:808
+msgid "Indicator Applet Application Menu"
+msgstr "Applet indicateur pour les menus d'applications"
+
+#. A label to allow for click through
+#: ../src/applet-main.c:934
+msgid "No Indicators"
+msgstr "Pas de notifications"
+
+#~ msgid "Building up install directories. Need a dummy value."
+#~ msgstr ""
+#~ "Construction des dossiers d'installation. Nécessite une valeur fictive."
+
+#~ msgid "Setting up basic MateConf"
+#~ msgstr "Configuration basique de MateConf"

@@ -1,0 +1,127 @@
+# Korean translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-applet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-03-24 11:46+0000\n"
+"PO-Revision-Date: 2011-04-07 15:43+0000\n"
+"Last-Translator: Ernesto2k <boramism@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
+"X-Generator: Launchpad (build 12792)\n"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "사용자의 관심을 필요로 하는 각종 정보를 바탕 화면에 띄우는 알리미"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:799
+msgid "Indicator Applet"
+msgstr "알리미 애플릿"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+msgid "A unified applet containing all of the indicators."
+msgstr "모든 알리미를 포함하는 통합 애플릿입니다."
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:805
+msgid "Indicator Applet Complete"
+msgstr "알리미 애플릿 성공"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+msgid "A applet containing the application menus."
+msgstr "프로그램 메뉴를 보여주는 애플릿입니다."
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "Indicator Applet Appmenu"
+msgstr "프로그램 메뉴 알리미"
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:623
+msgid "A place to adjust your status, change users or exit your session."
+msgstr "상태 변경, 사용자 전환, 세션 종료를 하는 장소."
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:802
+msgid "Indicator Applet Session"
+msgstr "알리미 애플릿 세션"
+
+#: ../src/applet-main.c:604
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by "
+"the Free Software Foundation."
+msgstr ""
+"이 프로그램은 자유 소프트웨어입니다. 자유 소프트웨어 재단에서 공포한 GNU General Public License 버전3에 따라 "
+"재배포 및 수정할 수 있습니다."
+
+#: ../src/applet-main.c:607
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
+msgstr ""
+"이 프로그램은 유용하게 사용될 수 있으리라는 희망에서 배포되고 있지만, 특정한 목적에 맞는 적합성 여부나 판매용으로 사용할 수 있으리라는 "
+"묵시적인 보증을 포함한 어떠한 형태의 보증도 제공하지 않습니다. 보다 자세한 사항에 대해서는 GNU General Public "
+"License를 참고하시기 바랍니다."
+
+#: ../src/applet-main.c:611
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"GNU 일반 공중 사용 허가서는 이 프로그램과 함께 제공됩니다. 만약 그렇지 않다면 "
+"<http://www.gnu.org/licenses/> 문서를 보기 바랍니다."
+
+#: ../src/applet-main.c:626
+msgid "An applet to hold your application menus."
+msgstr "프로그램 메뉴를 담는 애플릿"
+
+#: ../src/applet-main.c:628
+msgid "An applet to hold all of the system indicators."
+msgstr "모든 시스템 알리미를 위한 애플릿"
+
+#: ../src/applet-main.c:633
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Bugbear5 https://launchpad.net/~bugbear5\n"
+"  Bundo https://launchpad.net/~kang-bundo\n"
+"  Ernesto2k https://launchpad.net/~boramism\n"
+"  Inbae https://launchpad.net/~soinbae\n"
+"  Jaesung https://launchpad.net/~jaesung\n"
+"  KiJune Yoon https://launchpad.net/~kijune\n"
+"  Namhyung Kim https://launchpad.net/~namhyung\n"
+"  Para https://launchpad.net/~khrhee\n"
+"  Seung Soo, Ha https://launchpad.net/~sungsuha"
+
+#: ../src/applet-main.c:637
+msgid "Indicator Applet Website"
+msgstr "알리미 애플릿 홈페이지"
+
+#: ../src/applet-main.c:778
+msgid "_About"
+msgstr "정보(_A)"
+
+#: ../src/applet-main.c:808
+msgid "Indicator Applet Application Menu"
+msgstr "지시 애플릿 프로그램 메뉴"
+
+#. A label to allow for click through
+#: ../src/applet-main.c:934
+msgid "No Indicators"
+msgstr "알리미 없음"
+
+#~ msgid "Setting up basic MateConf"
+#~ msgstr "기본 MateConf 설정"
+
+#~ msgid "Building up install directories. Need a dummy value."
+#~ msgstr "설치 디렉터리를 구성. 더미 값 필요."

@@ -1,0 +1,127 @@
+# Norwegian Bokmal translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-applet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-03-24 11:46+0000\n"
+"PO-Revision-Date: 2010-09-23 16:50+0000\n"
+"Last-Translator: Kjetil Birkeland Moe <kjetil@skifremme.com>\n"
+"Language-Team: Norwegian Bokmal <nb@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
+"X-Generator: Launchpad (build 12792)\n"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "En indikator for noe som trenger din oppmerksomhet på skrivebordet"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:799
+msgid "Indicator Applet"
+msgstr "Indikator miniprogram"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+msgid "A unified applet containing all of the indicators."
+msgstr "Et felles miniprogram som inneholder alle indikatorene."
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:805
+msgid "Indicator Applet Complete"
+msgstr "Indikator miniprogram fullført"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+msgid "A applet containing the application menus."
+msgstr "Et miniprogram som inneholder programmenyene."
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "Indicator Applet Appmenu"
+msgstr "Indikator miniprogram."
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:623
+msgid "A place to adjust your status, change users or exit your session."
+msgstr ""
+"Et sted for å justere din status, bytte bruker eller avslutte din økt."
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:802
+msgid "Indicator Applet Session"
+msgstr "Indikator-økt"
+
+#: ../src/applet-main.c:604
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by "
+"the Free Software Foundation."
+msgstr ""
+"Dette programmet er fri programvare: du kan videreformidle og/eller endre "
+"det under betingelsene i GNU General Public License versjon 3, som utgis av "
+"Free Software Foundation."
+
+#: ../src/applet-main.c:607
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
+msgstr ""
+"Dette programmet distribueres i håpet om at det kan være nyttig, men UTEN "
+"NOEN FORM FOR GARANTI; heller ikke impliserte garantier for SALGBARHET, "
+"TILFREDSSTILLENDE KVALITET eller EGNETHET FOR EN BESTEMT HENSIKT. Se GNU "
+"General Public License for flere detaljer."
+
+#: ../src/applet-main.c:611
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Du skal ha fått en kopi av GNU General Public License med dette programmet. "
+"Hvis ikke, se <http://www.gnu.org/licenses/>."
+
+#: ../src/applet-main.c:626
+msgid "An applet to hold your application menus."
+msgstr "Et miniprogram som viser programmenyene dine."
+
+#: ../src/applet-main.c:628
+msgid "An applet to hold all of the system indicators."
+msgstr "Et miniprogram som holder orden på systemindikatorene."
+
+#: ../src/applet-main.c:633
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Christian Aasan https://launchpad.net/~christian-aasan\n"
+"  Jim Nygård https://launchpad.net/~jim-nygard\n"
+"  Kjetil Birkeland Moe https://launchpad.net/~kjetilbmoe\n"
+"  Kjetil Rydland https://launchpad.net/~kjetilrydl\n"
+"  Morten Müller https://launchpad.net/~morten-m\n"
+"  TH https://launchpad.net/~thaugseth"
+
+#: ../src/applet-main.c:637
+msgid "Indicator Applet Website"
+msgstr "Miniprogrammet Indikator sin webside"
+
+#: ../src/applet-main.c:778
+msgid "_About"
+msgstr "_Om"
+
+#: ../src/applet-main.c:808
+msgid "Indicator Applet Application Menu"
+msgstr "Indikator miniprogram programmeny"
+
+#. A label to allow for click through
+#: ../src/applet-main.c:934
+msgid "No Indicators"
+msgstr "Ingen indikatorer"
+
+#~ msgid "Setting up basic MateConf"
+#~ msgstr "Setter opp standard MateConf"
+
+#~ msgid "Building up install directories. Need a dummy value."
+#~ msgstr "Bygger opp installasjonskatalog. Trenger en startverdi."

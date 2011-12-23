@@ -1,0 +1,126 @@
+# Crimean Turkish; Crimean Tatar translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+#
+# Reşat SABIQ <tilde.birlik@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-applet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-03-24 11:46+0000\n"
+"PO-Revision-Date: 2010-04-06 06:44+0000\n"
+"Last-Translator: Reşat SABIQ <tilde.birlik@gmail.com>\n"
+"Language-Team: QIRIMTATARCA (Qırım Türkçesi) <tilde-birlik-"
+"tercime@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
+"X-Generator: Launchpad (build 12792)\n"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "Masaüstü üzerinde diqqatıñızğa ihtiyacı olğan bir şeyniñ köstergiçi"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:799
+msgid "Indicator Applet"
+msgstr "Köstergiç Uyğulamaçığı"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+msgid "A unified applet containing all of the indicators."
+msgstr "Köstergiçlerniñ episini ihtiva etken birleştirilgen bir uyğulamaçıq."
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:805
+msgid "Indicator Applet Complete"
+msgstr "Köstergiç Uyğulamaçığı Tamam"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+msgid "A applet containing the application menus."
+msgstr ""
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "Indicator Applet Appmenu"
+msgstr ""
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:623
+msgid "A place to adjust your status, change users or exit your session."
+msgstr ""
+"Durumıñıznı tadil etmek, qullanıcılarnı deñiştirmek yaki oturımıñızdan "
+"çıqmaq içün bir yer."
+
+# tüklü
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:802
+msgid "Indicator Applet Session"
+msgstr "Köstergiç Uyğulamaçığı Oturımı"
+
+#: ../src/applet-main.c:604
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by "
+"the Free Software Foundation."
+msgstr ""
+"Bu program serbest yazılımdır: onı Serbest Yazılım Vaqfı (FSF) tarafından "
+"neşir etilgeni kibi GNU Umumiy Aleniy Litsenziyası sürüm 3 şartları altında "
+"kene dağıtabilir ve/yaki deñiştirebilirsiñiz."
+
+#: ../src/applet-main.c:607
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
+msgstr ""
+"Bu program faydalı olacağı ümüti ile, lâkin ER ANGİ KEFALET OLMADAN "
+"dağıtıla; atta zımniy ALIP-BERİLEBİLİRLİK, TATMİN ETİCİ KEYFİYET yaki BELLİ "
+"MURATQA LİYAQAT kefaletleri olmadan.  Daha çoq tafsilât içün GNU Umumiy "
+"Aleniy Litsenziyasını körüñiz."
+
+#: ../src/applet-main.c:611
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Bu program ile beraber bir GNU Umumiy Aleniy Litsenziyası kopiyasını "
+"berilgen olmañız lâzim. Aksi taqdirde, <http://www.gnu.org/licenses/> "
+"körüñiz."
+
+#: ../src/applet-main.c:626
+msgid "An applet to hold your application menus."
+msgstr ""
+
+#: ../src/applet-main.c:628
+msgid "An applet to hold all of the system indicators."
+msgstr "Episi sistem köstergiçlerini tutacaq uyğulamaçıq."
+
+#: ../src/applet-main.c:633
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Reşat SABIQ https://launchpad.net/~tilde-birlik"
+
+#: ../src/applet-main.c:637
+msgid "Indicator Applet Website"
+msgstr "Köstergiç Uyğulamaçığı Ağ-saytı"
+
+#: ../src/applet-main.c:778
+msgid "_About"
+msgstr "_Aqqında"
+
+#: ../src/applet-main.c:808
+msgid "Indicator Applet Application Menu"
+msgstr ""
+
+#. A label to allow for click through
+#: ../src/applet-main.c:934
+msgid "No Indicators"
+msgstr "Köstergiçler Yoq"
+
+#~ msgid "Building up install directories. Need a dummy value."
+#~ msgstr "Qurulım cilbentleri inşa etile. Qorçaq bir qıymet kerek."
+
+#~ msgid "Setting up basic MateConf"
+#~ msgstr "Temel MateConf ayarlana"

@@ -1,0 +1,11 @@
+Source: mate-indicator-applet
+Section: admin
+Priority: optional
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: mate-indicator-applet
+Architecture: any
+Description: Mate Indicator Applet
+ An applet for indicators in MATE

@@ -1,0 +1,128 @@
+# Slovenian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-applet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-03-24 11:46+0000\n"
+"PO-Revision-Date: 2011-04-14 05:33+0000\n"
+"Last-Translator: Sir Drinksalot <Unknown>\n"
+"Language-Team: Slovenian <sl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
+"X-Generator: Launchpad (build 12792)\n"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "Indikator nečesa, kar potrebuje vašo pozornost na namizju"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:799
+msgid "Indicator Applet"
+msgstr "Indikator"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+msgid "A unified applet containing all of the indicators."
+msgstr "Enotni aplet za vse indikatorje"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:805
+msgid "Indicator Applet Complete"
+msgstr "Aplet indikatorja za dokončanje"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+msgid "A applet containing the application menus."
+msgstr "Aplet, ki vsebuje menije programov"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "Indicator Applet Appmenu"
+msgstr "Aplet indikatorja za meni programov"
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:623
+msgid "A place to adjust your status, change users or exit your session."
+msgstr ""
+"Mesto za nastavljanje vašega stanja, zamenjavo uporabnikov ali izhod iz seje."
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:802
+msgid "Indicator Applet Session"
+msgstr "Aplet indikatorja seje"
+
+#: ../src/applet-main.c:604
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by "
+"the Free Software Foundation."
+msgstr ""
+"Program je opredeljen kot prosta programska oprema; lahko ga razširjate "
+"in/ali spreminjate pod pogoji dovoljenja GNU General Public License "
+"različice 3."
+
+#: ../src/applet-main.c:607
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
+msgstr ""
+"Program se razširja v upanju, da bo uporabniku koristen, vendar BREZ "
+"VSAKRŠNE GARANCIJE; tudi brez posrednega zagotovila JAMSTVA CENOVNE "
+"VREDNOSTI in PRIMERNOSTI ZA DOLOČENO UPORABO. Za več podrobnosti si oglejte "
+"določila dovoljenja GNU General Public License-"
+
+#: ../src/applet-main.c:611
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Skupaj s programom bi morali prejeti izvod dovoljenja GNU General Public "
+"License. V kolikor ga niste, si dovoljenje poglejte na spletni strani "
+"<http://www.gnu.org/licenses>."
+
+#: ../src/applet-main.c:626
+msgid "An applet to hold your application menus."
+msgstr "Aplet, ki vsebuje menije vaših programov."
+
+#: ../src/applet-main.c:628
+msgid "An applet to hold all of the system indicators."
+msgstr "Aplet za prikaz vseh sistemskih indikatorjev."
+
+#: ../src/applet-main.c:633
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Andrej Znidarsic https://launchpad.net/~andrej.znidarsic\n"
+"  Bernard Banko https://launchpad.net/~beernarrd\n"
+"  Klemen Košir https://launchpad.net/~klemen.kosir\n"
+"  Martin Božič https://launchpad.net/~martin-bozic\n"
+"  Simon Vidmar https://launchpad.net/~vidmar-simon\n"
+"  Sir Drinksalot https://launchpad.net/~sirdrinksalotth"
+
+#: ../src/applet-main.c:637
+msgid "Indicator Applet Website"
+msgstr "Aplet indikatorja za spletne strani"
+
+#: ../src/applet-main.c:778
+msgid "_About"
+msgstr "_O programu"
+
+#: ../src/applet-main.c:808
+msgid "Indicator Applet Application Menu"
+msgstr "Aplet indikatorja za meni programov"
+
+#. A label to allow for click through
+#: ../src/applet-main.c:934
+msgid "No Indicators"
+msgstr "Brez indikatorjev"
+
+#~ msgid "Setting up basic MateConf"
+#~ msgstr "Nastavljanje osnovnega MateConfa"
+
+#~ msgid "Building up install directories. Need a dummy value."
+#~ msgstr "Izgradnja namestitvenih map. Potrebna začasna vrednost."

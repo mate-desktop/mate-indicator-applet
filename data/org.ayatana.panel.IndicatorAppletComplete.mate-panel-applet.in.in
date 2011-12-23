@@ -1,0 +1,11 @@
+[Applet Factory]
+Id=IndicatorAppletCompleteFactory
+Location=@LIBEXECDIR@/indicator-applet-complete
+Name=Indicator Applet Complete Factory
+Description=Indicator Applet Complete Factory
+
+[IndicatorAppletComplete]
+_Name=Indicator Applet Complete
+_Description=A unified applet containing all of the indicators.
+Icon=indicator-applet
+MateComponentId=OAFIID:MATE_IndicatorAppletComplete

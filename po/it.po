@@ -1,0 +1,144 @@
+# Italian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-applet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-03-24 11:46+0000\n"
+"PO-Revision-Date: 2010-09-14 08:44+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@ubuntu.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
+"X-Generator: Launchpad (build 12792)\n"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "Un indicatore di qualcosa che richiede attenzione sul desktop"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:799
+msgid "Indicator Applet"
+msgstr "Indicatore"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+msgid "A unified applet containing all of the indicators."
+msgstr "Un'applet unificata per contenere tutti gli indicatori."
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:805
+msgid "Indicator Applet Complete"
+msgstr "Indicatore completo"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+msgid "A applet containing the application menus."
+msgstr "Un'applet che contiene i menù delle applicazioni"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "Indicator Applet Appmenu"
+msgstr "Indicatore Appmenu"
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:623
+msgid "A place to adjust your status, change users or exit your session."
+msgstr ""
+"Una posizione per impostare il proprio stato, cambiare utente o terminare la "
+"sessione."
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:802
+msgid "Indicator Applet Session"
+msgstr "Indicatore sessione"
+
+#: ../src/applet-main.c:604
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by "
+"the Free Software Foundation."
+msgstr ""
+"Questo programma è software libero; è possibile ridistribuirlo o modificarlo "
+"secondo i termini della licenza GNU General Public License versione 3, come "
+"pubblicato dalla Free Software Foundation."
+
+#: ../src/applet-main.c:607
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
+msgstr ""
+"Questo programma è distribuito nella speranza che possa risultare utile, ma "
+"SENZA ALCUNA GARANZIA, nemmeno la garanzia implicita di COMMERCIABILITÀ, "
+"QUALITÀ SODDISFACENTE o APPLICABILITÀ PER UNO SCOPO PARTICOLARE. Per "
+"maggiori dettagli consultare la GNU General Public License."
+
+#: ../src/applet-main.c:611
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Una copia della licenza GNU General Public License dovrebbe essere "
+"disponibile con questo programma. In caso contrario consultare "
+"<http://www.gnu.org/licenses/>."
+
+#: ../src/applet-main.c:626
+msgid "An applet to hold your application menus."
+msgstr "Un'applet per contenere i menù delle applicazioni."
+
+#: ../src/applet-main.c:628
+msgid "An applet to hold all of the system indicators."
+msgstr "Un'applet per contenere tutti gli indicatori di sistema."
+
+#: ../src/applet-main.c:633
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Abramo https://launchpad.net/~abramo-fratus\n"
+"  Ale_B https://launchpad.net/~baldoalessandro\n"
+"  Alessandro Signore https://launchpad.net/~lex25288\n"
+"  Claudio Arseni https://launchpad.net/~claudio.arseni\n"
+"  Daniele Napolitano https://launchpad.net/~dnax88\n"
+"  Davide Notaristefano https://launchpad.net/~mokmo\n"
+"  Davide Targa https://launchpad.net/~davide-targa\n"
+"  Fabio Isgrò https://launchpad.net/~dr.gogeta86\n"
+"  Leonardo Robol https://launchpad.net/~leo.robol\n"
+"  Luca Ferretti https://launchpad.net/~elle.uca\n"
+"  Luca Invernizzi https://launchpad.net/~invernizzi\n"
+"  Maurizio.Colella https://launchpad.net/~m-colella88\n"
+"  Milo Casagrande https://launchpad.net/~milo\n"
+"  Nicholas Pellizer https://launchpad.net/~nicholas.pellizer\n"
+"  Riccardo Angelino https://launchpad.net/~rikyinformation\n"
+"  Sergio Zanchetta https://launchpad.net/~primes2h\n"
+"  Stefano Ripamonti https://launchpad.net/~stefanoripa1\n"
+"  Uqbar https://launchpad.net/~uqbar\n"
+"  grizzo94 https://launchpad.net/~nicolaramoso\n"
+"  japs_it88 https://launchpad.net/~j-nespolo"
+
+#: ../src/applet-main.c:637
+msgid "Indicator Applet Website"
+msgstr "Sito web dell'applet Indicatore"
+
+#: ../src/applet-main.c:778
+msgid "_About"
+msgstr "I_nformazioni"
+
+#: ../src/applet-main.c:808
+msgid "Indicator Applet Application Menu"
+msgstr "Indicatore menù applicazioni"
+
+#. A label to allow for click through
+#: ../src/applet-main.c:934
+msgid "No Indicators"
+msgstr "Nessun indicatore"
+
+#~ msgid "Building up install directories. Need a dummy value."
+#~ msgstr ""
+#~ "Creazione delle directory di installazione. Richiede un valore fittizio."
+
+#~ msgid "Setting up basic MateConf"
+#~ msgstr "Impostazione MateConf di base"

@@ -1,0 +1,126 @@
+# Latvian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-applet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-03-24 11:46+0000\n"
+"PO-Revision-Date: 2010-02-18 16:14+0000\n"
+"Last-Translator: Viesturs Zariņš <viesturs.zarins@mii.lu.lv>\n"
+"Language-Team: Latviešu <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
+"X-Generator: Launchpad (build 12792)\n"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "Paziņo, ka kaut kam ir jāpievērš uzmanība uz darba virsmas"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:799
+msgid "Indicator Applet"
+msgstr "Indikatora sīklietotne"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+msgid "A unified applet containing all of the indicators."
+msgstr "Sīklietotne, kas apvieno visus indikatorus"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:805
+msgid "Indicator Applet Complete"
+msgstr "Indikātora sīklietotne pabeigta"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+msgid "A applet containing the application menus."
+msgstr "Sīklietotne, kas satur lietotņu izvēlnes."
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "Indicator Applet Appmenu"
+msgstr "Indikātora sīklietotnes lietotņu izvēlne"
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:623
+msgid "A place to adjust your status, change users or exit your session."
+msgstr ""
+"Vieta, kur mainīt savu statusu, mainīt lietotājus vai iziet no sesijas."
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:802
+msgid "Indicator Applet Session"
+msgstr "Indikatora sīklietotnes sesija"
+
+#: ../src/applet-main.c:604
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by "
+"the Free Software Foundation."
+msgstr ""
+"Šī programma ir brīva programmatūra; jūs varat to izplatīt tālāk un/vai "
+"izmainīt saskaņā ar GNU Vispārējās publiskās licences 3 noteikumiem, ko "
+"publicējis Brīvas programmatūras fonds."
+
+#: ../src/applet-main.c:607
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
+msgstr ""
+"Šī programma tiek izplatīta cerībā, ka tā būs noderīga, taču BEZ JEBKĀDĀM "
+"GARANTIJĀM; pat bez šķietamām KOMERCIĀLAS VĒRTĪBAS un PIEMĒROTĪBAS "
+"KONKRĒTIEM NOLŪKIEM garantijām. Sīkāku informāciju meklējiet GNU Vispārējā "
+"publiskajā licencē."
+
+#: ../src/applet-main.c:611
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Jums vajadzēja saņemt GNU Vispārējās publiskās licences kopiju kopā ar šo "
+"programmu. Ja nesaņēmāt, apmeklējiet <http://www.gnu.org/licenses/>."
+
+#: ../src/applet-main.c:626
+msgid "An applet to hold your application menus."
+msgstr "Sīklietotne, kas satur lietotņu izvēlnes."
+
+#: ../src/applet-main.c:628
+msgid "An applet to hold all of the system indicators."
+msgstr "Sīklietotne, kura glabā visus sistēmas paziņojumus."
+
+#: ../src/applet-main.c:633
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Pēteris Krišjānis https://launchpad.net/~pecisk-gmail\n"
+"  Rinalds https://launchpad.net/~rranny\n"
+"  Tranzistors https://launchpad.net/~rudolfs-mazurs\n"
+"  Viesturs Zariņš https://launchpad.net/~viesturs-zarins"
+
+#: ../src/applet-main.c:637
+msgid "Indicator Applet Website"
+msgstr "Indikatora sīklietotnes mājas lapa"
+
+#: ../src/applet-main.c:778
+msgid "_About"
+msgstr "_Par"
+
+#: ../src/applet-main.c:808
+msgid "Indicator Applet Application Menu"
+msgstr "Indikātora sīklietotnes lietotnes izvēlnes"
+
+#. A label to allow for click through
+#: ../src/applet-main.c:934
+msgid "No Indicators"
+msgstr "Nav indikatoru"
+
+#~ msgid "Building up install directories. Need a dummy value."
+#~ msgstr "Veido instalācijas mapes. Vajag neīstu vērtību."
+
+#~ msgid "Setting up basic MateConf"
+#~ msgstr "Veido pamata MateConf"

@@ -1,0 +1,136 @@
+# Greek translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# Fotis Tsamis <ftsamis@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-applet\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-03-24 11:46+0000\n"
+"PO-Revision-Date: 2010-09-14 12:12+0000\n"
+"Last-Translator: sterios prosiniklis <steriosprosiniklis@gmail.com>\n"
+"Language-Team: Greek <team@mate.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
+"X-Generator: Launchpad (build 12792)\n"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "Ειδοποιήσεις για γεγονότα που χρειάζονται την προσοχή σας"
+
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:799
+msgid "Indicator Applet"
+msgstr "Μικροεφαρμογή ειδοποιήσεων"
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+msgid "A unified applet containing all of the indicators."
+msgstr "Μια ενοποιημένη μικροεφαρμογή που περιέχει όλες τις ενδείξεις."
+
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:805
+msgid "Indicator Applet Complete"
+msgstr "Μικροεφαρμογή ειδοποιήσεων πλήρης"
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+msgid "A applet containing the application menus."
+msgstr "Μια μικροεφαρμογή που περιέχει τα μενού εφαρμογών."
+
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "Indicator Applet Appmenu"
+msgstr "Μενού μικροεφαρμογής ειδοποιήσεων"
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:623
+msgid "A place to adjust your status, change users or exit your session."
+msgstr ""
+"Σας επιτρέπει να αλλάζετε την κατάστασή σας, να αλλάζετε χρήστη, και να "
+"τερματίζετε τη συνεδρία σας."
+
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:802
+msgid "Indicator Applet Session"
+msgstr "Μικροεφαρμογή ειδοποιήσεων συνεδρίας"
+
+#: ../src/applet-main.c:604
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by "
+"the Free Software Foundation."
+msgstr ""
+"Αυτό το πρόγραμμα είναι ελεύθερο λογισμικό· επιτρέπεται η αναδιανομή ή/και "
+"τροποποίησή του υπό τους όρους της Γενικής Άδειας Δημόσιας Χρήσης GNU (GPL), "
+"έκδοσης 3, όπως αυτή έχει δημοσιευτεί από το Ίδρυμα Ελεύθερου Λογισμικού "
+"(FSF) ."
+
+#: ../src/applet-main.c:607
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
+msgstr ""
+"Το πρόγραμμα αυτό διανέμεται με την ελπίδα ότι θα αποδειχθεί χρήσιμο, παρόλα "
+"αυτά ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ — χωρίς ούτε και την σιωπηρή εγγύηση "
+"ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ ή ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΕΙΔΙΚΟ ΣΚΟΠΟ. Για περισσότερες "
+"λεπτομέρειες ανατρέξτε στη Γενική Άδεια Δημόσιας Χρήσης GNU (GPL)."
+
+#: ../src/applet-main.c:611
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Θα πρέπει να έχετε λάβει αντίγραφο της Γενικής Άδειας Δημόσιας Χρήσης GNU "
+"(GPL) μαζί με το πρόγραμμα. Εάν όχι, επισκεφθείτε το "
+"<http://www.gnu.org/licenses/>."
+
+#: ../src/applet-main.c:626
+msgid "An applet to hold your application menus."
+msgstr "Μια μικροεφαρμογή που παρουσιάζει τα μενού των εφαρμογών σου."
+
+#: ../src/applet-main.c:628
+msgid "An applet to hold all of the system indicators."
+msgstr ""
+"Μια μικροεφαρμογή που συγκεντρώνει όλες τις ειδοποιήσεις του συστήματος."
+
+#: ../src/applet-main.c:633
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Alkis Georgopoulos https://launchpad.net/~alkisg\n"
+"  Christos Mantas https://launchpad.net/~the1pro\n"
+"  Epirotes https://launchpad.net/~epirotes\n"
+"  Fotis Tsamis https://launchpad.net/~phantomas\n"
+"  Jennie Petoumenou https://launchpad.net/~jennie\n"
+"  Kainourgiakis Giorgos https://launchpad.net/~kaingeo\n"
+"  Salih EMIN https://launchpad.net/~salih-emin\n"
+"  Thanos Lefteris https://launchpad.net/~alefteris\n"
+"  Yiannis Miliatsis https://launchpad.net/~yiannismiliatsis\n"
+"  sterios prosiniklis https://launchpad.net/~steriosprosiniklis"
+
+#: ../src/applet-main.c:637
+msgid "Indicator Applet Website"
+msgstr "Ιστοσελίδα μικροεφαρμογής ειδοποιήσεων"
+
+#: ../src/applet-main.c:778
+msgid "_About"
+msgstr "Πε_ρί"
+
+#: ../src/applet-main.c:808
+msgid "Indicator Applet Application Menu"
+msgstr "Μενού εφαρμογών μικροεφαρμογής ειδοποιήσεων"
+
+#. A label to allow for click through
+#: ../src/applet-main.c:934
+msgid "No Indicators"
+msgstr "Χωρίς ειδοποιήσεις"
+
+#~ msgid "Building up install directories. Need a dummy value."
+#~ msgstr ""
+#~ "Δημιουργούνται οι φάκελοι για την εγκατάσταση. Απαιτείται κενή παράμετρος"
+
+#~ msgid "Setting up basic MateConf"
+#~ msgstr "Ρύθμιση βασικών επιλογών MateConf"

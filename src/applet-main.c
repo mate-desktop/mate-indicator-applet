@@ -642,10 +642,10 @@ about_cb (GtkAction *action G_GNUC_UNUSED,
 		"license", license_i18n,
 		"wrap-license", TRUE,
 		"translator-credits", _("translator-credits"),
-		"logo-icon-name", "indicator-applet",
-		"icon-name", "indicator-applet",
+		"logo-icon-name", "mate-indicator-applet",
+		"icon-name", "mate-indicator-applet",
 		"website", "http://www.mate-desktop.org",
-		"website-label", _("Indicator Applet Website"),
+		"website-label", _("MATE Website"),
 		NULL
 	);
 

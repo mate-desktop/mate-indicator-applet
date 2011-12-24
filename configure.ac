@@ -31,9 +31,21 @@ INDICATOR_REQUIRED_VERSION=0.3.22
 PKG_CHECK_MODULES(APPLET, gtk+-2.0 >= $GTK_REQUIRED_VERSION
                           x11
                           libmatepanelapplet-3.0
-                          indicator-0.4 >= $INDICATOR_REQUIRED_VERSION)
+                          )
 AC_SUBST(APPLET_CFLAGS)
 AC_SUBST(APPLET_LIBS)
+
+PKG_CHECK_MODULES([INDICATOR4], [indicator-0.4 >= $INDICATOR_REQUIRED_VERSION],
+   [AC_DEFINE([HAVE_INDICATOR4], [1], [Use Indicator 0.4])],
+   [PKG_CHECK_MODULES([INDICATOR3], [indicator >= $INDICATOR_REQUIRED_VERSION],
+       [AC_DEFINE([HAVE_INDICATOR3], [1], [Use Indicator 0.3])
+    ])
+])
+
+AC_SUBST(INDICATOR4_CFLAGS)
+AC_SUBST(INDICATOR4_LIBS)
+AC_SUBST(INDICATOR3_CFLAGS)
+AC_SUBST(INDICATOR3_LIBS)
 
 ###########################
 # Check to see if we're local
@@ -77,7 +89,7 @@ AC_DEFUN([AC_DEFINE_PATH], [
 # Internationalization
 ###########################
 
-GETTEXT_PACKAGE=indicator-applet
+GETTEXT_PACKAGE=mate-indicator-applet
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Name of the default gettext domain])
 AC_DEFINE_PATH(MATELOCALEDIR, "${datadir}/locale", [locale directory])

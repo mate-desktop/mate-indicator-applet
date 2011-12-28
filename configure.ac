@@ -36,10 +36,17 @@ AC_SUBST(APPLET_CFLAGS)
 AC_SUBST(APPLET_LIBS)
 
 PKG_CHECK_MODULES([INDICATOR4], [indicator-0.4 >= $INDICATOR_REQUIRED_VERSION],
-   [AC_DEFINE([HAVE_INDICATOR4], [1], [Use Indicator 0.4])],
+   [
+     AC_DEFINE([HAVE_INDICATOR4], [1], [Use Indicator 0.4])
+     INDICATORDIR=`$PKG_CONFIG --variable=indicatordir indicator-0.4`
+     INDICATORICONSDIR=`$PKG_CONFIG --variable=iconsdir indicator-0.4`
+   ],
    [PKG_CHECK_MODULES([INDICATOR3], [indicator >= $INDICATOR_REQUIRED_VERSION],
-       [AC_DEFINE([HAVE_INDICATOR3], [1], [Use Indicator 0.3])
-    ])
+       [
+         AC_DEFINE([HAVE_INDICATOR3], [1], [Use Indicator 0.3])
+         INDICATORDIR=`$PKG_CONFIG --variable=indicatordir indicator`
+         INDICATORICONSDIR=`$PKG_CONFIG --variable=iconsdir indicator`
+       ])
 ])
 
 AC_SUBST(INDICATOR4_CFLAGS)
@@ -61,9 +68,6 @@ AC_ARG_ENABLE(localinstall, AS_HELP_STRING([--enable-localinstall], [install all
 if test "x$with_localinstall" = "xyes"; then
 	INDICATORDIR="${libdir}/indicators/2/"
 	INDICATORICONSDIR="${datadir}/indicator-applet/icons/"
-else
-	INDICATORDIR=`$PKG_CONFIG --variable=indicatordir indicator`
-	INDICATORICONSDIR=`$PKG_CONFIG --variable=iconsdir indicator`
 fi
 
 AC_SUBST(INDICATORDIR)

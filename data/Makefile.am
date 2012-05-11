@@ -8,8 +8,7 @@ appletdir       = $(datadir)/mate-panel/applets
 applet_in_files = \
 	org.ayatana.panel.IndicatorApplet.mate-panel-applet.in \
 	org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in \
-	org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in \
-	org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in
+	org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in 
 applet_DATA     = $(applet_in_files:.mate-panel-applet.in=.mate-panel-applet)
 
 %.mate-panel-applet.in: %.mate-panel-applet.in.in Makefile
@@ -28,8 +27,7 @@ servicedir       = $(datadir)/dbus-1/services
 service_in_files = \
 	org.mate.panel.applet.IndicatorAppletFactory.service.in \
 	org.mate.panel.applet.IndicatorAppletCompleteFactory.service.in \
-	org.mate.panel.applet.IndicatorAppletAppmenuFactory.service.in \
-	org.mate.panel.applet.FastUserSwitchAppletFactory.service.in
+	org.mate.panel.applet.IndicatorAppletAppmenuFactory.service.in 
 service_DATA     = $(service_in_files:.service.in=.service)
 
 %.service: %.service.in Makefile

@@ -2,7 +2,6 @@
 libexec_PROGRAMS = \
 	indicator-applet \
 	indicator-applet-appmenu \
-	indicator-applet-session \
 	indicator-applet-complete
 
 indicator_applet_CFLAGS = \
@@ -44,27 +43,6 @@ indicator_applet_appmenu_SOURCES = \
 	tomboykeybinder.h
 
 indicator_applet_appmenu_LDADD = \
-	$(APPLET_LIBS) \
-	$(INDICATOR3_LIBS) $(INDICATOR4_LIBS)
-
-indicator_applet_session_CFLAGS = \
-	-DG_LOG_DOMAIN=\""Indicator-Applet-Session"\" \
-	-DDATADIR=\""$(datadir)"\" \
-	-DINDICATOR_DIR=\""$(INDICATORDIR)"\" \
-	-DINDICATOR_ICONS_DIR=\""$(INDICATORICONSDIR)"\" \
-	-DINDICATOR_APPLET_SESSION \
-	-I$(srcdir)/.. \
-	$(APPLET_CFLAGS) \
-	$(INDICATOR3_CFLAGS) $(INDICATOR4_CFLAGS)
-
-indicator_applet_session_SOURCES = \
-	applet-main.c \
-	eggaccelerators.c \
-	eggaccelerators.h \
-	tomboykeybinder.c \
-	tomboykeybinder.h
-
-indicator_applet_session_LDADD = \
 	$(APPLET_LIBS) \
 	$(INDICATOR3_LIBS) $(INDICATOR4_LIBS)
 

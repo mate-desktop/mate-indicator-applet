@@ -36,7 +36,6 @@ static gchar * indicator_order[] = {
 	"libmessaging.so",
 	"libdatetime.so",
 	"libme.so",
-	"libsession.so",
 	NULL
 };
 
@@ -67,12 +66,6 @@ MATE_PANEL_APPLET_OUT_PROCESS_FACTORY ("IndicatorAppletFactory",
                "indicator-applet",
                applet_fill_cb, NULL);
 #endif
-#ifdef INDICATOR_APPLET_SESSION
-MATE_PANEL_APPLET_OUT_PROCESS_FACTORY ("FastUserSwitchAppletFactory",
-               PANEL_TYPE_APPLET,
-               "indicator-applet-session",
-               applet_fill_cb, NULL);
-#endif
 #ifdef INDICATOR_APPLET_COMPLETE
 MATE_PANEL_APPLET_OUT_PROCESS_FACTORY ("IndicatorAppletCompleteFactory",
                PANEL_TYPE_APPLET,
@@ -91,9 +84,6 @@ MATE_PANEL_APPLET_OUT_PROCESS_FACTORY ("IndicatorAppletAppmenuFactory",
  * ***********/
 #ifdef INDICATOR_APPLET
 #define LOG_FILE_NAME  "indicator-applet.log"
-#endif
-#ifdef INDICATOR_APPLET_SESSION
-#define LOG_FILE_NAME  "indicator-applet-session.log"
 #endif
 #ifdef INDICATOR_APPLET_COMPLETE
 #define LOG_FILE_NAME  "indicator-applet-complete.log"
@@ -124,9 +114,6 @@ gchar * hotkey_keycode = "<Super>F1";
  * *******************/
 #ifdef INDICATOR_APPLET
 #define INDICATOR_SPECIFIC_ENV  "indicator-applet-original"
-#endif
-#ifdef INDICATOR_APPLET_SESSION
-#define INDICATOR_SPECIFIC_ENV  "indicator-applet-session"
 #endif
 #ifdef INDICATOR_APPLET_COMPLETE
 #define INDICATOR_SPECIFIC_ENV  "indicator-applet-complete"
@@ -630,14 +617,10 @@ about_cb (GtkAction *action G_GNUC_UNUSED,
 	gtk_show_about_dialog(NULL,
 		"version", VERSION,
 		"copyright", "Copyright \xc2\xa9 2009-2010 Canonical, Ltd.",
-#ifdef INDICATOR_APPLET_SESSION
-		"comments", _("A place to adjust your status, change users or exit your session."),
-#else
 #ifdef INDICATOR_APPLET_APPMENU
 		"comments", _("An applet to hold your application menus."),
 #endif
 		"comments", _("An applet to hold all of the system indicators."),
-#endif
 		"authors", authors,
 		"license", license_i18n,
 		"wrap-license", TRUE,
@@ -795,22 +778,11 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 	gint indicators_loaded = 0;
 	GtkActionGroup *action_group;
 
-#ifdef INDICATOR_APPLET_SESSION
-	/* check if we are running stracciatella session */
-	if (g_strcmp0(g_getenv("MDMSESSION"), "mate-stracciatella") == 0) {
-		g_debug("Running stracciatella MATE session, disabling myself");
-		return TRUE;
-	}
-#endif
-
 	if (!first_time)
 	{
 		first_time = TRUE;
 #ifdef INDICATOR_APPLET
 		g_set_application_name(_("Indicator Applet"));
-#endif
-#ifdef INDICATOR_APPLET_SESSION
-		g_set_application_name(_("Indicator Applet Session"));
 #endif
 #ifdef INDICATOR_APPLET_COMPLETE
 		g_set_application_name(_("Indicator Applet Complete"));
@@ -838,10 +810,6 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 #ifdef INDICATOR_APPLET
 	atk_object_set_name (gtk_widget_get_accessible (GTK_WIDGET (applet)),
 	                     "indicator-applet");
-#endif
-#ifdef INDICATOR_APPLET_SESSION
-	atk_object_set_name (gtk_widget_get_accessible (GTK_WIDGET (applet)),
-	                     "indicator-applet-session");
 #endif
 #ifdef INDICATOR_APPLET_COMPLETE
 	atk_object_set_name (gtk_widget_get_accessible (GTK_WIDGET (applet)),
@@ -918,18 +886,10 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 			}
 #endif
 #ifdef INDICATOR_APPLET
-			if (!g_strcmp0(name, "libsession.so")) {
-				continue;
-			}
 			if (!g_strcmp0(name, "libme.so")) {
 				continue;
 			}
 			if (!g_strcmp0(name, "libdatetime.so")) {
-				continue;
-			}
-#endif
-#ifdef INDICATOR_APPLET_SESSION
-			if (g_strcmp0(name, "libsession.so") && g_strcmp0(name, "libme.so")) {
 				continue;
 			}
 #endif

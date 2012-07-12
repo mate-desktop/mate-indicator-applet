@@ -1,122 +1,105 @@
-# Finnish translation for indicator-applet
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the indicator-applet package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: indicator-applet\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2011-03-24 11:46+0000\n"
-"PO-Revision-Date: 2010-08-02 05:51+0000\n"
-"Last-Translator: Timo Jyrinki <timo.jyrinki@gmail.com>\n"
-"Language-Team: Finnish <fi@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 10:30+0100\n"
+"PO-Revision-Date: 2012-03-15 09:34+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
-"X-Generator: Launchpad (build 12792)\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Työpöydällä huomiota vaativasta asiasta kertova ilmaisin"
-
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:799
+#: ../src/applet-main.c:810
 msgid "Indicator Applet"
 msgstr "Ilmaisinsovelma"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-msgid "A unified applet containing all of the indicators."
-msgstr "Kaikki ilmaisimet sisältävä yhdistetty sovelma"
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "Työpöydällä huomiota vaativasta asiasta kertova ilmaisin"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:805
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
 msgstr "Ilmaisinsovelma (”Complete”)"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "A applet containing the application menus."
-msgstr "Sovellusvalikot sisältävä sovelma."
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+msgid "A unified applet containing all of the indicators."
+msgstr "Kaikki ilmaisimet sisältävä yhdistetty sovelma"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
 msgstr "Sovellusvalikkojen ilmaisinsovelma"
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:623
-msgid "A place to adjust your status, change users or exit your session."
-msgstr "Muuta tilaa, vaihda käyttäjää tai poistu istunnosta."
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "A applet containing the application menus."
+msgstr "Sovellusvalikot sisältävä sovelma."
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:802
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
 msgstr "Ilmaisinsovelma, istunto"
 
-#: ../src/applet-main.c:604
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:634
+msgid "A place to adjust your status, change users or exit your session."
+msgstr "Muuta tilaa, vaihda käyttäjää tai poistu istunnosta."
+
+#: ../src/applet-main.c:615
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by "
-"the Free Software Foundation."
-msgstr ""
-"Tämä on vapaa ohjelma; sitä on sallittu levittää edelleen ja muuttaa GNU "
-"yleisen lisenssin (GPL-lisenssin) version 3 ehtojen mukaan sellaisina kuin "
-"Free Software Foundation on ne julkaissut."
+"under the terms of the GNU General Public License version 3, as published by"
+" the Free Software Foundation."
+msgstr "Tämä on vapaa ohjelma; sitä on sallittu levittää edelleen ja muuttaa GNU yleisen lisenssin (GPL-lisenssin) version 3 ehtojen mukaan sellaisina kuin Free Software Foundation on ne julkaissut."
 
-#: ../src/applet-main.c:607
+#: ../src/applet-main.c:618
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr ""
-"Tätä ohjelmaa levitetään siinä toivossa, että se olisi hyödyllinen, mutta "
-"ilman mitään takuuta; ilman edes hiljaista takuuta kaupallisesti "
-"hyväksyttävästä laadusta tai soveltuvuudesta tiettyyn tarkoitukseen. Katso "
-"GPL-lisenssistä lisää yksityiskohtia."
+msgstr "Tätä ohjelmaa levitetään siinä toivossa, että se olisi hyödyllinen, mutta ilman mitään takuuta; ilman edes hiljaista takuuta kaupallisesti hyväksyttävästä laadusta tai soveltuvuudesta tiettyyn tarkoitukseen. Katso GPL-lisenssistä lisää yksityiskohtia."
 
-#: ../src/applet-main.c:611
+#: ../src/applet-main.c:622
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Tämän ohjelman mukana pitäisi tulla kopio GPL-lisenssistä. Jos näin ei ole, "
-"katso <http://www.gnu.org/licenses/>."
+"You should have received a copy of the GNU General Public License along with"
+" this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr "Tämän ohjelman mukana pitäisi tulla kopio GPL-lisenssistä. Jos näin ei ole, katso <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
 msgstr "Sovelma sovelluksen valikkojen näyttämiseen."
 
-#: ../src/applet-main.c:628
+#: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
 msgstr "Sovelma järjestelmäilmaisimien säilyttämiseen."
 
-#: ../src/applet-main.c:633
+#: ../src/applet-main.c:644
 msgid "translator-credits"
+msgstr "Launchpad Contributions:\n  Jiri Grönroos https://launchpad.net/~jiri-gronroos\n  Timo Jyrinki https://launchpad.net/~timo-jyrinki"
+
+#: ../src/applet-main.c:648
+msgid "MATE Website"
 msgstr ""
-"Launchpad Contributions:\n"
-"  Jiri Grönroos https://launchpad.net/~jiri-gronroos\n"
-"  Timo Jyrinki https://launchpad.net/~timo-jyrinki"
 
-#: ../src/applet-main.c:637
-msgid "Indicator Applet Website"
-msgstr "Ilmaisinsovelman WWW-sivusto"
-
-#: ../src/applet-main.c:778
+#: ../src/applet-main.c:789
 msgid "_About"
 msgstr "Tietoj_a"
 
-#: ../src/applet-main.c:808
+#: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
 msgstr "Sovellusvalikkojen ilmaisinsovelma"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:934
+#: ../src/applet-main.c:945
 msgid "No Indicators"
 msgstr "Ei ilmaisimia"
-
-#~ msgid "Building up install directories. Need a dummy value."
-#~ msgstr "Rakennetaan asennushakemistoja. Tarvitaan valearvo."
-
-#~ msgid "Setting up basic MateConf"
-#~ msgstr "Tehdään perus-MateConf-asetuksia"

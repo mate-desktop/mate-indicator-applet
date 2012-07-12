@@ -1,124 +1,105 @@
-# Bulgarian translation for indicator-applet
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the indicator-applet package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: indicator-applet\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2011-03-24 11:46+0000\n"
-"PO-Revision-Date: 2010-09-23 20:18+0000\n"
-"Last-Translator: Svetoslav Stefanov <svetlisashkov@yahoo.com>\n"
-"Language-Team: Bulgarian <bg@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 10:30+0100\n"
+"PO-Revision-Date: 2012-03-15 09:34+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Bulgarian (http://www.transifex.com/projects/p/MATE/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
-"X-Generator: Launchpad (build 12792)\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Индикатор на нещо, което изисква вашето внимание на работния плот"
-
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:799
+#: ../src/applet-main.c:810
 msgid "Indicator Applet"
 msgstr "Аплет индикатор"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-msgid "A unified applet containing all of the indicators."
-msgstr "Обединен аплет, съдържащ всички индикатори"
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "Индикатор на нещо, което изисква вашето внимание на работния плот"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:805
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
 msgstr "Аплет с всички индикатори"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "A applet containing the application menus."
-msgstr "Аплет, съдържащ менюта на приложения."
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+msgid "A unified applet containing all of the indicators."
+msgstr "Обединен аплет, съдържащ всички индикатори"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
 msgstr "Аплет - Индикатор Меню на приложение"
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:623
-msgid "A place to adjust your status, change users or exit your session."
-msgstr ""
-"Място за задаване на вашия статус, смяна на потребителя или изход от вашата "
-"сесия."
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "A applet containing the application menus."
+msgstr "Аплет, съдържащ менюта на приложения."
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:802
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
 msgstr "Аплет - Индикатор"
 
-#: ../src/applet-main.c:604
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:634
+msgid "A place to adjust your status, change users or exit your session."
+msgstr "Място за задаване на вашия статус, смяна на потребителя или изход от вашата сесия."
+
+#: ../src/applet-main.c:615
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by "
-"the Free Software Foundation."
-msgstr ""
-"Тази програма е безплатна: можете да я разпространявате и/или променяте "
-"според условията в GNU General Public License версия 3, които са публикувани "
-"от Free Software Foundation."
+"under the terms of the GNU General Public License version 3, as published by"
+" the Free Software Foundation."
+msgstr "Тази програма е безплатна: можете да я разпространявате и/или променяте според условията в GNU General Public License версия 3, които са публикувани от Free Software Foundation."
 
-#: ../src/applet-main.c:607
+#: ../src/applet-main.c:618
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr ""
-"Тази програма се разпространява с надеждата, че ще бъде полезна, но БЕЗ "
-"НИКАКВА ГАРАНЦИЯ; дори без гаранции за ПРОДАВАЕМОСТ, КАЧЕСТВО или ОПРЕДЕЛЕНА "
-"ЦЕЛ. Вижте GNU General Public License за повече подробности."
+msgstr "Тази програма се разпространява с надеждата, че ще бъде полезна, но БЕЗ НИКАКВА ГАРАНЦИЯ; дори без гаранции за ПРОДАВАЕМОСТ, КАЧЕСТВО или ОПРЕДЕЛЕНА ЦЕЛ. Вижте GNU General Public License за повече подробности."
 
-#: ../src/applet-main.c:611
+#: ../src/applet-main.c:622
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Трябва да сте получили копие на GNU General Public License заедно с "
-"програмата. Ако не сте, вижте <http://www.gnu.org/licenses/>."
+"You should have received a copy of the GNU General Public License along with"
+" this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr "Трябва да сте получили копие на GNU General Public License заедно с програмата. Ако не сте, вижте <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
 msgstr "Аплет, съдържащ менютата на вашите приложения"
 
-#: ../src/applet-main.c:628
+#: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
 msgstr "Аплет, който съдържа всички системни индикатори."
 
-#: ../src/applet-main.c:633
+#: ../src/applet-main.c:644
 msgid "translator-credits"
+msgstr "Launchpad Contributions:\n  Boyan Sotirov https://launchpad.net/~lz1dsb\n  Krasimir Chonov https://launchpad.net/~kchonov\n  Svetoslav Stefanov https://launchpad.net/~svetlisashkov"
+
+#: ../src/applet-main.c:648
+msgid "MATE Website"
 msgstr ""
-"Launchpad Contributions:\n"
-"  Boyan Sotirov https://launchpad.net/~lz1dsb\n"
-"  Krasimir Chonov https://launchpad.net/~kchonov\n"
-"  Svetoslav Stefanov https://launchpad.net/~svetlisashkov"
 
-#: ../src/applet-main.c:637
-msgid "Indicator Applet Website"
-msgstr "Уеб сайт на аплета Индикатор"
-
-#: ../src/applet-main.c:778
+#: ../src/applet-main.c:789
 msgid "_About"
 msgstr "_Относно"
 
-#: ../src/applet-main.c:808
+#: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
 msgstr "Аплет - Индикатор Меню на приложение"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:934
+#: ../src/applet-main.c:945
 msgid "No Indicators"
 msgstr "Без индикатори"
-
-#~ msgid "Building up install directories. Need a dummy value."
-#~ msgstr "Изграждане на папки за инсталиране. Нужна е заблуждаваща стойност."
-
-#~ msgid "Setting up basic MateConf"
-#~ msgstr "Настройване на основен MateConf"

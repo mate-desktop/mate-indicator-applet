@@ -1,131 +1,106 @@
-# Polish translation for indicator-applet
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the indicator-applet package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
+# Robert Strojec <ross606@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: indicator-applet\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2011-03-24 11:46+0000\n"
-"PO-Revision-Date: 2010-09-07 09:54+0000\n"
-"Last-Translator: Tomasz Dominikowski <dominikowski@gmail.com>\n"
-"Language-Team: Polish <pl@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 10:30+0100\n"
+"PO-Revision-Date: 2012-04-24 19:28+0000\n"
+"Last-Translator: Robert Strojec <ross606@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/MATE/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
-"X-Generator: Launchpad (build 12792)\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr ""
-"Powiadamianie o konieczności zwrócenia uwagi na działania na pulpicie"
-
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:799
+#: ../src/applet-main.c:810
 msgid "Indicator Applet"
 msgstr "Aplet powiadamiania"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-msgid "A unified applet containing all of the indicators."
-msgstr "Zunifikowany aplet zawierający wszystkie powiadomienia."
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "Powiadamianie o konieczności zwrócenia uwagi na działania na pulpicie"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:805
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
 msgstr "Kompletny aplet powiadomień"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "A applet containing the application menus."
-msgstr "Aplet zawierający menu programów."
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+msgid "A unified applet containing all of the indicators."
+msgstr "Zunifikowany aplet zawierający wszystkie powiadomienia."
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
 msgstr "Menu programów apletu powiadamiania"
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:623
-msgid "A place to adjust your status, change users or exit your session."
-msgstr ""
-"Miejsce do ustawiania stanu, zmiany użytkowników lub zakończenia sesji."
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "A applet containing the application menus."
+msgstr "Aplet zawierający menu programów."
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:802
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
 msgstr "Sesja apletu powiadomień"
 
-#: ../src/applet-main.c:604
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:634
+msgid "A place to adjust your status, change users or exit your session."
+msgstr "Miejsce do ustawiania stanu, zmiany użytkowników lub zakończenia sesji."
+
+#: ../src/applet-main.c:615
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by "
-"the Free Software Foundation."
-msgstr ""
-"Ten program jest darmowy: możesz go powielać i/lub modyfikować zgodnie z "
-"warunkami 3 wersji Powszechnej Licencji Publicznej GNU, opublikowanej przez "
-"Free Software Foundation."
+"under the terms of the GNU General Public License version 3, as published by"
+" the Free Software Foundation."
+msgstr "Ten program jest darmowy: możesz go powielać i/lub modyfikować zgodnie z warunkami 3 wersji Powszechnej Licencji Publicznej GNU, opublikowanej przez Free Software Foundation."
 
-#: ../src/applet-main.c:607
+#: ../src/applet-main.c:618
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr ""
-"Ten program jest udostępniony z nadzieją, że będzie użyteczny, lecz BEZ "
-"ŻADNYCH GWARANCJI; nawet bez gwarancji PRZYDATNOŚCI HANDLOWEJ, ZADOWALAJĄCEJ "
-"JAKOŚCI, albo PRZYDATNOŚCI DO OKREŚLONEGO CELU. Przeczytaj Powszechną "
-"Licencję Publiczną GNU, aby dowiedzieć się więcej."
+msgstr "Ten program jest udostępniony z nadzieją, że będzie użyteczny, lecz BEZ ŻADNYCH GWARANCJI; nawet bez gwarancji PRZYDATNOŚCI HANDLOWEJ, ZADOWALAJĄCEJ JAKOŚCI, albo PRZYDATNOŚCI DO OKREŚLONEGO CELU. Przeczytaj Powszechną Licencję Publiczną GNU, aby dowiedzieć się więcej."
 
-#: ../src/applet-main.c:611
+#: ../src/applet-main.c:622
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Z pewnością wraz z niniejszym programem dostarczono także egzemplarz "
-"Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli nie -"
-" proszę odwiedzić stronę internetową <http://www.gnu.org/licenses/>."
+"You should have received a copy of the GNU General Public License along with"
+" this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr "Z pewnością wraz z niniejszym programem dostarczono także egzemplarz Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli nie - proszę odwiedzić stronę internetową <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
 msgstr "Aplet do przechowywania menu programów."
 
-#: ../src/applet-main.c:628
+#: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
 msgstr "Aplet do przechowywania wszystkich powiadomień systemowych."
 
-#: ../src/applet-main.c:633
+#: ../src/applet-main.c:644
 msgid "translator-credits"
-msgstr ""
-"Launchpad Contributions:\n"
-"  Adam Maćkowiak https://launchpad.net/~adammac18\n"
-"  Chris (Krzysztof Łojowski) https://launchpad.net/~luxnet\n"
-"  Grzegorz Śliwiński https://launchpad.net/~fizyk\n"
-"  Maciej Bęcławski https://launchpad.net/~hakkatuka\n"
-"  Piotr Strębski https://launchpad.net/~strebski\n"
-"  Rafał Szalecki https://launchpad.net/~perex\n"
-"  Tomasz Dominikowski https://launchpad.net/~dominikowski\n"
-"  Wiatrak https://launchpad.net/~wiatrak."
+msgstr "Launchpad Contributions:\n  Adam Maćkowiak https://launchpad.net/~adammac18\n  Chris (Krzysztof Łojowski) https://launchpad.net/~luxnet\n  Grzegorz Śliwiński https://launchpad.net/~fizyk\n  Maciej Bęcławski https://launchpad.net/~hakkatuka\n  Piotr Strębski https://launchpad.net/~strebski\n  Rafał Szalecki https://launchpad.net/~perex\n  Tomasz Dominikowski https://launchpad.net/~dominikowski\n  Wiatrak https://launchpad.net/~wiatrak."
 
-#: ../src/applet-main.c:637
-msgid "Indicator Applet Website"
-msgstr "Witryna apletu powiadamiania"
+#: ../src/applet-main.c:648
+msgid "MATE Website"
+msgstr "Strona www MATE"
 
-#: ../src/applet-main.c:778
+#: ../src/applet-main.c:789
 msgid "_About"
 msgstr "_O programie"
 
-#: ../src/applet-main.c:808
+#: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
 msgstr "Menu programów apletu powiadamiania"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:934
+#: ../src/applet-main.c:945
 msgid "No Indicators"
 msgstr "Brak powiadomień"
-
-#~ msgid "Building up install directories. Need a dummy value."
-#~ msgstr "Budowanie katalogów instalacyjnych. Potrzebna pusta wartość."
-
-#~ msgid "Setting up basic MateConf"
-#~ msgstr "Ustawianie podstawowe MateConf"

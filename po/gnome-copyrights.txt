@@ -1,0 +1,902 @@
+========== af.po ==========
+# Afrikaans translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== am.po ==========
+# Amharic translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== an.po ==========
+# Aragonese translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== ar.po ==========
+# Arabic translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== ast.po ==========
+# Asturian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== az.po ==========
+# Azerbaijani translation for indicator-applet
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+
+
+
+
+========== be.po ==========
+# Belarusian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== bg.po ==========
+# Bulgarian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== bn.po ==========
+# Bengali translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== br.po ==========
+# Breton translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== bs.po ==========
+# Bosnian translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== ca.po ==========
+# Catalan translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== ca@valencia.po ==========
+# Catalan translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== crh.po ==========
+# Crimean Turkish; Crimean Tatar translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+#
+# Reşat SABIQ <tilde.birlik@gmail.com>, 2010.
+
+
+
+
+========== cs.po ==========
+# Czech translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== csb.po ==========
+# Kashubian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== cv.po ==========
+# Chuvash translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== cy.po ==========
+# Welsh translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== da.po ==========
+# Danish translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# Mads Bille Lundby <lundbymads@gmail.com>, 2009.
+#
+
+
+
+
+========== de.po ==========
+# German translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== dv.po ==========
+# Divehi translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== el.po ==========
+# Greek translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# Fotis Tsamis <ftsamis@gmail.com>, 2010.
+
+
+
+
+========== en_AU.po ==========
+# English (Australia) translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== en_CA.po ==========
+# English (Canada) translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== en_GB.po ==========
+# English (United Kingdom) translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== eo.po ==========
+# Esperanto translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== es.po ==========
+# Spanish translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== et.po ==========
+# Estonian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== eu.po ==========
+# Basque translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== fa.po ==========
+# Persian translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== fi.po ==========
+# Finnish translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== fr.po ==========
+# French translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== fur.po ==========
+# Friulian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== fy.po ==========
+# Frisian translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== gl.po ==========
+# Galician translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== gv.po ==========
+# Manx translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== he.po ==========
+# Hebrew translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== hi.po ==========
+# Hindi translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== hr.po ==========
+# Croatian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== hu.po ==========
+# Hungarian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== hy.po ==========
+# Armenian translation for indicator-applet
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+
+
+
+
+========== id.po ==========
+# Indonesian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== is.po ==========
+# Icelandic translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== it.po ==========
+# Italian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== ja.po ==========
+# Japanese translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== ka.po ==========
+# Georgian translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== kk.po ==========
+# Kazakh translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== km.po ==========
+# Khmer translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== kn.po ==========
+# Kannada translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== ko.po ==========
+# Korean translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== ku.po ==========
+# Kurdish translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== la.po ==========
+# Latin translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== lb.po ==========
+# Luxembourgish translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== lt.po ==========
+# Lithuanian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== lv.po ==========
+# Latvian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2009.
+
+
+
+
+========== mk.po ==========
+# Macedonian translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== ml.po ==========
+# Malayalam translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== mr.po ==========
+# Marathi translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== ms.po ==========
+# Malay translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== nb.po ==========
+# Norwegian Bokmal translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== ne.po ==========
+# Nepali translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== nl.po ==========
+# Dutch translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== nn.po ==========
+# Norwegian Nynorsk translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+# Åsmund Skjæveland <aasmunds@ulrik.uio.no>, 2011.
+
+
+
+
+========== oc.po ==========
+# Occitan (post 1500) translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== pa.po ==========
+# Punjabi translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== pl.po ==========
+# Polish translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== pt.po ==========
+# Portuguese translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== pt_BR.po ==========
+# Brazilian Portuguese translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== ro.po ==========
+# Romanian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== ru.po ==========
+# Russian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== sc.po ==========
+# Sardinian translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== sd.po ==========
+# Sindhi translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== si.po ==========
+# Sinhalese translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== sk.po ==========
+# Slovak translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== sl.po ==========
+# Slovenian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== sq.po ==========
+# Albanian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== sr.po ==========
+# Serbian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== sv.po ==========
+# Swedish translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== ta.po ==========
+# Tamil translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== te.po ==========
+# Telugu translation for indicator-applet
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+
+
+
+
+========== th.po ==========
+# Thai translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== tr.po ==========
+# Turkish translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== ug.po ==========
+# Uyghur translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== uk.po ==========
+# Ukrainian translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== ur.po ==========
+# Urdu translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== vec.po ==========
+# Venetian translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== vi.po ==========
+# Vietnamese translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== zh_CN.po ==========
+# Simplified Chinese translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+
+========== zh_HK.po ==========
+# Chinese (Hong Kong) translation for indicator-applet
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+
+
+
+
+========== zh_TW.po ==========
+# Traditional Chinese translation for indicator-applet
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the indicator-applet package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+
+
+
+

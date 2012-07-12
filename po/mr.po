@@ -1,122 +1,105 @@
-# Marathi translation for indicator-applet
-# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
-# This file is distributed under the same license as the indicator-applet package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: indicator-applet\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2011-03-24 11:46+0000\n"
-"PO-Revision-Date: 2010-10-28 10:08+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Marathi <mr@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 10:30+0100\n"
+"PO-Revision-Date: 2012-03-15 09:33+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
-"X-Generator: Launchpad (build 12792)\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr ""
-"काही गोष्टींसाठी डेस्कटॉपवर तुमचे लक्ष वेधून घेण्यासाठी इंडिकेटर ऍपलेट"
-
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:799
+#: ../src/applet-main.c:810
 msgid "Indicator Applet"
 msgstr "इंडिकेटर ऍपलेट"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-msgid "A unified applet containing all of the indicators."
-msgstr "सर्व इंडिकेटर्स समाविष्ट करणारे सर्वसमावेशक ऍपलेट"
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "काही गोष्टींसाठी डेस्कटॉपवर तुमचे लक्ष वेधून घेण्यासाठी इंडिकेटर ऍपलेट"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:805
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
 msgstr "इंडिकेटर ऍपलेट पूर्ण"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "A applet containing the application menus."
-msgstr "ऍप्लिकेशन मेनू समाविष्टीत ऍपलेट"
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+msgid "A unified applet containing all of the indicators."
+msgstr "सर्व इंडिकेटर्स समाविष्ट करणारे सर्वसमावेशक ऍपलेट"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
 msgstr "ऍपमेनू इंडिकेटर ऍपलेट"
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:623
-msgid "A place to adjust your status, change users or exit your session."
-msgstr "तुमची स्थिती, वापरकर्ते बदलण्याचे वा तुमचे सत्र सोडण्याचे ठिकाण"
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "A applet containing the application menus."
+msgstr "ऍप्लिकेशन मेनू समाविष्टीत ऍपलेट"
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:802
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
 msgstr "इंडिकेटर ऍपलेट सत्र"
 
-#: ../src/applet-main.c:604
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:634
+msgid "A place to adjust your status, change users or exit your session."
+msgstr "तुमची स्थिती, वापरकर्ते बदलण्याचे वा तुमचे सत्र सोडण्याचे ठिकाण"
+
+#: ../src/applet-main.c:615
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by "
-"the Free Software Foundation."
-msgstr ""
-"हा प्रोग्रॅम फ्री सॉफ्टवेयर आहे: फ्री सॉफ्टवेयर फॉउंडेशनद्वारे प्रकाशित GNU "
-"(जनरल पब्लिक लायसन्स)‌ ३ अन्वये तुम्ही ह्याचे पुनर्वितरण आणि/वा त्यात बदल "
-"करू शकता."
+"under the terms of the GNU General Public License version 3, as published by"
+" the Free Software Foundation."
+msgstr "हा प्रोग्रॅम फ्री सॉफ्टवेयर आहे: फ्री सॉफ्टवेयर फॉउंडेशनद्वारे प्रकाशित GNU (जनरल पब्लिक लायसन्स)‌ ३ अन्वये तुम्ही ह्याचे पुनर्वितरण आणि/वा त्यात बदल करू शकता."
 
-#: ../src/applet-main.c:607
+#: ../src/applet-main.c:618
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr ""
-"हा प्रोग्रॅम उपयुक्त ठरेल ह्या आशेवर वितरीत केला जात आहे मात्र त्याची काहीही "
-"हमी नाही; व्यापारौद्देश, समाधनकारक दर्जा, वा एखाद्या खास उद्देशासाठी योग्यता "
-"ह्यांबद्दल अगदी सूचित खात्री देखील नाही. अधिक माहितीसाठी पहा GNU जनरल पब्लिक "
-"लायसन्स."
+msgstr "हा प्रोग्रॅम उपयुक्त ठरेल ह्या आशेवर वितरीत केला जात आहे मात्र त्याची काहीही हमी नाही; व्यापारौद्देश, समाधनकारक दर्जा, वा एखाद्या खास उद्देशासाठी योग्यता ह्यांबद्दल अगदी सूचित खात्री देखील नाही. अधिक माहितीसाठी पहा GNU जनरल पब्लिक लायसन्स."
 
-#: ../src/applet-main.c:611
+#: ../src/applet-main.c:622
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"ह्या‌ प्रोग्रॅमसोबत तुम्हाला GNU जनरल पब्लिक लायसन्सची एक प्रत मिळालीच असेल. "
-"नसल्यास, पहा <http://www.gnu.org/licenses/>."
+"You should have received a copy of the GNU General Public License along with"
+" this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr "ह्या‌ प्रोग्रॅमसोबत तुम्हाला GNU जनरल पब्लिक लायसन्सची एक प्रत मिळालीच असेल. नसल्यास, पहा <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
 msgstr "तुमच्या ऍप्लिकेशन मेनूंना धरून ठेवणारे ऍपलेट"
 
-#: ../src/applet-main.c:628
+#: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
 msgstr "सर्व सिस्टम इंडिकेटर्सना धरून ठेवणारे ऍपलेट"
 
-#: ../src/applet-main.c:633
+#: ../src/applet-main.c:644
 msgid "translator-credits"
+msgstr "Launchpad Contributions:\n  AJ https://launchpad.net/~s800human"
+
+#: ../src/applet-main.c:648
+msgid "MATE Website"
 msgstr ""
-"Launchpad Contributions:\n"
-"  AJ https://launchpad.net/~s800human"
 
-#: ../src/applet-main.c:637
-msgid "Indicator Applet Website"
-msgstr "इंडिकेटर ऍपलेटची वेबसाईट"
-
-#: ../src/applet-main.c:778
+#: ../src/applet-main.c:789
 msgid "_About"
 msgstr "ह्याबद्दल (_A)"
 
-#: ../src/applet-main.c:808
+#: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
 msgstr "इंडिकेटर ऍपलेट ऍप्लिकेशन मेनू"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:934
+#: ../src/applet-main.c:945
 msgid "No Indicators"
 msgstr "एकही इंडिकेटर सापडला नाही"
-
-#~ msgid "Building up install directories. Need a dummy value."
-#~ msgstr "स्थापना डिरेक्टऱ्या बनवत आहे. ढोंगी मुल्याची गरज आहे."
-
-#~ msgid "Setting up basic MateConf"
-#~ msgstr "जी-कॉंन्फ(MateConf)ची आवश्यक ती जुळवणी करत आहे"

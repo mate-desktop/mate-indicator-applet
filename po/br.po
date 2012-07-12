@@ -1,127 +1,105 @@
-# Breton translation for indicator-applet
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the indicator-applet package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: indicator-applet\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2011-03-24 11:46+0000\n"
-"PO-Revision-Date: 2010-05-08 12:53+0000\n"
-"Last-Translator: Alan <Unknown>\n"
-"Language-Team: Breton <br@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 10:30+0100\n"
+"PO-Revision-Date: 2012-03-15 09:34+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
-"X-Generator: Launchpad (build 12792)\n"
+"Language: br\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Meneger eus un dra bennak evit sachañ hoc'h evezh war ar burev"
-
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:799
+#: ../src/applet-main.c:810
 msgid "Indicator Applet"
 msgstr "Arloadig ar meneger"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-msgid "A unified applet containing all of the indicators."
-msgstr "Un arloadig unvanet gant an holl venegerioù ennañ."
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "Meneger eus un dra bennak evit sachañ hoc'h evezh war ar burev"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:805
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
 msgstr "Arloadig ar meneger klok"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "A applet containing the application menus."
-msgstr ""
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+msgid "A unified applet containing all of the indicators."
+msgstr "Un arloadig unvanet gant an holl venegerioù ennañ."
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
 msgstr ""
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:623
-msgid "A place to adjust your status, change users or exit your session."
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "A applet containing the application menus."
 msgstr ""
-"Ul lec'h evit kemmañ ho staad, kemmañ an arveriad pe serriñ hoc'h estezh."
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:802
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
 msgstr "Arloadig meneger an estez"
 
-#: ../src/applet-main.c:604
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:634
+msgid "A place to adjust your status, change users or exit your session."
+msgstr "Ul lec'h evit kemmañ ho staad, kemmañ an arveriad pe serriñ hoc'h estezh."
+
+#: ../src/applet-main.c:615
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by "
-"the Free Software Foundation."
-msgstr ""
-"Ur meziant digor eo ar goulev-mañ ; dasparzhet pe/ha daskemmet e vez dindan "
-"termenoù al Lañvaz Foran Hollek GNU (GNU General Public License) handelv 3 "
-"evel ma'z eo bet embannet gant Diazezadenn ar Meziantoù Digor (Free Software "
-"Foundation)"
+"under the terms of the GNU General Public License version 3, as published by"
+" the Free Software Foundation."
+msgstr "Ur meziant digor eo ar goulev-mañ ; dasparzhet pe/ha daskemmet e vez dindan termenoù al Lañvaz Foran Hollek GNU (GNU General Public License) handelv 3 evel ma'z eo bet embannet gant Diazezadenn ar Meziantoù Digor (Free Software Foundation)"
 
-#: ../src/applet-main.c:607
+#: ../src/applet-main.c:618
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr ""
-"Dasparzhet eo ar goulev-mañ gant ar spi e vo talvoudus met GANT GWARANT EBET "
-"; hep ar gwarant enpleg a-fet TALVOUDEGEZH KENWERZHEL pe VARREGEZH EVIT UR "
-"PAL PERSONEL. Taolit ur sell war Lañvaz Foran Hollek GNU (GNU General Public "
-"License) evit gouzout hiroc'h."
+msgstr "Dasparzhet eo ar goulev-mañ gant ar spi e vo talvoudus met GANT GWARANT EBET ; hep ar gwarant enpleg a-fet TALVOUDEGEZH KENWERZHEL pe VARREGEZH EVIT UR PAL PERSONEL. Taolit ur sell war Lañvaz Foran Hollek GNU (GNU General Public License) evit gouzout hiroc'h."
 
-#: ../src/applet-main.c:611
+#: ../src/applet-main.c:622
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Emichañs ho peus resevet un eilad eus ar \"GNU General Public Licence\" gant "
-"ar goulev-mañ. Ma n'ho peus ket, kit da sellet ouzh "
-"<http://www.gnu.org/licenses/>."
+"You should have received a copy of the GNU General Public License along with"
+" this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr "Emichañs ho peus resevet un eilad eus ar \"GNU General Public Licence\" gant ar goulev-mañ. Ma n'ho peus ket, kit da sellet ouzh <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
 msgstr ""
 
-#: ../src/applet-main.c:628
+#: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
 msgstr "Un arloadig evit strollañ holl venegerioù ar reizhiad."
 
-#: ../src/applet-main.c:633
+#: ../src/applet-main.c:644
 msgid "translator-credits"
+msgstr "Launchpad Contributions:\n  Alan https://launchpad.net/~alan-m.\n  Breizh https://launchpad.net/~jamybzh-free\n  Denis https://launchpad.net/~bibar\n  Jérémy Le Floc'h https://launchpad.net/~jeremy-lefloch"
+
+#: ../src/applet-main.c:648
+msgid "MATE Website"
 msgstr ""
-"Launchpad Contributions:\n"
-"  Alan https://launchpad.net/~alan-m.\n"
-"  Breizh https://launchpad.net/~jamybzh-free\n"
-"  Denis https://launchpad.net/~bibar\n"
-"  Jérémy Le Floc'h https://launchpad.net/~jeremy-lefloch"
 
-#: ../src/applet-main.c:637
-msgid "Indicator Applet Website"
-msgstr "Lec'hienn Genrouedad arloadig ar meneger"
-
-#: ../src/applet-main.c:778
+#: ../src/applet-main.c:789
 msgid "_About"
 msgstr "Diw_ar-benn"
 
-#: ../src/applet-main.c:808
+#: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
 msgstr ""
 
 #. A label to allow for click through
-#: ../src/applet-main.c:934
+#: ../src/applet-main.c:945
 msgid "No Indicators"
 msgstr "N'eus meneger ebet"
-
-#~ msgid "Setting up basic MateConf"
-#~ msgstr "Kefluniadur eeun MateConf"
-
-#~ msgid "Building up install directories. Need a dummy value."
-#~ msgstr "Sevel an teuliadoù staliañ. Ezhomm ez eus ur werzh faltaziek."

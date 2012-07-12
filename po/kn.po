@@ -1,69 +1,67 @@
-# Kannada translation for indicator-applet
-# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
-# This file is distributed under the same license as the indicator-applet package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: indicator-applet\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2011-03-24 11:46+0000\n"
-"PO-Revision-Date: 2010-09-09 12:28+0000\n"
-"Last-Translator: Neelavar <Unknown>\n"
-"Language-Team: Kannada <kn@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 10:30+0100\n"
+"PO-Revision-Date: 2012-03-15 09:32+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
-"X-Generator: Launchpad (build 12792)\n"
+"Language: kn\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "ಡೆಸ್ಕಟಾಪ್ ನಲ್ಲಿರುವ ಯಾವುದಾದರೊಂದರ ಮೇಲೆ ನಿಮ್ಮ ಗಮನವನ್ನು ಸೆಳೆಯುವ ಸೂಚಕ"
-
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:799
+#: ../src/applet-main.c:810
 msgid "Indicator Applet"
 msgstr "ಸೂಚಕ ಆಪ್ಲೆಟ್"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-msgid "A unified applet containing all of the indicators."
-msgstr "ಎಲ್ಲಾ ಸೂಚಕಗಳನ್ನೊಳಗೊಂಡಿರುವ ಸಂಯುಕ್ತ ಆಪ್ಲೆಟ್"
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "ಡೆಸ್ಕಟಾಪ್ ನಲ್ಲಿರುವ ಯಾವುದಾದರೊಂದರ ಮೇಲೆ ನಿಮ್ಮ ಗಮನವನ್ನು ಸೆಳೆಯುವ ಸೂಚಕ"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:805
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
 msgstr "ಸೂಚಕ ಅಪ್ಲೆಟ್ ಸಂಪೂರ್ಣ"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "A applet containing the application menus."
-msgstr "ಅಪ್ಲಿಕೇಷನ್ ಮೆನುಗಳನ್ನೊಳಗೊಂಡ ಆಪ್ಲೆಟ್"
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+msgid "A unified applet containing all of the indicators."
+msgstr "ಎಲ್ಲಾ ಸೂಚಕಗಳನ್ನೊಳಗೊಂಡಿರುವ ಸಂಯುಕ್ತ ಆಪ್ಲೆಟ್"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
 msgstr ""
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:623
-msgid "A place to adjust your status, change users or exit your session."
-msgstr "ನಿಮ್ಮ ಸ್ಥಿತಿಯ ಬದಲಾವಣೆ, ಬಳಕೆದಾರರ ಬದಲಾವಣೆ ಅಥವಾ ಹೊರಕ್ಕೆ ಹೋಗಲು ಸ್ಥಳ."
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "A applet containing the application menus."
+msgstr "ಅಪ್ಲಿಕೇಷನ್ ಮೆನುಗಳನ್ನೊಳಗೊಂಡ ಆಪ್ಲೆಟ್"
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:802
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
 msgstr ""
 
-#: ../src/applet-main.c:604
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:634
+msgid "A place to adjust your status, change users or exit your session."
+msgstr "ನಿಮ್ಮ ಸ್ಥಿತಿಯ ಬದಲಾವಣೆ, ಬಳಕೆದಾರರ ಬದಲಾವಣೆ ಅಥವಾ ಹೊರಕ್ಕೆ ಹೋಗಲು ಸ್ಥಳ."
+
+#: ../src/applet-main.c:615
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by "
-"the Free Software Foundation."
-msgstr ""
-"ಇದು ಮುಕ್ತ ತಂತ್ರಾಂಶ: Free Software Foundation ಪ್ರಕಾಶಿತ GNU General Public "
-"License version 3ರ ಅಡಿಯಲ್ಲಿ ನೀವು ಈ ತಂತ್ರಾಂಶವನ್ನು ಪುನರ್ವಿತರಣೆ ಅಥವಾ ಬದಲಾವಣೆ "
-"ಮಾಡಬಹುದಾಗಿದೆ."
+"under the terms of the GNU General Public License version 3, as published by"
+" the Free Software Foundation."
+msgstr "ಇದು ಮುಕ್ತ ತಂತ್ರಾಂಶ: Free Software Foundation ಪ್ರಕಾಶಿತ GNU General Public License version 3ರ ಅಡಿಯಲ್ಲಿ ನೀವು ಈ ತಂತ್ರಾಂಶವನ್ನು ಪುನರ್ವಿತರಣೆ ಅಥವಾ ಬದಲಾವಣೆ ಮಾಡಬಹುದಾಗಿದೆ."
 
-#: ../src/applet-main.c:607
+#: ../src/applet-main.c:618
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -71,44 +69,37 @@ msgid ""
 "General Public License for more details."
 msgstr ""
 
-#: ../src/applet-main.c:611
+#: ../src/applet-main.c:622
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"ಈ ತಂತ್ರಾಂಶದೊಂದಿಗೆ GNU General Public Licenseನ ಪ್ರತಿ ನಿಮಗೆ ದೊರೆತಿರಬೇಕು. "
-"ಇಲ್ಲವಾದಲ್ಲಿ <http://www.gnu.org/licenses/> ಇದನ್ನು ನೋಡಿ."
+"You should have received a copy of the GNU General Public License along with"
+" this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr "ಈ ತಂತ್ರಾಂಶದೊಂದಿಗೆ GNU General Public Licenseನ ಪ್ರತಿ ನಿಮಗೆ ದೊರೆತಿರಬೇಕು. ಇಲ್ಲವಾದಲ್ಲಿ <http://www.gnu.org/licenses/> ಇದನ್ನು ನೋಡಿ."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
 msgstr ""
 
-#: ../src/applet-main.c:628
+#: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
 msgstr "ಯಂತ್ರದ ಎಲ್ಲಾ ಸೂಚಕಗಳನ್ನು ಹಿಡಿದಿಡುವ ಅಪ್ಲೆಟ್."
 
-#: ../src/applet-main.c:633
+#: ../src/applet-main.c:644
 msgid "translator-credits"
+msgstr "Launchpad Contributions:\n  Neelavar https://launchpad.net/~prasanna-neelavar"
+
+#: ../src/applet-main.c:648
+msgid "MATE Website"
 msgstr ""
-"Launchpad Contributions:\n"
-"  Neelavar https://launchpad.net/~prasanna-neelavar"
 
-#: ../src/applet-main.c:637
-msgid "Indicator Applet Website"
-msgstr "ಸೂಚಕ ಅಪ್ಲೆಟ್ ನ ವೆಬ್ ಸೈಟ್"
-
-#: ../src/applet-main.c:778
+#: ../src/applet-main.c:789
 msgid "_About"
 msgstr "ಕುರಿತು (_A)"
 
-#: ../src/applet-main.c:808
+#: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
 msgstr ""
 
 #. A label to allow for click through
-#: ../src/applet-main.c:934
+#: ../src/applet-main.c:945
 msgid "No Indicators"
 msgstr "ಸೂಚಕಗಳು ಇಲ್ಲ"
-
-#~ msgid "Setting up basic MateConf"
-#~ msgstr "MateConfನ ಮೂಲಭೂತ ಸ್ಥಾಪನೆ"

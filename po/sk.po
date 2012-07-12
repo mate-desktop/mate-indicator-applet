@@ -1,126 +1,105 @@
-# Slovak translation for indicator-applet
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the indicator-applet package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: indicator-applet\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2011-03-24 11:46+0000\n"
-"PO-Revision-Date: 2010-09-10 07:20+0000\n"
-"Last-Translator: Pavol Klačanský <pavol@klacansky.com>\n"
-"Language-Team: Slovak <sk@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-03-15 10:30+0100\n"
+"PO-Revision-Date: 2012-03-15 09:34+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-14 21:28+0000\n"
-"X-Generator: Launchpad (build 12792)\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Indikátor niečoho, čo si vyžaduje vašu pozornosť na pracovnej ploche"
-
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:799
+#: ../src/applet-main.c:810
 msgid "Indicator Applet"
 msgstr "Indikačný aplet"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-msgid "A unified applet containing all of the indicators."
-msgstr "Jednotný aplet obsahujúci všetky indikátory."
+#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+msgid "An indicator of something that needs your attention on the desktop"
+msgstr "Indikátor niečoho, čo si vyžaduje vašu pozornosť na pracovnej ploche"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:805
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
 msgstr "Indikačný aplet sa ukončil"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "A applet containing the application menus."
-msgstr "Aplet obsahujúci ponuky aplikácií."
+#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+msgid "A unified applet containing all of the indicators."
+msgstr "Jednotný aplet obsahujúci všetky indikátory."
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
 msgstr "Indikačný aplet Appmenu"
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:623
-msgid "A place to adjust your status, change users or exit your session."
-msgstr ""
-"Miesto kde si môžete zmeniť váš stav, prepnúť používateľov alebo opustiť "
-"vašu reláciu."
+#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+msgid "A applet containing the application menus."
+msgstr "Aplet obsahujúci ponuky aplikácií."
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:802
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
+#: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
 msgstr "Indikačný aplet relácie"
 
-#: ../src/applet-main.c:604
+#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
+#: ../src/applet-main.c:634
+msgid "A place to adjust your status, change users or exit your session."
+msgstr "Miesto kde si môžete zmeniť váš stav, prepnúť používateľov alebo opustiť vašu reláciu."
+
+#: ../src/applet-main.c:615
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by "
-"the Free Software Foundation."
-msgstr ""
-"Tento program je slobodný softvér: môžete ho distribuovať a/alebo "
-"modifikovať pod podmienkami GNU General Public License version 3, ktorá je "
-"publikovaná nadáciou Free Software Foundation."
+"under the terms of the GNU General Public License version 3, as published by"
+" the Free Software Foundation."
+msgstr "Tento program je slobodný softvér: môžete ho distribuovať a/alebo modifikovať pod podmienkami GNU General Public License version 3, ktorá je publikovaná nadáciou Free Software Foundation."
 
-#: ../src/applet-main.c:607
+#: ../src/applet-main.c:618
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr ""
-"Tento program je distribuovaný v nádeji, že bude užitočný, ale BEZ "
-"AKÝCHKOĽVEK ZÁRUK; dokonca bez samozrejmých záruk ako ZÁRUKA PREDAJNOSTI, "
-"USPOKOJIVEJ KVALITY, alebo VHODNOSTI POUŽITIA PRE KONKRÉTNY ÚČEL. Pozrite "
-"GNU General Public License pre viac informácií."
+msgstr "Tento program je distribuovaný v nádeji, že bude užitočný, ale BEZ AKÝCHKOĽVEK ZÁRUK; dokonca bez samozrejmých záruk ako ZÁRUKA PREDAJNOSTI, USPOKOJIVEJ KVALITY, alebo VHODNOSTI POUŽITIA PRE KONKRÉTNY ÚČEL. Pozrite GNU General Public License pre viac informácií."
 
-#: ../src/applet-main.c:611
+#: ../src/applet-main.c:622
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Spolu s týmto programom by ste mali obdržať kópiu Všeobecnej verejnej "
-"licencie GNU. Ak sa tak nestalo, navštívte <http://www.gnu.org/licenses/>."
+"You should have received a copy of the GNU General Public License along with"
+" this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr "Spolu s týmto programom by ste mali obdržať kópiu Všeobecnej verejnej licencie GNU. Ak sa tak nestalo, navštívte <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
 msgstr "Aplet zobrazujúci ponuky vašich aplikácií."
 
-#: ../src/applet-main.c:628
+#: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
 msgstr "Aplet združujúci všetky systémové indikátory."
 
-#: ../src/applet-main.c:633
+#: ../src/applet-main.c:644
 msgid "translator-credits"
+msgstr "Launchpad Contributions:\n  Laco Gubík https://launchpad.net/~laco\n  Marcel https://launchpad.net/~marceliqq\n  Pavol Klačanský https://launchpad.net/~pavolzetor\n  marceel https://launchpad.net/~marceel"
+
+#: ../src/applet-main.c:648
+msgid "MATE Website"
 msgstr ""
-"Launchpad Contributions:\n"
-"  Laco Gubík https://launchpad.net/~laco\n"
-"  Marcel https://launchpad.net/~marceliqq\n"
-"  Pavol Klačanský https://launchpad.net/~pavolzetor\n"
-"  marceel https://launchpad.net/~marceel"
 
-#: ../src/applet-main.c:637
-msgid "Indicator Applet Website"
-msgstr "Webová stránka Indikačného apletu"
-
-#: ../src/applet-main.c:778
+#: ../src/applet-main.c:789
 msgid "_About"
 msgstr "_O programe"
 
-#: ../src/applet-main.c:808
+#: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
 msgstr "Indikačný aplet ponuky aplikácie"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:934
+#: ../src/applet-main.c:945
 msgid "No Indicators"
 msgstr "Žiadne indikátory"
-
-#~ msgid "Setting up basic MateConf"
-#~ msgstr "Nastavujú sa základné Gconf nastavenia"
-
-#~ msgid "Building up install directories. Need a dummy value."
-#~ msgstr "Vytvárajú sa inštalačné adresáre. Je potrebná fiktívna hodnota."

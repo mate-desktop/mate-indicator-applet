@@ -4,7 +4,7 @@ AC_INIT(src/applet-main.c)
 AC_PREREQ(2.53)
 
 AM_CONFIG_HEADER(config.h)
-AM_INIT_AUTOMAKE(mate-indicator-applet, 1.4.0)
+AM_INIT_AUTOMAKE(mate-indicator-applet, 1.5.0)
 
 AM_MAINTAINER_MODE
 m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES])
@@ -30,7 +30,7 @@ INDICATOR_REQUIRED_VERSION=0.3.22
 
 PKG_CHECK_MODULES(APPLET, gtk+-2.0 >= $GTK_REQUIRED_VERSION
                           x11
-                          libmatepanelapplet-3.0
+                          libmatepanelapplet-4.0
                           )
 AC_SUBST(APPLET_CFLAGS)
 AC_SUBST(APPLET_LIBS)

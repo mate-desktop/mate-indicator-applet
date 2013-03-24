@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+ 
+[MATE.mate-indicator-applet]
+file_filter = po/<lang>.po
+source_file = po/mate-indicator-applet.pot
+source_lang = en

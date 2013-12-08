@@ -32,10 +32,10 @@ with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 static gchar * indicator_order[] = {
 	"libapplication.so",
-	"libsoundmenu.so",
 	"libmessaging.so",
+	"libsoundmenu.so",
 	"libdatetime.so",
-	"libme.so",
+	"libsession.so",
 	NULL
 };
 

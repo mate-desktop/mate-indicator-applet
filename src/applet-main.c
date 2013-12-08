@@ -554,12 +554,6 @@ hotkey_filter (char * keystring G_GNUC_UNUSED, gpointer data)
 		return;
 	}
 
-	if (!GTK_MENU_SHELL(data)->active) {
-		gtk_grab_add (GTK_WIDGET(data));
-		GTK_MENU_SHELL(data)->have_grab = TRUE;
-		GTK_MENU_SHELL(data)->active = TRUE;
-	}
-
 	gtk_menu_shell_select_item(GTK_MENU_SHELL(data), GTK_WIDGET(g_list_last(children)->data));
 	g_list_free(children);
 	return;
@@ -582,8 +576,8 @@ menubar_on_expose (GtkWidget * widget,
                     GdkEventExpose *event G_GNUC_UNUSED,
                     GtkWidget * menubar)
 {
-	if (GTK_WIDGET_HAS_FOCUS(menubar))
-		gtk_paint_focus(widget->style, widget->window, GTK_WIDGET_STATE(menubar),
+	if (gtk_widget_has_focus(menubar))
+		gtk_paint_focus(gtk_widget_get_style(widget), gtk_widget_get_window(widget), gtk_widget_get_state(menubar),
 		                NULL, widget, "menubar-applet", 0, 0, -1, -1);
 
 	return FALSE;
@@ -859,7 +853,7 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 			GTK_PACK_DIRECTION_LTR : GTK_PACK_DIRECTION_TTB;
 	gtk_menu_bar_set_pack_direction(GTK_MENU_BAR(menubar),
 			packdirection);
-	GTK_WIDGET_SET_FLAGS (menubar, GTK_WIDGET_FLAGS(menubar) | GTK_CAN_FOCUS);
+	gtk_widget_set_can_focus (menubar, TRUE);
 	gtk_widget_set_name(GTK_WIDGET (menubar), "fast-user-switch-menubar");
 	g_signal_connect(menubar, "button-press-event", G_CALLBACK(menubar_press), NULL);
 	g_signal_connect_after(menubar, "expose-event", G_CALLBACK(menubar_on_expose), menubar);
@@ -949,7 +943,7 @@ cw_panel_background_changed (MatePanelApplet               *applet,
 			break;
 
 		case PANEL_PIXMAP_BACKGROUND:
-			style = gtk_style_copy(GTK_WIDGET (applet)->style);
+			style = gtk_style_copy(gtk_widget_get_style(GTK_WIDGET(applet)));
 			if (style->bg_pixmap[GTK_STATE_NORMAL])
 				g_object_unref(style->bg_pixmap[GTK_STATE_NORMAL]);
 			style->bg_pixmap[GTK_STATE_NORMAL] = g_object_ref (pixmap);

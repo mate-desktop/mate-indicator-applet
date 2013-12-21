@@ -554,6 +554,14 @@ hotkey_filter (char * keystring G_GNUC_UNUSED, gpointer data)
 		return;
 	}
 
+#if !GTK_CHECK_VERSION(3,0,0)
+	if (!GTK_MENU_SHELL(data)->active) {
+		gtk_grab_add (GTK_WIDGET(data));
+		GTK_MENU_SHELL(data)->have_grab = TRUE;
+		GTK_MENU_SHELL(data)->active = TRUE;
+	}
+#endif
+
 	gtk_menu_shell_select_item(GTK_MENU_SHELL(data), GTK_WIDGET(g_list_last(children)->data));
 	g_list_free(children);
 	return;

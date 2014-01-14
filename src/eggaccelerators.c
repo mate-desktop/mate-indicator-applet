@@ -21,7 +21,11 @@
 
 #include <string.h>
 #include <gdk/gdkx.h>
+#if GTK_CHECK_VERSION(3,0,0)
+#include <gdk/gdkkeysyms-compat.h>
+#else
 #include <gdk/gdkkeysyms.h>
+#endif
 
 enum
 {

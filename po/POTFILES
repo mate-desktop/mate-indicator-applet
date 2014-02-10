@@ -1,5 +1,0 @@
-	../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in \
-	../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in \
-	../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in \
-	../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in \
-	../src/applet-main.c

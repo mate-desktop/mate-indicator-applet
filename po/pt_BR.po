@@ -3,26 +3,27 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Felipe Rozelio do Nascimento <feliperozelio@gmail.com>, 2012.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# Felipe Rozelio <feliperozelio@gmail.com>, 2012
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
+# Pygmalion, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-04-19 00:21+0000\n"
-"Last-Translator: Felipe Rozelio <feliperozelio@gmail.com>\n"
+"PO-Revision-Date: 2014-01-11 19:12+0000\n"
+"Last-Translator: Pygmalion\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/MATE/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
 msgid "Indicator Applet"
-msgstr "Miniaplicativo indicador"
+msgstr "Miniaplicativo Indicador"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
 msgid "An indicator of something that needs your attention on the desktop"
@@ -31,7 +32,7 @@ msgstr "Um indicador de que algo precisa de sua atenção no computador"
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
-msgstr "Miniaplicativo indicador completo"
+msgstr "Miniaplicativo Indicador Completo"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
 msgid "A unified applet containing all of the indicators."
@@ -39,7 +40,7 @@ msgstr "Um miniaplicativo unificado contendo todos os indicadores"
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
-msgstr "Miniaplicativo indicador do Appmenu"
+msgstr "Miniaplicativo Indicador do Appmenu"
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
 msgid "A applet containing the application menus."
@@ -48,7 +49,7 @@ msgstr "Um miniaplicativo contendo menu de aplicativos."
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
-msgstr "Sessão do miniaplicativo indicador"
+msgstr "Sessão do Miniaplicativo Indicador"
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
 #: ../src/applet-main.c:634
@@ -98,9 +99,9 @@ msgstr "_Sobre"
 
 #: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
-msgstr "Menu de aplicativos do miniaplicativo indicador"
+msgstr "Menu de Aplicativos do Miniaplicativo Indicador"
 
 #. A label to allow for click through
 #: ../src/applet-main.c:945
 msgid "No Indicators"
-msgstr "Sem indicadores"
+msgstr "Sem Indicadores"

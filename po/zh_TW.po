@@ -3,20 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2012
+# 柏諺 黃 <s8321414@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-03-15 09:32+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2014-02-17 13:39+0000\n"
+"Last-Translator: 柏諺 黃 <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/MATE/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
@@ -59,7 +61,7 @@ msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "這個程式屬於自由軟體：您可以在符合自由軟體基金會公布的GNU GPLv3授權的前題下，自由的散佈、修改這個程式。"
+msgstr "這個程式屬於自由軟體：您可以在符合自由軟體基金會公布的GNU GPLv3授權的前題下，自由的散布、修改這個程式。"
 
 #: ../src/applet-main.c:618
 msgid ""
@@ -67,7 +69,7 @@ msgid ""
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "這個程式是在希望能對大家有幫助的前題下散佈的，但「我們不提供任何類型的擔保」，不論是明確的，還是隱含的，包括但不限於可銷售和適合特定用途的隱含保證。全部的風險，如程式的質量和性能問題都由您來承擔。更詳細的資訊，請參見 GNU GPL。"
+msgstr "這個程式是在希望能對大家有幫助的前題下散布的，但「我們不提供任何類型的擔保」，不論是明確的，還是隱含的，包括但不限於可銷售和適合特定用途的隱含保證。全部的風險，如程式的質量和性能問題都由您來承擔。更詳細的資訊，請參見 GNU GPL。"
 
 #: ../src/applet-main.c:622
 msgid ""
@@ -85,11 +87,11 @@ msgstr "一個記錄所有系統指示的面板程式。"
 
 #: ../src/applet-main.c:644
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Chao-Hsiung Liao https://launchpad.net/~j-h-liau\n  Cheng-Chia Tseng https://launchpad.net/~zerng07\n  Elmaz Yu https://launchpad.net/~elmazyu\n  Ronmi Ren https://launchpad.net/~ronmi\n  Roy Chan https://launchpad.net/~roy-chan-linux\n  Taiten Peng https://launchpad.net/~taitenpeng\n  Toomore https://launchpad.net/~toomore"
+msgstr "黃柏諺 <s8321414@yahoo.com.tw>,2013-14\nLaunchpad 貢獻者：\n  Chao-Hsiung Liao https://launchpad.net/~j-h-liau\n  Cheng-Chia Tseng https://launchpad.net/~zerng07\n  Elmaz Yu https://launchpad.net/~elmazyu\n  Ronmi Ren https://launchpad.net/~ronmi\n  Roy Chan https://launchpad.net/~roy-chan-linux\n  Taiten Peng https://launchpad.net/~taitenpeng\n  Toomore https://launchpad.net/~toomore"
 
 #: ../src/applet-main.c:648
 msgid "MATE Website"
-msgstr ""
+msgstr "MATE 網站"
 
 #: ../src/applet-main.c:789
 msgid "_About"

@@ -3,34 +3,35 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010
+# samson <sambelet@yahoo.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-03-15 09:33+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-06-18 15:55+0000\n"
+"Last-Translator: samson <sambelet@yahoo.com>\n"
+"Language-Team: Amharic (http://www.transifex.com/projects/p/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: am\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
 msgid "Indicator Applet"
-msgstr ""
+msgstr "ጠቋሚ ክፍል"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr ""
+msgstr "የ እርስዎን ትኩረት የሚፈልግ የ አንድ ነገር ጠቋሚ"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
-msgstr ""
+msgstr "ጠቋሚ ክፍል ተፈጽሟል"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
 msgid "A unified applet containing all of the indicators."
@@ -47,7 +48,7 @@ msgstr ""
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
-msgstr ""
+msgstr "የ ጠቋሚ ክፍል ክፍለ ጊዜ"
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
 #: ../src/applet-main.c:634
@@ -89,7 +90,7 @@ msgstr "Launchpad Contributions:\n  samson https://launchpad.net/~sambelet"
 
 #: ../src/applet-main.c:648
 msgid "MATE Website"
-msgstr ""
+msgstr "የ ሜት ድሕረ ገጽ"
 
 #: ../src/applet-main.c:789
 msgid "_About"
@@ -97,7 +98,7 @@ msgstr "_ስለ"
 
 #: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
-msgstr ""
+msgstr "የ ጠቋሚ ክፍል ዝርዝር መፈጸሚያ "
 
 #. A label to allow for click through
 #: ../src/applet-main.c:945

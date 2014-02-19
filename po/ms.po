@@ -3,43 +3,44 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#   <terjemah.puretech@gmail.com>, 2012.
+# abuyop <abuyop@gmail.com>, 2013
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
+# Puretech <terjemah.puretech@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-07-07 15:35+0000\n"
-"Last-Translator: Puretech <terjemah.puretech@gmail.com>\n"
+"PO-Revision-Date: 2013-08-12 08:19+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (http://www.transifex.com/projects/p/MATE/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ms\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
 msgid "Indicator Applet"
-msgstr "Aplet Pemaklum"
+msgstr "Aplet Penunjuk"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Pemaklum tentang sesuatu yang memerlukan perhatian anda di desktop."
+msgstr "Penunjuk sesuatu yang memerlukan perhatian anda di desktop."
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
-msgstr "Aplet Pemaklum Lengkap"
+msgstr "Aplet Penunjuk Lengkap"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
 msgid "A unified applet containing all of the indicators."
-msgstr "Aplet tergabung yang mengandungi semua pemaklum"
+msgstr "Aplet bersepadu yang mengandungi semua penunjuk"
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
-msgstr "Appmenu Aplet Pemaklum"
+msgstr "Appmenu Aplet Penunjuk"
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
 msgid "A applet containing the application menus."
@@ -48,7 +49,7 @@ msgstr "Aplet yang mengandungi menu aplikasi."
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
-msgstr "Sesi Aplet Pemaklum"
+msgstr "Sesi Aplet Penunjuk"
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
 #: ../src/applet-main.c:634
@@ -82,7 +83,7 @@ msgstr "Aplet untuk letak menu aplikasi anda"
 
 #: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
-msgstr "Applet untuk letak pemakluman sistem."
+msgstr "Applet untuk letak penunjuk sistem."
 
 #: ../src/applet-main.c:644
 msgid "translator-credits"
@@ -90,7 +91,7 @@ msgstr "Launchpad Contributions:\n  Mohd Farimi Ab Rahman https://launchpad.net/
 
 #: ../src/applet-main.c:648
 msgid "MATE Website"
-msgstr "Laman Web MATE"
+msgstr "Laman Sesawang MATE"
 
 #: ../src/applet-main.c:789
 msgid "_About"
@@ -98,9 +99,9 @@ msgstr "_Perihal"
 
 #: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
-msgstr "Menu Aplikasi bagi Aplet Pemaklum"
+msgstr "Menu Aplikasi bagi Aplet Penunjuk"
 
 #. A label to allow for click through
 #: ../src/applet-main.c:945
 msgid "No Indicators"
-msgstr "Tiada Pemaklum"
+msgstr "Tiada Penunjuk"

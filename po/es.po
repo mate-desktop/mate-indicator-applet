@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#   <lutusq@lutusq.jazztel.es>, 2012.
+# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2013
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
+# Lluís Tusquellas <lutusq@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-04-15 18:04+0000\n"
-"Last-Translator: Lluís Tusquellas <lutusq@lutusq.jazztel.es>\n"
-"Language-Team: Spanish (Castilian) (http://www.transifex.com/projects/p/MATE/language/es/)\n"
+"PO-Revision-Date: 2013-10-13 04:54+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@ubuntu.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
@@ -90,7 +91,7 @@ msgstr "Launchpad Contributions:\n  Gerardo Cruz Hernández https://launchpad.ne
 
 #: ../src/applet-main.c:648
 msgid "MATE Website"
-msgstr "Página web de MATE"
+msgstr "Sitio web de MATE"
 
 #: ../src/applet-main.c:789
 msgid "_About"
@@ -103,4 +104,4 @@ msgstr "Menú de aplicaciones de la miniaplicación de indicadores"
 #. A label to allow for click through
 #: ../src/applet-main.c:945
 msgid "No Indicators"
-msgstr "Sin indicadores"
+msgstr "No hay indicadores"

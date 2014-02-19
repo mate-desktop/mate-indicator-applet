@@ -3,63 +3,64 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010
+# utalabi <utalabi@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-03-15 09:34+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-10-01 10:21+0000\n"
+"Last-Translator: utalabi <utalabi@gmail.com>\n"
+"Language-Team: Sardinian (http://www.transifex.com/projects/p/MATE/language/sc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sc\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
 msgid "Indicator Applet"
-msgstr "Mini-aplicatzione de indicadores"
+msgstr "Indicadore"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Un indicadore de calchi cosa chi pidet s'atintzione tua in su desktop"
+msgstr "Un indicadore de calencuna cosa chi rechedit s'atentzione tua in s'iscriania"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
-msgstr "Mini-aplicatzione cumpleta de indicadores"
+msgstr "Indicadore cumpletu"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
 msgid "A unified applet containing all of the indicators."
-msgstr "Una mini-aplicatzione unificada chi cuntenit totus sos indicadores."
+msgstr "Una mini-aplicatzione unificada pro càpere totus sos indicadores."
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
-msgstr ""
+msgstr "Indicadore de Apmenu"
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
 msgid "A applet containing the application menus."
-msgstr ""
+msgstr "una mini-aplicatzione chi capet sos menus de sas aplicatziones"
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
-msgstr "Mini-aplicatzione de indicadores de sessione"
+msgstr "Indicadore de sessione"
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
 #: ../src/applet-main.c:634
 msgid "A place to adjust your status, change users or exit your session."
-msgstr "Unu ispàtziu pro adecuare s'istadu tou, cambiare de utente o bessire da-e sa sessione."
+msgstr "Unu logu pro acontzare s'istadu tuo, mudare de utente o essire dae sa sessione."
 
 #: ../src/applet-main.c:615
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Custu est unu programa lìberu: lu podes torrare a pònnere in circulatzione o lu podes finas modificare suta sos tèrmines de Licèntzia Pùblica GNU versione 3, a su matessi modu de comente est istada publicada da-e sa \"Free Software Foundation\"."
+msgstr "Custu est unu programma lìberu: lu podes torrare a ispainare o lu podes finas mudare intro sas làcanas de sa Licèntzia Pùblica GNU versione 3, a su matessi modu de comente est istada publicada dae sa \"Free Software Foundation\"."
 
 #: ../src/applet-main.c:618
 msgid ""
@@ -67,17 +68,17 @@ msgid ""
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Custu programa si ponet in circulatzione cun s'isperàntzia chi siet ùtile, però CHENTZA PERUNA GARANTZIA; finas chentza garantzias de CUMERCIABILIDADE, GALIDADE SODDISFATÒRIA o IDONEIDADE PRO UN ISCOPU PARTICULARE. Pro pius detàllios si cunsìgiat de si lègere sa Licèntzia Pùblica Generale GNU."
+msgstr "Custu programma est ispainadu cun s'ispera chi siat utilosu, però CHENTZA PERUNA GARANTZIA; finas chentza garantzias de MÈDIU DE CUMMÈRTZIU, CALIDADE SEGHERRA o ABILESA PRO UN'INTENTZIONE IN PARTICULARE. Pro particulares in prus si legat sa Licèntzia Pùblica Generale GNU."
 
 #: ../src/applet-main.c:622
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Dias dèver àer àpidu ritzèvidu una còpia de sa Licèntzia Pùblica Generale GNU cun custu programa. Si no est gai vìsita <http://www.gnu.org/licenses/>."
+msgstr "Dias dèvere àere retzidu una còpia de sa Licèntzia Pùblica Generale GNU cun custu programma. Si no est de gasi bae a <http://www.gnu.org/licenses/>."
 
 #: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
-msgstr ""
+msgstr "Una mini-aplicatzione chi poderat sos menus tuos de s'aplicatzione"
 
 #: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
@@ -85,21 +86,21 @@ msgstr "Una mini-aplicatzione pro mantènnere totus sos indicadores de su sistem
 
 #: ../src/applet-main.c:644
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Dàriu Piga https://launchpad.net/~nurdarios"
+msgstr "Launchpad Contributions:\n  Dàriu Piga https://launchpad.net/~nurdarios\n\nTransifex: Utalabi"
 
 #: ../src/applet-main.c:648
 msgid "MATE Website"
-msgstr ""
+msgstr "Situ Web de MATE"
 
 #: ../src/applet-main.c:789
 msgid "_About"
-msgstr "_Iscedas"
+msgstr "A_pitzu"
 
 #: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
-msgstr ""
+msgstr "Indicadore de su Menu de Aplicatzione"
 
 #. A label to allow for click through
 #: ../src/applet-main.c:945
 msgid "No Indicators"
-msgstr "Chentza indicadores"
+msgstr "Perunu indicadore"

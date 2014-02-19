@@ -3,56 +3,56 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009-2010
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-03-15 09:33+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-06-03 11:25+0000\n"
+"Last-Translator: mauron\n"
+"Language-Team: Urdu (http://www.transifex.com/projects/p/MATE/language/ur/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ur\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
 msgid "Indicator Applet"
-msgstr "نشان دہ اطلاقچہ"
+msgstr "نشان کار ایپلیٹ"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr ""
+msgstr "ایسی چیزوں کا نشان کار جو ڈیسک ٹاپ پر آپ کی توجہ کی طالب ہوتی ہیں"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
-msgstr ""
+msgstr "مکمل نشان کار ایپلیٹ"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
 msgid "A unified applet containing all of the indicators."
-msgstr ""
+msgstr "ایک متحدہ ایپلیٹ جو تمام نشان کاروں پر مشتمل ہے."
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
-msgstr ""
+msgstr "نشان کار ایپلیٹ اطلاقیہ فہرست"
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
 msgid "A applet containing the application menus."
-msgstr "اطلاقیوں کے مینیو پر مشتمل اطلاقیہ"
+msgstr "اطلاقیوں کی فہرستوں پر مشتمل ایپلیٹ."
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
-msgstr ""
+msgstr "نشان کار ایپلیٹ نشست"
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
 #: ../src/applet-main.c:634
 msgid "A place to adjust your status, change users or exit your session."
-msgstr ""
+msgstr "جگہ جہاں آپ اپنی حالت کا تعین کرتے ہیں، صارفین بدلتے ہیں یا اپنی نشست برخاست کرتے ہیں."
 
 #: ../src/applet-main.c:615
 msgid ""
@@ -77,29 +77,29 @@ msgstr ""
 
 #: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
-msgstr ""
+msgstr "ایپلیٹ جہاں آپ اپنے اطلاقیوں کی فہرستیں رکھتے ہیں."
 
 #: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
-msgstr ""
+msgstr "ایپلیٹ جو آپ کے نظام کے تمام نشان کار سنبھالتا ہے."
 
 #: ../src/applet-main.c:644
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Mohsin Hijazee https://launchpad.net/~m-hijazee-yahoo"
+msgstr "محمد علی مکی\nmakki@hacari.org\nاردو کوڈر لینکس فورم\nhttp://www.urducoder.com\nمکی کا بلاگ\nhttp://makki.urducoder.com"
 
 #: ../src/applet-main.c:648
 msgid "MATE Website"
-msgstr ""
+msgstr "میٹ کی ویب سائٹ"
 
 #: ../src/applet-main.c:789
 msgid "_About"
-msgstr ""
+msgstr "_بابت"
 
 #: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
-msgstr ""
+msgstr "نشان کار ایپلیٹ اطلاقیہ فہرست"
 
 #. A label to allow for click through
 #: ../src/applet-main.c:945
 msgid "No Indicators"
-msgstr ""
+msgstr "کوئی نشان کار نہیں"

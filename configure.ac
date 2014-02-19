@@ -4,7 +4,7 @@ AC_INIT([mate-indicator-applet], [1.7.0], [https://github.com/mate-desktop/mate-
 AC_CONFIG_SRCDIR(src/applet-main.c)
 
 AM_CONFIG_HEADER(config.h)
-AM_INIT_AUTOMAKE([no-dist-gzip dist-xz])
+AM_INIT_AUTOMAKE([no-dist-gzip dist-xz check-news])
 
 AM_MAINTAINER_MODE
 m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES])

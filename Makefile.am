@@ -12,6 +12,7 @@ DISTCLEANFILES = \
 	gtk-doc.make
 
 EXTRA_DIST = \
+	autogen.sh \
 	COPYING.LGPL
 
 dist-hook:

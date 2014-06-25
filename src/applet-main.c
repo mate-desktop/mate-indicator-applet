@@ -26,6 +26,7 @@ with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <glib/gi18n.h>
 #include <mate-panel-applet.h>
 #include <gdk/gdkkeysyms.h>
+#include <gtk/gtk.h>
 
 #include "libindicator/indicator-object.h"
 #include "tomboykeybinder.h"
@@ -49,11 +50,13 @@ static MatePanelAppletOrient orient;
 
 static gboolean     applet_fill_cb (MatePanelApplet * applet, const gchar * iid, gpointer data);
 
+#if !GTK_CHECK_VERSION(3, 0, 0)
 static void cw_panel_background_changed (MatePanelApplet               *applet,
                                          MatePanelAppletBackgroundType  type,
                         				         GdkColor                  *colour,
                         				         GdkPixmap                 *pixmap,
                                          GtkWidget                 *menubar);
+#endif
 static void update_accessible_desc (IndicatorObjectEntry * entry, GtkWidget * menuitem);
 
 /*************
@@ -580,13 +583,28 @@ menubar_press (GtkWidget * widget,
 }
 
 static gboolean
+#if GTK_CHECK_VERSION(3, 0, 0)
+menubar_on_draw (GtkWidget * widget,
+                 cairo_t * cr,
+                 GtkWidget * menubar)
+#else
 menubar_on_expose (GtkWidget * widget,
                     GdkEventExpose *event G_GNUC_UNUSED,
                     GtkWidget * menubar)
+#endif
 {
 	if (gtk_widget_has_focus(menubar))
-		gtk_paint_focus(gtk_widget_get_style(widget), gtk_widget_get_window(widget), gtk_widget_get_state(menubar),
-		                NULL, widget, "menubar-applet", 0, 0, -1, -1);
+		gtk_paint_focus(gtk_widget_get_style(widget),
+#if GTK_CHECK_VERSION(3, 0, 0)
+		                cr,
+#else
+		                gtk_widget_get_window(widget),
+#endif
+		                gtk_widget_get_state(menubar),
+#if !GTK_CHECK_VERSION(3, 0, 0)
+		                NULL,
+#endif
+		                widget, "menubar-applet", 0, 0, -1, -1);
 
 	return FALSE;
 }
@@ -864,7 +882,11 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 	gtk_widget_set_can_focus (menubar, TRUE);
 	gtk_widget_set_name(GTK_WIDGET (menubar), "fast-user-switch-menubar");
 	g_signal_connect(menubar, "button-press-event", G_CALLBACK(menubar_press), NULL);
+#if GTK_CHECK_VERSION(3, 0, 0)
+	g_signal_connect_after(menubar, "draw", G_CALLBACK(menubar_on_draw), menubar);
+#else
 	g_signal_connect_after(menubar, "expose-event", G_CALLBACK(menubar_on_expose), menubar);
+#endif
 	g_signal_connect(applet, "change-orient", 
 			G_CALLBACK(matepanelapplet_reorient_cb), menubar);
 	gtk_container_set_border_width(GTK_CONTAINER(menubar), 0);
@@ -905,6 +927,9 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 	if (indicators_loaded == 0) {
 		/* A label to allow for click through */
 		GtkWidget * item = gtk_label_new(_("No Indicators"));
+#if GTK_CHECK_VERSION(3, 0, 0)
+		mate_panel_applet_set_background_widget(applet, item);
+#endif
 		gtk_container_add(GTK_CONTAINER(applet), item);
 		gtk_widget_show(item);
 	} else {
@@ -913,9 +938,11 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 		gtk_widget_show(menubar);
 	}
 
+#if !GTK_CHECK_VERSION(3, 0, 0)
 	/* Background of applet */
 	g_signal_connect(applet, "change-background",
 			  G_CALLBACK(cw_panel_background_changed), menubar);
+#endif
 
 	gtk_widget_show(GTK_WIDGET(applet));
 
@@ -923,6 +950,7 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 
 }
 
+#if !GTK_CHECK_VERSION(3, 0, 0)
 static void
 cw_panel_background_changed (MatePanelApplet               *applet,
                              MatePanelAppletBackgroundType  type,
@@ -961,4 +989,4 @@ cw_panel_background_changed (MatePanelApplet               *applet,
 			break;
   }
 }
-
+#endif

@@ -25,17 +25,37 @@ m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 # Dependencies 
 ###########################
 
-GTK_REQUIRED_VERSION=2.12
+AC_MSG_CHECKING([which gtk+ version to compile against])
+AC_ARG_WITH([gtk],
+  [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 2.0)])],
+  [case "$with_gtk" in
+     2.0|3.0) ;;
+     *) AC_MSG_ERROR([invalid gtk version specified]) ;;
+   esac],
+  [with_gtk=2.0])
+AC_MSG_RESULT([$with_gtk])
+
+case "$with_gtk" in
+  2.0) GTK_API_VERSION=2.0
+       GTK_REQUIRED=2.24.0
+       INDICATOR_API_VERSION=
+       ;;
+  3.0) GTK_API_VERSION=3.0
+       GTK_REQUIRED=3.0.0
+       INDICATOR_API_VERSION=3
+       ;;
+esac
+
 INDICATOR_REQUIRED_VERSION=0.3.22
 
-PKG_CHECK_MODULES(APPLET, gtk+-2.0 >= $GTK_REQUIRED_VERSION
+PKG_CHECK_MODULES(APPLET, gtk+-$GTK_API_VERSION >= $GTK_REQUIRED_VERSION
                           x11
                           libmatepanelapplet-4.0
                           )
 AC_SUBST(APPLET_CFLAGS)
 AC_SUBST(APPLET_LIBS)
 
-PKG_CHECK_MODULES([INDICATOR4], [indicator-0.4 >= $INDICATOR_REQUIRED_VERSION],
+PKG_CHECK_MODULES([INDICATOR4], [indicator$INDICATOR_API_VERSION-0.4 >= $INDICATOR_REQUIRED_VERSION],
    [
      AC_DEFINE([HAVE_INDICATOR4], [1], [Use Indicator 0.4])
      INDICATORDIR=`$PKG_CONFIG --variable=indicatordir indicator-0.4`
@@ -151,4 +171,5 @@ AC_MSG_NOTICE([
 Indicator Applet Configuration:
 
 	Prefix:                 $prefix
+	GTK+ version:           ${GTK_API_VERSION}
 ])

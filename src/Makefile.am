@@ -1,10 +1,10 @@
 
 libexec_PROGRAMS = \
-	indicator-applet \
-	indicator-applet-appmenu \
-	indicator-applet-complete
+	mate-indicator-applet \
+	mate-indicator-applet-appmenu \
+	mate-indicator-applet-complete
 
-indicator_applet_CFLAGS = \
+mate_indicator_applet_CFLAGS = \
 	-DG_LOG_DOMAIN=\""Indicator-Applet"\" \
 	-DDATADIR=\""$(datadir)"\" \
 	-DINDICATOR_DIR=\""$(INDICATORDIR)"\" \
@@ -14,18 +14,19 @@ indicator_applet_CFLAGS = \
 	$(APPLET_CFLAGS) \
 	$(INDICATOR3_CFLAGS) $(INDICATOR4_CFLAGS)
 
-indicator_applet_SOURCES = \
+mate_indicator_applet_SOURCES = \
 	applet-main.c \
 	eggaccelerators.c \
 	eggaccelerators.h \
 	tomboykeybinder.c \
 	tomboykeybinder.h
 
-indicator_applet_LDADD = \
+mate_indicator_applet_LDADD = \
 	$(APPLET_LIBS) \
-	$(INDICATOR3_LIBS) $(INDICATOR4_LIBS)
+	$(INDICATOR3_LIBS) $(INDICATOR4_LIBS) \
+	-lX11
 
-indicator_applet_appmenu_CFLAGS = \
+mate_indicator_applet_appmenu_CFLAGS = \
 	-DG_LOG_DOMAIN=\""Indicator-Applet-Appmenu"\" \
 	-DDATADIR=\""$(datadir)"\" \
 	-DINDICATOR_DIR=\""$(INDICATORDIR)"\" \
@@ -35,18 +36,19 @@ indicator_applet_appmenu_CFLAGS = \
 	$(APPLET_CFLAGS) \
 	$(INDICATOR3_CFLAGS) $(INDICATOR4_CFLAGS)
 
-indicator_applet_appmenu_SOURCES = \
+mate_indicator_applet_appmenu_SOURCES = \
 	applet-main.c \
 	eggaccelerators.c \
 	eggaccelerators.h \
 	tomboykeybinder.c \
 	tomboykeybinder.h
 
-indicator_applet_appmenu_LDADD = \
+mate_indicator_applet_appmenu_LDADD = \
 	$(APPLET_LIBS) \
-	$(INDICATOR3_LIBS) $(INDICATOR4_LIBS)
+	$(INDICATOR3_LIBS) $(INDICATOR4_LIBS) \
+	-lX11
 
-indicator_applet_complete_CFLAGS = \
+mate_indicator_applet_complete_CFLAGS = \
 	-DG_LOG_DOMAIN=\""Indicator-Applet-Complete"\" \
 	-DDATADIR=\""$(datadir)"\" \
 	-DINDICATOR_DIR=\""$(INDICATORDIR)"\" \
@@ -56,13 +58,14 @@ indicator_applet_complete_CFLAGS = \
 	$(APPLET_CFLAGS) \
 	$(INDICATOR3_CFLAGS) $(INDICATOR4_CFLAGS)
 
-indicator_applet_complete_SOURCES =	\
+mate_indicator_applet_complete_SOURCES =	\
 	applet-main.c \
 	eggaccelerators.c \
 	eggaccelerators.h \
 	tomboykeybinder.c \
 	tomboykeybinder.h
 
-indicator_applet_complete_LDADD = \
+mate_indicator_applet_complete_LDADD = \
 	$(APPLET_LIBS) \
-	$(INDICATOR3_LIBS) $(INDICATOR4_LIBS)
+	$(INDICATOR3_LIBS) $(INDICATOR4_LIBS) \
+	-lX11

@@ -1,6 +1,6 @@
 [Applet Factory]
 Id=IndicatorAppletAppmenuFactory
-Location=@LIBEXECDIR@/indicator-applet-appmenu
+Location=@LIBEXECDIR@/mate-indicator-applet-appmenu
 Name=Indicator Applet Appmenu Factory
 Description=Indicator Applet Appmenu Factory
 

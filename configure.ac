@@ -26,33 +26,15 @@ m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 ###########################
 
 GTK_REQUIRED_VERSION=2.12
-INDICATOR_REQUIRED_VERSION=0.3.22
+INDICATOR_REQUIRED_VERSION=0.3.90
 
 PKG_CHECK_MODULES(APPLET, gtk+-2.0 >= $GTK_REQUIRED_VERSION
                           x11
                           libmatepanelapplet-4.0
+                          indicator-0.4 >= $INDICATOR_REQUIRED_VERSION
                           )
 AC_SUBST(APPLET_CFLAGS)
 AC_SUBST(APPLET_LIBS)
-
-PKG_CHECK_MODULES([INDICATOR4], [indicator-0.4 >= $INDICATOR_REQUIRED_VERSION],
-   [
-     AC_DEFINE([HAVE_INDICATOR4], [1], [Use Indicator 0.4])
-     INDICATORDIR=`$PKG_CONFIG --variable=indicatordir indicator-0.4`
-     INDICATORICONSDIR=`$PKG_CONFIG --variable=iconsdir indicator-0.4`
-   ],
-   [PKG_CHECK_MODULES([INDICATOR3], [indicator >= $INDICATOR_REQUIRED_VERSION],
-       [
-         AC_DEFINE([HAVE_INDICATOR3], [1], [Use Indicator 0.3])
-         INDICATORDIR=`$PKG_CONFIG --variable=indicatordir indicator`
-         INDICATORICONSDIR=`$PKG_CONFIG --variable=iconsdir indicator`
-       ])
-])
-
-AC_SUBST(INDICATOR4_CFLAGS)
-AC_SUBST(INDICATOR4_LIBS)
-AC_SUBST(INDICATOR3_CFLAGS)
-AC_SUBST(INDICATOR3_LIBS)
 
 ###########################
 # Check to see if we're local
@@ -68,6 +50,9 @@ AC_ARG_ENABLE(localinstall, AS_HELP_STRING([--enable-localinstall], [install all
 if test "x$with_localinstall" = "xyes"; then
 	INDICATORDIR="${libdir}/indicators/2/"
 	INDICATORICONSDIR="${datadir}/indicator-applet/icons/"
+else
+	INDICATORDIR=`$PKG_CONFIG --variable=indicatordir indicator-0.4`
+	INDICATORICONSDIR=`$PKG_CONFIG --variable=iconsdir indicator-0.4`
 fi
 
 AC_SUBST(INDICATORDIR)

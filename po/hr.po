@@ -3,63 +3,63 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-03-15 09:32+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2014-05-12 09:56+0000\n"
+"Last-Translator: Mislav E. Lukšić <meluksic@yahoo.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/projects/p/MATE/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hr\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
 msgid "Indicator Applet"
-msgstr "Programčić Pokazivač"
+msgstr "Pokazni programčić"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Pokazivač nečega što traži vašu pozornost na radnoj površini"
+msgstr "Pokaznik nečega što traži tvoju pozornost na radnoj površini"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
-msgstr "Programčić Pokazivač dovršen"
+msgstr "Pokazni programčić dovršen"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
 msgid "A unified applet containing all of the indicators."
-msgstr "Objedinjeni programčić koji sadrži sve pokazivače."
+msgstr "Objedinjeni programčić koji sadrži sve pokaznike."
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
-msgstr "Appmenu programčića pokazivača"
+msgstr "Programski izbornik Pokaznog programčića"
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
 msgid "A applet containing the application menus."
-msgstr "Programčić koji sadrži izbornike aplikacija."
+msgstr "Programčić koji sadrži programske izbornike."
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
-msgstr "Sesija Pokazivača"
+msgstr "Pristupna dionica Pokaznog programčića"
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
 #: ../src/applet-main.c:634
 msgid "A place to adjust your status, change users or exit your session."
-msgstr "Mjesto za podešavanje vašeg stanja, promjene korisnika ili napuštanja vaše prijave."
+msgstr "Mjesto za usklađivanje vlastita stanja, promjenu korisnika ili izlaz iz vlastite pristupne dionice."
 
 #: ../src/applet-main.c:615
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Ovaj program je slobodan softver: možete ga redistribuirati i/ili modificirati pod uvijetima GNU Opće javne licence treće inačice, koju je objavila Fundacija slobodnog softvera."
+msgstr "Ovaj program je slobodni softver: možeš ga dalje dijeliti i/ili mijenjati pod uvjetima GNU-ove opće javne dozvole, 3. inačice, koju je objavila Zaklada slobodnog softvera."
 
 #: ../src/applet-main.c:618
 msgid ""
@@ -67,39 +67,39 @@ msgid ""
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Ovaj program je distribuiran u nadi da će biti koristan, ali BEZ IKAKVOG JAMSTVA; čak i bez podrazumjevanog jamstva o KUPLJIVOSTI, ZADOVOLJENJU KVALITETE ili PRIKLADNOSTI POJEDINOJ SVRSI. Za više detalja pogledajte GNU Opću javnu licencu."
+msgstr "Ovaj program se dijeli u nadi da će biti koristan, ali BEZ IKAKVOG JAMSTVA; čak i bez podrazumijevanih jamstava o TRGOVAČKOJ POGODNOSTI, ZADOVOLJAVAJUĆOJ KAKVOĆI ili PRIKLADNOSTI ZA POJEDINU SVRHU. Za više pojedinosti pogledaj GNU-ovu opću javnu dozvolu."
 
 #: ../src/applet-main.c:622
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Kopiju GNU Opće javne licence biste trebali dobiti uz ovaj program.  Ako niste, pogledajte <http://www.gnu.org/licenses/>."
+msgstr "Presliku GNU-ove opće javne dozvole korisnik je trebao primiti uz ovaj program. Ako nisi, pogledaj <http://www.gnu.org/licenses/>."
 
 #: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
-msgstr "Programčić koji sadrži izbornike vaših aplikacija."
+msgstr "Programčić koji sadrži tvoje programske izbornike."
 
 #: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
-msgstr "Programčić za držanje svih pokazivača sustava"
+msgstr "Programčić koji sadrži sve pokaznike sustava."
 
 #: ../src/applet-main.c:644
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Miroslav Matejaš https://launchpad.net/~silverspace+amd64\n  Saša Teković https://launchpad.net/~hseagle2015"
+msgstr "Prijevod:\n  Mislav E. Lukšić <meluksic@yahoo.com>\n\nPrinosi na Launchpadu:\n  Miroslav Matejaš https://launchpad.net/~silverspace+amd64\n  Saša Teković https://launchpad.net/~hseagle2015"
 
 #: ../src/applet-main.c:648
 msgid "MATE Website"
-msgstr ""
+msgstr "Mrežno sjedište MATE-a"
 
 #: ../src/applet-main.c:789
 msgid "_About"
-msgstr "_O Programu"
+msgstr "_O programu"
 
 #: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
-msgstr "Izbornik aplikacija programčića pokazivača"
+msgstr "Programski izbornik Pokaznog programčića"
 
 #. A label to allow for click through
 #: ../src/applet-main.c:945
 msgid "No Indicators"
-msgstr "Nema pokazivača"
+msgstr "Nema pokaznika"

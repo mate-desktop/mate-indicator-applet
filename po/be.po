@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009,2014
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009,2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2014-02-26 14:18+0000\n"
-"Last-Translator: meequz <meequz@gmail.com>\n"
+"PO-Revision-Date: 2015-03-20 12:26+0000\n"
+"Last-Translator: Mihail Varantsou <meequz@gmail.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/projects/p/MATE/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,16 +21,16 @@ msgstr ""
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
 msgid "Indicator Applet"
-msgstr "Індыкатар паведамленняў"
+msgstr "Індыкатар абвяшчэнняў"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Паказвае нешта, што партабуе вашае ўвагі"
+msgstr "Паказвае тое, што патрабуе вашай ўвагі"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
-msgstr "Індыкатар гатовы"
+msgstr "Агульны аплет індыкатараў"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
 msgid "A unified applet containing all of the indicators."
@@ -38,16 +38,16 @@ msgstr "Уніфікаваны аплет, які ўтрымлівае ўсе і
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
-msgstr "Індыкатар Appmenu"
+msgstr "Індыкатар з радком меню"
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
 msgid "A applet containing the application menus."
-msgstr "Аплет, які змяшчае меню праграм"
+msgstr "Аплет, які змяшчае радок меню праграм"
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
-msgstr "Сеанс індыкатара паведамленняў"
+msgstr "Індыкатар сеансу"
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
 #: ../src/applet-main.c:634
@@ -59,7 +59,7 @@ msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Гэта вольная праграма: вы можаце распаўсюджваць ці змяняць яе паводле ўмоваў GNU General Public License версіі 3, апублікаванай Free Software Foundation."
+msgstr "Гэта свабодная праграма; яе можна распаўсюджваць і/ці змяняць паводле ўмоваў GNU General Public License версіі 3, апублікаванай Free Software Foundation."
 
 #: ../src/applet-main.c:618
 msgid ""
@@ -67,13 +67,13 @@ msgid ""
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Праграма распаўсюджваецца як карысная, але яе карыснасць, якасць ці магчымасць выкарыстання для пэўных патрэбаў не гарантуецца. Па падрабязнасці звяртайцеся да GNU General Public License."
+msgstr "Гэтая праграма распаўсюджваецца з надзеяй на тое, што яна будзе карыснай, але БЕЗ АНІЯКІХ ГАРАНТЫЙ; нават без відавочных гарантый ДАСТАТКОВАЙ ЯКАСЦІ, прыдатнасці да КАМЕРЦЫЙНАГА ПРОДАЖУ ці ПЭЎНАЙ МЭТЫ. Па падрабязнасці звяртайцеся да GNU General Public License."
 
 #: ../src/applet-main.c:622
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Вы мусілі атрымаць копію GNU General Public License разам з гэтай праграмай. У іншым выпадку гл. <http://www.gnu.org/licenses/>."
+msgstr "Вы мусілі атрымаць копію GNU General Public License разам з гэтай праграмай; калі не атрымалі, глядзіце <http://www.gnu.org/licenses/>."
 
 #: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
@@ -81,11 +81,11 @@ msgstr "Аплет, які ўтрымлівае меню вашай прагра
 
 #: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
-msgstr "Аплет утрымлівае ўсе сістэмныя індыкатары."
+msgstr "Аплет, які ўтрымлівае ўсе сістэмныя індыкатары."
 
 #: ../src/applet-main.c:644
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Alex Nyakhaychyk https://launchpad.net/~nab\n  Aliaksandr Trush https://launchpad.net/~evils-mail\n  Iryna Nikanchuk https://launchpad.net/~unetriste\n  Mikola Tsekhan https://launchpad.net/~tsekhan\n  Sergei Chernooki https://launchpad.net/~chernooki"
+msgstr "Mikhas Varantsou <meequz@gmail.com>, 2015\n Launchpad Contributions:\n  Alex Nyakhaychyk https://launchpad.net/~nab\n  Aliaksandr Trush https://launchpad.net/~evils-mail\n  Iryna Nikanchuk https://launchpad.net/~unetriste\n  Mikola Tsekhan https://launchpad.net/~tsekhan\n  Sergei Chernooki https://launchpad.net/~chernooki"
 
 #: ../src/applet-main.c:648
 msgid "MATE Website"
@@ -97,7 +97,7 @@ msgstr "_Пра праграму"
 
 #: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
-msgstr "Індыкатар паведамленняў Меню праграмы"
+msgstr "Індыкатар з радком меню 2"
 
 #. A label to allow for click through
 #: ../src/applet-main.c:945

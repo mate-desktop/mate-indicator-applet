@@ -3,25 +3,26 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
+# Ivar Smolin <okul@linux.ee>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-03-15 09:33+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2014-08-01 08:26+0000\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian (http://www.transifex.com/projects/p/MATE/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: et\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
 msgid "Indicator Applet"
-msgstr "Indikaatorrakend"
+msgstr "Näidikurakend"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
 msgid "An indicator of something that needs your attention on the desktop"
@@ -30,11 +31,11 @@ msgstr "Annab märku, kui miski nõuab töölaual tähelepanu"
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:816
 msgid "Indicator Applet Complete"
-msgstr "Indikaatorrakend valmis"
+msgstr "Täielik näidikurakend"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
 msgid "A unified applet containing all of the indicators."
-msgstr "Ühendrakend kõigi indikaatorite hõlmamiseks."
+msgstr "Kõiki näidikuid sisaldav unifitseeritud rakend."
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
@@ -42,12 +43,12 @@ msgstr "Rakenduste menüüde rakend"
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
 msgid "A applet containing the application menus."
-msgstr "Rakend, mis sisaldab rakenduste menüüsid."
+msgstr "Rakenduste menüüsid sisaldav rakend."
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:813
 msgid "Indicator Applet Session"
-msgstr "Seansiindikaatorite rakend"
+msgstr "Näidikurakendi seanss"
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
 #: ../src/applet-main.c:634
@@ -77,23 +78,23 @@ msgstr "Te peaks olema saanud GNU Üldise Avaliku Litsentsi koopia koos selle pr
 
 #: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
-msgstr "Rakend, mis sisaldab rakenduste menüüsid."
+msgstr "Sinu rakenduste menüüde hoidmiseks mõeldud rakend."
 
 #: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
-msgstr "Rakend, mis sisaldab kõiki süsteemi indikaatoreid."
+msgstr "Kõigi süsteemi näidikute hoidmiseks mõeldud rakend."
 
 #: ../src/applet-main.c:644
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Kristjan https://launchpad.net/~c-kristjan\n  René Pärts https://launchpad.net/~renep\n  mahfiaz https://launchpad.net/~mahfiaz"
+msgstr "Ilmar Kerm <ikerm@hot.ee>, 2002.\nIvar Smolin <okul@linux.ee>, 2005-2008, 2014.\nPriit Laes <amd@store20.com>, 2006\n\nLaunchpadi kaudu tehtud kaastöö:\n  Kristjan https://launchpad.net/~c-kristjan\n  René Pärts https://launchpad.net/~renep\n  mahfiaz https://launchpad.net/~mahfiaz"
 
 #: ../src/applet-main.c:648
 msgid "MATE Website"
-msgstr ""
+msgstr "MATE veebisait"
 
 #: ../src/applet-main.c:789
 msgid "_About"
-msgstr "_Programmist"
+msgstr "_Programmist lähemalt"
 
 #: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
@@ -102,4 +103,4 @@ msgstr "Rakenduste menüüde rakend"
 #. A label to allow for click through
 #: ../src/applet-main.c:945
 msgid "No Indicators"
-msgstr "Indikaatoreid pole"
+msgstr "Näidikuid pole"

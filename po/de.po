@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <benpicco@zedat.fu-berlin.de>, 2012.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# benpicco <benpicco@zedat.fu-berlin.de>, 2012
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
+# Tobias Bannert <tobannert@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-03-16 00:16+0000\n"
-"Last-Translator: benpicco <benpicco@zedat.fu-berlin.de>\n"
+"PO-Revision-Date: 2014-10-16 15:32+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/MATE/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
@@ -35,15 +36,15 @@ msgstr "Vollständige Benachrichtigungsanzeige"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
 msgid "A unified applet containing all of the indicators."
-msgstr "Ein vereinheitlichtes Applet, das alle Anzeigen beinhaltet."
+msgstr "Ein vereinheitlichte Anzeige, das alle Anzeigen beinhaltet."
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
-msgstr "Indicator Anwendungsmenü-Applet"
+msgstr "Anwendungsmenüanzeige"
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
 msgid "A applet containing the application menus."
-msgstr "Ein Applet, das die Anwendungsmenüs enthält."
+msgstr "Eine Anzeige, das die Anwendungsmenüs enthält."
 
 #: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:813
@@ -60,7 +61,7 @@ msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Dieses Programm ist Freie Software: Sie können es unter den Bedingungen der GNU General Public License Version 3, wie von der Free Software Foundation veröffentlicht, weitergeben und/oder anpassen."
+msgstr "Dieses Programm ist eine freie Anwendung: Sie können es unter den Bedingungen der GNU General Public License Version 3, wie von der Free Software Foundation veröffentlicht, weitergeben und/oder anpassen."
 
 #: ../src/applet-main.c:618
 msgid ""
@@ -78,11 +79,11 @@ msgstr "Sie sollten ein Exemplar der GNU General Public License zusammen mit die
 
 #: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
-msgstr "Ein Applet, das Ihre Anwendungsmenüs beinhaltet"
+msgstr "Eine Anzeige, das Ihre Anwendungsmenüs beinhaltet"
 
 #: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
-msgstr "Ein Applet zur Verwaltung aller Systemanzeigen"
+msgstr "Eine Anzeige zur Verwaltung aller Systemanzeigen"
 
 #: ../src/applet-main.c:644
 msgid "translator-credits"
@@ -90,15 +91,15 @@ msgstr "Launchpad Contributions:\n  Alexej Disterhoft https://launchpad.net/~nob
 
 #: ../src/applet-main.c:648
 msgid "MATE Website"
-msgstr "MATE Website"
+msgstr "MATE-Internetseite"
 
 #: ../src/applet-main.c:789
 msgid "_About"
-msgstr "_Info"
+msgstr "_Über"
 
 #: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"
-msgstr "Indicator Anwendungsmenü-Applet"
+msgstr "Anwendungsmenüanzeige"
 
 #. A label to allow for click through
 #: ../src/applet-main.c:945

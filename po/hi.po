@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010
+# Sadgamaya <g.raghavan.g@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-03-15 09:32+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2014-03-08 16:27+0000\n"
+"Last-Translator: Sadgamaya <g.raghavan.g@gmail.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/projects/p/MATE/language/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
@@ -59,7 +60,7 @@ msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "यह कार्यक्रम मुफ्त साफ्टवेयर हैः आप इसे पुनःवितरित कर सकते है अथवा/या GNU General Public License संस्करण 3 जिसे फ्रि साफ्टवेयर संस्था प्रकाशित करती है, के शर्तों के अधीन परिवर्तित कर सकते हैं."
+msgstr "यह कार्यक्रम मुक्त साफ्टवेयर हैः आप इसे पुनःवितरित कर सकते है अथवा/या GNU General Public License संस्करण 3 जिसे फ्रि साफ्टवेयर संस्था प्रकाशित करती है, के शर्तों के अधीन परिवर्तित कर सकते हैं."
 
 #: ../src/applet-main.c:618
 msgid ""
@@ -89,11 +90,11 @@ msgstr "Launchpad Contributions:\n  Akshat Jain https://launchpad.net/~ssj6aksha
 
 #: ../src/applet-main.c:648
 msgid "MATE Website"
-msgstr ""
+msgstr "माटे वेबसाइट"
 
 #: ../src/applet-main.c:789
 msgid "_About"
-msgstr "(_A) के बारे में"
+msgstr "(_A) परिचय"
 
 #: ../src/applet-main.c:819
 msgid "Indicator Applet Application Menu"

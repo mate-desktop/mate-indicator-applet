@@ -3,20 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
+# Ḷḷumex03 <tornes@opmbx.org>, 2014
+# Xuacu Saturio <xuacusk8@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-03-15 09:34+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2014-06-13 07:31+0000\n"
+"Last-Translator: Ḷḷumex03 <tornes@opmbx.org>\n"
 "Language-Team: Asturian (http://www.transifex.com/projects/p/MATE/language/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ast\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:810
@@ -73,11 +75,11 @@ msgstr "Esti programa distribúyese col envís de que seya d'utilidá, pero ENSI
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Había de recibir una copia de la \"GNU General Public License\" con esti programa.  En casu contrariu, consulta <http://www.gnu.org/licenses/>."
+msgstr "Deberíes recibir una copia de la \"GNU General Public License\" con esti programa.  Sinón, mira <http://www.gnu.org/licenses/>."
 
 #: ../src/applet-main.c:637
 msgid "An applet to hold your application menus."
-msgstr "Un applet pa contener los tos menús d'aplicaciones."
+msgstr "Un applet pa caltener los tos menús d'aplicaciones."
 
 #: ../src/applet-main.c:639
 msgid "An applet to hold all of the system indicators."
@@ -85,11 +87,11 @@ msgstr "Una aplicacion pa caltener tolos indicadores del sistema."
 
 #: ../src/applet-main.c:644
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Costales https://launchpad.net/~costales\n  Iñigo Varela https://launchpad.net/~ivarela\n  Xandru https://launchpad.net/~xandruarmesto\n  Xandru Martino https://launchpad.net/~xandru-martino\n  Xuacu Saturio https://launchpad.net/~xuacusk8\n  quixole https://launchpad.net/~javier-martinezconcheso"
+msgstr "Softastur <www.softastur.org>"
 
 #: ../src/applet-main.c:648
 msgid "MATE Website"
-msgstr ""
+msgstr "Sitiu web de MATE"
 
 #: ../src/applet-main.c:789
 msgid "_About"

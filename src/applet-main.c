@@ -97,7 +97,7 @@ MATE_PANEL_APPLET_OUT_PROCESS_FACTORY ("IndicatorAppletAppmenuFactory",
 GOutputStream * log_file = NULL;
 
 /*****************
- * Hotkey support 
+ * Hotkey support
  * **************/
 #ifdef INDICATOR_APPLET
 gchar * hotkey_keycode = "<Super>M";
@@ -314,12 +314,12 @@ entry_added (IndicatorObject * io, IndicatorObjectEntry * entry, GtkWidget * men
 				break;
 			case GTK_PACK_DIRECTION_TTB:
 				gtk_label_set_angle(GTK_LABEL(entry->label),
-						(orient == MATE_PANEL_APPLET_ORIENT_LEFT) ? 
+						(orient == MATE_PANEL_APPLET_ORIENT_LEFT) ?
 						270.0 : 90.0);
 				break;
 			default:
 				break;
-		}		
+		}
 		gtk_box_pack_start(GTK_BOX(box), GTK_WIDGET(entry->label), FALSE, FALSE, 1);
 
 		if (gtk_widget_get_visible(GTK_WIDGET(entry->label))) {
@@ -671,12 +671,12 @@ swap_orient_cb (GtkWidget *item, gpointer data)
 				break;
 			case GTK_PACK_DIRECTION_TTB:
 				gtk_label_set_angle(GTK_LABEL(item),
-						(orient == MATE_PANEL_APPLET_ORIENT_LEFT) ? 
+						(orient == MATE_PANEL_APPLET_ORIENT_LEFT) ?
 						270.0 : 90.0);
 				break;
 			default:
 				break;
-		}		
+		}
 	}
 	gtk_box_pack_start(GTK_BOX(to), item, FALSE, FALSE, 0);
 	return TRUE;
@@ -703,12 +703,12 @@ matepanelapplet_reorient_cb (GtkWidget *applet, MatePanelAppletOrient neworient,
 		gpointer data)
 {
 	GtkWidget *menubar = (GtkWidget *)data;
-	if ((((neworient == MATE_PANEL_APPLET_ORIENT_UP) || 
-			(neworient == MATE_PANEL_APPLET_ORIENT_DOWN)) && 
-			((orient == MATE_PANEL_APPLET_ORIENT_LEFT) || 
-			(orient == MATE_PANEL_APPLET_ORIENT_RIGHT))) || 
-			(((neworient == MATE_PANEL_APPLET_ORIENT_LEFT) || 
-			(neworient == MATE_PANEL_APPLET_ORIENT_RIGHT)) && 
+	if ((((neworient == MATE_PANEL_APPLET_ORIENT_UP) ||
+			(neworient == MATE_PANEL_APPLET_ORIENT_DOWN)) &&
+			((orient == MATE_PANEL_APPLET_ORIENT_LEFT) ||
+			(orient == MATE_PANEL_APPLET_ORIENT_RIGHT))) ||
+			(((neworient == MATE_PANEL_APPLET_ORIENT_LEFT) ||
+			(neworient == MATE_PANEL_APPLET_ORIENT_RIGHT)) &&
 			((orient == MATE_PANEL_APPLET_ORIENT_UP) ||
 			(orient == MATE_PANEL_APPLET_ORIENT_DOWN)))) {
 		packdirection = (packdirection == GTK_PACK_DIRECTION_LTR) ?
@@ -810,7 +810,7 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 #ifdef INDICATOR_APPLET_APPMENU
 		g_set_application_name(_("Indicator Applet Application Menu"));
 #endif
-		
+
 		g_log_set_default_handler(log_to_file, NULL);
 
 		tomboy_keybinder_init();
@@ -875,7 +875,7 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 	/* Build menubar */
 	orient = (mate_panel_applet_get_orient(applet));
 	packdirection = ((orient == MATE_PANEL_APPLET_ORIENT_UP) ||
-			(orient == MATE_PANEL_APPLET_ORIENT_DOWN)) ? 
+			(orient == MATE_PANEL_APPLET_ORIENT_DOWN)) ?
 			GTK_PACK_DIRECTION_LTR : GTK_PACK_DIRECTION_TTB;
 	gtk_menu_bar_set_pack_direction(GTK_MENU_BAR(menubar),
 			packdirection);
@@ -887,7 +887,7 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 #else
 	g_signal_connect_after(menubar, "expose-event", G_CALLBACK(menubar_on_expose), menubar);
 #endif
-	g_signal_connect(applet, "change-orient", 
+	g_signal_connect(applet, "change-orient",
 			G_CALLBACK(matepanelapplet_reorient_cb), menubar);
 	gtk_container_set_border_width(GTK_CONTAINER(menubar), 0);
 

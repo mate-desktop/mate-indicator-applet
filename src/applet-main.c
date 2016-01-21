@@ -285,7 +285,11 @@ entry_added (IndicatorObject * io, IndicatorObjectEntry * entry, GtkWidget * men
 
 	GtkWidget * menuitem = gtk_menu_item_new();
 	GtkWidget * box = (packdirection == GTK_PACK_DIRECTION_LTR) ?
-			gtk_hbox_new(FALSE, 3) : gtk_vbox_new(FALSE, 3);
+#if GTK_CHECK_VERSION (3, 0, 0)
+		gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 3) : gtk_box_new(GTK_ORIENTATION_VERTICAL, 3);
+#else
+		gtk_hbox_new(FALSE, 3) : gtk_vbox_new(FALSE, 3);
+#endif
 
 	g_object_set_data (G_OBJECT (menuitem), "indicator", io);
 	g_object_set_data (G_OBJECT (menuitem), "box", box);
@@ -688,7 +692,11 @@ reorient_box_cb (GtkWidget *menuitem, gpointer data)
 {
 	GtkWidget *from = g_object_get_data(G_OBJECT(menuitem), "box");
 	GtkWidget *to = (packdirection == GTK_PACK_DIRECTION_LTR) ?
-			gtk_hbox_new(FALSE, 0) : gtk_vbox_new(FALSE, 0);
+#if GTK_CHECK_VERSION (3, 0, 0)
+		gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0) : gtk_box_new(GTK_ORIENTATION_VERTICAL, 0);
+#else
+		gtk_hbox_new(FALSE, 0) : gtk_vbox_new(FALSE, 0);
+#endif
 	g_object_set_data(G_OBJECT(from), "to", to);
 	gtk_container_foreach(GTK_CONTAINER(from), (GtkCallback)swap_orient_cb,
 			from);

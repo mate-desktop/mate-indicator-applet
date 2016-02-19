@@ -5,15 +5,15 @@
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009
 # Yarema aka Knedlyk <yupadmin@gmail.com>, 2012
-# Микола Ткач <Stuartlittle1970@gmail.com>, 2013-2014
+# Микола Ткач <Stuartlittle1970@gmail.com>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2014-10-11 15:34+0000\n"
+"POT-Creation-Date: 2015-12-14 13:47+0300\n"
+"PO-Revision-Date: 2016-02-04 19:56+0000\n"
 "Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/projects/p/MATE/language/uk/)\n"
+"Language-Team: Ukrainian (http://www.transifex.com/mate/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:810
+#: ../src/applet-main.c:806
 msgid "Indicator Applet"
 msgstr "Аплет сповіщення"
 
@@ -30,7 +30,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Звертає вашу увагу на нові події"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:816
+#: ../src/applet-main.c:809
 msgid "Indicator Applet Complete"
 msgstr "Аплет Індикатор готовий"
 
@@ -40,68 +40,58 @@ msgstr "Уніфікований аплет, що містить усі інди
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
-msgstr "Меню програм аплета сповіщень"
+msgstr "Меню проґрам аплету сповіщень"
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
 msgid "A applet containing the application menus."
-msgstr "Аплет містить меню програм"
+msgstr "Аплет містить меню проґрам"
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:813
-msgid "Indicator Applet Session"
-msgstr "Аплет стану сесії"
-
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:634
-msgid "A place to adjust your status, change users or exit your session."
-msgstr "Для налаштування вашого статусу, зміни користувачів або виходу з сеансу."
-
-#: ../src/applet-main.c:615
+#: ../src/applet-main.c:623
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Ця програма є вільним програмним забезпеченням: Ви маєте право розповсюджувати, та/або змінювати її за умови дотримання вимог ліцензії GNU General Public License ред.3, виданої Free Software Foundation."
+msgstr "Ця проґрама є вільним програмним забезпеченням: Ви маєте право розповсюджувати, та/або змінювати її за умови дотримання вимог ліцензії GNU General Public License ред.3, виданої Free Software Foundation."
 
-#: ../src/applet-main.c:618
+#: ../src/applet-main.c:626
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Це програмне забезпечення розповсюджується з надією, що воно стане Вам в нагоді, але БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ чи ЗОБОВЯЗАНЬ; також виключно без ГАРАНТУВАННЯ РОБОТОЗДАТНОСТІ ПРОГРАМИ, чи ДОСТАТНОСТІ ЇЇ ЯКОСТІ чи ВІДПОВІДНОСТІ ПОСТАВЛЕНІЙ ЗАДАЧІ. Деталі читайте в ліцензії GNU General Public License."
+msgstr "Це проґрамне забезпечення розповсюджується зі сподіванням, що воно стане Вам в нагоді, але БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ чи ЗОБОВЯЗАНЬ; також виключно без ГАРАНТУВАННЯ РОБОТОЗДАТНОСТІ ПРОҐРАМИ, чи ДОСТАТНОСТІ ЇЇ ЯКОСТІ чи ВІДПОВІДНОСТІ ПОСТАВЛЕНІЙ ЗАДАЧІ. Деталі читайте в ліцензії GNU General Public License."
 
-#: ../src/applet-main.c:622
+#: ../src/applet-main.c:630
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Ви мали отримати копію GNU General Public License разом з цією програмою. Якщо цього не сталося, дивіться <http://www.gnu.org/licenses/>."
+msgstr "Ви мали отримати копію GNU General Public License разом з цією проґрамою. Якщо цього не сталося, дивіться <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:637
+#: ../src/applet-main.c:642
 msgid "An applet to hold your application menus."
-msgstr "Аплет містить меню ваших програм"
+msgstr "Аплет містить меню Ваших проґрам"
 
-#: ../src/applet-main.c:639
+#: ../src/applet-main.c:644
 msgid "An applet to hold all of the system indicators."
 msgstr "Цей Аплет панелі зберігає усі повідомлення системи."
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:648
 msgid "translator-credits"
 msgstr "Transifex Contributions:\n  Микола Ткач <Stuartlittle1970@gmail.com>\nLaunchpad Contributions:\n  Andriy Korchak https://launchpad.net/~kharts\n  Anton Gladky https://launchpad.net/~gladky-anton\n  Sergiy Gavrylov https://launchpad.net/~gavro\n  Serhey Kusyumoff (Сергій Кусюмов) https://launchpad.net/~sergemine\n  TheAsus https://launchpad.net/~linnik-ua\n  atany https://launchpad.net/~ye-gorshkov\n  kolybasov https://launchpad.net/~kolybasov\n  lserg https://launchpad.net/~lserg\n  nehxby https://launchpad.net/~nehxby-gmail"
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:652
 msgid "MATE Website"
 msgstr "Веб-сторінка MATE"
 
-#: ../src/applet-main.c:789
+#: ../src/applet-main.c:793
 msgid "_About"
 msgstr "_Про аплет"
 
-#: ../src/applet-main.c:819
+#: ../src/applet-main.c:812
 msgid "Indicator Applet Application Menu"
-msgstr "Меню програм аплета сповіщень"
+msgstr "Меню проґрам аплету сповіщень"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:945
+#: ../src/applet-main.c:930
 msgid "No Indicators"
 msgstr "Жодного індикатора"

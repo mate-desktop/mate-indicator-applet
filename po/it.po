@@ -3,24 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-# Stefano Karapetsas <stefano@karapetsas.com>, 2012.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
+# Stefano Karapetsas <stefano@karapetsas.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-03-15 09:37+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/MATE/language/it/)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-14 13:47+0300\n"
+"PO-Revision-Date: 2016-01-24 16:48+0000\n"
+"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
+"Language-Team: Italian (http://www.transifex.com/mate/MATE/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:810
+#: ../src/applet-main.c:806
 msgid "Indicator Applet"
 msgstr "Indicatore"
 
@@ -29,7 +29,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Un indicatore di qualcosa che richiede attenzione sul desktop"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:816
+#: ../src/applet-main.c:809
 msgid "Indicator Applet Complete"
 msgstr "Indicatore completo"
 
@@ -45,24 +45,14 @@ msgstr "Indicatore Appmenu"
 msgid "A applet containing the application menus."
 msgstr "Un'applet che contiene i menù delle applicazioni"
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:813
-msgid "Indicator Applet Session"
-msgstr "Indicatore sessione"
-
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:634
-msgid "A place to adjust your status, change users or exit your session."
-msgstr "Una posizione per impostare il proprio stato, cambiare utente o terminare la sessione."
-
-#: ../src/applet-main.c:615
+#: ../src/applet-main.c:623
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "Questo programma è software libero; è possibile ridistribuirlo o modificarlo secondo i termini della licenza GNU General Public License versione 3, come pubblicato dalla Free Software Foundation."
 
-#: ../src/applet-main.c:618
+#: ../src/applet-main.c:626
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -70,37 +60,37 @@ msgid ""
 "General Public License for more details."
 msgstr "Questo programma è distribuito nella speranza che possa risultare utile, ma SENZA ALCUNA GARANZIA, nemmeno la garanzia implicita di COMMERCIABILITÀ, QUALITÀ SODDISFACENTE o APPLICABILITÀ PER UNO SCOPO PARTICOLARE. Per maggiori dettagli consultare la GNU General Public License."
 
-#: ../src/applet-main.c:622
+#: ../src/applet-main.c:630
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "Una copia della licenza GNU General Public License dovrebbe essere disponibile con questo programma. In caso contrario consultare <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:637
+#: ../src/applet-main.c:642
 msgid "An applet to hold your application menus."
 msgstr "Un'applet per contenere i menù delle applicazioni."
 
-#: ../src/applet-main.c:639
+#: ../src/applet-main.c:644
 msgid "An applet to hold all of the system indicators."
 msgstr "Un'applet per contenere tutti gli indicatori di sistema."
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:648
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  Abramo https://launchpad.net/~abramo-fratus\n  Ale_B https://launchpad.net/~baldoalessandro\n  Alessandro Signore https://launchpad.net/~lex25288\n  Claudio Arseni https://launchpad.net/~claudio.arseni\n  Daniele Napolitano https://launchpad.net/~dnax88\n  Davide Notaristefano https://launchpad.net/~mokmo\n  Davide Targa https://launchpad.net/~davide-targa\n  Fabio Isgrò https://launchpad.net/~dr.gogeta86\n  Leonardo Robol https://launchpad.net/~leo.robol\n  Luca Ferretti https://launchpad.net/~elle.uca\n  Luca Invernizzi https://launchpad.net/~invernizzi\n  Maurizio.Colella https://launchpad.net/~m-colella88\n  Milo Casagrande https://launchpad.net/~milo\n  Nicholas Pellizer https://launchpad.net/~nicholas.pellizer\n  Riccardo Angelino https://launchpad.net/~rikyinformation\n  Sergio Zanchetta https://launchpad.net/~primes2h\n  Stefano Ripamonti https://launchpad.net/~stefanoripa1\n  Uqbar https://launchpad.net/~uqbar\n  grizzo94 https://launchpad.net/~nicolaramoso\n  japs_it88 https://launchpad.net/~j-nespolo"
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:652
 msgid "MATE Website"
 msgstr "Sito web di MATE"
 
-#: ../src/applet-main.c:789
+#: ../src/applet-main.c:793
 msgid "_About"
 msgstr "I_nformazioni"
 
-#: ../src/applet-main.c:819
+#: ../src/applet-main.c:812
 msgid "Indicator Applet Application Menu"
 msgstr "Indicatore menù applicazioni"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:945
+#: ../src/applet-main.c:930
 msgid "No Indicators"
 msgstr "Nessun indicatore"

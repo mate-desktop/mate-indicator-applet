@@ -3,24 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2012.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-04-13 12:51+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew (http://www.transifex.com/projects/p/MATE/language/he/)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-14 13:47+0300\n"
+"PO-Revision-Date: 2016-02-08 15:07+0000\n"
+"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
+"Language-Team: Hebrew (http://www.transifex.com/mate/MATE/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:810
+#: ../src/applet-main.c:806
 msgid "Indicator Applet"
 msgstr "יישומון מחוון"
 
@@ -29,7 +29,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "מחוון למשהו שזקוק להתייחסות המשתמש על גבי שולחן העבודה"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:816
+#: ../src/applet-main.c:809
 msgid "Indicator Applet Complete"
 msgstr "יישומון המחוונים הושלם"
 
@@ -45,24 +45,14 @@ msgstr "תפריט היישום ליישומון המחוון"
 msgid "A applet containing the application menus."
 msgstr "יישומון המכיל את תפריט היישומים."
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:813
-msgid "Indicator Applet Session"
-msgstr "הפעלה של יישומון מחוון"
-
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:634
-msgid "A place to adjust your status, change users or exit your session."
-msgstr "מקום להגדרת המצב שלך, להחלפת משתמשים או ליציאה מההפעלה הנוכחית שלך."
-
-#: ../src/applet-main.c:615
+#: ../src/applet-main.c:623
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "תכנית זו היא תכנה חופשית; ניתן להפיצה מחדש ו/או לשנותה לפי תנאי הרישיון הציבורי הכללי של GNU כפי שפורסם על ידי קרן התכנה החופשית; בין אם גרסה 3 של הרישיון, ובין אם (לפי בחירתך) כל גרסה מאוחרת שלו."
 
-#: ../src/applet-main.c:618
+#: ../src/applet-main.c:626
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -70,37 +60,37 @@ msgid ""
 "General Public License for more details."
 msgstr "תכנית זו מופצת בתקווה שתהיה שימושית אבל בלא כל אחריות; בלא אפילו אחריות משתמעת למסחריות, איכות מספקת או התאמה לשימוש מסוים. ניתן לעיין ברישיון הציבורי הכללי של GNU לפרטים נוספים."
 
-#: ../src/applet-main.c:622
+#: ../src/applet-main.c:630
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "יחד עם תכנית זו אמור היה להיות מצורף עותק של הרישיון הציבורי הכללי של GNU; במידה שלא, ניתן בקר בכתובת <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:637
+#: ../src/applet-main.c:642
 msgid "An applet to hold your application menus."
 msgstr "יישומון להחזקת תפריטי היישומים שלך."
 
-#: ../src/applet-main.c:639
+#: ../src/applet-main.c:644
 msgid "An applet to hold all of the system indicators."
 msgstr "יישומון להחזקת כל מחווני המערכת."
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:648
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  Omri Strumza https://launchpad.net/~blueomega\n  Yaron https://launchpad.net/~sh-yaron"
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:652
 msgid "MATE Website"
 msgstr "האתר של MATE"
 
-#: ../src/applet-main.c:789
+#: ../src/applet-main.c:793
 msgid "_About"
 msgstr "על _אודות"
 
-#: ../src/applet-main.c:819
+#: ../src/applet-main.c:812
 msgid "Indicator Applet Application Menu"
 msgstr "תפריט יישומי יישומון המחוון"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:945
+#: ../src/applet-main.c:930
 msgid "No Indicators"
 msgstr "ללא מחוונים"

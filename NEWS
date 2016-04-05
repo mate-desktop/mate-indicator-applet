@@ -1,3 +1,8 @@
+1.14.0
+
+  * GTK+3: fix a few deprecations
+  * Translations update
+
 1.12.1
 
   * Allow volume change with mouse scroll over

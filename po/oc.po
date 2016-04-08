@@ -3,23 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-03-15 09:34+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-14 13:47+0300\n"
+"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
+"Language-Team: Occitan (post 1500) (http://www.transifex.com/mate/MATE/language/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: oc\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:810
+#: ../src/applet-main.c:806
 msgid "Indicator Applet"
 msgstr "Applet de notificacion"
 
@@ -28,7 +28,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Un indicator que senhala que quicòm sul burèu reclama vòstra atencion"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:816
+#: ../src/applet-main.c:809
 msgid "Indicator Applet Complete"
 msgstr "Applet d'indicacion complet"
 
@@ -44,24 +44,14 @@ msgstr "Microaplicacion indicador Appmenu"
 msgid "A applet containing the application menus."
 msgstr "Una microaplicacion qu'aficha los menuts de las aplicacions."
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:813
-msgid "Indicator Applet Session"
-msgstr "Applet de notificacion de sesilha"
-
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:634
-msgid "A place to adjust your status, change users or exit your session."
-msgstr "Un endrech per modificar vòstre estat, cambiar d'utilizaire o tampar vòstra sesilha."
-
-#: ../src/applet-main.c:615
+#: ../src/applet-main.c:623
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "Aqueste programa es un logicial liure : lo podètz redistribuir e/o modificar segon los tèrmes de la version 3 de la « GNU General Public License », tala coma es publicada per la Free Software Foundation."
 
-#: ../src/applet-main.c:618
+#: ../src/applet-main.c:626
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -69,37 +59,37 @@ msgid ""
 "General Public License for more details."
 msgstr "Aqueste programa es distribuit dins l'esper que serà util, mas SENS CAP GARANTIA ; sens las quitas garantias implicitas de CONFORMITAT, de QUALITAT SATISFASENTA o D'ADEQÜACION A UNA UTILIZACION PARTICULARA. Vejatz la « GNU General Public License » per mai de precisions."
 
-#: ../src/applet-main.c:622
+#: ../src/applet-main.c:630
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "Vos caldriá aver recebut una còpia de la « GNU General Public License » amb aqueste programa. Siquenon, vejatz <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:637
+#: ../src/applet-main.c:642
 msgid "An applet to hold your application menus."
 msgstr "Una microaplicacion per afichar los menuts de vòstras aplicacions."
 
-#: ../src/applet-main.c:639
+#: ../src/applet-main.c:644
 msgid "An applet to hold all of the system indicators."
 msgstr "Una applet per acampar totas las notificacions del sistèma."
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:648
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  Cédric VALMARY (Tot en òc) https://launchpad.net/~cvalmary\n  Yannig MARCHEGAY (Kokoyaya) https://launchpad.net/~yannick-marchegay"
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:652
 msgid "MATE Website"
 msgstr ""
 
-#: ../src/applet-main.c:789
+#: ../src/applet-main.c:793
 msgid "_About"
 msgstr "_A prepaus"
 
-#: ../src/applet-main.c:819
+#: ../src/applet-main.c:812
 msgid "Indicator Applet Application Menu"
 msgstr "Microaplicacion indicador pels menuts d'aplicacions"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:945
+#: ../src/applet-main.c:930
 msgid "No Indicators"
 msgstr "Pas de notificacions"

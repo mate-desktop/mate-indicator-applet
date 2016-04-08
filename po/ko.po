@@ -4,15 +4,16 @@
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009
-# Darkcircle <darkcircle.0426@gmail.com>, 2014
+# 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>, 2016
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2014-02-27 15:53+0000\n"
-"Last-Translator: Darkcircle <darkcircle.0426@gmail.com>\n"
-"Language-Team: Korean (http://www.transifex.com/projects/p/MATE/language/ko/)\n"
+"POT-Creation-Date: 2015-12-14 13:47+0300\n"
+"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"Last-Translator: 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>\n"
+"Language-Team: Korean (http://www.transifex.com/mate/MATE/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:810
+#: ../src/applet-main.c:806
 msgid "Indicator Applet"
 msgstr "알리미 애플릿"
 
@@ -29,7 +30,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "사용자의 관심을 필요로 하는 각종 정보를 바탕 화면에 띄우는 알리미"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:816
+#: ../src/applet-main.c:809
 msgid "Indicator Applet Complete"
 msgstr "알리미 애플릿 성공"
 
@@ -45,24 +46,14 @@ msgstr "프로그램 메뉴 알리미"
 msgid "A applet containing the application menus."
 msgstr "프로그램 메뉴를 보여주는 애플릿입니다."
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:813
-msgid "Indicator Applet Session"
-msgstr "알리미 애플릿 세션"
-
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:634
-msgid "A place to adjust your status, change users or exit your session."
-msgstr "상태 변경, 사용자 전환, 세션 종료를 하는 장소."
-
-#: ../src/applet-main.c:615
+#: ../src/applet-main.c:623
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "이 프로그램은 자유 소프트웨어입니다. 자유 소프트웨어 재단에서 공포한 GNU General Public License 버전3에 따라 재배포 및 수정할 수 있습니다."
 
-#: ../src/applet-main.c:618
+#: ../src/applet-main.c:626
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -70,37 +61,37 @@ msgid ""
 "General Public License for more details."
 msgstr "이 프로그램은 유용하게 사용될 수 있으리라는 희망에서 배포되고 있지만, 특정한 목적에 맞는 적합성 여부나 판매용으로 사용할 수 있으리라는 묵시적인 보증을 포함한 어떠한 형태의 보증도 제공하지 않습니다. 보다 자세한 사항에 대해서는 GNU General Public License를 참고하시기 바랍니다."
 
-#: ../src/applet-main.c:622
+#: ../src/applet-main.c:630
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "GNU 일반 공중 사용 허가서는 이 프로그램과 함께 제공됩니다. 만약 그렇지 않다면 <http://www.gnu.org/licenses/> 문서를 보기 바랍니다."
 
-#: ../src/applet-main.c:637
+#: ../src/applet-main.c:642
 msgid "An applet to hold your application menus."
 msgstr "프로그램 메뉴를 담는 애플릿"
 
-#: ../src/applet-main.c:639
+#: ../src/applet-main.c:644
 msgid "An applet to hold all of the system indicators."
 msgstr "모든 시스템 알리미를 위한 애플릿"
 
-#: ../src/applet-main.c:644
-msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Bugbear5 https://launchpad.net/~bugbear5\n  Bundo https://launchpad.net/~kang-bundo\n  Ernesto2k https://launchpad.net/~boramism\n  Inbae https://launchpad.net/~soinbae\n  Jaesung https://launchpad.net/~jaesung\n  KiJune Yoon https://launchpad.net/~kijune\n  Namhyung Kim https://launchpad.net/~namhyung\n  Para https://launchpad.net/~khrhee\n  Seung Soo, Ha https://launchpad.net/~sungsuha"
-
 #: ../src/applet-main.c:648
+msgid "translator-credits"
+msgstr "Launchpad Contributions:\n  Bugbear5 https://launchpad.net/~bugbear5\n  Bundo https://launchpad.net/~kang-bundo\n  Ernesto2k https://launchpad.net/~boramism\n  Inbae https://launchpad.net/~soinbae\n  Jaesung https://launchpad.net/~jaesung\n  KiJune Yoon https://launchpad.net/~kijune\n  Namhyung Kim https://launchpad.net/~namhyung\n  Para https://launchpad.net/~khrhee\n  Seung Soo, Ha https://launchpad.net/~sungsuha\nMATE Desktop Environment Team <https://www.transifex.com/mate/teams/13566/ko/>"
+
+#: ../src/applet-main.c:652
 msgid "MATE Website"
 msgstr "마테 웹사이트"
 
-#: ../src/applet-main.c:789
+#: ../src/applet-main.c:793
 msgid "_About"
 msgstr "정보(_A)"
 
-#: ../src/applet-main.c:819
+#: ../src/applet-main.c:812
 msgid "Indicator Applet Application Menu"
 msgstr "지시 애플릿 프로그램 메뉴"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:945
+#: ../src/applet-main.c:930
 msgid "No Indicators"
 msgstr "알리미 없음"

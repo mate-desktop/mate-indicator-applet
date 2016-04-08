@@ -3,23 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2012-03-15 09:32+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-14 13:47+0300\n"
+"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
+"Language-Team: Telugu (http://www.transifex.com/mate/MATE/language/te/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: te\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:810
+#: ../src/applet-main.c:806
 msgid "Indicator Applet"
 msgstr "అప్లెట్ సూచిక"
 
@@ -28,7 +28,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "రంగస్థలంపై మీరు గమనించవలసినది తెలుపు సూచిక"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:816
+#: ../src/applet-main.c:809
 msgid "Indicator Applet Complete"
 msgstr "అప్లెట్ సూచిక పూర్తి"
 
@@ -44,24 +44,14 @@ msgstr "అప్మెనూ అప్లెట్ సూచిక"
 msgid "A applet containing the application menus."
 msgstr "అనువర్తనం మెనూలు కల అప్లెట్"
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:813
-msgid "Indicator Applet Session"
-msgstr "అప్లెట్ సూచిక సెషన్"
-
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:634
-msgid "A place to adjust your status, change users or exit your session."
-msgstr "మీ స్థితిని మార్చు, వాడుకరులను మార్చు లేక సెషన్ నిష్క్రమించుటకు స్థానం"
-
-#: ../src/applet-main.c:615
+#: ../src/applet-main.c:623
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "ఈ ప్రోగ్రామ్  ‌వుచిత సాఫ్ట్వేర్.   ఫ్రీ సాఫ్ట్వేర్ ఫౌండేషన్  వారి GNU జనరల్ పబ్లిక్ లైసెన్సు రూపాంతరం 3  ప్రకారం  మీరు పంచవచ్చు లేక మార్పుచేయవచ్చు"
 
-#: ../src/applet-main.c:618
+#: ../src/applet-main.c:626
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -69,37 +59,37 @@ msgid ""
 "General Public License for more details."
 msgstr "ఇది వుపయోగకరం అని ఆశతో దీనిని పంపిణి చేస్తున్నాము. అయితే  దీని నాణ్యతహామీలు లేవు; సామాన్యంగా అనుకొనే  అమ్మదగిన, తృప్తికరమైన నాణ్యత లేక ఒకానొక పనికి తగినది అనే హామీలుకూడా లేవు. మరిన్ని వివరాలకు  GNU జనరల్ పబ్లిక్ లైసెన్సు చూడండి."
 
-#: ../src/applet-main.c:622
+#: ../src/applet-main.c:630
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "మీరు ఈ ప్రోగ్రాముతోటి GNU జనరల్ పబ్లిక్ లైసెన్సు యొక్క వొక నకలును పొందివుంటారు.  పొందక పోతే, <http://www.gnu.org/licenses/> చూడండి."
 
-#: ../src/applet-main.c:637
+#: ../src/applet-main.c:642
 msgid "An applet to hold your application menus."
 msgstr "అనువర్తనం మెనూలు కలిగివుండటానికి అప్లెట్"
 
-#: ../src/applet-main.c:639
+#: ../src/applet-main.c:644
 msgid "An applet to hold all of the system indicators."
 msgstr "మీ వ్యవస్థ సూచికలు కలిగివుండటానికి అప్లెట్"
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:648
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  Arjuna Rao Chavala https://launchpad.net/~arjunaraoc-gmail\n  Praveen Illa https://launchpad.net/~telugulinux"
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:652
 msgid "MATE Website"
 msgstr ""
 
-#: ../src/applet-main.c:789
+#: ../src/applet-main.c:793
 msgid "_About"
 msgstr "గురించి(_A)"
 
-#: ../src/applet-main.c:819
+#: ../src/applet-main.c:812
 msgid "Indicator Applet Application Menu"
 msgstr "అనువర్తనం మెనూ అప్లెట్ సూచిక"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:945
+#: ../src/applet-main.c:930
 msgid "No Indicators"
 msgstr "సూచికలు లేవు"

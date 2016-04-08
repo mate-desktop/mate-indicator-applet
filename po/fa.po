@@ -10,10 +10,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-15 10:30+0100\n"
-"PO-Revision-Date: 2014-02-15 12:58+0000\n"
-"Last-Translator: Mohammadreza Abdollahzadeh <morealaz@gmail.com>\n"
-"Language-Team: Persian (http://www.transifex.com/projects/p/MATE/language/fa/)\n"
+"POT-Creation-Date: 2015-12-14 13:47+0300\n"
+"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
+"Language-Team: Persian (http://www.transifex.com/mate/MATE/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:810
+#: ../src/applet-main.c:806
 msgid "Indicator Applet"
 msgstr "ابزارک نمایشگر"
 
@@ -30,7 +30,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "نمایشگری برای برخی چیز‌ها که نیازمند توجه شما در میزکار هستند."
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:816
+#: ../src/applet-main.c:809
 msgid "Indicator Applet Complete"
 msgstr "ابزارک نمایشگر کامل"
 
@@ -46,24 +46,14 @@ msgstr "فهرست برنامه ابزارک نمایشگر"
 msgid "A applet containing the application menus."
 msgstr "ابزارکی که فهرست برنامه‌ها را در بر دارد."
 
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:813
-msgid "Indicator Applet Session"
-msgstr "جلسه ابزارک نمایشگر"
-
-#: ../data/org.ayatana.panel.FastUserSwitchApplet.mate-panel-applet.in.in.h:2
-#: ../src/applet-main.c:634
-msgid "A place to adjust your status, change users or exit your session."
-msgstr "مکانی برای تنظیم وضعیت خود، تغییر کاربر یا خروج از جلسه فعلی."
-
-#: ../src/applet-main.c:615
+#: ../src/applet-main.c:623
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "این برنامه یک نرم افزار رایگان است : شما میتوانید آن را دوباره منتشر کنید و/یا آنرا تحت بندهای GNU General Public License version 3 که توسط سازمان نرم افزارهای رایگان منتشر شده،  تغییر دهید."
 
-#: ../src/applet-main.c:618
+#: ../src/applet-main.c:626
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -71,37 +61,37 @@ msgid ""
 "General Public License for more details."
 msgstr "این نرم افزار به این امید که مفید باشد منتشر شده، ولی بدون هیچگونه تضمینی؛ حتی بدون تضمین دلالت بر ضمن قابل فروش بودن، کیفت مناسب داشتن و یا مناسب استفاده خاص بودن. برای جزییات بیشتر به لیسانس کلی عام گنو مراجعه کنید."
 
-#: ../src/applet-main.c:622
+#: ../src/applet-main.c:630
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "شما با این نرم افزار باید یک نسخه از »لیسانس کلی عموم« دریافت کرده باشید. در غیر اینصورت به <http://www.gnu.org/licenses/> مراجعه کنید."
 
-#: ../src/applet-main.c:637
+#: ../src/applet-main.c:642
 msgid "An applet to hold your application menus."
 msgstr "یک ابزارک برای نگه داشتن فهرست برنامه‌ها."
 
-#: ../src/applet-main.c:639
+#: ../src/applet-main.c:644
 msgid "An applet to hold all of the system indicators."
 msgstr "یک ابزارک برای نگه داشتن تمام نمایشگرهای سیستم."
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:648
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  Hassanakevazir https://launchpad.net/~hassanakevazir\n  fzerorubigd https://launchpad.net/~fzerorubigd\n  پویان https://launchpad.net/~pouyan"
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:652
 msgid "MATE Website"
 msgstr "وب سایت ماته"
 
-#: ../src/applet-main.c:789
+#: ../src/applet-main.c:793
 msgid "_About"
 msgstr "درباره"
 
-#: ../src/applet-main.c:819
+#: ../src/applet-main.c:812
 msgid "Indicator Applet Application Menu"
 msgstr "فهرست برنامه ابزارک نمایشگر"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:945
+#: ../src/applet-main.c:930
 msgid "No Indicators"
 msgstr "نمایشگری موجود نیست"

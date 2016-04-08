@@ -5,13 +5,13 @@
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009
 # Yarema aka Knedlyk <yupadmin@gmail.com>, 2012
-# Микола Ткач <Stuartlittle1970@gmail.com>, 2013-2015
+# Микола Ткач <Stuartlittle1970@gmail.com>, 2013-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-14 13:47+0300\n"
-"PO-Revision-Date: 2016-02-04 19:56+0000\n"
+"PO-Revision-Date: 2016-04-07 15:23+0000\n"
 "Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/mate/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "Аплет сповіщення"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Звертає вашу увагу на нові події"
+msgstr "Звертає Вашу увагу на нові події"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:809
@@ -51,7 +51,7 @@ msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Ця проґрама є вільним програмним забезпеченням: Ви маєте право розповсюджувати, та/або змінювати її за умови дотримання вимог ліцензії GNU General Public License ред.3, виданої Free Software Foundation."
+msgstr "Ця проґрама є вільним проґрамним забезпеченням: Ви маєте право розповсюджувати, та/або змінювати її за умови дотримання вимог ліцензії GNU General Public License ред.3, виданої Free Software Foundation."
 
 #: ../src/applet-main.c:626
 msgid ""
@@ -59,7 +59,7 @@ msgid ""
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Це проґрамне забезпечення розповсюджується зі сподіванням, що воно стане Вам в нагоді, але БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ чи ЗОБОВЯЗАНЬ; також виключно без ГАРАНТУВАННЯ РОБОТОЗДАТНОСТІ ПРОҐРАМИ, чи ДОСТАТНОСТІ ЇЇ ЯКОСТІ чи ВІДПОВІДНОСТІ ПОСТАВЛЕНІЙ ЗАДАЧІ. Деталі читайте в ліцензії GNU General Public License."
+msgstr "Це проґрамне забезпечення розповсюджується зі сподіванням, що воно стане Вам в нагоді, але БЕЗ БУДЬ-ЯКИХ ЗАПОРУК чи ЗОБОВЯЗАНЬ; також виключно без ЗАПОРУК ПРАЦЕЗДАТНОСТИ ПРОҐРАМИ, чи ДОСТАТНОСТИ ЇЇ ЯКОСТИ чи ВІДПОВІДНОСТИ ПОСТАВЛЕНІЙ ЗАДАЧІ. Деталі читайте у ліцензії GNU General Public License."
 
 #: ../src/applet-main.c:630
 msgid ""

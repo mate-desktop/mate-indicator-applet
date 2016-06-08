@@ -1,3 +1,10 @@
+1.15.0
+
+  * move indicator loading/setup code into separate function
+  * move module loading code into separate function
+  * eggaccelerators: remove unused function
+  * Update translations
+
 1.14.0
 
   * GTK+3: fix a few deprecations

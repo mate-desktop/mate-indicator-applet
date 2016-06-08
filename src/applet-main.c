@@ -505,24 +505,9 @@ update_accessible_desc(IndicatorObjectEntry * entry, GtkWidget * menuitem)
 	return;
 }
 
-
-static gboolean
-load_module (const gchar * name, GtkWidget * menubar)
+static void
+load_indicator (GtkWidget * menubar, IndicatorObject *io, const gchar *name)
 {
-	g_debug("Looking at Module: %s", name);
-	g_return_val_if_fail(name != NULL, FALSE);
-
-	if (!g_str_has_suffix(name, G_MODULE_SUFFIX)) {
-		return FALSE;
-	}
-
-	g_debug("Loading Module: %s", name);
-
-	/* Build the object for the module */
-	gchar * fullpath = g_build_filename(INDICATOR_DIR, name, NULL);
-	IndicatorObject * io = indicator_object_new_from_file(fullpath);
-	g_free(fullpath);
-
 	/* Set the environment it's in */
 	indicator_object_set_environment(io, (const GStrv)indicator_env);
 
@@ -546,6 +531,26 @@ load_module (const gchar * name, GtkWidget * menubar)
 	}
 
 	g_list_free(entries);
+}
+
+static gboolean
+load_module (const gchar * name, GtkWidget * menubar)
+{
+	g_debug("Looking at Module: %s", name);
+	g_return_val_if_fail(name != NULL, FALSE);
+
+	if (!g_str_has_suffix(name, G_MODULE_SUFFIX)) {
+		return FALSE;
+	}
+
+	g_debug("Loading Module: %s", name);
+
+	/* Build the object for the module */
+	gchar * fullpath = g_build_filename(INDICATOR_DIR, name, NULL);
+	IndicatorObject * io = indicator_object_new_from_file(fullpath);
+	g_free(fullpath);
+
+	load_indicator(menubar, io, name);
 
 	return TRUE;
 }

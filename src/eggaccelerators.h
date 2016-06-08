@@ -76,9 +76,6 @@ void     egg_keymap_virtualize_modifiers      (GdkKeymap              *keymap,
                                                GdkModifierType         concrete_mods,
                                                EggVirtualModifierType *virtual_mods);
 
-gchar* egg_virtual_accelerator_name (guint                  accelerator_key,
-                                     EggVirtualModifierType accelerator_mods);
-
 G_END_DECLS
 
 

@@ -291,6 +291,11 @@ entry_added (IndicatorObject * io, IndicatorObjectEntry * entry, GtkWidget * men
 		gtk_hbox_new(FALSE, 3) : gtk_vbox_new(FALSE, 3);
 #endif
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+	/* Allows indicators to receive mouse scroll event in GTK+3 */
+	gtk_widget_add_events(GTK_WIDGET(menuitem), GDK_SCROLL_MASK);
+#endif
+
 	g_object_set_data (G_OBJECT (menuitem), "indicator", io);
 	g_object_set_data (G_OBJECT (menuitem), "box", box);
 

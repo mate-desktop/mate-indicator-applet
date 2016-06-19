@@ -11,7 +11,8 @@ mate_indicator_applet_CFLAGS = \
 	-DINDICATOR_ICONS_DIR=\""$(INDICATORICONSDIR)"\" \
 	-DINDICATOR_APPLET \
 	-I$(srcdir)/.. \
-	$(APPLET_CFLAGS)
+	$(APPLET_CFLAGS) \
+	$(INDICATOR_CFLAGS)
 
 mate_indicator_applet_SOURCES = \
 	applet-main.c \
@@ -22,6 +23,7 @@ mate_indicator_applet_SOURCES = \
 
 mate_indicator_applet_LDADD = \
 	$(APPLET_LIBS) \
+	$(INDICATOR_LIBS) \
 	-lX11
 
 mate_indicator_applet_appmenu_CFLAGS = \
@@ -31,7 +33,8 @@ mate_indicator_applet_appmenu_CFLAGS = \
 	-DINDICATOR_ICONS_DIR=\""$(INDICATORICONSDIR)"\" \
 	-DINDICATOR_APPLET_APPMENU \
 	-I$(srcdir)/.. \
-	$(APPLET_CFLAGS)
+	$(APPLET_CFLAGS) \
+	$(INDICATOR_CFLAGS)
 
 mate_indicator_applet_appmenu_SOURCES = \
 	applet-main.c \
@@ -42,6 +45,7 @@ mate_indicator_applet_appmenu_SOURCES = \
 
 mate_indicator_applet_appmenu_LDADD = \
 	$(APPLET_LIBS) \
+	$(INDICATOR_LIBS) \
 	-lX11
 
 mate_indicator_applet_complete_CFLAGS = \
@@ -51,7 +55,8 @@ mate_indicator_applet_complete_CFLAGS = \
 	-DINDICATOR_ICONS_DIR=\""$(INDICATORICONSDIR)"\" \
 	-DINDICATOR_APPLET_COMPLETE \
 	-I$(srcdir)/.. \
-	$(APPLET_CFLAGS)
+	$(APPLET_CFLAGS) \
+	$(INDICATOR_CFLAGS)
 
 mate_indicator_applet_complete_SOURCES =	\
 	applet-main.c \
@@ -62,4 +67,5 @@ mate_indicator_applet_complete_SOURCES =	\
 
 mate_indicator_applet_complete_LDADD = \
 	$(APPLET_LIBS) \
+	$(INDICATOR_LIBS) \
 	-lX11

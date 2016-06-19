@@ -51,10 +51,14 @@ INDICATOR_PKG=indicator$INDICATOR_API_VERSION-0.4
 PKG_CHECK_MODULES(APPLET, gtk+-$GTK_API_VERSION >= $GTK_REQUIRED_VERSION
                           x11
                           libmatepanelapplet-4.0
-                          $INDICATOR_PKG >= $INDICATOR_REQUIRED_VERSION
                           )
 AC_SUBST(APPLET_CFLAGS)
 AC_SUBST(APPLET_LIBS)
+
+PKG_CHECK_MODULES(INDICATOR, $INDICATOR_PKG >= $INDICATOR_REQUIRED_VERSION)
+
+AC_SUBST(INDICATOR_CFLAGS)
+AC_SUBST(INDICATOR_LIBS)
 
 ###########################
 # Check to see if we're local

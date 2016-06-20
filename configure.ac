@@ -46,16 +46,28 @@ case "$with_gtk" in
 esac
 
 INDICATOR_REQUIRED_VERSION=0.3.90
+INDICATOR_NG_VERSION=12.10
 INDICATOR_PKG=indicator$INDICATOR_API_VERSION-0.4
 
 PKG_CHECK_MODULES(APPLET, gtk+-$GTK_API_VERSION >= $GTK_REQUIRED_VERSION
                           x11
                           libmatepanelapplet-4.0
                           )
+
 AC_SUBST(APPLET_CFLAGS)
 AC_SUBST(APPLET_LIBS)
 
-PKG_CHECK_MODULES(INDICATOR, $INDICATOR_PKG >= $INDICATOR_REQUIRED_VERSION)
+PKG_CHECK_EXISTS($INDICATOR_PKG >= $INDICATOR_NG_VERSION,
+                 [have_indicator_ng="yes"],
+                 [have_indicator_ng="no"])
+
+if test "x$with_gtk" = "x3.0" && test "x$have_indicator_ng" = "xyes"; then
+    PKG_CHECK_MODULES(INDICATOR, $INDICATOR_PKG >= $INDICATOR_NG_VERSION
+                      libido3-0.1 >= 13.10,
+                      [AC_DEFINE(HAVE_INDICATOR_NG, 1, "New style indicators support")])
+else
+    PKG_CHECK_MODULES(INDICATOR, $INDICATOR_PKG >= $INDICATOR_REQUIRED_VERSION)
+fi
 
 AC_SUBST(INDICATOR_CFLAGS)
 AC_SUBST(INDICATOR_LIBS)

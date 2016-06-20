@@ -28,7 +28,14 @@ with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <gdk/gdkkeysyms.h>
 #include <gtk/gtk.h>
 
-#include "libindicator/indicator-object.h"
+#include <libindicator/indicator-object.h>
+
+/* For new style indicators */
+#if HAVE_INDICATOR_NG
+#include <libido/libido.h>
+#include <libindicator/indicator-ng.h>
+#endif
+
 #include "tomboykeybinder.h"
 
 static gchar * indicator_order[] = {
@@ -517,7 +524,16 @@ load_indicator (GtkWidget * menubar, IndicatorObject *io, const gchar *name)
 	indicator_object_set_environment(io, (const GStrv)indicator_env);
 
 	/* Attach the 'name' to the object */
-	g_object_set_data(G_OBJECT(io), IO_DATA_ORDER_NUMBER, GINT_TO_POINTER(name2order(name)));
+#if HAVE_INDICATOR_NG
+	int pos = 5000 - indicator_object_get_position(io);
+	if (pos > 5000) {
+		pos = name2order(name);
+	}
+#else
+	int pos = name2order(name);
+#endif
+
+	g_object_set_data(G_OBJECT(io), IO_DATA_ORDER_NUMBER, GINT_TO_POINTER(pos));
 
 	/* Connect to its signals */
 	g_signal_connect(G_OBJECT(io), INDICATOR_OBJECT_SIGNAL_ENTRY_ADDED,   G_CALLBACK(entry_added),    menubar);
@@ -591,11 +607,73 @@ load_modules (GtkWidget *menubar, gint *indicators_loaded)
 			}
 		}
 
-		*indicators_loaded = count;
+		*indicators_loaded += count;
 
 		g_dir_close (dir);
 	}
 }
+
+#if HAVE_INDICATOR_NG
+
+#define INDICATOR_SERVICE_DIR "/usr/share/unity/indicators"
+
+static void
+load_indicators_from_indicator_files (GtkWidget *menubar, gint *indicators_loaded)
+{
+	GDir *dir;
+	const gchar *name;
+	GError *error = NULL;
+
+	dir = g_dir_open (INDICATOR_SERVICE_DIR, 0, &error);
+
+	if (!dir) {
+		g_warning ("unable to open indicator service file directory: %s", error->message);
+		g_error_free (error);
+
+		return;
+	}
+
+	gint count = 0;
+	while ((name = g_dir_read_name (dir))) {
+		gchar *filename;
+		IndicatorNg *indicator;
+
+		filename = g_build_filename (INDICATOR_SERVICE_DIR, name, NULL);
+		indicator = indicator_ng_new_for_profile (filename, "desktop", &error);
+		g_free (filename);
+
+#ifdef INDICATOR_APPLET_APPMENU
+		if (g_strcmp0(name, "com.canonical.indicator.appmenu")) {
+			continue;
+		}
+#else
+		if (!g_strcmp0(name, "com.canonical.indicator.appmenu")) {
+			continue;
+		}
+#endif
+#ifdef INDICATOR_APPLET
+		if (!g_strcmp0(name, "com.canonical.indicator.me")) {
+			continue;
+		}
+		if (!g_strcmp0(name, "com.canonical.indicator.datetime")) {
+			continue;
+		}
+#endif
+
+		if (indicator) {
+			load_indicator(menubar, INDICATOR_OBJECT (indicator), name);
+			count++;
+		}else{
+			g_warning ("unable to load '%s': %s", name, error->message);
+			g_clear_error (&error);
+		}
+	}
+
+	*indicators_loaded += count;
+
+	g_dir_close (dir);
+}
+#endif  /* HAVE_INDICATOR_NG */
 
 static void
 hotkey_filter (char * keystring G_GNUC_UNUSED, gpointer data)
@@ -844,6 +922,10 @@ static gboolean
 applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
                 gpointer data G_GNUC_UNUSED)
 {
+#if HAVE_INDICATOR_NG
+	ido_init();
+#endif
+
 	static const GtkActionEntry menu_actions[] = {
 		{"About", GTK_STOCK_ABOUT, N_("_About"), NULL, NULL, G_CALLBACK(about_cb)}
 	};
@@ -951,6 +1033,9 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 	tomboy_keybinder_bind(hotkey_keycode, hotkey_filter, menubar);
 
 	load_modules(menubar, &indicators_loaded);
+#if HAVE_INDICATOR_NG
+	load_indicators_from_indicator_files(menubar, &indicators_loaded);
+#endif
 
 	if (indicators_loaded == 0) {
 		/* A label to allow for click through */

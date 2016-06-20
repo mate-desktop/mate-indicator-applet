@@ -1,9 +1,14 @@
 1.15.0
 
-  * move indicator loading/setup code into separate function
-  * move module loading code into separate function
-  * eggaccelerators: remove unused function
-  * Update translations
+  * bump version
+
+1.14.1
+
+  * GTK+3: add support for new style indicators (loaded
+    from /usr/share/unity/indicators dir). It requires
+    libindicator >= 12.10 and libido >= 13.10. Support
+    for older versions of libindicator is left intact.
+  * GTK+3: allow indicators to receive mouse scroll event
 
 1.14.0
 

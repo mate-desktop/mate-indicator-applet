@@ -57,15 +57,15 @@ PKG_CHECK_MODULES(APPLET, gtk+-$GTK_API_VERSION >= $GTK_REQUIRED_VERSION
 AC_SUBST(APPLET_CFLAGS)
 AC_SUBST(APPLET_LIBS)
 
-PKG_CHECK_EXISTS($INDICATOR_PKG >= $INDICATOR_NG_VERSION,
+AC_CHECK_HEADERS([indicator-ng.h],
                  [have_indicator_ng="yes"],
                  [have_indicator_ng="no"])
 
 if test "x$with_gtk" = "x3.0" && test "x$have_indicator_ng" = "xyes"; then
-    PKG_CHECK_MODULES(INDICATOR, $INDICATOR_PKG >= $INDICATOR_NG_VERSION
-                      libido3-0.1 >= 13.10,
-                      [AC_DEFINE(HAVE_INDICATOR_NG, 1, "New style indicators support")])
+    PKG_CHECK_MODULES(INDICATOR, $INDICATOR_PKG >= $INDICATOR_REQUIRED_VERSION,
+		      libido3-0.1 >= 13.10)
 else
+    #GTK2 or GTK3 with oldstyle indicator
     PKG_CHECK_MODULES(INDICATOR, $INDICATOR_PKG >= $INDICATOR_REQUIRED_VERSION)
 fi
 

@@ -4,13 +4,14 @@
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010
+# Sky Lion <xskylionx@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-14 13:47+0300\n"
-"PO-Revision-Date: 2016-04-07 15:23+0000\n"
-"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
+"PO-Revision-Date: 2016-08-17 11:44+0000\n"
+"Last-Translator: Sky Lion <xskylionx@gmail.com>\n"
 "Language-Team: Bosnian (http://www.transifex.com/mate/MATE/language/bs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,7 +80,7 @@ msgstr "Launchpad Contributions:\n  Daniel4x https://launchpad.net/~daniel4molna
 
 #: ../src/applet-main.c:652
 msgid "MATE Website"
-msgstr ""
+msgstr "MATE web stranica"
 
 #: ../src/applet-main.c:793
 msgid "_About"

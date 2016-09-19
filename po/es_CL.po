@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Pablo Roberto Francisco Lezaeta Reyes <prflr88@gmail.com>, 2012
+# Pablo Roberto “Jristz” Lezaeta Reyes <prflr88@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"

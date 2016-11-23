@@ -57,13 +57,6 @@ static MatePanelAppletOrient orient;
 
 static gboolean     applet_fill_cb (MatePanelApplet * applet, const gchar * iid, gpointer data);
 
-#if !GTK_CHECK_VERSION(3, 0, 0)
-static void cw_panel_background_changed (MatePanelApplet               *applet,
-                                         MatePanelAppletBackgroundType  type,
-                        				         GdkColor                  *colour,
-                        				         GdkPixmap                 *pixmap,
-                                         GtkWidget                 *menubar);
-#endif
 static void update_accessible_desc (IndicatorObjectEntry * entry, GtkWidget * menuitem);
 
 /*************
@@ -292,16 +285,10 @@ entry_added (IndicatorObject * io, IndicatorObjectEntry * entry, GtkWidget * men
 
 	GtkWidget * menuitem = gtk_menu_item_new();
 	GtkWidget * box = (packdirection == GTK_PACK_DIRECTION_LTR) ?
-#if GTK_CHECK_VERSION (3, 0, 0)
 		gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 3) : gtk_box_new(GTK_ORIENTATION_VERTICAL, 3);
-#else
-		gtk_hbox_new(FALSE, 3) : gtk_vbox_new(FALSE, 3);
-#endif
 
-#if GTK_CHECK_VERSION (3, 0, 0)
-	/* Allows indicators to receive mouse scroll event in GTK+3 */
+	/* Allows indicators to receive mouse scroll event */
 	gtk_widget_add_events(GTK_WIDGET(menuitem), GDK_SCROLL_MASK);
-#endif
 
 	g_object_set_data (G_OBJECT (menuitem), "indicator", io);
 	g_object_set_data (G_OBJECT (menuitem), "box", box);
@@ -687,14 +674,6 @@ hotkey_filter (char * keystring G_GNUC_UNUSED, gpointer data)
 		return;
 	}
 
-#if !GTK_CHECK_VERSION(3,0,0)
-	if (!GTK_MENU_SHELL(data)->active) {
-		gtk_grab_add (GTK_WIDGET(data));
-		GTK_MENU_SHELL(data)->have_grab = TRUE;
-		GTK_MENU_SHELL(data)->active = TRUE;
-	}
-#endif
-
 	gtk_menu_shell_select_item(GTK_MENU_SHELL(data), GTK_WIDGET(g_list_last(children)->data));
 	g_list_free(children);
 	return;
@@ -713,27 +692,15 @@ menubar_press (GtkWidget * widget,
 }
 
 static gboolean
-#if GTK_CHECK_VERSION(3, 0, 0)
 menubar_on_draw (GtkWidget * widget,
                  cairo_t * cr,
                  GtkWidget * menubar)
-#else
-menubar_on_expose (GtkWidget * widget,
-                    GdkEventExpose *event G_GNUC_UNUSED,
-                    GtkWidget * menubar)
-#endif
 {
+	/* FIXME: either port to gtk_render_focus or remove this function */
 	if (gtk_widget_has_focus(menubar))
 		gtk_paint_focus(gtk_widget_get_style(widget),
-#if GTK_CHECK_VERSION(3, 0, 0)
 		                cr,
-#else
-		                gtk_widget_get_window(widget),
-#endif
 		                gtk_widget_get_state(menubar),
-#if !GTK_CHECK_VERSION(3, 0, 0)
-		                NULL,
-#endif
 		                widget, "menubar-applet", 0, 0, -1, -1);
 
 	return FALSE;
@@ -817,11 +784,7 @@ reorient_box_cb (GtkWidget *menuitem, gpointer data)
 {
 	GtkWidget *from = g_object_get_data(G_OBJECT(menuitem), "box");
 	GtkWidget *to = (packdirection == GTK_PACK_DIRECTION_LTR) ?
-#if GTK_CHECK_VERSION (3, 0, 0)
 		gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0) : gtk_box_new(GTK_ORIENTATION_VERTICAL, 0);
-#else
-		gtk_hbox_new(FALSE, 0) : gtk_vbox_new(FALSE, 0);
-#endif
 	g_object_set_data(G_OBJECT(from), "to", to);
 	gtk_container_foreach(GTK_CONTAINER(from), (GtkCallback)swap_orient_cb,
 			from);
@@ -982,32 +945,6 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 	gtk_icon_theme_append_search_path(gtk_icon_theme_get_default(),
 	                                  INDICATOR_ICONS_DIR);
 	/* g_debug("Icons directory: %s", INDICATOR_ICONS_DIR); */
-	gtk_rc_parse_string (
-	    "style \"indicator-applet-style\"\n"
-        "{\n"
-        "    GtkMenuBar::shadow-type = none\n"
-        "    GtkMenuBar::internal-padding = 0\n"
-        "    GtkWidget::focus-line-width = 0\n"
-        "    GtkWidget::focus-padding = 0\n"
-        "}\n"
-	    "style \"indicator-applet-menubar-style\"\n"
-        "{\n"
-        "    GtkMenuBar::shadow-type = none\n"
-        "    GtkMenuBar::internal-padding = 0\n"
-        "    GtkWidget::focus-line-width = 0\n"
-        "    GtkWidget::focus-padding = 0\n"
-        "    GtkMenuItem::horizontal-padding = 0\n"
-        "}\n"
-	    "style \"indicator-applet-menuitem-style\"\n"
-        "{\n"
-        "    GtkWidget::focus-line-width = 0\n"
-        "    GtkWidget::focus-padding = 0\n"
-        "    GtkMenuItem::horizontal-padding = 0\n"
-        "}\n"
-        "widget \"*.fast-user-switch-applet\" style \"indicator-applet-style\""
-        "widget \"*.fast-user-switch-menuitem\" style \"indicator-applet-menuitem-style\""
-        "widget \"*.fast-user-switch-menubar\" style \"indicator-applet-menubar-style\"");
-	//gtk_widget_set_name(GTK_WIDGET (applet), "indicator-applet-menubar");
 	gtk_widget_set_name(GTK_WIDGET (applet), "fast-user-switch-applet");
 
 	/* Build menubar */
@@ -1020,11 +957,7 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 	gtk_widget_set_can_focus (menubar, TRUE);
 	gtk_widget_set_name(GTK_WIDGET (menubar), "fast-user-switch-menubar");
 	g_signal_connect(menubar, "button-press-event", G_CALLBACK(menubar_press), NULL);
-#if GTK_CHECK_VERSION(3, 0, 0)
 	g_signal_connect_after(menubar, "draw", G_CALLBACK(menubar_on_draw), menubar);
-#else
-	g_signal_connect_after(menubar, "expose-event", G_CALLBACK(menubar_on_expose), menubar);
-#endif
 	g_signal_connect(applet, "change-orient",
 			G_CALLBACK(matepanelapplet_reorient_cb), menubar);
 	gtk_container_set_border_width(GTK_CONTAINER(menubar), 0);
@@ -1040,9 +973,7 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 	if (indicators_loaded == 0) {
 		/* A label to allow for click through */
 		GtkWidget * item = gtk_label_new(_("No Indicators"));
-#if GTK_CHECK_VERSION(3, 0, 0)
 		mate_panel_applet_set_background_widget(applet, item);
-#endif
 		gtk_container_add(GTK_CONTAINER(applet), item);
 		gtk_widget_show(item);
 	} else {
@@ -1051,55 +982,8 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 		gtk_widget_show(menubar);
 	}
 
-#if !GTK_CHECK_VERSION(3, 0, 0)
-	/* Background of applet */
-	g_signal_connect(applet, "change-background",
-			  G_CALLBACK(cw_panel_background_changed), menubar);
-#endif
-
 	gtk_widget_show(GTK_WIDGET(applet));
 
 	return TRUE;
 
 }
-
-#if !GTK_CHECK_VERSION(3, 0, 0)
-static void
-cw_panel_background_changed (MatePanelApplet               *applet,
-                             MatePanelAppletBackgroundType  type,
-                             GdkColor                  *colour,
-                             GdkPixmap                 *pixmap,
-                             GtkWidget                 *menubar)
-{
-	GtkRcStyle *rc_style;
-	GtkStyle *style;
-
-	/* reset style */
-	gtk_widget_set_style(GTK_WIDGET (applet), NULL);
- 	gtk_widget_set_style(menubar, NULL);
-	rc_style = gtk_rc_style_new ();
-	gtk_widget_modify_style(GTK_WIDGET (applet), rc_style);
-	gtk_widget_modify_style(menubar, rc_style);
-	gtk_rc_style_unref(rc_style);
-
-	switch (type)
-	{
-		case PANEL_NO_BACKGROUND:
-			break;
-		case PANEL_COLOR_BACKGROUND:
-			gtk_widget_modify_bg(GTK_WIDGET (applet), GTK_STATE_NORMAL, colour);
-			gtk_widget_modify_bg(menubar, GTK_STATE_NORMAL, colour);
-			break;
-
-		case PANEL_PIXMAP_BACKGROUND:
-			style = gtk_style_copy(gtk_widget_get_style(GTK_WIDGET(applet)));
-			if (style->bg_pixmap[GTK_STATE_NORMAL])
-				g_object_unref(style->bg_pixmap[GTK_STATE_NORMAL]);
-			style->bg_pixmap[GTK_STATE_NORMAL] = g_object_ref (pixmap);
-			gtk_widget_set_style(GTK_WIDGET (applet), style);
-			gtk_widget_set_style(GTK_WIDGET (menubar), style);
-			g_object_unref(style);
-			break;
-  }
-}
-#endif

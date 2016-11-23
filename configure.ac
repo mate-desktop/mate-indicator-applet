@@ -1,6 +1,6 @@
 AC_PREREQ(2.53)
 
-AC_INIT([mate-indicator-applet], [1.16.0], [https://github.com/mate-desktop/mate-indicator-applet/issues])
+AC_INIT([mate-indicator-applet], [1.17.0], [https://github.com/mate-desktop/mate-indicator-applet/issues])
 AC_CONFIG_SRCDIR(src/applet-main.c)
 
 AM_CONFIG_HEADER(config.h)
@@ -24,34 +24,14 @@ m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 # Dependencies 
 ###########################
 
-AC_MSG_CHECKING([which gtk+ version to compile against])
-AC_ARG_WITH([gtk],
-  [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 2.0)])],
-  [case "$with_gtk" in
-     2.0|3.0) ;;
-     *) AC_MSG_ERROR([invalid gtk version specified]) ;;
-   esac],
-  [with_gtk=2.0])
-AC_MSG_RESULT([$with_gtk])
-
-case "$with_gtk" in
-  2.0) GTK_API_VERSION=2.0
-       GTK_REQUIRED=2.24.0
-       INDICATOR_API_VERSION=
-       ;;
-  3.0) GTK_API_VERSION=3.0
-       GTK_REQUIRED=3.0.0
-       INDICATOR_API_VERSION=3
-       ;;
-esac
-
+GTK_REQUIRED_VERSION=3.14.0
+PANEL_REQUIRED_VERSION=1.17.0
 INDICATOR_REQUIRED_VERSION=0.3.90
 INDICATOR_NG_VERSION=12.10.2
-INDICATOR_PKG=indicator$INDICATOR_API_VERSION-0.4
 
-PKG_CHECK_MODULES(APPLET, gtk+-$GTK_API_VERSION >= $GTK_REQUIRED_VERSION
+PKG_CHECK_MODULES(APPLET, gtk+-3.0 >= $GTK_REQUIRED_VERSION
                           x11
-                          libmatepanelapplet-4.0
+                          libmatepanelapplet-4.0 >= $PANEL_REQUIRED_VERSION
                           )
 
 AC_SUBST(APPLET_CFLAGS)
@@ -61,12 +41,12 @@ PKG_CHECK_EXISTS($INDICATOR_PKG >= $INDICATOR_NG_VERSION,
                  [have_indicator_ng="yes"],
                  [have_indicator_ng="no"])
 
-if test "x$with_gtk" = "x3.0" && test "x$have_indicator_ng" = "xyes"; then
-    PKG_CHECK_MODULES(INDICATOR, $INDICATOR_PKG >= $INDICATOR_NG_VERSION
+if test "x$have_indicator_ng" = "xyes"; then
+    PKG_CHECK_MODULES(INDICATOR, indicator3-0.4 >= $INDICATOR_NG_VERSION
                       libido3-0.1 >= 13.10,
                       [AC_DEFINE(HAVE_INDICATOR_NG, 1, "New style indicators support")])
 else
-    PKG_CHECK_MODULES(INDICATOR, $INDICATOR_PKG >= $INDICATOR_REQUIRED_VERSION)
+    PKG_CHECK_MODULES(INDICATOR, indicator3-0.4 >= $INDICATOR_REQUIRED_VERSION)
 fi
 
 AC_SUBST(INDICATOR_CFLAGS)
@@ -172,5 +152,4 @@ AC_MSG_NOTICE([
 Indicator Applet Configuration:
 
 	Prefix:                 $prefix
-	GTK+ version:           ${GTK_API_VERSION}
 ])

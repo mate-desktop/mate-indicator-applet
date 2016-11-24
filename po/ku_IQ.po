@@ -3,55 +3,53 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Daniel <danny3@tutanota.com>, 2015
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
-# sorinn <nemes.sorin@gmail.com>, 2014
+# Rasti K5 <rasti.khdhr@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-14 13:47+0300\n"
-"PO-Revision-Date: 2016-04-07 15:23+0000\n"
-"Last-Translator: Daniel <danny3@tutanota.com>\n"
-"Language-Team: Romanian (http://www.transifex.com/mate/MATE/language/ro/)\n"
+"PO-Revision-Date: 2016-09-11 21:25+0000\n"
+"Last-Translator: Rasti K5 <rasti.khdhr@gmail.com>\n"
+"Language-Team: Kurdish (Iraq) (http://www.transifex.com/mate/MATE/language/ku_IQ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ro\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Language: ku_IQ\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:806
 msgid "Indicator Applet"
-msgstr "Miniaplicație Indicator"
+msgstr ""
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Un indicator pentru ceva ce necesită atenția dumneavoastră"
+msgstr ""
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:809
 msgid "Indicator Applet Complete"
-msgstr "Miniaplicația indicator completă"
+msgstr ""
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
 msgid "A unified applet containing all of the indicators."
-msgstr "O miniaplicație unificată care conține toți indicatorii."
+msgstr ""
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
-msgstr "Appmenu - miniaplicație indicator"
+msgstr ""
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
 msgid "A applet containing the application menus."
-msgstr "O miniaplicație ce conține meniurile aplicațiilor."
+msgstr ""
 
 #: ../src/applet-main.c:623
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Acest program este liber; îl puteți redistribui și/sau modifica în conformitate cu termenii Licenței Publice Generale GNU versiunea a treia, așa cum este publicată de către Free Software Foundation."
+msgstr ""
 
 #: ../src/applet-main.c:626
 msgid ""
@@ -59,39 +57,39 @@ msgid ""
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Acest program este distribuit cu speranța că va fi util, dar FĂRĂ NICIO GARANȚIE; fără măcar garanția implicită de vandabilitate sau CONFORMITATE UNUI ANUMIT SCOP. A se vedea Licența Publică Generală GNU pentru detalii."
+msgstr ""
 
 #: ../src/applet-main.c:630
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Ar trebui să fi primit o copie a Licenței Publice Generale GNU împreună cu acest program. În caz contrar, consultați <http://www.gnu.org/licenses/>."
+msgstr ""
 
 #: ../src/applet-main.c:642
 msgid "An applet to hold your application menus."
-msgstr "O miniaplicație care conține meniurile aplicațiilor."
+msgstr ""
 
 #: ../src/applet-main.c:644
 msgid "An applet to hold all of the system indicators."
-msgstr "O miniaplicație ce înglobează toate notificările sistemului."
+msgstr ""
 
 #: ../src/applet-main.c:648
 msgid "translator-credits"
-msgstr "Transifex:\nDaniel Alămiță <danny3@tutanota.com>\nLaunchpad:\n  Adi Roiban https://launchpad.net/~adiroiban\n  Lucian Adrian Grijincu https://launchpad.net/~lucian.grijincu\n  Marian Teodor https://launchpad.net/~darkangel\n  Sergiu Bivol https://launchpad.net/~sergiu-bivol\n  marianvasile https://launchpad.net/~marianvasile-upcmail\n  ottmar kaiser https://launchpad.net/~otty69"
+msgstr ""
 
 #: ../src/applet-main.c:652
 msgid "MATE Website"
-msgstr "Situl web MATE"
+msgstr "ماڵپەڕی MATE"
 
 #: ../src/applet-main.c:793
 msgid "_About"
-msgstr "_Despre"
+msgstr "_دەربارە"
 
 #: ../src/applet-main.c:812
 msgid "Indicator Applet Application Menu"
-msgstr "Meniu aplicație pentru miniaplicația indicator"
+msgstr ""
 
 #. A label to allow for click through
 #: ../src/applet-main.c:930
 msgid "No Indicators"
-msgstr "Niciun indicator"
+msgstr ""

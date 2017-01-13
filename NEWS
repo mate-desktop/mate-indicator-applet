@@ -1,14 +1,14 @@
-1.17.0
+### mate-indicator-applet 1.17.0
 
   * Translations update
   * move to GTK+3 (>= 3.14), drop GTK+2 code and --with-gtk build option
 
-1.16.0
+### mate-indicator-applet 1.16.0
 
   * Build: fix check for new style indicators support
   * Translations update
 
-1.14.1
+### mate-indicator-applet 1.14.1
 
   * GTK+3: add support for new style indicators (loaded
     from /usr/share/unity/indicators dir). It requires
@@ -16,26 +16,26 @@
     for older versions of libindicator is left intact.
   * GTK+3: allow indicators to receive mouse scroll event
 
-1.14.0
+### mate-indicator-applet 1.14.0
 
   * GTK+3: fix a few deprecations
   * Translations update
   * Fix Changelog generation
 
-1.12.1
+### mate-indicator-applet 1.12.1
 
   * Allow volume change with mouse scroll over
     sound indicator's icon
 
-1.12.0
+### mate-indicator-applet 1.12.0
 
   * Bug fixes and cleanups
 
-1.10.0
+### mate-indicator-applet 1.10.0
 
   * Add GTK3 support
   * Fixed conflicts with GNOME's indicator-applet
 
-1.8.0
+### mate-indicator-applet 1.8.0
 
   * Bugfixes

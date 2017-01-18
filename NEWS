@@ -1,3 +1,9 @@
+### mate-indicator-applet 1.17.1
+
+  * build: show new style indicator support status in summary
+  * build: fix new style indicator support
+  * po: actually add new language from Transifex
+
 ### mate-indicator-applet 1.17.0
 
   * Translations update

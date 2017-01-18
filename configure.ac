@@ -37,7 +37,7 @@ PKG_CHECK_MODULES(APPLET, gtk+-3.0 >= $GTK_REQUIRED_VERSION
 AC_SUBST(APPLET_CFLAGS)
 AC_SUBST(APPLET_LIBS)
 
-PKG_CHECK_EXISTS($INDICATOR_PKG >= $INDICATOR_NG_VERSION,
+PKG_CHECK_EXISTS(indicator3-0.4 >= $INDICATOR_NG_VERSION,
                  [have_indicator_ng="yes"],
                  [have_indicator_ng="no"])
 
@@ -67,8 +67,8 @@ if test "x$with_localinstall" = "xyes"; then
 	INDICATORDIR="${libdir}/indicators/2/"
 	INDICATORICONSDIR="${datadir}/indicator-applet/icons/"
 else
-	INDICATORDIR=`$PKG_CONFIG --variable=indicatordir $INDICATOR_PKG`
-	INDICATORICONSDIR=`$PKG_CONFIG --variable=iconsdir $INDICATOR_PKG`
+	INDICATORDIR=`$PKG_CONFIG --variable=indicatordir indicator3-0.4`
+	INDICATORICONSDIR=`$PKG_CONFIG --variable=iconsdir indicator3-0.4`
 fi
 
 AC_SUBST(INDICATORDIR)

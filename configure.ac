@@ -152,4 +152,5 @@ AC_MSG_NOTICE([
 Indicator Applet Configuration:
 
 	Prefix:                 $prefix
+	Indicator-ng support:   $have_indicator_ng
 ])

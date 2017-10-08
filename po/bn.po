@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-14 13:47+0300\n"
-"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"POT-Creation-Date: 2016-12-06 00:45+0300\n"
+"PO-Revision-Date: 2017-09-19 11:53+0000\n"
 "Last-Translator: infirit <inactive+infirit@transifex.com>\n"
 "Language-Team: Bengali (http://www.transifex.com/mate/MATE/language/bn/)\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:806
+#: ../src/applet-main.c:906
 msgid "Indicator Applet"
 msgstr "নির্দেশক অ্যাপ্লেট"
 
@@ -28,7 +28,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "এমন কিছুর নির্দেশক যেটি ডেক্সটপে আপনার দৃষ্টি আকর্ষন করবে"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:809
+#: ../src/applet-main.c:909
 msgid "Indicator Applet Complete"
 msgstr "নির্দেশক অ্যাপ্লেট সম্পন্ন"
 
@@ -44,14 +44,14 @@ msgstr "ইন্ডিকেটর অ্যাপ্লেট"
 msgid "A applet containing the application menus."
 msgstr "অ্যাপলিকেশন মেনু রয়েছে এমন অ্যাপ্লেট।"
 
-#: ../src/applet-main.c:623
+#: ../src/applet-main.c:719
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "এই প্রোগ্রামটি একটি মুক্ত সফটওয়্যার: আপনি একটি পুনঃবিতরণ এবং সম্পাদনা করতে পারবেন। তবে অবশ্যই এটি ফ্রি সফটওয়্যার ফাউন্ডেশন প্রকাশিত GNU General Public License version 3 এর অধীনে হতে হবে।"
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:722
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -59,37 +59,37 @@ msgid ""
 "General Public License for more details."
 msgstr "এই প্রোগ্রামটি বিতরণ করা হয়েছে এই আশা নিয়ে যে, এটি উপকারী হবে, কিন্তু কোন প্রকার ওয়ারেন্টি ব্যতিত; এমনকি ব্যবসায়িক ব্যবহার, সন্তুষ্টিমূলক গুণাবলী কিংবা একটি নির্দিষ্ট উদ্দেশ্যে ব্যবহারের জন্য উপযোগীতার ওয়ারেন্টি ব্যতিত। বিস্তারিত তথ্যের জন্য GNU General Public License দেখুন।"
 
-#: ../src/applet-main.c:630
+#: ../src/applet-main.c:726
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "এই প্রোগ্রামটির সাথে আপনি হয়ত GNU সাধারণ পাবলিক লাইসেন্সের একটি অনুলিপি পেয়ে থাকবেন।  যদি না পান, <http://www.gnu.org/licenses/> দেখুন।"
 
-#: ../src/applet-main.c:642
+#: ../src/applet-main.c:738
 msgid "An applet to hold your application menus."
 msgstr "আপনার অ্যাপলিকেশন মেনু রয়েছে এমন অ্যাপ্লেট।"
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:740
 msgid "An applet to hold all of the system indicators."
 msgstr "সকল সিস্টেম ইন্ডিকেটর ধারণ করতে পারে এমন অ্যাপ্লেট।"
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:744
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  Aniruddha Adhikary https://launchpad.net/~digitiger1\n  nasir khan saikat https://launchpad.net/~nasir8891"
 
-#: ../src/applet-main.c:652
+#: ../src/applet-main.c:748
 msgid "MATE Website"
 msgstr ""
 
-#: ../src/applet-main.c:793
+#: ../src/applet-main.c:893
 msgid "_About"
 msgstr "পরিচিতি (_A)"
 
-#: ../src/applet-main.c:812
+#: ../src/applet-main.c:912
 msgid "Indicator Applet Application Menu"
 msgstr "ইন্ডিকেটর অ্যাপ্লেট অ্যাপলিকেশন মেনু"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:930
+#: ../src/applet-main.c:975
 msgid "No Indicators"
 msgstr "কোন নির্দেশন না"

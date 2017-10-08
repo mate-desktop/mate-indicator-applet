@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-14 13:47+0300\n"
-"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"POT-Creation-Date: 2016-12-06 00:45+0300\n"
+"PO-Revision-Date: 2017-09-19 11:53+0000\n"
 "Last-Translator: ciaran\n"
 "Language-Team: Welsh (http://www.transifex.com/mate/MATE/language/cy/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:806
+#: ../src/applet-main.c:906
 msgid "Indicator Applet"
 msgstr "Dangosydd"
 
@@ -29,7 +29,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Dangosydd sy'n rhoi gwybod i chi os oes rhywbeth sydd angen sylw"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:809
+#: ../src/applet-main.c:909
 msgid "Indicator Applet Complete"
 msgstr "Dangosydd cyffredinol"
 
@@ -45,14 +45,14 @@ msgstr "Dewislen y Dangosydd"
 msgid "A applet containing the application menus."
 msgstr "Aplen sy'n cynnwys dewislenni rhaglenni."
 
-#: ../src/applet-main.c:623
+#: ../src/applet-main.c:719
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "Meddalwedd rhydd yw'r rhaglen hon: mae modd i ti ei hailddosbarthu a/neu ei haddasu dan dermau fersiwn 3 Trwydded Gyhoeddus Gyffredinol GNU, fel y cafodd ei chyhoeddi gan y Sefydliad Meddalwedd Rhydd."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:722
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -60,37 +60,37 @@ msgid ""
 "General Public License for more details."
 msgstr "Dosberthir y rhaglen hon yn y gobaith y bydd yn ddefnyddiol, ond HEB WARANT; heb hyd yn oed gwarantau ymhlyg am WERTHADWYEDD, SAFON DDERBYNIOL, neu ADDASRWYDD AT BWRPAS ARBENNIG. Gweler Trwydded Gyhoeddus Gyffredinol GNU am fanylion pellach."
 
-#: ../src/applet-main.c:630
+#: ../src/applet-main.c:726
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "Fe ddylech fod wedi derbyn copi o Drwydded Gyhoeddus Gyffredinol GNU gyda'r rhaglen hon. Os na wnaethoch, gweler <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:642
+#: ../src/applet-main.c:738
 msgid "An applet to hold your application menus."
 msgstr "Aplen i ddal dewislenni rhaglenni."
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:740
 msgid "An applet to hold all of the system indicators."
 msgstr "Aplen i ddal pob dangosydd system."
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:744
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  Owen Llywelyn https://launchpad.net/~owen-llywelyn"
 
-#: ../src/applet-main.c:652
+#: ../src/applet-main.c:748
 msgid "MATE Website"
 msgstr "Gwefan MATE"
 
-#: ../src/applet-main.c:793
+#: ../src/applet-main.c:893
 msgid "_About"
 msgstr "_Ynghylch"
 
-#: ../src/applet-main.c:812
+#: ../src/applet-main.c:912
 msgid "Indicator Applet Application Menu"
 msgstr "Dewislen rhaglenni y Dangosydd"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:930
+#: ../src/applet-main.c:975
 msgid "No Indicators"
 msgstr "Dim dangosyddion"

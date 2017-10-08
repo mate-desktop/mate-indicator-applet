@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-14 13:47+0300\n"
-"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"POT-Creation-Date: 2016-12-06 00:45+0300\n"
+"PO-Revision-Date: 2017-09-19 11:53+0000\n"
 "Last-Translator: infirit <inactive+infirit@transifex.com>\n"
 "Language-Team: Khmer (http://www.transifex.com/mate/MATE/language/km/)\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:806
+#: ../src/applet-main.c:906
 msgid "Indicator Applet"
 msgstr "កម្មវិធីឲ្យការណ៍"
 
@@ -28,7 +28,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "អ្នកឲ្យការណ៍ចំពោះអ្វីផ្សេងៗដែលទាមទារការចាប់អារម្មណ៍ពីអ្នកនៅលើផ្ទៃតុ"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:809
+#: ../src/applet-main.c:909
 msgid "Indicator Applet Complete"
 msgstr "កម្មវិធីឲ្យការណ៍ពេញលេង"
 
@@ -44,14 +44,14 @@ msgstr "កម្មវិធីឲ្យការណ៍ Appmenu"
 msgid "A applet containing the application menus."
 msgstr "កម្មវិធីដែលផ្ទុកបញ្ជីរបស់កម្មវិធី ។"
 
-#: ../src/applet-main.c:623
+#: ../src/applet-main.c:719
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "នេះជាកម្មវិធីឥតគិតថ្លៃ ៖ អ្នកអាចចែកចាញបន្ត និង/ឬ កែប្រែក្រោមលក្ខខណ្ឌ GNU General Public License កំណែ៣ ដូចដែលបានផ្សព្វផ្សាយដោយមូលនិធិកម្មវិធីឥតគិតថ្លៃ ។"
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:722
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -59,37 +59,37 @@ msgid ""
 "General Public License for more details."
 msgstr "កម្មវិធីនេះត្រូវបានចែកចាយដោយសង្ឃឹមថាវាមានប្រយោជន៍ ប៉ុន្តែ\"គ្មានការធានា\" ។ សូម្បីតែការធានាខាងពាណិជ្ចកម្ម, ការ​ពេញ​ចិត្ត​ផ្នែក​គុណភាព, ឬ ភាពសក្ដិសមចំពោះគោលបំណងណាមួយ ។ សូមមើលអាជ្ញាបត្រ GNU General Public សម្រាប់ព័ត៌មានបន្ថែម ។"
 
-#: ../src/applet-main.c:630
+#: ../src/applet-main.c:726
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "អ្នកគួរទទួលបានច្បាប់ចម្លងអាជ្ញាបត្រ GNU General Public ជាមួយនឹងកម្មវិធីនេះ ។ បើមិនឃើញ សូមមើលនៅ <http://www.gnu.org/licenses/> ។"
 
-#: ../src/applet-main.c:642
+#: ../src/applet-main.c:738
 msgid "An applet to hold your application menus."
 msgstr "កម្មវិធីសម្រាប់ផ្ទុកបញ្ជីកម្មវិធីរបស់អ្នក ។"
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:740
 msgid "An applet to hold all of the system indicators."
 msgstr "កម្មវិធីសម្រាប់ផ្ទុកអ្នកឲ្យការណ៍របស់ប្រព័ន្ធទាំងអស់ ។"
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:744
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  ពៅ សុភា https://launchpad.net/~pov-sophea"
 
-#: ../src/applet-main.c:652
+#: ../src/applet-main.c:748
 msgid "MATE Website"
 msgstr ""
 
-#: ../src/applet-main.c:793
+#: ../src/applet-main.c:893
 msgid "_About"
 msgstr "_អំពី"
 
-#: ../src/applet-main.c:812
+#: ../src/applet-main.c:912
 msgid "Indicator Applet Application Menu"
 msgstr "បញ្ជីកម្មវិធីឲ្យការណ៍"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:930
+#: ../src/applet-main.c:975
 msgid "No Indicators"
 msgstr "គ្មានអ្នកឲ្យការណ៍"

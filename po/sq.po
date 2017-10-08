@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-14 13:47+0300\n"
-"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"POT-Creation-Date: 2016-12-06 00:45+0300\n"
+"PO-Revision-Date: 2017-09-19 11:53+0000\n"
 "Last-Translator: infirit <inactive+infirit@transifex.com>\n"
 "Language-Team: Albanian (http://www.transifex.com/mate/MATE/language/sq/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:806
+#: ../src/applet-main.c:906
 msgid "Indicator Applet"
 msgstr "Applet Tregues"
 
@@ -29,7 +29,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Një tregues i diçkaje që ka nevojë për vëmendjen tuaj në desktop"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:809
+#: ../src/applet-main.c:909
 msgid "Indicator Applet Complete"
 msgstr "Programthi Tregues është Kompletuar"
 
@@ -45,14 +45,14 @@ msgstr "Programthi trgues Appmenu"
 msgid "A applet containing the application menus."
 msgstr "Një programth që përmban menutë e programeve."
 
-#: ../src/applet-main.c:623
+#: ../src/applet-main.c:719
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "Ky program është falas: ju mund ta shpërndani apo/ose modifikoni në termat e Liçensës së Përgjithshme Publike GNU versioni 3, si është publikuar nga Fondacioni i Programeve Falas."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:722
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -60,37 +60,37 @@ msgid ""
 "General Public License for more details."
 msgstr "Ky program shpërndahet me shpresën se do të jetë i dobishëm, por PA ASNJË GARANCI, madje edhe pa garancinë e shprehur të TREGTUESHMËRISË, TË CILËSISË SË KËNAQSHME, apo TË PËRPUTHJES ME NJË QËLLIM TË VEÇANTË, shikoni Liçencën e Përgjithshme Publike GNU për më tepër detaje."
 
-#: ../src/applet-main.c:630
+#: ../src/applet-main.c:726
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "Ju duhet të keni marrë një kopje të Liçensës së Përgjithshme Publike GNU me këtë program. Nëse jo, shikoni <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:642
+#: ../src/applet-main.c:738
 msgid "An applet to hold your application menus."
 msgstr "Një programth që përmban menutë e programeve tuaja."
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:740
 msgid "An applet to hold all of the system indicators."
 msgstr "Një applet që mban të gjithë treguesit e sistemit tuaj."
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:744
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  Vilson Gjeci https://launchpad.net/~vilsongjeci"
 
-#: ../src/applet-main.c:652
+#: ../src/applet-main.c:748
 msgid "MATE Website"
 msgstr "Faqja e MATE"
 
-#: ../src/applet-main.c:793
+#: ../src/applet-main.c:893
 msgid "_About"
 msgstr "_Rreth"
 
-#: ../src/applet-main.c:812
+#: ../src/applet-main.c:912
 msgid "Indicator Applet Application Menu"
 msgstr "Programthi Tregues i Menusë së Programeve"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:930
+#: ../src/applet-main.c:975
 msgid "No Indicators"
 msgstr "Nuk ka tregues"

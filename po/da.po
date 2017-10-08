@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-14 13:47+0300\n"
-"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"POT-Creation-Date: 2016-12-06 00:45+0300\n"
+"PO-Revision-Date: 2017-09-19 11:53+0000\n"
 "Last-Translator: infirit <inactive+infirit@transifex.com>\n"
 "Language-Team: Danish (http://www.transifex.com/mate/MATE/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:806
+#: ../src/applet-main.c:906
 msgid "Indicator Applet"
 msgstr "Indikatorpanelprogram"
 
@@ -29,7 +29,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "En indikator på noget, der kræver din opmærksomhed på skrivebordet"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:809
+#: ../src/applet-main.c:909
 msgid "Indicator Applet Complete"
 msgstr "Indikatorpanelprogram fuldført"
 
@@ -45,14 +45,14 @@ msgstr "Programmenu for indikatorpanelprogram"
 msgid "A applet containing the application menus."
 msgstr "Et panelprogram der indeholder programmenuerne."
 
-#: ../src/applet-main.c:623
+#: ../src/applet-main.c:719
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "Dette program er fri software. Du kan redistribuere og/eller modificere det under de betingelserne, som er angivet i GNU General Public License version 3, som er udgivet af Free Software Foundation."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:722
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -60,37 +60,37 @@ msgid ""
 "General Public License for more details."
 msgstr "Dette program distribueres i håb om at programmet er nyttigt, men uden NOGEN GARANTI, ikke engang underforstået garanti om at det er SALGBART eller PASSER TIL ET BESTEMT FORMÅL. Se GNU General Public License for detaljer."
 
-#: ../src/applet-main.c:630
+#: ../src/applet-main.c:726
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "Du bør have modtaget en kopi af GNU General Public License sammen med %s; er dette ikke tilfældet, så se <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:642
+#: ../src/applet-main.c:738
 msgid "An applet to hold your application menus."
 msgstr "Et panelprogram der har dine programmenuer."
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:740
 msgid "An applet to hold all of the system indicators."
 msgstr "Et panelprogram der indeholder alle systemindikatorerne."
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:744
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  AJenbo https://launchpad.net/~ajenbo\n  Emil Kristensen https://launchpad.net/~emil-ekristensen\n  Joe Hansen https://launchpad.net/~joedalton2\n  Mads Lundby https://launchpad.net/~lundbymads-gmail\n  Rune K. Svendsen https://launchpad.net/~runeks\n  Sune Keller https://launchpad.net/~sune-keller\n  TLE https://launchpad.net/~k-nielsen81"
 
-#: ../src/applet-main.c:652
+#: ../src/applet-main.c:748
 msgid "MATE Website"
 msgstr "MATE's hjemmeside"
 
-#: ../src/applet-main.c:793
+#: ../src/applet-main.c:893
 msgid "_About"
 msgstr "_Om"
 
-#: ../src/applet-main.c:812
+#: ../src/applet-main.c:912
 msgid "Indicator Applet Application Menu"
 msgstr "Programmenu for indikatorpanelprogram"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:930
+#: ../src/applet-main.c:975
 msgid "No Indicators"
 msgstr "Ingen Indikatorer"

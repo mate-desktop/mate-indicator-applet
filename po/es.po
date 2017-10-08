@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adolfo Jayme-Barrientos, 2013
+# Adolfo Jayme Barrientos, 2013
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009
 # Lluís Tusquellas <lutusq@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-14 13:47+0300\n"
-"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"POT-Creation-Date: 2016-12-06 00:45+0300\n"
+"PO-Revision-Date: 2017-09-19 11:53+0000\n"
 "Last-Translator: infirit <inactive+infirit@transifex.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/mate/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:806
+#: ../src/applet-main.c:906
 msgid "Indicator Applet"
 msgstr "Miniaplicación de indicadores"
 
@@ -30,7 +30,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Un indicador de algo que requiere su atención en el escritorio"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:809
+#: ../src/applet-main.c:909
 msgid "Indicator Applet Complete"
 msgstr "Miniaplicación completa de indicadores"
 
@@ -46,14 +46,14 @@ msgstr "Menú de aplicaciones de la miniaplicación de indicadores"
 msgid "A applet containing the application menus."
 msgstr "Una miniaplicación que contiene los menús de la aplicación."
 
-#: ../src/applet-main.c:623
+#: ../src/applet-main.c:719
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "Este programa es software libre: puede redistribuirlo o modificarlo bajo los términos de la Licencia Pública General GNU versión 3, tal y como fue publicada por la Fundación para el Software Libre."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:722
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -61,37 +61,37 @@ msgid ""
 "General Public License for more details."
 msgstr "Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA; incluso sin las garantías de COMERCIABILIDAD, CALIDAD SATISFACTORIA, o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Vea la Licencia Pública General GNU para tener más detalles."
 
-#: ../src/applet-main.c:630
+#: ../src/applet-main.c:726
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "Debería haber recibido una copia de la Licencia Pública General GNU junto con este programa. De lo contrario, visite <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:642
+#: ../src/applet-main.c:738
 msgid "An applet to hold your application menus."
 msgstr "Una miniaplicación para mantener los menús de sus aplicaciones."
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:740
 msgid "An applet to hold all of the system indicators."
 msgstr "Una miniaplicación para mantener todos los indicadores del sistema."
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:744
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  Gerardo Cruz Hernández https://launchpad.net/~gerardox\n  Ing. Forigua https://launchpad.net/~ingforigua\n  Joselt Peña https://launchpad.net/~inf3rn41j4p\n  Julian https://launchpad.net/~julianarmando\n  Julián Alarcón https://launchpad.net/~alarconj\n  KH41N https://launchpad.net/~kh41n\n  MC707 https://launchpad.net/~marioflame\n  MuriClaros https://launchpad.net/~muriclaros\n  Noe Misael Nieto Arroyo https://launchpad.net/~tzicatl\n  Paco Molinero https://launchpad.net/~franciscomol\n  Ricardo Pérez López https://launchpad.net/~ricardo\n  Sucrot https://launchpad.net/~sucrot\n  Uriel https://launchpad.net/~leiru-esoj\n  Victor Herrero https://launchpad.net/~victorhera\n  alelnro1 https://launchpad.net/~aleponzo1\n  asp95 https://launchpad.net/~asp95\n  cauacho https://launchpad.net/~cauacho\n  ferguweb https://launchpad.net/~ferguweb\n  juancarlospaco https://launchpad.net/~juancarlospaco\n  mariomx08 https://launchpad.net/~mariohs-33\n  mordorq3 https://launchpad.net/~hackers300\n  spaceloop https://launchpad.net/~avilesluismx\n  turbogp20 https://launchpad.net/~turbogp20"
 
-#: ../src/applet-main.c:652
+#: ../src/applet-main.c:748
 msgid "MATE Website"
 msgstr "Sitio web de MATE"
 
-#: ../src/applet-main.c:793
+#: ../src/applet-main.c:893
 msgid "_About"
 msgstr "Acerca _de"
 
-#: ../src/applet-main.c:812
+#: ../src/applet-main.c:912
 msgid "Indicator Applet Application Menu"
 msgstr "Menú de aplicaciones de la miniaplicación de indicadores"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:930
+#: ../src/applet-main.c:975
 msgid "No Indicators"
 msgstr "No hay indicadores"

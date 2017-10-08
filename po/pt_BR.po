@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-14 13:47+0300\n"
-"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"POT-Creation-Date: 2016-12-06 00:45+0300\n"
+"PO-Revision-Date: 2017-09-19 11:53+0000\n"
 "Last-Translator: infirit <inactive+infirit@transifex.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/mate/MATE/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:806
+#: ../src/applet-main.c:906
 msgid "Indicator Applet"
 msgstr "Miniaplicativo Indicador"
 
@@ -30,7 +30,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Um indicador de que algo precisa de sua atenção no computador"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:809
+#: ../src/applet-main.c:909
 msgid "Indicator Applet Complete"
 msgstr "Miniaplicativo Indicador Completo"
 
@@ -46,14 +46,14 @@ msgstr "Miniaplicativo Indicador do Appmenu"
 msgid "A applet containing the application menus."
 msgstr "Um miniaplicativo contendo menu de aplicativos."
 
-#: ../src/applet-main.c:623
+#: ../src/applet-main.c:719
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "Este programa é um software livre: você pode redistribuí-lo e/ou modificá-lo sob os termos da GNU General Public License versão 3, como publicado na Free Software Foundation."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:722
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -61,37 +61,37 @@ msgid ""
 "General Public License for more details."
 msgstr "Este programa é distribuído na esperança de que seja útil, mas SEM QUALQUER GARANTIA; sem mesmo a garantia implícita de COMERCIABILIDADE, QUALIDADE SATISFATÓRIA, ou ADEQUAÇÃO PARA UM DETERMINADO PROPÓSITO. Veja a GNU General Public License para mais detalhes."
 
-#: ../src/applet-main.c:630
+#: ../src/applet-main.c:726
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "Você deve ter recebido uma cópia da GNU General Public License junto com este programa. Se não, veja <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:642
+#: ../src/applet-main.c:738
 msgid "An applet to hold your application menus."
 msgstr "Um miniaplicativo que mantém seus menus de aplicativos."
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:740
 msgid "An applet to hold all of the system indicators."
 msgstr "Um miniaplicativo que mantém todos os indicadores do sistema."
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:744
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  André Gondim https://launchpad.net/~andregondim\n  Carlos Alberto C.Soares https://launchpad.net/~carlosacsoares\n  Daniel Neves https://launchpad.net/~danielneves\n  Diego Mello https://launchpad.net/~diegojmello\n  Everton Favretto https://launchpad.net/~evefavretto\n  Felipe Bernardo Zorzo https://launchpad.net/~felipe-b-zorzo\n  Fábio Fantazzini https://launchpad.net/~fantazzini01\n  Gabriel Lima - dollaR https://launchpad.net/~dollar0x\n  Helio Campos https://launchpad.net/~helio.campos\n  Mauricio dos Anjos https://launchpad.net/~mauricioganjos\n  Milton Bender Jr. https://launchpad.net/~nextonebr\n  Patrick L. Melo https://launchpad.net/~pmelo86\n  Tiago Hillebrandt https://launchpad.net/~tiagoscd\n  Ursula Junque https://launchpad.net/~ursinha\n  kahue https://launchpad.net/~kahuemm\n  leo_barros https://launchpad.net/~nickolback"
 
-#: ../src/applet-main.c:652
+#: ../src/applet-main.c:748
 msgid "MATE Website"
 msgstr "Site do MATE"
 
-#: ../src/applet-main.c:793
+#: ../src/applet-main.c:893
 msgid "_About"
 msgstr "_Sobre"
 
-#: ../src/applet-main.c:812
+#: ../src/applet-main.c:912
 msgid "Indicator Applet Application Menu"
 msgstr "Menu de Aplicativos do Miniaplicativo Indicador"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:930
+#: ../src/applet-main.c:975
 msgid "No Indicators"
 msgstr "Sem Indicadores"

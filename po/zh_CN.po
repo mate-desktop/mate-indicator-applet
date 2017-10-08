@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-14 13:47+0300\n"
-"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"POT-Creation-Date: 2016-12-06 00:45+0300\n"
+"PO-Revision-Date: 2017-09-19 11:53+0000\n"
 "Last-Translator: infirit <inactive+infirit@transifex.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/mate/MATE/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:806
+#: ../src/applet-main.c:906
 msgid "Indicator Applet"
 msgstr "指示器小程序"
 
@@ -29,7 +29,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "一个需要您注意的桌面指示器"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:809
+#: ../src/applet-main.c:909
 msgid "Indicator Applet Complete"
 msgstr "完整指示器小程序"
 
@@ -45,14 +45,14 @@ msgstr "指示器小程序应用程序菜单"
 msgid "A applet containing the application menus."
 msgstr "一个包含应用程序菜单的小程序。"
 
-#: ../src/applet-main.c:623
+#: ../src/applet-main.c:719
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "这个软件是自由软件，您可以在自由软件基金会发布的 GNU 通用公共许可协议第三版的约束下重新发布该软件和/或对其进行修改。"
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:722
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -60,37 +60,37 @@ msgid ""
 "General Public License for more details."
 msgstr "我们希望此软件能为您提供帮助从而发布该软件，但并不为任何内容提供担保；包括适销性、满意度或者适宜用于特定的目标。请阅读 GNU 通用公共许可协议获取更多信息。"
 
-#: ../src/applet-main.c:630
+#: ../src/applet-main.c:726
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "您应该能够随此软件获得一份 GNU 通用公共许可协议的副本。如果没有，请访问 <http://www.gnu.org/licenses/>。"
 
-#: ../src/applet-main.c:642
+#: ../src/applet-main.c:738
 msgid "An applet to hold your application menus."
 msgstr "一个提供您的应用程序菜单的小程序。"
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:740
 msgid "An applet to hold all of the system indicators."
 msgstr "一个控制所有系统提示的插件。"
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:744
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  Hao Wen https://launchpad.net/~wenhao\n  HuntXu https://launchpad.net/~huntxu\n  Jiehan Zheng https://launchpad.net/~jiehanzheng\n  Jimmy Xu https://launchpad.net/~jimmyxu\n  Liu Qishuai https://launchpad.net/~lqs\n  Loring https://launchpad.net/~zhanglong516\n  Phil https://launchpad.net/~yalongbay\n  Tao Wei https://launchpad.net/~weitao1979\n  Xhacker Liu https://launchpad.net/~xhacker\n  Xiaoqi Zhao https://launchpad.net/~xiaoqi\n  Yiding He https://launchpad.net/~yiding-he\n  guyann https://launchpad.net/~guyanmim\n  i@keepzero.net https://launchpad.net/~keepzero\n  mazefa https://launchpad.net/~mazefa\n  yuane https://launchpad.net/~yuane\n  zhangmiao https://launchpad.net/~mymzhang\n  英华 https://launchpad.net/~wantinghard"
 
-#: ../src/applet-main.c:652
+#: ../src/applet-main.c:748
 msgid "MATE Website"
 msgstr "MATE 网站"
 
-#: ../src/applet-main.c:793
+#: ../src/applet-main.c:893
 msgid "_About"
 msgstr "关于(_A)"
 
-#: ../src/applet-main.c:812
+#: ../src/applet-main.c:912
 msgid "Indicator Applet Application Menu"
 msgstr "指示器小程序应用程序菜单"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:930
+#: ../src/applet-main.c:975
 msgid "No Indicators"
 msgstr "无指示器"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-14 13:47+0300\n"
-"PO-Revision-Date: 2016-04-07 15:23+0000\n"
+"POT-Creation-Date: 2016-12-06 00:45+0300\n"
+"PO-Revision-Date: 2017-09-19 11:53+0000\n"
 "Last-Translator: infirit <inactive+infirit@transifex.com>\n"
 "Language-Team: Esperanto (http://www.transifex.com/mate/MATE/language/eo/)\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:806
+#: ../src/applet-main.c:906
 msgid "Indicator Applet"
 msgstr "Indikila aplikaĵeto"
 
@@ -28,7 +28,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Atentigilo pri iu labortabla elemento, kiu bezonas vian atenton."
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:809
+#: ../src/applet-main.c:909
 msgid "Indicator Applet Complete"
 msgstr "Indikila aplikaĵeto preta"
 
@@ -44,14 +44,14 @@ msgstr "Indikila kromprogramo Appmenu"
 msgid "A applet containing the application menus."
 msgstr "Kromprogramo kiu enhavas la aplikaĵajn menuojn."
 
-#: ../src/applet-main.c:623
+#: ../src/applet-main.c:719
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "Ĉi tiu programaro estas libera; vi rajtas redisdoni ĝin kaj/aŭ modifi ĝin sub la kondiĉoj de la GNU-a ĝenerala publika permesilo, versio 3, publikigita de Software Foundation."
 
-#: ../src/applet-main.c:626
+#: ../src/applet-main.c:722
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -59,37 +59,37 @@ msgid ""
 "General Public License for more details."
 msgstr "Ĉi tiu programaro estas distribuata, esperante ke ĝi estos uzebla, sed SEN AJNA GARANTIO; sen eĉ la implikataj garantioj de NEGOCEBLO, KONTENTIGA KVALITO, aŭ TAŬGECO POR SPECIALA CELO. Pli da detaloj vi trovas en la \"GNU\"-ĝenerala publika permesilo."
 
-#: ../src/applet-main.c:630
+#: ../src/applet-main.c:726
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "Vi devus ricevi kopion de la GNU ĝenerala publika permesilo kune kun ĉi tiu programaro. Se ne, bonvolu iri al <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:642
+#: ../src/applet-main.c:738
 msgid "An applet to hold your application menus."
 msgstr "Kromprogramo por fiksteni viajn aplikaĵajn menuojn."
 
-#: ../src/applet-main.c:644
+#: ../src/applet-main.c:740
 msgid "An applet to hold all of the system indicators."
 msgstr "Aplikaĵeto por enhavi ĉiujn sistemajn indikilojn."
 
-#: ../src/applet-main.c:648
+#: ../src/applet-main.c:744
 msgid "translator-credits"
 msgstr "Launchpad Contributions:\n  Aisano https://launchpad.net/~info-ais-sanmarino\n  Fabio Ruiz Ortega https://launchpad.net/~fabjo-ruiz-deactivatedaccount\n  Lucas Larson https://launchpad.net/~lucaslarson\n  Michael Moroni https://launchpad.net/~airon90\n  Patrick (Petriko) Oudejans https://launchpad.net/~patrickoudejans"
 
-#: ../src/applet-main.c:652
+#: ../src/applet-main.c:748
 msgid "MATE Website"
 msgstr ""
 
-#: ../src/applet-main.c:793
+#: ../src/applet-main.c:893
 msgid "_About"
 msgstr "Pri"
 
-#: ../src/applet-main.c:812
+#: ../src/applet-main.c:912
 msgid "Indicator Applet Application Menu"
 msgstr "Indikila kromprogramo aplikaĵa menuo"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:930
+#: ../src/applet-main.c:975
 msgid "No Indicators"
 msgstr "Neniu indikilo"

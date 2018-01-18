@@ -28,22 +28,69 @@ with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <gdk/gdkkeysyms.h>
 #include <gtk/gtk.h>
 
+#if HAVE_UBUNTU_INDICATOR
+
+#define INDICATOR_SERVICE_APPMENU	"libappmenu.so"
+#define INDICATOR_SERVICE_ME		"libme.so"
+#define INDICATOR_SERVICE_DATETIME	"libdatetime.so"
+
+#define INDICATOR_SERVICE_APPMENU_NG	"com.canonical.indicator.appmenu"
+#define INDICATOR_SERVICE_ME_NG		"com.canonical.indicator.me"
+#define INDICATOR_SERVICE_DATETIME_NG	"com.canonical.indicator.datetime"
+
 #include <libindicator/indicator-object.h>
+#endif
+
+#if HAVE_AYATANA_INDICATOR
+
+#define INDICATOR_SERVICE_APPMENU	"libayatana-appmenu.so"
+#define INDICATOR_SERVICE_ME		"libayatana-me.so"
+#define INDICATOR_SERVICE_DATETIME	"libayatana-datetime.so"
+
+#define INDICATOR_SERVICE_APPMENU_NG	"org.ayatana.indicator.appmenu"
+#define INDICATOR_SERVICE_ME_NG		"org.ayatana.indicator.me"
+#define INDICATOR_SERVICE_DATETIME_NG	"org.ayatana.indicator.datetime"
+
+#include <libayatana-indicator/indicator-object.h>
+#endif
 
 /* For new style indicators */
-#if HAVE_INDICATOR_NG
+
+#if HAVE_UBUNTU_INDICATOR && HAVE_UBUNTU_INDICATOR_NG
+
 #include <libido/libido.h>
 #include <libindicator/indicator-ng.h>
+
+#define INDICATOR_SERVICE_DIR "/usr/share/unity/indicators"
+
+#endif
+
+#if HAVE_AYATANA_INDICATOR && HAVE_AYATANA_INDICATOR_NG
+
+#include <libayatana-ido/libayatana-ido.h>
+#include <libayatana-indicator/indicator-ng.h>
+
+#define INDICATOR_SERVICE_DIR "/usr/share/ayatana/indicators"
+
 #endif
 
 #include "tomboykeybinder.h"
 
 static gchar * indicator_order[] = {
+#if HAVE_UBUNTU_INDICATOR
 	"libapplication.so",
 	"libmessaging.so",
 	"libsoundmenu.so",
 	"libdatetime.so",
 	"libsession.so",
+#endif
+#if HAVE_AYATANA_INDICATOR
+	"libayatana-application.so",
+	"libayatana-messaging.so",
+	"libayatana-soundmenu.so",
+	"libayatana-datetime.so",
+	"libayatana-session.so",
+#endif
 	NULL
 };
 
@@ -511,7 +558,7 @@ load_indicator (GtkWidget * menubar, IndicatorObject *io, const gchar *name)
 	indicator_object_set_environment(io, (const GStrv)indicator_env);
 
 	/* Attach the 'name' to the object */
-#if HAVE_INDICATOR_NG
+#if HAVE_AYATANA_INDICATOR_NG || HAVE_UBUNTU_INDICATOR_NG
 	int pos = 5000 - indicator_object_get_position(io);
 	if (pos > 5000) {
 		pos = name2order(name);
@@ -573,19 +620,19 @@ load_modules (GtkWidget *menubar, gint *indicators_loaded)
 		gint count = 0;
 		while ((name = g_dir_read_name(dir)) != NULL) {
 #ifdef INDICATOR_APPLET_APPMENU
-			if (g_strcmp0(name, "libappmenu.so")) {
+			if (g_strcmp0(name, INDICATOR_SERVICE_APPMENU)) {
 				continue;
 			}
 #else
-			if (!g_strcmp0(name, "libappmenu.so")) {
+			if (!g_strcmp0(name, INDICATOR_SERVICE_APPMENU)) {
 				continue;
 			}
 #endif
 #ifdef INDICATOR_APPLET
-			if (!g_strcmp0(name, "libme.so")) {
+			if (!g_strcmp0(name, INDICATOR_SERVICE_ME)) {
 				continue;
 			}
-			if (!g_strcmp0(name, "libdatetime.so")) {
+			if (!g_strcmp0(name, INDICATOR_SERVICE_DATETIME)) {
 				continue;
 			}
 #endif
@@ -600,9 +647,7 @@ load_modules (GtkWidget *menubar, gint *indicators_loaded)
 	}
 }
 
-#if HAVE_INDICATOR_NG
-
-#define INDICATOR_SERVICE_DIR "/usr/share/unity/indicators"
+#if HAVE_AYATANA_INDICATOR_NG || HAVE_UBUNTU_INDICATOR_NG
 
 static void
 load_indicators_from_indicator_files (GtkWidget *menubar, gint *indicators_loaded)
@@ -630,19 +675,19 @@ load_indicators_from_indicator_files (GtkWidget *menubar, gint *indicators_loade
 		g_free (filename);
 
 #ifdef INDICATOR_APPLET_APPMENU
-		if (g_strcmp0(name, "com.canonical.indicator.appmenu")) {
+		if (g_strcmp0(name, INDICATOR_SERVICE_APPMENU_NG)) {
 			continue;
 		}
 #else
-		if (!g_strcmp0(name, "com.canonical.indicator.appmenu")) {
+		if (!g_strcmp0(name, INDICATOR_SERVICE_APPMENU_NG)) {
 			continue;
 		}
 #endif
 #ifdef INDICATOR_APPLET
-		if (!g_strcmp0(name, "com.canonical.indicator.me")) {
+		if (!g_strcmp0(name, INDICATOR_SERVICE_ME_NG)) {
 			continue;
 		}
-		if (!g_strcmp0(name, "com.canonical.indicator.datetime")) {
+		if (!g_strcmp0(name, INDICATOR_SERVICE_DATETIME_NG)) {
 			continue;
 		}
 #endif
@@ -660,7 +705,7 @@ load_indicators_from_indicator_files (GtkWidget *menubar, gint *indicators_loade
 
 	g_dir_close (dir);
 }
-#endif  /* HAVE_INDICATOR_NG */
+#endif  /* HAVE_AYATANA_INDICATOR_NG || HAVE_UBUNTU_INDICATOR_NG */
 
 static void
 hotkey_filter (char * keystring G_GNUC_UNUSED, gpointer data)
@@ -885,7 +930,7 @@ static gboolean
 applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
                 gpointer data G_GNUC_UNUSED)
 {
-#if HAVE_INDICATOR_NG
+#if HAVE_AYATANA_INDICATOR_NG || HAVE_UBUNTU_INDICATOR_NG
 	ido_init();
 #endif
 
@@ -966,7 +1011,7 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 	tomboy_keybinder_bind(hotkey_keycode, hotkey_filter, menubar);
 
 	load_modules(menubar, &indicators_loaded);
-#if HAVE_INDICATOR_NG
+#if HAVE_AYATANA_INDICATOR_NG || HAVE_UBUNTU_INDICATOR_NG
 	load_indicators_from_indicator_files(menubar, &indicators_loaded);
 #endif
 

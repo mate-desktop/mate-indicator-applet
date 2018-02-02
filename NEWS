@@ -1,3 +1,7 @@
+### mate-indicator-applet 1.20.0
+
+  * require GTK+ 3.22
+
 ### mate-indicator-applet 1.19.0
 
   * Support building against Ayatana Indicators and Ubuntu Indicators alike.

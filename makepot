@@ -1,0 +1,5 @@
+#! /bin/sh
+
+PACKAGE=mate-indicator-applet;
+
+make -C po $PACKAGE.pot && mv po/$PACKAGE.pot .

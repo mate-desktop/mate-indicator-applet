@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010
-# Maurious Paul Vincent <paulmaurious@gmail.com>, 2016
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 12:10+0100\n"
-"PO-Revision-Date: 2017-09-19 11:53+0000\n"
-"Last-Translator: Maurious Paul Vincent <paulmaurious@gmail.com>\n"
-"Language-Team: Tamil (http://www.transifex.com/mate/MATE/language/ta/)\n"
+"POT-Creation-Date: 2018-03-17 09:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Maurious Paul Vincent <paulmaurious@gmail.com>, 2018\n"
+"Language-Team: Tamil (https://www.transifex.com/mate/teams/13566/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:906
+#: ../src/applet-main.c:951
 msgid "Indicator Applet"
 msgstr "சுட்டிக்காட்டி குறும்பயன்"
 
@@ -29,7 +28,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "உங்கள் கவனத்தை எதன் மீதோ ஈர்க்க  மேல் மேசையில் காட்டும் சுட்டி"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:909
+#: ../src/applet-main.c:954
 msgid "Indicator Applet Complete"
 msgstr "சுட்டிக்காட்டி குறு நிரல் முழுமையானது"
 
@@ -45,52 +44,63 @@ msgstr "சுட்டிக்காட்டி குறிநிரல் �
 msgid "A applet containing the application menus."
 msgstr "பயன்பாடுகளின் பட்டியலை கொண்ட குறுநிரல்"
 
-#: ../src/applet-main.c:719
+#: ../src/applet-main.c:764
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "இந்த நிரல் இலவச மென் பொருளாகும். நீங்கள் இலவச மென் பொருள் அமைப்பினால் வெளியிடப்பட்ட ஜிஎன்யு பொது \r\nஅனுமதிக்கான இந்த 3 ஆம் பதிப்பு விதிகளின் படி நீங்கள் (விருப்பப்படி) \r\nமாற்றலாம். அல்லது மீண்டும் பறிமாறலாம்"
+msgstr ""
+"இந்த நிரல் இலவச மென் பொருளாகும். நீங்கள் இலவச மென் பொருள் அமைப்பினால் வெளியிடப்பட்ட ஜிஎன்யு பொது \r\n"
+"அனுமதிக்கான இந்த 3 ஆம் பதிப்பு விதிகளின் படி நீங்கள் (விருப்பப்படி) \r\n"
+"மாற்றலாம். அல்லது மீண்டும் பறிமாறலாம்"
 
-#: ../src/applet-main.c:722
+#: ../src/applet-main.c:767
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "இந்த நிரல் உபயோகப்படும் என்ற எதிர்பார்ப்புடன் வெளியிடப்படுகிறது. ஆனால் விற்க தகுதி, திருப்தி தரும் தரம், குறிப்பிட்ட \r\nசெயலுக்கான தகுதி உள்பட நேரடியாகவோ உணர்த்தப்பட்டதாகவோ எந்த உத்திரவாதமும் அளிக்கப்படவில்லை. மேற் கொண்டு விவரங்களுக்கு ஜிஎன்யு பொது அனுமதிக்கான விதிகளை பார்க்கவும்"
+msgstr ""
+"இந்த நிரல் உபயோகப்படும் என்ற எதிர்பார்ப்புடன் வெளியிடப்படுகிறது. ஆனால் விற்க தகுதி, திருப்தி தரும் தரம், குறிப்பிட்ட \r\n"
+"செயலுக்கான தகுதி உள்பட நேரடியாகவோ உணர்த்தப்பட்டதாகவோ எந்த உத்திரவாதமும் அளிக்கப்படவில்லை. மேற் கொண்டு விவரங்களுக்கு ஜிஎன்யு பொது அனுமதிக்கான விதிகளை பார்க்கவும்"
 
-#: ../src/applet-main.c:726
+#: ../src/applet-main.c:771
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "இந்த நிரலுடன் ஜிஎன்யு பொது அனுமதிக்கான விதிகளின் பிரதி உங்களுக்கு கிடைத்திருக்க வேண்டும். இல்லையானால் கீழ் கண்ட வலைப்பக்கத்தை பார்க்கவும் <http://www.gnu.org/licenses/>."
+msgstr ""
+"இந்த நிரலுடன் ஜிஎன்யு பொது அனுமதிக்கான விதிகளின் பிரதி உங்களுக்கு "
+"கிடைத்திருக்க வேண்டும். இல்லையானால் கீழ் கண்ட வலைப்பக்கத்தை பார்க்கவும் "
+"<http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:738
+#: ../src/applet-main.c:783
 msgid "An applet to hold your application menus."
 msgstr "உங்கள் பயன்பாட்டு பட்டிகளை உள்ளடக்க ஒரு குறுநிரல்"
 
-#: ../src/applet-main.c:740
+#: ../src/applet-main.c:785
 msgid "An applet to hold all of the system indicators."
 msgstr "கணினி சுட்டிகள் அனைத்தையும் உள்ளடக்க ஒரு குறுநிரல்"
 
-#: ../src/applet-main.c:744
+#: ../src/applet-main.c:789
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Krishna https://launchpad.net/~krishnab\n  Ramesh https://launchpad.net/~rame20002007\n  Sangeeth https://launchpad.net/~p-sangeethkumar\n  drtvasudevan https://launchpad.net/~agnihot3\n  நவீன் குமார்(கெம்ளின்) https://launchpad.net/~naveenmtp"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Valmantas Palikša https://launchpad.net/~walmis\n"
+"  bhuvi https://launchpad.net/~bhuvanesh"
 
-#: ../src/applet-main.c:748
+#: ../src/applet-main.c:793
 msgid "MATE Website"
 msgstr "MATE வலைத்தளம்"
 
-#: ../src/applet-main.c:893
+#: ../src/applet-main.c:938
 msgid "_About"
-msgstr "பற்றி (_A)"
+msgstr "பற்றி "
 
-#: ../src/applet-main.c:912
+#: ../src/applet-main.c:957
 msgid "Indicator Applet Application Menu"
 msgstr "சுட்டிக்காட்டி குறுநிரல் பயன்பாட்டு பட்டி"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:975
+#: ../src/applet-main.c:1020
 msgid "No Indicators"
 msgstr "சுட்டிக்காட்டிகள் இல்லை"

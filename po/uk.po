@@ -1,27 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
-# Yarema aka Knedlyk <yupadmin@gmail.com>, 2012
-# Микола Ткач <znadibnyk@gmail.com>, 2013-2016
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 12:10+0100\n"
-"PO-Revision-Date: 2017-09-19 11:53+0000\n"
-"Last-Translator: Микола Ткач <znadibnyk@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/mate/MATE/language/uk/)\n"
+"POT-Creation-Date: 2018-03-17 09:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Микола Ткач <znadibnyk@gmail.com>, 2018\n"
+"Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:906
+#: ../src/applet-main.c:951
 msgid "Indicator Applet"
 msgstr "Аплет сповіщення"
 
@@ -30,7 +28,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Звертає Вашу увагу на нові події"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:909
+#: ../src/applet-main.c:954
 msgid "Indicator Applet Complete"
 msgstr "Аплет Індикатор готовий"
 
@@ -46,52 +44,64 @@ msgstr "Меню проґрам аплету сповіщень"
 msgid "A applet containing the application menus."
 msgstr "Аплет містить меню проґрам"
 
-#: ../src/applet-main.c:719
+#: ../src/applet-main.c:764
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Ця проґрама є вільним проґрамним забезпеченням: Ви маєте право розповсюджувати, та/або змінювати її за умови дотримання вимог ліцензії GNU General Public License ред.3, виданої Free Software Foundation."
+msgstr ""
+"Ця проґрама є вільним проґрамним забезпеченням: Ви маєте право "
+"розповсюджувати, та/або змінювати її за умови дотримання вимог ліцензії GNU "
+"General Public License ред.3, виданої Free Software Foundation."
 
-#: ../src/applet-main.c:722
+#: ../src/applet-main.c:767
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Це проґрамне забезпечення розповсюджується зі сподіванням, що воно стане Вам в нагоді, але БЕЗ БУДЬ-ЯКИХ ЗАПОРУК чи ЗОБОВЯЗАНЬ; також виключно без ЗАПОРУК ПРАЦЕЗДАТНОСТИ ПРОҐРАМИ, чи ДОСТАТНОСТИ ЇЇ ЯКОСТИ чи ВІДПОВІДНОСТИ ПОСТАВЛЕНІЙ ЗАДАЧІ. Деталі читайте у ліцензії GNU General Public License."
+msgstr ""
+"Це проґрамне забезпечення розповсюджується зі сподіванням, що воно стане Вам"
+" в нагоді, але БЕЗ БУДЬ-ЯКИХ ЗАПОРУК чи ЗОБОВЯЗАНЬ; також виключно без "
+"ЗАПОРУК ПРАЦЕЗДАТНОСТИ ПРОҐРАМИ, чи ДОСТАТНОСТИ ЇЇ ЯКОСТИ чи ВІДПОВІДНОСТИ "
+"ПОСТАВЛЕНІЙ ЗАДАЧІ. Деталі читайте у ліцензії GNU General Public License."
 
-#: ../src/applet-main.c:726
+#: ../src/applet-main.c:771
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Ви мали отримати копію GNU General Public License разом з цією проґрамою. Якщо цього не сталося, дивіться <http://www.gnu.org/licenses/>."
+msgstr ""
+"Ви мали отримати копію GNU General Public License разом з цією проґрамою. "
+"Якщо цього не сталося, дивіться <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:738
+#: ../src/applet-main.c:783
 msgid "An applet to hold your application menus."
 msgstr "Аплет містить меню Ваших проґрам"
 
-#: ../src/applet-main.c:740
+#: ../src/applet-main.c:785
 msgid "An applet to hold all of the system indicators."
 msgstr "Цей Аплет панелі зберігає усі повідомлення системи."
 
-#: ../src/applet-main.c:744
+#: ../src/applet-main.c:789
 msgid "translator-credits"
-msgstr "Transifex Contributions:\n  Микола Ткач <Stuartlittle1970@gmail.com>\nLaunchpad Contributions:\n  Andriy Korchak https://launchpad.net/~kharts\n  Anton Gladky https://launchpad.net/~gladky-anton\n  Sergiy Gavrylov https://launchpad.net/~gavro\n  Serhey Kusyumoff (Сергій Кусюмов) https://launchpad.net/~sergemine\n  TheAsus https://launchpad.net/~linnik-ua\n  atany https://launchpad.net/~ye-gorshkov\n  kolybasov https://launchpad.net/~kolybasov\n  lserg https://launchpad.net/~lserg\n  nehxby https://launchpad.net/~nehxby-gmail"
+msgstr ""
+"Yarema aka Knedlyk <yupadmin@gmail.com>,\n"
+"Микола Ткач <Stuartlittle1970@gmail.com>,\n"
+"Oleh Tsyupka <myr4yk@gmail.com>"
 
-#: ../src/applet-main.c:748
+#: ../src/applet-main.c:793
 msgid "MATE Website"
-msgstr "Веб-сторінка MATE"
+msgstr "Сайт MATE"
 
-#: ../src/applet-main.c:893
+#: ../src/applet-main.c:938
 msgid "_About"
-msgstr "_Про аплет"
+msgstr "_Про проґраму"
 
-#: ../src/applet-main.c:912
+#: ../src/applet-main.c:957
 msgid "Indicator Applet Application Menu"
 msgstr "Меню проґрам аплету сповіщень"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:975
+#: ../src/applet-main.c:1020
 msgid "No Indicators"
 msgstr "Жодного індикатора"

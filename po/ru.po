@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Alexei Sorokin <sor.alexei@meowr.ru>, 2012
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 12:10+0100\n"
-"PO-Revision-Date: 2017-09-23 18:10+0000\n"
-"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
-"Language-Team: Russian (http://www.transifex.com/mate/MATE/language/ru/)\n"
+"POT-Creation-Date: 2018-03-17 09:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: monsta <monsta@inbox.ru>, 2018\n"
+"Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:906
+#: ../src/applet-main.c:951
 msgid "Indicator Applet"
 msgstr "Апплет уведомлений"
 
@@ -29,7 +28,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Уведомления о событиях, требующих вашего внимания"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:909
+#: ../src/applet-main.c:954
 msgid "Indicator Applet Complete"
 msgstr "Апплет, включающий все виды уведомлений"
 
@@ -45,52 +44,92 @@ msgstr "Меню приложений апплета уведомлений"
 msgid "A applet containing the application menus."
 msgstr "Апплет, содержащий меню приложений."
 
-#: ../src/applet-main.c:719
+#: ../src/applet-main.c:764
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Эта программа является свободным программным обеспечением: вы можете распространять её и/или изменять в соответствии с лицензией GNU GPL версии 3, опубликованной Free Software Foundation."
+msgstr ""
+"Эта программа является свободным программным обеспечением: вы можете "
+"распространять её и/или изменять в соответствии с лицензией GNU GPL версии "
+"3, опубликованной Free Software Foundation."
 
-#: ../src/applet-main.c:722
+#: ../src/applet-main.c:767
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Эта программа распространяется в надежде, что она будет полезной, но БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ; отсутствуют даже обычные гарантии ВОЗМОЖНОСТИ ПРОДАЖИ, УДОВЛЕТВОРИТЕЛЬНОГО КАЧЕСТВА или ПРИМЕНИМОСТИ ДЛЯ ОПРЕДЕЛЁННОЙ ЦЕЛИ. За дальнейшими подробностями обращайтесь к GNU General Public License."
+msgstr ""
+"Эта программа распространяется в надежде, что она будет полезной, но БЕЗ "
+"КАКИХ-ЛИБО ГАРАНТИЙ; отсутствуют даже обычные гарантии ВОЗМОЖНОСТИ ПРОДАЖИ, "
+"УДОВЛЕТВОРИТЕЛЬНОГО КАЧЕСТВА или ПРИМЕНИМОСТИ ДЛЯ ОПРЕДЕЛЁННОЙ ЦЕЛИ. За "
+"дальнейшими подробностями обращайтесь к GNU General Public License."
 
-#: ../src/applet-main.c:726
+#: ../src/applet-main.c:771
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Вместе с этой программой вы должны были получить копию GNU General Public License.  Если нет, то обратитесь к <http://www.gnu.org/licenses/>."
+msgstr ""
+"Вместе с этой программой вы должны были получить копию GNU General Public "
+"License.  Если нет, то обратитесь к <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:738
+#: ../src/applet-main.c:783
 msgid "An applet to hold your application menus."
 msgstr "Апплет, содержащий меню ваших приложений."
 
-#: ../src/applet-main.c:740
+#: ../src/applet-main.c:785
 msgid "An applet to hold all of the system indicators."
 msgstr "Апплет, содержащий все уведомления системы."
 
-#: ../src/applet-main.c:744
+#: ../src/applet-main.c:789
 msgid "translator-credits"
-msgstr "Алексей Сорокин <sor.alexei@hotbox.ru>\nАлександр Семёнов <rotuka@gmail.com>\nАлексей Резцов <ariafan@mail.ru>\nАндрей Сибирёв <me@kobology.ru>\nAsstZD <eskaer_spamsink@ngs.ru>\nДмитрий Фёдоров\nДмитрий Остасевич\nGloom\nИгнат Лоскутов <softwayer@xakep.ru>\nМаксим Прокопьев <jazzelastic@gmail.com>\nМаксим С. <luvme.nn@gmail.com>\nМихаил Рубински\nОлег Коптев <koptev.oleg@gmail.com>\nПавел Носовски\nProfilaktik\nRaiden\nРоман А. <x12ozmouse@ya.ru>\nСергей Седов <sedov@webmail.perm.ru>\nСтанислав Ханжин <hanzhin.stas@gmail.com>\njmb_kz\nВасилий Алексеенко <vasilisc@rambler.ru>\nwiz <aenor.realm@gmail.com>\nАртём Попов <artfwo@gmail.com>"
+msgstr ""
+"Александр Сапрыкин <xelfium@gmail.com>\n"
+"Александр Сигачёв <ajvol2@gmail.com>\n"
+"Александр Соколов\n"
+"Александр Хромин\n"
+"Алексей Рочев <equeim@gmail.com>\n"
+"Алексей Сорокин <sor.alexei@meowr.ru>\n"
+"Андрей Иванков\n"
+"Андрей Носенко <awn@bcs.zp.ua>\n"
+"Антон Резник <t0xa@opensuse.org>\n"
+"Валек Филиппов <frob@df.ru>\n"
+"Валентин Сайков <saikov.vb@gmail.com>\n"
+"Василий Литвинов\n"
+"Виктор Кукшиев <andrey0bolkonsky@gmail.com>\n"
+"Владислав Агафонов <vlad648@gmail.com>\n"
+"Влад Орлов <monsta@inbox.ru>\n"
+"Глеб Мехренин <mehrenin@gmail.com>\n"
+"Денис Арефьев <arefevdns@mail.ru>\n"
+"Дмитрий Мандрык <dmandryk@gmail.com>\n"
+"Дмитрий Мастрюков <dmitry@taurussoft.org>\n"
+"Дмитрий Михирев <mikhirev@gmail.com>\n"
+"Дмитрий Яценко <d.acenko@gmail.com>\n"
+"Евгений Самусев <samusev@gmail.com>\n"
+"Константин Гусев <kilolife@gmail.com>\n"
+"Леонид Кантер <leon@asplinux.ru>\n"
+"Макс Валянский <max.valjanski@gmail.com>\n"
+"Павел Жовнер <zhovner@ukr.net>\n"
+"Сергей Колосов <m17.admin@gmail.com>\n"
+"Сергей Панов <sipan@mit.edu>\n"
+"Сергей Яковлев\n"
+"Юрий Козлов <yuray@komyakino.ru>\n"
+"Evolve32 <evolve32@ya.ru>"
 
-#: ../src/applet-main.c:748
+#: ../src/applet-main.c:793
 msgid "MATE Website"
 msgstr "Сайт MATE"
 
-#: ../src/applet-main.c:893
+#: ../src/applet-main.c:938
 msgid "_About"
 msgstr "_Об апплете"
 
-#: ../src/applet-main.c:912
+#: ../src/applet-main.c:957
 msgid "Indicator Applet Application Menu"
 msgstr "Меню приложений апплета уведомлений"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:975
+#: ../src/applet-main.c:1020
 msgid "No Indicators"
 msgstr "Уведомления отсутствуют"

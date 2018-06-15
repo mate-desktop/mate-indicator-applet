@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Allan Nordhøy <epost@anotheragency.no>, 2016
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 12:10+0100\n"
-"PO-Revision-Date: 2017-09-19 11:53+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål (http://www.transifex.com/mate/MATE/language/nb/)\n"
+"POT-Creation-Date: 2018-03-17 09:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2018\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/mate/teams/13566/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:906
+#: ../src/applet-main.c:951
 msgid "Indicator Applet"
 msgstr "Indikator miniprogram"
 
@@ -29,7 +28,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "En indikator for noe som trenger din oppmerksomhet på skrivebordet"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:909
+#: ../src/applet-main.c:954
 msgid "Indicator Applet Complete"
 msgstr "Indikator miniprogram fullført"
 
@@ -45,52 +44,71 @@ msgstr "Indikator miniprogram."
 msgid "A applet containing the application menus."
 msgstr "Et miniprogram som inneholder programmenyene."
 
-#: ../src/applet-main.c:719
+#: ../src/applet-main.c:764
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Dette programmet er fri programvare: du kan videreformidle og/eller endre det under betingelsene i GNU General Public License versjon 3, som utgis av Free Software Foundation."
+msgstr ""
+"Dette programmet er fri programvare: du kan videreformidle og/eller endre "
+"det under betingelsene i GNU General Public License versjon 3, som utgis av "
+"Free Software Foundation."
 
-#: ../src/applet-main.c:722
+#: ../src/applet-main.c:767
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Dette programmet distribueres i håpet om at det kan være nyttig, men UTEN NOEN FORM FOR GARANTI; heller ikke impliserte garantier for SALGBARHET, TILFREDSSTILLENDE KVALITET eller EGNETHET FOR EN BESTEMT HENSIKT. Se GNU General Public License for flere detaljer."
+msgstr ""
+"Dette programmet distribueres i håpet om at det kan være nyttig, men UTEN "
+"NOEN FORM FOR GARANTI; heller ikke impliserte garantier for SALGBARHET, "
+"TILFREDSSTILLENDE KVALITET eller EGNETHET FOR EN BESTEMT HENSIKT. Se GNU "
+"General Public License for flere detaljer."
 
-#: ../src/applet-main.c:726
+#: ../src/applet-main.c:771
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Du skal ha fått en kopi av GNU General Public License med dette programmet. Hvis ikke, se <http://www.gnu.org/licenses/>."
+msgstr ""
+"Du skal ha fått en kopi av GNU General Public License med dette programmet. "
+"Hvis ikke, se <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:738
+#: ../src/applet-main.c:783
 msgid "An applet to hold your application menus."
 msgstr "Et miniprogram som viser programmenyene dine."
 
-#: ../src/applet-main.c:740
+#: ../src/applet-main.c:785
 msgid "An applet to hold all of the system indicators."
 msgstr "Et miniprogram som holder orden på systemindikatorene."
 
-#: ../src/applet-main.c:744
+#: ../src/applet-main.c:789
 msgid "translator-credits"
-msgstr "Launchpad-bidrag:\n  Christian Aasan https://launchpad.net/~christian-aasan\n  Jim Nygård https://launchpad.net/~jim-nygard\n  Kjetil Birkeland Moe https://launchpad.net/~kjetilbmoe\n  Kjetil Rydland https://launchpad.net/~kjetilrydl\n  Morten Müller https://launchpad.net/~morten-m\n  TH https://launchpad.net/~thaugseth"
+msgstr ""
+"Send en e-post om du finner feil eller mangler i oversettelsen.\n"
+"\n"
+"stefanok (Stefano Karapetsas) 7943\n"
+"kingu (Allan Nordhøy) epost@anotheragency.no 3326\n"
+"pompel9 (Kenneth Jenssen) 186\n"
+"Bornxlo (Alexander Jansen) 93\n"
+"flexiondotorg (Martin Wimpress) 19\n"
+"wty (Håvard Havdal) 18\n"
+"\n"
+"Av totalt 11597 tekststrenger."
 
-#: ../src/applet-main.c:748
+#: ../src/applet-main.c:793
 msgid "MATE Website"
 msgstr "Nettsiden til MATE"
 
-#: ../src/applet-main.c:893
+#: ../src/applet-main.c:938
 msgid "_About"
-msgstr "_Om"
+msgstr "Om"
 
-#: ../src/applet-main.c:912
+#: ../src/applet-main.c:957
 msgid "Indicator Applet Application Menu"
 msgstr "Indikator miniprogram programmeny"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:975
+#: ../src/applet-main.c:1020
 msgid "No Indicators"
 msgstr "Ingen indikatorer"

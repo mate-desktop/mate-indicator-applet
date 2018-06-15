@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
-# Sveinn í Felli <sv1@fellsnet.is>, 2015
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 12:10+0100\n"
-"PO-Revision-Date: 2017-09-19 11:53+0000\n"
-"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
-"Language-Team: Icelandic (http://www.transifex.com/mate/MATE/language/is/)\n"
+"POT-Creation-Date: 2018-03-17 09:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Language-Team: Icelandic (https://www.transifex.com/mate/teams/13566/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:906
+#: ../src/applet-main.c:951
 msgid "Indicator Applet"
 msgstr "Ábendingar"
 
@@ -29,7 +28,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Gefur það til kynna ef eitthvað áhugavert gerist"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:909
+#: ../src/applet-main.c:954
 msgid "Indicator Applet Complete"
 msgstr "Sameinaðar ábendingar"
 
@@ -45,52 +44,63 @@ msgstr "Vísir fyrir forritavalmyndaforritling"
 msgid "A applet containing the application menus."
 msgstr "Smáforrit sem inniheldur forritavalmyndirnar."
 
-#: ../src/applet-main.c:719
+#: ../src/applet-main.c:764
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Þetta er frjálst forrit; þú mátt dreyfa því eða breyta samkvæmt  útgáfu 3 af GNU General Public eins og Frjálsa hugbúnaðarstofnunin gefur út."
+msgstr ""
+"Þetta er frjálst forrit; þú mátt dreyfa því eða breyta samkvæmt  útgáfu 3 af"
+" GNU General Public eins og Frjálsa hugbúnaðarstofnunin gefur út."
 
-#: ../src/applet-main.c:722
+#: ../src/applet-main.c:767
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Hugbúnaðnum er dreift í þeirri von að hann geti verið gagnlegur, en ÁN ALLRAR ÁBYRGÐAR; einnig án þeirrar ábyrgðar sem gefin er í skyn með SELJANLEIKA eða EIGINLEIKUM TIL TILTEKINNA NOTA. Sjá almenna GNU GPL notkunarleyfið fyrir nánari upplýsingar."
+msgstr ""
+"Hugbúnaðnum er dreift í þeirri von að hann geti verið gagnlegur, en ÁN "
+"ALLRAR ÁBYRGÐAR; einnig án þeirrar ábyrgðar sem gefin er í skyn með "
+"SELJANLEIKA eða EIGINLEIKUM TIL TILTEKINNA NOTA. Sjá almenna GNU GPL "
+"notkunarleyfið fyrir nánari upplýsingar."
 
-#: ../src/applet-main.c:726
+#: ../src/applet-main.c:771
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Þú hefðir átt að fá eintak af GNU General Public License með þessu forriti. Ef svo reyndist ekki þá má sjá <http://www.gnu.org/licenses/>."
+msgstr ""
+"Þú hefðir átt að fá eintak af GNU General Public License með þessu forriti. "
+"Ef svo reyndist ekki þá má sjá <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:738
+#: ../src/applet-main.c:783
 msgid "An applet to hold your application menus."
 msgstr "Smáforrit til að innihalda forritavalmyndir."
 
-#: ../src/applet-main.c:740
+#: ../src/applet-main.c:785
 msgid "An applet to hold all of the system indicators."
 msgstr "Forrit sem lætur þig vita þegar eitthvað gerist."
 
-#: ../src/applet-main.c:744
+#: ../src/applet-main.c:789
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Baldur https://launchpad.net/~baldurpet\n  Sveinn í Felli https://launchpad.net/~sveinki"
+msgstr ""
+"Samúel Jón Gunnarsson <sammi@techattack.nu>, 2003\n"
+"Sveinn í Felli <sv1@fellsnet.is>, 2012-2016\n"
+"Aðrir FOSS íslenskuþýðendur"
 
-#: ../src/applet-main.c:748
+#: ../src/applet-main.c:793
 msgid "MATE Website"
 msgstr "MATE vefsvæðið"
 
-#: ../src/applet-main.c:893
+#: ../src/applet-main.c:938
 msgid "_About"
-msgstr "_Upplýsingar"
+msgstr "_Um"
 
-#: ../src/applet-main.c:912
+#: ../src/applet-main.c:957
 msgid "Indicator Applet Application Menu"
 msgstr "Vísir fyrir forritavalmyndaforritling"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:975
+#: ../src/applet-main.c:1020
 msgid "No Indicators"
 msgstr "Engar ábendingar"

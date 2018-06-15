@@ -1,19 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# benpicco <benpicco@zedat.fu-berlin.de>, 2012
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
-# Tobias Bannert <tobannert@gmail.com>, 2014-2015
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 12:10+0100\n"
-"PO-Revision-Date: 2017-09-19 11:53+0000\n"
-"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
-"Language-Team: German (http://www.transifex.com/mate/MATE/language/de/)\n"
+"POT-Creation-Date: 2018-03-17 09:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>, 2018\n"
+"Language-Team: German (https://www.transifex.com/mate/teams/13566/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:906
+#: ../src/applet-main.c:951
 msgid "Indicator Applet"
 msgstr "Benachrichtigungsanzeige"
 
@@ -30,7 +28,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Eine Anzeige dafür, dass etwas Ihre Aufmerksamkeit benötigt"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:909
+#: ../src/applet-main.c:954
 msgid "Indicator Applet Complete"
 msgstr "Vollständige Benachrichtigungsanzeige"
 
@@ -46,52 +44,69 @@ msgstr "Anwendungsmenüanzeige"
 msgid "A applet containing the application menus."
 msgstr "Eine Anzeige, das die Anwendungsmenüs enthält."
 
-#: ../src/applet-main.c:719
+#: ../src/applet-main.c:764
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Dieses Programm ist eine freie Anwendung: Sie können es unter den Bedingungen der GNU General Public License Version 3, wie von der Free Software Foundation veröffentlicht, weitergeben und/oder anpassen."
+msgstr ""
+"Dieses Programm ist eine freie Anwendung: Sie können es unter den "
+"Bedingungen der GNU General Public License Version 3, wie von der Free "
+"Software Foundation veröffentlicht, weitergeben und/oder anpassen."
 
-#: ../src/applet-main.c:722
+#: ../src/applet-main.c:767
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, dass es Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License."
+msgstr ""
+"Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, dass es Ihnen"
+" von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die "
+"implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN "
+"BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License."
 
-#: ../src/applet-main.c:726
+#: ../src/applet-main.c:771
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Sie sollten ein Exemplar der GNU General Public License zusammen mit diesem Programm erhalten haben. Wenn dem nicht so ist, lesen Sie bitte <http://www.gnu.org/licenses/>."
+msgstr ""
+"Sie sollten ein Exemplar der GNU General Public License zusammen mit diesem "
+"Programm erhalten haben. Wenn dem nicht so ist, lesen Sie bitte "
+"<http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:738
+#: ../src/applet-main.c:783
 msgid "An applet to hold your application menus."
 msgstr "Eine Anzeige, die Ihre Anwendungsmenüs beinhaltet."
 
-#: ../src/applet-main.c:740
+#: ../src/applet-main.c:785
 msgid "An applet to hold all of the system indicators."
 msgstr "Eine Anzeige, zur Verwaltung aller Systemanzeigen."
 
-#: ../src/applet-main.c:744
+#: ../src/applet-main.c:789
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Alex D https://translations.launchpad.net/~nobbs\n  Astrophysiker https://translations.launchpad.net/~schedler\n  Daniel Schury https://translations.launchpad.net/~surst\n  Eddy https://translations.launchpad.net/~skaran\n  Ghenrik https://translations.launchpad.net/~ghenrik-deactivatedaccount\n  H-Jürgen Böhmker https://translations.launchpad.net/~h-j-boehmker\n  Hendrik Knackstedt https://translations.launchpad.net/~hennekn\n  Jan https://translations.launchpad.net/~jancborchardt-deactivatedaccount\n  Janis96 https://translations.launchpad.net/~janis96\n  Jochen Skulj https://translations.launchpad.net/~joskulj\n  Markus Groß https://translations.launchpad.net/~mag-privat\n  Mathias Schenner https://translations.launchpad.net/~mathias.schenner\n  Max https://translations.launchpad.net/~maxlp-deactivatedaccount\n  Michael Kerkhoff https://translations.launchpad.net/~michaker\n  Moritz Baumann https://translations.launchpad.net/~mo42\n  Shirai https://translations.launchpad.net/~nightkin\n  TSpitzmann https://translations.launchpad.net/~tspitzmann\n  Tim O. https://translations.launchpad.net/~tim.o-deactivatedaccount\n  Tobias Bannert https://translations.launchpad.net/~toba\n  k.l https://translations.launchpad.net/~k-lukaschenko\n  scus https://translations.launchpad.net/~scus-deactivatedaccount\n  stopie https://translations.launchpad.net/~stopie"
+msgstr ""
+"Christian Meyer\n"
+"Benedikt Roth\n"
+"Matthias Warkus\n"
+"Hendrik Richter\n"
+"Christian Kirbach\n"
+"Wolfgang Stoeggl\n"
+"Tobias Bannert"
 
-#: ../src/applet-main.c:748
+#: ../src/applet-main.c:793
 msgid "MATE Website"
 msgstr "MATE-Internetseite"
 
-#: ../src/applet-main.c:893
+#: ../src/applet-main.c:938
 msgid "_About"
 msgstr "_Über"
 
-#: ../src/applet-main.c:912
+#: ../src/applet-main.c:957
 msgid "Indicator Applet Application Menu"
 msgstr "Anwendungsmenüanzeige"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:975
+#: ../src/applet-main.c:1020
 msgid "No Indicators"
 msgstr "Keine Benachrichtigungen"

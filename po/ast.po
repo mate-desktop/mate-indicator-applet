@@ -1,19 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
-# Ḷḷumex03 <tornes@opmbx.org>, 2014
-# Xuacu Saturio <xuacusk8@gmail.com>, 2013
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 12:10+0100\n"
-"PO-Revision-Date: 2017-09-19 11:53+0000\n"
-"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
-"Language-Team: Asturian (http://www.transifex.com/mate/MATE/language/ast/)\n"
+"POT-Creation-Date: 2018-03-17 09:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ḷḷumex03 <tornes@opmbx.org>, 2018\n"
+"Language-Team: Asturian (https://www.transifex.com/mate/teams/13566/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:906
+#: ../src/applet-main.c:951
 msgid "Indicator Applet"
 msgstr "Aplicación Indicador"
 
@@ -30,7 +28,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Un indicador de daqué que pide que lu atiendas nel escritoriu."
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:909
+#: ../src/applet-main.c:954
 msgid "Indicator Applet Complete"
 msgstr "Applet Indicador completu"
 
@@ -46,52 +44,61 @@ msgstr "Indicator Applet Appmenu"
 msgid "A applet containing the application menus."
 msgstr "Un applet que contién los menús d'aplicaciones."
 
-#: ../src/applet-main.c:719
+#: ../src/applet-main.c:764
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Esti programa ye software llibre: puede distribuíse y/o modificase nos términos de la versión 3 de la \"GNU General Public License\" acordies cola publicación de la Free Software Foundation."
+msgstr ""
+"Esti programa ye software llibre: puede distribuíse y/o modificase nos "
+"términos de la versión 3 de la \"GNU General Public License\" acordies cola "
+"publicación de la Free Software Foundation."
 
-#: ../src/applet-main.c:722
+#: ../src/applet-main.c:767
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Esti programa distribúyese col envís de que seya d'utilidá, pero ENSIN DENGUNA GARANTÍA ; nin siquier les garantíes implícites de CONFORMIDÁ, de CALIDÁ SATISFACTORIA o D'AFAYAMIENTU A UN USU PARTICULAR.  Pa más detalles, ver  la \"GNU General Public License.\""
+msgstr ""
+"Esti programa distribúyese col envís de que seya d'utilidá, pero ENSIN "
+"DENGUNA GARANTÍA ; nin siquier les garantíes implícites de CONFORMIDÁ, de "
+"CALIDÁ SATISFACTORIA o D'AFAYAMIENTU A UN USU PARTICULAR.  Pa más detalles, "
+"ver  la \"GNU General Public License.\""
 
-#: ../src/applet-main.c:726
+#: ../src/applet-main.c:771
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Deberíes recibir una copia de la \"GNU General Public License\" con esti programa.  Sinón, mira <http://www.gnu.org/licenses/>."
+msgstr ""
+"Deberíes recibir una copia de la \"GNU General Public License\" con esti "
+"programa.  Sinón, mira <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:738
+#: ../src/applet-main.c:783
 msgid "An applet to hold your application menus."
 msgstr "Un applet pa caltener los tos menús d'aplicaciones."
 
-#: ../src/applet-main.c:740
+#: ../src/applet-main.c:785
 msgid "An applet to hold all of the system indicators."
 msgstr "Una aplicacion pa caltener tolos indicadores del sistema."
 
-#: ../src/applet-main.c:744
+#: ../src/applet-main.c:789
 msgid "translator-credits"
 msgstr "Softastur <www.softastur.org>"
 
-#: ../src/applet-main.c:748
+#: ../src/applet-main.c:793
 msgid "MATE Website"
 msgstr "Sitiu web de MATE"
 
-#: ../src/applet-main.c:893
+#: ../src/applet-main.c:938
 msgid "_About"
 msgstr "_Tocante a"
 
-#: ../src/applet-main.c:912
+#: ../src/applet-main.c:957
 msgid "Indicator Applet Application Menu"
 msgstr "Indicator Applet Application Menu"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:975
+#: ../src/applet-main.c:1020
 msgid "No Indicators"
 msgstr "Ensin indicadores"

@@ -243,8 +243,6 @@ AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Name of the default gettext domain])
 AC_DEFINE_PATH(MATELOCALEDIR, "${datadir}/locale", [locale directory])
 
-ALL_LINGUAS="af am an ar as ast az be bg bn bn_IN br bs ca ca@valencia cmn crh csb cs cy da de dz el en_AU en_CA en_GB eo es es_AR es_CL es_CO es_CR es_DO es_EC es_ES es_MX es_NI es_PA es_PE es_PR es_SV es_UY es_VE et eu fa fi fr frp fur fy ga gl gu ha he hi hr hu hy ia id ig is it ja jv ka kk km kn ko ks ku ku_IQ ky lb li lt lv mai mg mi mk ml mn mr ms nb nds nqo ne nl nn nso oc or pa pl pms ps pt pt_BR ro ru sc si sk sl sq sr sr@latin sv sw ta te th tr tk tt ug uk ur ur_PK uz vi wa xh yo zh_CN zh_HK zh_TW zu"
-
 AM_GLIB_GNU_GETTEXT
 
 ##############################

@@ -5,7 +5,8 @@ SUBDIRS = \
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
-DISTCHECK_CONFIGURE_FLAGS = --enable-localinstall \
+DISTCHECK_CONFIGURE_FLAGS = \
+	--enable-localinstall \
 	CFLAGS='-Wno-deprecated-declarations'
 
 DISTCLEANFILES = \

@@ -102,7 +102,8 @@ grab_ungrab_with_ignorable_modifiers (GdkWindow *rootwin,
 static gboolean
 do_grab_key (Binding *binding)
 {
-	GdkKeymap *keymap = gdk_keymap_get_for_display (gdk_display_get_default ());
+	GdkDisplay *gdk_display = gdk_display_get_default ();
+	GdkKeymap *keymap = gdk_keymap_get_for_display (gdk_display);
 	GdkWindow *rootwin = gdk_get_default_root_window ();
 
 	EggVirtualModifierType virtual_mods = 0;
@@ -133,15 +134,15 @@ do_grab_key (Binding *binding)
 
 	TRACE (g_print ("Got modmask %d\n", binding->modifiers));
 
-	gdk_error_trap_push ();
+	gdk_x11_display_error_trap_push (gdk_display);
 
 	grab_ungrab_with_ignorable_modifiers (rootwin,
 					      binding,
 					      TRUE /* grab */);
 
-	gdk_flush ();
+	gdk_display_flush (gdk_display);
 
-	if (gdk_error_trap_pop ()) {
+	if (gdk_x11_display_error_trap_pop (gdk_display)) {
 	   g_warning ("Binding '%s' failed!\n", binding->keystring);
 	   return FALSE;
 	}

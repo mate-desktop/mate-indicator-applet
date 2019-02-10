@@ -1,19 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Felipe Rozelio <feliperozelio@gmail.com>, 2012
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
-# Marcus Vinícius Marques, 2014
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Felipe Rozelio <feliperozelio@gmail.com>, 2018
+# Marcus Vinícius Marques, 2018
+# 642cf48d39bca7f9ad9d185d4bcea8c8, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 12:10+0100\n"
-"PO-Revision-Date: 2017-09-19 11:53+0000\n"
-"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/mate/MATE/language/pt_BR/)\n"
+"POT-Creation-Date: 2018-12-21 16:19+0100\n"
+"PO-Revision-Date: 2018-03-11 18:40+0000\n"
+"Last-Translator: 642cf48d39bca7f9ad9d185d4bcea8c8, 2018\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/mate/teams/13566/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +25,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:906
+#: ../src/applet-main.c:951
 msgid "Indicator Applet"
 msgstr "Miniaplicativo Indicador"
 
@@ -30,7 +34,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Um indicador de que algo precisa de sua atenção no computador"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:909
+#: ../src/applet-main.c:954
 msgid "Indicator Applet Complete"
 msgstr "Miniaplicativo Indicador Completo"
 
@@ -46,52 +50,82 @@ msgstr "Miniaplicativo Indicador do Appmenu"
 msgid "A applet containing the application menus."
 msgstr "Um miniaplicativo contendo menu de aplicativos."
 
-#: ../src/applet-main.c:719
+#: ../src/applet-main.c:764
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Este programa é um software livre: você pode redistribuí-lo e/ou modificá-lo sob os termos da GNU General Public License versão 3, como publicado na Free Software Foundation."
+msgstr ""
+"Este programa é um software livre: você pode redistribuí-lo e/ou modificá-lo"
+" sob os termos da GNU General Public License versão 3, como publicado na "
+"Free Software Foundation."
 
-#: ../src/applet-main.c:722
+#: ../src/applet-main.c:767
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Este programa é distribuído na esperança de que seja útil, mas SEM QUALQUER GARANTIA; sem mesmo a garantia implícita de COMERCIABILIDADE, QUALIDADE SATISFATÓRIA, ou ADEQUAÇÃO PARA UM DETERMINADO PROPÓSITO. Veja a GNU General Public License para mais detalhes."
+msgstr ""
+"Este programa é distribuído na esperança de que seja útil, mas SEM QUALQUER "
+"GARANTIA; sem mesmo a garantia implícita de COMERCIABILIDADE, QUALIDADE "
+"SATISFATÓRIA, ou ADEQUAÇÃO PARA UM DETERMINADO PROPÓSITO. Veja a GNU General"
+" Public License para mais detalhes."
 
-#: ../src/applet-main.c:726
+#: ../src/applet-main.c:771
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Você deve ter recebido uma cópia da GNU General Public License junto com este programa. Se não, veja <http://www.gnu.org/licenses/>."
+msgstr ""
+"Você deve ter recebido uma cópia da GNU General Public License junto com "
+"este programa. Se não, veja <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:738
+#: ../src/applet-main.c:783
 msgid "An applet to hold your application menus."
 msgstr "Um miniaplicativo que mantém seus menus de aplicativos."
 
-#: ../src/applet-main.c:740
+#: ../src/applet-main.c:785
 msgid "An applet to hold all of the system indicators."
 msgstr "Um miniaplicativo que mantém todos os indicadores do sistema."
 
-#: ../src/applet-main.c:744
+#: ../src/applet-main.c:789
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  André Gondim https://launchpad.net/~andregondim\n  Carlos Alberto C.Soares https://launchpad.net/~carlosacsoares\n  Daniel Neves https://launchpad.net/~danielneves\n  Diego Mello https://launchpad.net/~diegojmello\n  Everton Favretto https://launchpad.net/~evefavretto\n  Felipe Bernardo Zorzo https://launchpad.net/~felipe-b-zorzo\n  Fábio Fantazzini https://launchpad.net/~fantazzini01\n  Gabriel Lima - dollaR https://launchpad.net/~dollar0x\n  Helio Campos https://launchpad.net/~helio.campos\n  Mauricio dos Anjos https://launchpad.net/~mauricioganjos\n  Milton Bender Jr. https://launchpad.net/~nextonebr\n  Patrick L. Melo https://launchpad.net/~pmelo86\n  Tiago Hillebrandt https://launchpad.net/~tiagoscd\n  Ursula Junque https://launchpad.net/~ursinha\n  kahue https://launchpad.net/~kahuemm\n  leo_barros https://launchpad.net/~nickolback"
+msgstr ""
+"Equipe de tradução no Transifex:\n"
+"Fabrizzio Alphonsus Soares https://www.transifex.com/accounts/profile/fabrizzio\n"
+"Alberto Federman Neto https://www.transifex.com/accounts/profile/albfneto\n"
+"Appes https://www.transifex.com/accounts/profile/apps\n"
+"arm332 https://www.transifex.com/accounts/profile/arm332\n"
+"augusteiner https://www.transifex.com/accounts/profile/augusteiner\n"
+"dreto https://www.transifex.com/accounts/profile/dreto\n"
+"Enrico Nicoletto https://www.transifex.com/accounts/profile/EnricoNicoletto\n"
+"everton_seib https://www.transifex.com/accounts/profile/everton_seib\n"
+"Felipe Rozelio https://www.transifex.com/accounts/profile/feliperozelio\n"
+"João Paulo da Silva Júnior https://www.transifex.com/accounts/profile/jpsilvaj\n"
+"Juliana Paula Felix https://www.transifex.com/accounts/profile/jufelix\n"
+"Lucas Cenir Friederich https://www.transifex.com/user/profile/lucasalvarokedrines\n"
+"Marcelo Ghelman https://www.transifex.com/accounts/profile/marcelo.ghelman\n"
+"Marcio Andre Padula https://www.transifex.com/accounts/profile/Padula\n"
+"Marcus Vinícius Marques https://www.transifex.com/accounts/profile/Pygmalion\n"
+"Matheus Macabu https://www.transifex.com/accounts/profile/mkbu95\n"
+"Matheus Martins https://www.transifex.com/accounts/profile/Matheus_Martins\n"
+"Michele dos Santos da Silva https://www.transifex.com/accounts/profile/mchelem\n"
+"Thiago Cangussu https://www.transifex.com/accounts/profile/cangussu.thg\n"
+"vitorgatti https://www.transifex.com/accounts/profile/vitorgatti"
 
-#: ../src/applet-main.c:748
+#: ../src/applet-main.c:793
 msgid "MATE Website"
 msgstr "Site do MATE"
 
-#: ../src/applet-main.c:893
+#: ../src/applet-main.c:938
 msgid "_About"
 msgstr "_Sobre"
 
-#: ../src/applet-main.c:912
+#: ../src/applet-main.c:957
 msgid "Indicator Applet Application Menu"
 msgstr "Menu de Aplicativos do Miniaplicativo Indicador"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:975
+#: ../src/applet-main.c:1020
 msgid "No Indicators"
 msgstr "Sem Indicadores"

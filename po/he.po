@@ -1,26 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2012
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 12:10+0100\n"
-"PO-Revision-Date: 2017-09-19 11:53+0000\n"
-"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
-"Language-Team: Hebrew (http://www.transifex.com/mate/MATE/language/he/)\n"
+"POT-Creation-Date: 2018-12-21 16:19+0100\n"
+"PO-Revision-Date: 2018-03-11 18:40+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Language-Team: Hebrew (https://www.transifex.com/mate/teams/13566/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:906
+#: ../src/applet-main.c:951
 msgid "Indicator Applet"
 msgstr "יישומון מחוון"
 
@@ -29,7 +32,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "מחוון למשהו שזקוק להתייחסות המשתמש על גבי שולחן העבודה"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:909
+#: ../src/applet-main.c:954
 msgid "Indicator Applet Complete"
 msgstr "יישומון המחוונים הושלם"
 
@@ -45,52 +48,60 @@ msgstr "תפריט היישום ליישומון המחוון"
 msgid "A applet containing the application menus."
 msgstr "יישומון המכיל את תפריט היישומים."
 
-#: ../src/applet-main.c:719
+#: ../src/applet-main.c:764
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "תכנית זו היא תכנה חופשית; ניתן להפיצה מחדש ו/או לשנותה לפי תנאי הרישיון הציבורי הכללי של GNU כפי שפורסם על ידי קרן התכנה החופשית; בין אם גרסה 3 של הרישיון, ובין אם (לפי בחירתך) כל גרסה מאוחרת שלו."
+msgstr ""
+"תכנית זו היא תכנה חופשית; ניתן להפיצה מחדש ו/או לשנותה לפי תנאי הרישיון "
+"הציבורי הכללי של GNU כפי שפורסם על ידי קרן התכנה החופשית; בין אם גרסה 3 של "
+"הרישיון, ובין אם (לפי בחירתך) כל גרסה מאוחרת שלו."
 
-#: ../src/applet-main.c:722
+#: ../src/applet-main.c:767
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "תכנית זו מופצת בתקווה שתהיה שימושית אבל בלא כל אחריות; בלא אפילו אחריות משתמעת למסחריות, איכות מספקת או התאמה לשימוש מסוים. ניתן לעיין ברישיון הציבורי הכללי של GNU לפרטים נוספים."
+msgstr ""
+"תכנית זו מופצת בתקווה שתהיה שימושית אבל בלא כל אחריות; בלא אפילו אחריות "
+"משתמעת למסחריות, איכות מספקת או התאמה לשימוש מסוים. ניתן לעיין ברישיון "
+"הציבורי הכללי של GNU לפרטים נוספים."
 
-#: ../src/applet-main.c:726
+#: ../src/applet-main.c:771
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "יחד עם תכנית זו אמור היה להיות מצורף עותק של הרישיון הציבורי הכללי של GNU; במידה שלא, ניתן בקר בכתובת <http://www.gnu.org/licenses/>."
+msgstr ""
+"יחד עם תכנית זו אמור היה להיות מצורף עותק של הרישיון הציבורי הכללי של GNU; "
+"במידה שלא, ניתן בקר בכתובת <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:738
+#: ../src/applet-main.c:783
 msgid "An applet to hold your application menus."
 msgstr "יישומון להחזקת תפריטי היישומים שלך."
 
-#: ../src/applet-main.c:740
+#: ../src/applet-main.c:785
 msgid "An applet to hold all of the system indicators."
 msgstr "יישומון להחזקת כל מחווני המערכת."
 
-#: ../src/applet-main.c:744
+#: ../src/applet-main.c:789
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Omri Strumza https://launchpad.net/~blueomega\n  Yaron https://launchpad.net/~sh-yaron"
+msgstr "Yaron Shahrabani <sh.yaron@gmail.com>"
 
-#: ../src/applet-main.c:748
+#: ../src/applet-main.c:793
 msgid "MATE Website"
 msgstr "האתר של MATE"
 
-#: ../src/applet-main.c:893
+#: ../src/applet-main.c:938
 msgid "_About"
 msgstr "על _אודות"
 
-#: ../src/applet-main.c:912
+#: ../src/applet-main.c:957
 msgid "Indicator Applet Application Menu"
 msgstr "תפריט יישומי יישומון המחוון"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:975
+#: ../src/applet-main.c:1020
 msgid "No Indicators"
 msgstr "ללא מחוונים"

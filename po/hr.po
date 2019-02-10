@@ -1,17 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
+# Elvis M. Lukšić <meluksic@yahoo.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 12:10+0100\n"
-"PO-Revision-Date: 2017-09-19 11:53+0000\n"
-"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
-"Language-Team: Croatian (http://www.transifex.com/mate/MATE/language/hr/)\n"
+"POT-Creation-Date: 2018-12-21 16:19+0100\n"
+"PO-Revision-Date: 2018-03-11 18:40+0000\n"
+"Last-Translator: Elvis M. Lukšić <meluksic@yahoo.com>, 2018\n"
+"Language-Team: Croatian (https://www.transifex.com/mate/teams/13566/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:906
+#: ../src/applet-main.c:951
 msgid "Indicator Applet"
 msgstr "Pokazni programčić"
 
@@ -28,7 +31,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Pokaznik nečega što traži tvoju pozornost na radnoj površini"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:909
+#: ../src/applet-main.c:954
 msgid "Indicator Applet Complete"
 msgstr "Pokazni programčić dovršen"
 
@@ -44,52 +47,84 @@ msgstr "Programski izbornik Pokaznog programčića"
 msgid "A applet containing the application menus."
 msgstr "Programčić koji sadrži programske izbornike."
 
-#: ../src/applet-main.c:719
+#: ../src/applet-main.c:764
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "Ovaj program je slobodni softver: možeš ga dalje dijeliti i/ili mijenjati pod uvjetima GNU-ove opće javne dozvole, 3. inačice, koju je objavila Zaklada slobodnog softvera."
+msgstr ""
+"Ovaj program je slobodni softver: možeš ga dalje dijeliti i/ili mijenjati "
+"pod uvjetima GNU-ove opće javne dozvole, 3. inačice, koju je objavila "
+"Zaklada slobodnog softvera."
 
-#: ../src/applet-main.c:722
+#: ../src/applet-main.c:767
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
-msgstr "Ovaj program se dijeli u nadi da će biti koristan, ali BEZ IKAKVOG JAMSTVA; čak i bez podrazumijevanih jamstava o TRGOVAČKOJ POGODNOSTI, ZADOVOLJAVAJUĆOJ KAKVOĆI ili PRIKLADNOSTI ZA POJEDINU SVRHU. Za više pojedinosti pogledaj GNU-ovu opću javnu dozvolu."
+msgstr ""
+"Ovaj program se dijeli u nadi da će biti koristan, ali BEZ IKAKVOG JAMSTVA; "
+"čak i bez podrazumijevanih jamstava o TRGOVAČKOJ POGODNOSTI, "
+"ZADOVOLJAVAJUĆOJ KAKVOĆI ili PRIKLADNOSTI ZA POJEDINU SVRHU. Za više "
+"pojedinosti pogledaj GNU-ovu opću javnu dozvolu."
 
-#: ../src/applet-main.c:726
+#: ../src/applet-main.c:771
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "Presliku GNU-ove opće javne dozvole korisnik je trebao primiti uz ovaj program. Ako nisi, pogledaj <http://www.gnu.org/licenses/>."
+msgstr ""
+"Presliku GNU-ove opće javne dozvole korisnik je trebao primiti uz ovaj "
+"program. Ako nisi, pogledaj <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:738
+#: ../src/applet-main.c:783
 msgid "An applet to hold your application menus."
 msgstr "Programčić koji sadrži tvoje programske izbornike."
 
-#: ../src/applet-main.c:740
+#: ../src/applet-main.c:785
 msgid "An applet to hold all of the system indicators."
 msgstr "Programčić koji sadrži sve pokaznike sustava."
 
-#: ../src/applet-main.c:744
+#: ../src/applet-main.c:789
 msgid "translator-credits"
-msgstr "Prijevod:\n  Mislav E. Lukšić <meluksic@yahoo.com>\n\nPrinosi na Launchpadu:\n  Miroslav Matejaš https://launchpad.net/~silverspace+amd64\n  Saša Teković https://launchpad.net/~hseagle2015"
+msgstr ""
+"Prijevod na Transifexu:\n"
+"  Mislav E. Lukšić <meluksic@yahoo.com>\n"
+"  Ivica Kolić <ikoli@yahoo.com>\n"
+"\n"
+"Ranije prevoditeljske zasluge:\n"
+"  lokalizacija@linux.hr\n"
+"  Danijel Studen <dstuden@vuka.hr>\n"
+"  Denis Lackovic <delacko@linux.hr>\n"
+"  Robert Sedak <robert.sedak@sk.t-com.hr>\n"
+"  Vedran Vyroubal <vedran.vyroubal@inet.hr>\n"
+"  Miroslav Sabljić <civija@ubuntu-hr.org>\n"
+"\n"
+"Prinosi na Launchpadu:\n"
+"  Ante Karamatić https://launchpad.net/~ivoks\n"
+"  Bojan Sudarević https://launchpad.net/~sudarevic\n"
+"  Danijel Šnajder https://launchpad.net/~phantomlord\n"
+"  Krešo Kunjas https://launchpad.net/~deresh\n"
+"  Launchpad Translations Administrators https://launchpad.net/~rosetta-admins\n"
+"  Miroslav Sabljić https://launchpad.net/~civija\n"
+"  Valentin Vidic https://launchpad.net/~vvidic\n"
+"  alja https://launchpad.net/~alja\n"
+"  civix https://launchpad.net/~civix\n"
+"  young https://launchpad.net/~davorin-sego"
 
-#: ../src/applet-main.c:748
+#: ../src/applet-main.c:793
 msgid "MATE Website"
 msgstr "Mrežno sjedište MATE-a"
 
-#: ../src/applet-main.c:893
+#: ../src/applet-main.c:938
 msgid "_About"
 msgstr "_O programu"
 
-#: ../src/applet-main.c:912
+#: ../src/applet-main.c:957
 msgid "Indicator Applet Application Menu"
 msgstr "Programski izbornik Pokaznog programčića"
 
 #. A label to allow for click through
-#: ../src/applet-main.c:975
+#: ../src/applet-main.c:1020
 msgid "No Indicators"
 msgstr "Nema pokaznika"

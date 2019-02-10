@@ -1,25 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 12:10+0100\n"
-"PO-Revision-Date: 2017-09-19 11:53+0000\n"
-"Last-Translator: infirit <inactive+infirit@transifex.com>\n"
-"Language-Team: Georgian (http://www.transifex.com/mate/MATE/language/ka/)\n"
+"POT-Creation-Date: 2018-12-21 16:19+0100\n"
+"PO-Revision-Date: 2018-03-11 18:40+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Language-Team: Georgian (https://www.transifex.com/mate/teams/13566/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ka\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:906
+#: ../src/applet-main.c:951
 msgid "Indicator Applet"
 msgstr "საინდიკატორო აპლეტი"
 
@@ -28,7 +31,7 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr ""
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:909
+#: ../src/applet-main.c:954
 msgid "Indicator Applet Complete"
 msgstr ""
 
@@ -44,14 +47,14 @@ msgstr ""
 msgid "A applet containing the application menus."
 msgstr "აპლეტი მოიცავს პროგრამების მენიუებს."
 
-#: ../src/applet-main.c:719
+#: ../src/applet-main.c:764
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr ""
 
-#: ../src/applet-main.c:722
+#: ../src/applet-main.c:767
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -59,37 +62,37 @@ msgid ""
 "General Public License for more details."
 msgstr ""
 
-#: ../src/applet-main.c:726
+#: ../src/applet-main.c:771
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 
-#: ../src/applet-main.c:738
+#: ../src/applet-main.c:783
 msgid "An applet to hold your application menus."
 msgstr ""
 
-#: ../src/applet-main.c:740
+#: ../src/applet-main.c:785
 msgid "An applet to hold all of the system indicators."
 msgstr ""
 
-#: ../src/applet-main.c:744
+#: ../src/applet-main.c:789
 msgid "translator-credits"
-msgstr "Launchpad Contributions:\n  Giorgi Maghlakelidze https://launchpad.net/~dracid"
+msgstr "Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>"
 
-#: ../src/applet-main.c:748
+#: ../src/applet-main.c:793
 msgid "MATE Website"
 msgstr ""
 
-#: ../src/applet-main.c:893
+#: ../src/applet-main.c:938
 msgid "_About"
-msgstr ""
+msgstr "_შესახებ"
 
-#: ../src/applet-main.c:912
+#: ../src/applet-main.c:957
 msgid "Indicator Applet Application Menu"
 msgstr ""
 
 #. A label to allow for click through
-#: ../src/applet-main.c:975
+#: ../src/applet-main.c:1020
 msgid "No Indicators"
 msgstr ""

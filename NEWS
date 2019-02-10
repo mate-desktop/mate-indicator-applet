@@ -1,5 +1,12 @@
 ### mate-indicator-applet 1.21.0
 
+  * Translations update
+  * tomboykeybinder: avoid 'gdk_error_trap_push/pop' and 'gdk_flush'
+  * migrate language list to po/LINGUAS file
+  * disable deprecation warnings for distcheck
+  * tomboykeybinder: avoid deprecated 'gdk_keymap_get_default'
+  * transifex: update config with branch specific resoures
+
 ### mate-indicator-applet 1.20.0
 
   * require GTK+ 3.22

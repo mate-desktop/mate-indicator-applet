@@ -96,6 +96,7 @@ static gchar * indicator_order[] = {
 
 static GtkPackDirection packdirection;
 static MatePanelAppletOrient orient;
+static guint size;
 
 #define  MENU_DATA_INDICATOR_OBJECT  "indicator-object"
 #define  MENU_DATA_INDICATOR_ENTRY   "indicator-entry"
@@ -323,6 +324,29 @@ accessible_desc_update (IndicatorObject * io, IndicatorObjectEntry * entry, GtkW
 	return;
 }
 
+#define PANEL_PADDING 8
+static gboolean
+entry_resized (GtkWidget *applet, guint newsize, gpointer data)
+{
+	IndicatorObject *io = (IndicatorObject *)data;
+
+	size = newsize;
+
+	/* Work on the entries */
+	GList * entries = indicator_object_get_entries(io);
+	GList * entry = NULL;
+
+	for (entry = entries; entry != NULL; entry = g_list_next(entry)) {
+		IndicatorObjectEntry * entrydata = (IndicatorObjectEntry *)entry->data;
+		if (entrydata->image != NULL) {
+			/* Resize to fit panel */
+			gtk_image_set_pixel_size (entrydata->image, size - PANEL_PADDING);
+		}
+	}
+
+	return FALSE;
+}
+
 static void
 entry_added (IndicatorObject * io, IndicatorObjectEntry * entry, GtkWidget * menubar)
 {
@@ -344,6 +368,8 @@ entry_added (IndicatorObject * io, IndicatorObjectEntry * entry, GtkWidget * men
 	g_signal_connect(G_OBJECT(menuitem), "scroll-event", G_CALLBACK(entry_scrolled), entry);
 
 	if (entry->image != NULL) {
+		/* Resize to fit panel */
+		gtk_image_set_pixel_size (entry->image, size - PANEL_PADDING);
 		gtk_box_pack_start(GTK_BOX(box), GTK_WIDGET(entry->image), FALSE, FALSE, 1);
 		if (gtk_widget_get_visible(GTK_WIDGET(entry->image))) {
 			something_visible = TRUE;
@@ -552,7 +578,7 @@ update_accessible_desc(IndicatorObjectEntry * entry, GtkWidget * menuitem)
 }
 
 static void
-load_indicator (GtkWidget * menubar, IndicatorObject *io, const gchar *name)
+load_indicator (MatePanelApplet *applet, GtkWidget * menubar, IndicatorObject *io, const gchar *name)
 {
 	/* Set the environment it's in */
 	indicator_object_set_environment(io, (const GStrv)indicator_env);
@@ -576,6 +602,9 @@ load_indicator (GtkWidget * menubar, IndicatorObject *io, const gchar *name)
 	g_signal_connect(G_OBJECT(io), INDICATOR_OBJECT_SIGNAL_MENU_SHOW,     G_CALLBACK(menu_show),      menubar);
 	g_signal_connect(G_OBJECT(io), INDICATOR_OBJECT_SIGNAL_ACCESSIBLE_DESC_UPDATE, G_CALLBACK(accessible_desc_update), menubar);
 
+	/* Track panel resize */
+	g_signal_connect_object(G_OBJECT(applet), "change-size", G_CALLBACK(entry_resized), G_OBJECT(io), 0);
+
 	/* Work on the entries */
 	GList * entries = indicator_object_get_entries(io);
 	GList * entry = NULL;
@@ -589,7 +618,7 @@ load_indicator (GtkWidget * menubar, IndicatorObject *io, const gchar *name)
 }
 
 static gboolean
-load_module (const gchar * name, GtkWidget * menubar)
+load_module (const gchar * name, MatePanelApplet *applet, GtkWidget * menubar)
 {
 	g_debug("Looking at Module: %s", name);
 	g_return_val_if_fail(name != NULL, FALSE);
@@ -605,13 +634,13 @@ load_module (const gchar * name, GtkWidget * menubar)
 	IndicatorObject * io = indicator_object_new_from_file(fullpath);
 	g_free(fullpath);
 
-	load_indicator(menubar, io, name);
+	load_indicator(applet, menubar, io, name);
 
 	return TRUE;
 }
 
 static void
-load_modules (GtkWidget *menubar, gint *indicators_loaded)
+load_modules (MatePanelApplet *applet, GtkWidget *menubar, gint *indicators_loaded)
 {
 	if (g_file_test(INDICATOR_DIR, (G_FILE_TEST_EXISTS | G_FILE_TEST_IS_DIR))) {
 		GDir * dir = g_dir_open(INDICATOR_DIR, 0, NULL);
@@ -636,7 +665,7 @@ load_modules (GtkWidget *menubar, gint *indicators_loaded)
 				continue;
 			}
 #endif
-			if (load_module(name, menubar)) {
+			if (load_module(name, applet, menubar)) {
 				count++;
 			}
 		}
@@ -650,7 +679,7 @@ load_modules (GtkWidget *menubar, gint *indicators_loaded)
 #if HAVE_AYATANA_INDICATOR_NG || HAVE_UBUNTU_INDICATOR_NG
 
 static void
-load_indicators_from_indicator_files (GtkWidget *menubar, gint *indicators_loaded)
+load_indicators_from_indicator_files (MatePanelApplet *applet, GtkWidget *menubar, gint *indicators_loaded)
 {
 	GDir *dir;
 	const gchar *name;
@@ -693,7 +722,7 @@ load_indicators_from_indicator_files (GtkWidget *menubar, gint *indicators_loade
 #endif
 
 		if (indicator) {
-			load_indicator(menubar, INDICATOR_OBJECT (indicator), name);
+			load_indicator(applet, menubar, INDICATOR_OBJECT (indicator), name);
 			count++;
 		}else{
 			g_warning ("unable to load '%s': %s", name, error->message);
@@ -994,6 +1023,7 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 	gtk_widget_set_name(GTK_WIDGET (applet), "fast-user-switch-applet");
 
 	/* Build menubar */
+	size = (mate_panel_applet_get_size (applet));
 	orient = (mate_panel_applet_get_orient(applet));
 	packdirection = ((orient == MATE_PANEL_APPLET_ORIENT_UP) ||
 			(orient == MATE_PANEL_APPLET_ORIENT_DOWN)) ?
@@ -1011,9 +1041,9 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 	/* Add in filter func */
 	tomboy_keybinder_bind(hotkey_keycode, hotkey_filter, menubar);
 
-	load_modules(menubar, &indicators_loaded);
+	load_modules(applet, menubar, &indicators_loaded);
 #if HAVE_AYATANA_INDICATOR_NG || HAVE_UBUNTU_INDICATOR_NG
-	load_indicators_from_indicator_files(menubar, &indicators_loaded);
+	load_indicators_from_indicator_files(applet, menubar, &indicators_loaded);
 #endif
 
 	if (indicators_loaded == 0) {

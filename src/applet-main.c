@@ -819,7 +819,7 @@ about_cb (GtkAction *action G_GNUC_UNUSED,
 		"translator-credits", _("translator-credits"),
 		"logo-icon-name", "mate-indicator-applet",
 		"icon-name", "mate-indicator-applet",
-		"website", "http://www.mate-desktop.org",
+		"website", "https://mate-desktop.org",
 		"website-label", _("MATE Website"),
 		NULL
 	);

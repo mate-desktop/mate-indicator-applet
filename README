@@ -7,4 +7,9 @@ The indicator applet exposes Ayatana Indicators in the MATE Panel. Ayatana Indic
 
 MATE Indicator Applet is a fork of Indicator Applet for GNOME (https://launchpad.net/indicator-applet).
 
+Only Ubuntu users MUST use:
+./autogen.sh --with-ayatana-indicators for Ayatana Indicators
+or
+./autogen.sh --with-ubuntu-indicators for Ubuntu indicators
+
 https://mate-desktop.org/

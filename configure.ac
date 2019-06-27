@@ -129,7 +129,7 @@ elif test "x$have_ubuntuindicator" != "xyes" &&
 
 else
 
-    AC_MSG_ERROR([Either Ayatana Indicators or Ubuntu Indicators are required to build mate-indicator-applet.])
+    AC_MSG_ERROR([Either Ayatana Indicators (--with-ayatana-indicators) or Ubuntu Indicators (--with-ubuntu-indicators) are required to build mate-indicator-applet.])
 
 fi
 

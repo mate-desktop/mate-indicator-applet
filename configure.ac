@@ -21,7 +21,7 @@ AC_CONFIG_MACRO_DIR([m4])
 m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 
 ###########################
-# Dependencies 
+# Dependencies
 ###########################
 
 GTK_REQUIRED_VERSION=3.22.0
@@ -258,7 +258,7 @@ else
   REAL_PREFIX=$prefix
 fi
 
-# Have to go $sysconfdir->$prefix/etc->/usr/local/etc   
+# Have to go $sysconfdir->$prefix/etc->/usr/local/etc
 # if you actually know how to code shell then fix this :-)
 SYSCONFDIR_TMP="$sysconfdir"
 old_prefix=$prefix

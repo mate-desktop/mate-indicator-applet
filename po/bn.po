@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
 "Language-Team: Bengali (https://www.transifex.com/mate/teams/13566/bn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,92 +21,10 @@ msgstr ""
 "Language: bn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "নির্দেশক অ্যাপ্লেট"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "MATE"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "এমন কিছুর নির্দেশক যেটি ডেক্সটপে আপনার দৃষ্টি আকর্ষন করবে"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "নির্দেশক অ্যাপ্লেট সম্পন্ন"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "সকল নির্দেশক ধারন করে এমন অ্যাপ্লেট।"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "ইন্ডিকেটর অ্যাপ্লেট"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "অ্যাপলিকেশন মেনু রয়েছে এমন অ্যাপ্লেট।"
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr ""
-"এই প্রোগ্রামটি একটি মুক্ত সফটওয়্যার: আপনি একটি পুনঃবিতরণ এবং সম্পাদনা করতে "
-"পারবেন। তবে অবশ্যই এটি ফ্রি সফটওয়্যার ফাউন্ডেশন প্রকাশিত GNU General Public "
-"License version 3 এর অধীনে হতে হবে।"
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"এই প্রোগ্রামটি বিতরণ করা হয়েছে এই আশা নিয়ে যে, এটি উপকারী হবে, কিন্তু কোন "
-"প্রকার ওয়ারেন্টি ব্যতিত; এমনকি ব্যবসায়িক ব্যবহার, সন্তুষ্টিমূলক গুণাবলী "
-"কিংবা একটি নির্দিষ্ট উদ্দেশ্যে ব্যবহারের জন্য উপযোগীতার ওয়ারেন্টি ব্যতিত। "
-"বিস্তারিত তথ্যের জন্য GNU General Public License দেখুন।"
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"এই প্রোগ্রামটির সাথে আপনি হয়ত GNU সাধারণ পাবলিক লাইসেন্সের একটি অনুলিপি "
-"পেয়ে থাকবেন।  যদি না পান, <http://www.gnu.org/licenses/> দেখুন।"
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "আপনার অ্যাপলিকেশন মেনু রয়েছে এমন অ্যাপ্লেট।"
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "সকল সিস্টেম ইন্ডিকেটর ধারণ করতে পারে এমন অ্যাপ্লেট।"
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr ""
-"অঙ্কুর প্রকল্পের পক্ষে, সায়মিন্দু দাশগুপ্ত <unmadindu@bengalinux.org>\n"
-"মাহে আলম খান <makl10n@yahoo.com>\n"
-"সামিয়া নিয়ামতুল্লাহ <mailsamia2001@yahoo.com>\n"
-"লোবা ইয়াসমীন <loba@ankur.org.bd>\n"
-"ইসরাত জাহান <israt@ankur.org.bd>"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr ""
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "পরিচিতি (_A)"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "ইন্ডিকেটর অ্যাপ্লেট অ্যাপলিকেশন মেনু"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "কোন নির্দেশন না"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "ডিফল্ট MATE থীম"

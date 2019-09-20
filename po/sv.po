@@ -4,18 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kristoffer Grundström <hamnisdude@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Patrik Nilsson <asavartzeth@gmail.com>, 2018
+# Tobias Lekare <lekare@linux.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Patrik Nilsson <asavartzeth@gmail.com>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: Tobias Lekare <lekare@linux.com>, 2019\n"
 "Language-Team: Swedish (https://www.transifex.com/mate/teams/13566/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,88 +21,10 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "Panelprogrammet Indikator"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "MATE"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr ""
-"En indikator för någonting som behöver din uppmärksamhet på skrivbordet"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "Komplett Indikatorpanelprogram"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "Ett enhetligt panelprogram som innehåller alla indikatorer."
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "Programmeny för indikatorpanelen"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "Ett panelprogram som innehåller programmenyerna"
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr ""
-"Detta program är fri programvara. Du kan distribuera det och/eller ändra det"
-" under villkoren för GNU General Public License version 3, som publicerats "
-"av Free Software Foundation."
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"Detta program distribueras i hopp om att det ska vara användbart, men UTAN "
-"NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller"
-" LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för "
-"ytterligare information."
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Du bör ha fått en kopia av GNU General Public License tillsammans med detta "
-"program. Om inte, se <http://www.gnu.org/licenses/>."
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "Ett panelprogram som tar hand om dina programmenyer."
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "Ett panelprogram som innehåller alla systemindikatorer"
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr "Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr "MATE webbplats"
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "_Om"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "Programmeny för indikatorpanelen"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "Inga indikatorer"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "Standardtema för MATE"

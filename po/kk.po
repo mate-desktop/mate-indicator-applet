@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
 "Language-Team: Kazakh (https://www.transifex.com/mate/teams/13566/kk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,87 +22,10 @@ msgstr ""
 "Language: kk\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "Мәлімдеме апплеті"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "MATE"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Сіздің қатысуын қажет ететін оқиғалар туралы мәлімдемелер"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "Мәлімдеме апплеті дайын"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "Жүйенің барлық мәлімдеме түрлері бар біріктіруші апплет."
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "Мәлімдеу апплетінің бағдарламалар мәзірі"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "Бағдарламалар мәзірі бар апплет."
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr ""
-"Бұл бағдарлама бос (еркін) бағдарламалық қамтама болып келеді: сіз оны еркін"
-" түрде Free Software Foundation жариялаған GNU GPL 3-ші үлгісімен сәйкес, "
-"таратуға және/немесе өзгертуіңізге болады."
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"Бұл бағдарлама ЕШБІР КЕПІЛДІКСІЗ, бірақ сізге пайдалы болу үшін таратылады; "
-"КЕЙБІР БЕЛГІЛЕНГЕН МАҚСАТТЫ ОРЫНДАУ ҮШІН ДЕ ЖАРАМДЫЛЫҒЫ кепілденбейді. "
-"Көбірек ақпарт үшін GNU General Public License-ті қараңыз."
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Бағдарламамен бірге, GNU General Public License-ның көшірмесін алуыңыз "
-"тиістісіз. Егер ол жоқ болса, мына жерде қараңыз "
-"<http://www.gnu.org/licenses/>."
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "Сіздің бағдарламаларыңыздың мәзірлері бар апплет."
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "Жүйенің барлық мәлімдемелері бар апплет"
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr "MATE веб сайты"
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "О_сы туралы"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "Мәлімдеу апплетінің бағдарламалар мәзірі"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "Мәлімдеме жоқ"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "MATE ортасының стандартты тақырыбы "

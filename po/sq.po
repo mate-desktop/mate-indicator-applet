@@ -4,18 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Ardit Dani <ardit.dani@gmail.com>, 2018
-# Indrit Bashkimi <indrit.bashkimi@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Indrit Bashkimi <indrit.bashkimi@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Indrit Bashkimi <indrit.bashkimi@gmail.com>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: Indrit Bashkimi <indrit.bashkimi@gmail.com>, 2019\n"
 "Language-Team: Albanian (https://www.transifex.com/mate/teams/13566/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,90 +22,10 @@ msgstr ""
 "Language: sq\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "Applet Tregues"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "MATE"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Një tregues i diçkaje që ka nevojë për vëmendjen tuaj në desktop"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "Programthi Tregues është Kompletuar"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "Një programth i përgjithshëm që përmban të gjithë treguesit."
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "Programthi trgues Appmenu"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "Një programth që përmban menutë e programeve."
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr ""
-"Ky program është falas: ju mund ta shpërndani apo/ose modifikoni në termat e"
-" Liçensës së Përgjithshme Publike GNU versioni 3, si është publikuar nga "
-"Fondacioni i Programeve Falas."
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"Ky program shpërndahet me shpresën se do të jetë i dobishëm, por PA ASNJË "
-"GARANCI, madje edhe pa garancinë e shprehur të TREGTUESHMËRISË, TË CILËSISË "
-"SË KËNAQSHME, apo TË PËRPUTHJES ME NJË QËLLIM TË VEÇANTË, shikoni Liçencën e"
-" Përgjithshme Publike GNU për më tepër detaje."
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Ju duhet të keni marrë një kopje të Liçensës së Përgjithshme Publike GNU me "
-"këtë program. Nëse jo, shikoni <http://www.gnu.org/licenses/>."
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "Një programth që përmban menutë e programeve tuaja."
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "Një applet që mban të gjithë treguesit e sistemit tuaj."
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr ""
-"Elian Myftiu <elian@alblinux.net>\n"
-"Indrit Bashkimi <indrit.bashkimi@gmail.com>\n"
-"Laurent Dhima <laurenti@alblinux.net>"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr "Faqja e MATE"
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "_Rreth"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "Programthi Tregues i Menusë së Programeve"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "Nuk ka tregues"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "Tema e prezgjedhur e MATE"

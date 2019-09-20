@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# 趙惟倫 <bluebat@member.fsf.org>, 2018
+# 趙惟倫 <bluebat@member.fsf.org>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: 趙惟倫 <bluebat@member.fsf.org>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: 趙惟倫 <bluebat@member.fsf.org>, 2019\n"
 "Language-Team: Chinese (Mandarin) (https://www.transifex.com/mate/teams/13566/cmn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,83 +21,10 @@ msgstr ""
 "Language: cmn\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "指示器面板程式"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "MATE"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "一個讓您知道桌面上有什麼值得注意的指示器"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "指示器面板完成"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "一個統合的面板程式包含所有的指示器。"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "指示器面板程式之程式選單"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "包含應用軟體選單的面板程式。"
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr "這個程式屬於自由軟體：您可以在符合自由軟體基金會公布的 GNU GPLv3 授權的前題下，自由的散布、修改這個程式。"
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"這個程式是在希望能對大家有幫助的前題下散布的，但「我們不提供任何類型的擔保」，不論是明確的，還是隱含的，包括但不限於可銷售和適合特定用途的隱含保證。全部的風險，如程式的質量和性能問題都由您來承擔。更詳細的資訊，請參見"
-" GNU GPL。"
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr "您應能在本程式中取得一份 GNU GPL 的複本。如果沒有的話， 請參照 <http://www.gnu.org/licenses/>."
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "包含您應用程式選單的面板程式。"
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "一個記錄所有系統指示的面板程式。"
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr ""
-"Woodman Tuen <wmtuen@gmail.com>, 2005-06\n"
-"Abel Cheung <abel@oaka.org>, 2003-04\n"
-"趙惟倫 <bluebat@member.fsf.org>, 2013"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr "MATE 網站"
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "關於(_A)"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "指示器面板程式之應用程式選單"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "沒有指示"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "預設 MATE 布景主題"

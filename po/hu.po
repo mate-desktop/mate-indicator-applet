@@ -4,19 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# KAMI KAMI <kami911@gmail.com>, 2018
-# Rezső Páder <rezso@rezso.net>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Balázs Meskó <meskobalazs@gmail.com>, 2018
+# Rezső Páder <rezso@rezso.net>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: Rezső Páder <rezso@rezso.net>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,95 +21,10 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "Indikátor kisalkalmazás"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "MATE"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Gyűjti a figyelmére igényt tartó eseményeket"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "Teljes indikátor kisalkalmazás"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "Az összes indikátort tartalmazó egyesített kisalkalmazás."
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "Indikátor kisalkalmazás alkalmazásmenüje"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "Az alkalmazásmenüket tároló kisalkalmazás."
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr ""
-"Az Értesítésgyűjtő szabad szoftver; terjeszthető illetve módosítható a Free "
-"Software Foundation által kiadott GNU General Public License 3-as változata "
-"szerint."
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"Az Értesítésgyűjtő abban a reményben kerül közreadásra, hogy hasznos lesz, "
-"de minden egyéb GARANCIA NÉLKÜL, az ELADHATÓSÁGRA vagy VALAMELY CÉLRA VALÓ "
-"ALKALMAZHATÓSÁGRA való származtatott garanciát is beleértve. További "
-"részleteket a GNU General Public License tartalmaz."
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Az Értesítésgyűjtő programhoz a GNU General Public License egy példánya is "
-"jár, ha nem kapta meg, nézze meg az <http://www.gnu.org/licenses/> oldalt."
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "Az alkalmazásmenük tárolására szolgáló kisalkalmazás."
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "Kisalkalmazás a rendszerindikátorok gyűjtésére."
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr ""
-"Dvornik László<dvornik at mate dot hu>\n"
-"Kelemen Gábor<kelemeng at mate dot hu>\n"
-"Tímár András<timar at mate dot hu>\n"
-"Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
-"Falu<info at falu dot me>\n"
-"Rezső Páder<rezso at rezso dot net>\n"
-"Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
-"Meskó Balázs <mesko dot balazs at fsf dot hu>"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr "MATE weboldal"
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "_Névjegy"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "Indikátor kisalkalmazás alkalmazásmenüje"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "Nincs indikátor"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "Alapértelmezett MATE téma"

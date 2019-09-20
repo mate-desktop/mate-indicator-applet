@@ -4,19 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Marko Šterman <marko.chamillionaire@gmail.com>, 2018
-# Damir Jerovšek <jierro@windowslive.com>, 2018
-# Helena S <ele@tutamail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Helena S <ele@tutamail.com>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
 "Language-Team: Slovenian (https://www.transifex.com/mate/teams/13566/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,88 +21,10 @@ msgstr ""
 "Language: sl\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "Aplet kazalnika"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "MATE"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Kazalnik nečesa, kar zahteva vašo pozornost na namizju"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "Aplet kazalnika za dokončanje"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "Enotni aplet, ki vsebuje vse kazalnike."
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "Aplet kazalnika za meni programov"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "Aplet, ki vsebuje menije programov."
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr ""
-"Program prosta programska oprema; lahko ga razširjate in/ali spreminjate pod"
-" pogoji dovoljenja GNU General Public License različice 3, kot je objavljeno"
-" s strani fundacije Free Software Foundation."
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"Program se razširja v upanju, da bo uporabniku koristen, vendar BREZ "
-"VSAKRŠNE GARANCIJE; tudi brez posrednega zagotovila JAMSTVA CENOVNE "
-"VREDNOSTI in PRIMERNOSTI ZA DOLOČENO UPORABO. Za več podrobnosti si oglejte "
-"določila dovoljenja GNU General Public License."
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Skupaj s programom bi morali prejeti izvod dovoljenja GNU General Public "
-"License. V kolikor ga niste, si dovoljenje poglejte na spletni strani "
-"<http://www.gnu.org/licenses>."
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "Aplet, ki vsebuje menije vaših programov."
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "Aplet za prikaz vseh sistemskih kazalnikov."
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr "zasluge-prevajalcev"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr "Spletna stran MATE"
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "_O programu"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "Aplet kazalnika za meni programov"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "Brez kazalnikov"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "Privzeta tema MATE"

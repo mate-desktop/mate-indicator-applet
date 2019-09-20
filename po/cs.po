@@ -4,19 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Ondřej Kolín <ondrej.kolin@gmail.com>, 2018
-# Lukáš Kvídera <lukas.kvidera@seznam.cz>, 2018
-# Roman Horník <roman.hornik@debian-linux.cz>, 2018
+# ToMáš Marný, 2019
+# LiberteCzech <liberte.czech@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Roman Horník <roman.hornik@debian-linux.cz>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: LiberteCzech <liberte.czech@gmail.com>, 2019\n"
 "Language-Team: Czech (https://www.transifex.com/mate/teams/13566/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,96 +22,10 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "Applet upozornění"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "MATE"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr ""
-"Indikátor záležitostí, které v pracovním prostředí vyžadují vaši pozornost"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "Applet upozornění úplný"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "Jednotný applet obsahující všechny indikátory"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "Menu appletu upozornění"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "Applet obsahující nabídky aplikací."
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr ""
-"Tento program je svobodný software: můžete jej šířit anebo upravovat podle "
-"ustanovení GNU General Public License verze 3 vydané Free Software "
-"Foundation."
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"Tento program je šířen v naději, že bude užitečný, avšak BEZ JAKÉKOLIV "
-"ZÁRUKY; neposkytují se ani odvozené záruky PRODEJNOSTI, USPOKOJIVÉ KVALITY "
-"nebo VHODNOSTI PRO URČITÝ ÚČEL. Další podrobnosti hledejte v GNU General "
-"Public License."
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Kopii GNU General Public License byste měli obdržet spolu s tímto programem."
-" Pokud se tak nestalo, podívejte se na <http://www.gnu.org/licenses/>."
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "Applet obsahující vaše nabídky aplikací."
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "Applet sdružující všechny systémové indikátory"
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr ""
-"Stanislav Brabec <utx@penguin.cz>\n"
-"Michal Bukovjan <bukm@centrum.cz>\n"
-"Miloslav Trmač <mitr@volny.cz>\n"
-"Petr Tomeš <ptomes@gmail.com>\n"
-"Jakub Friedl <jfriedl@suse.cz>\n"
-"Lucas Lommer <llommer@svn.gnome.org>\n"
-"Petr Kovář <pknbe@volny.cz>\n"
-"Roman Horník <roman.hornik@debian-linux.cz>"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr "Webové stránky MATE"
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "O _aplikaci"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "Aplikační menu appletu upozornění"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "Žádné indikátory"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "Výchozí motiv MATE"

@@ -4,19 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# mauron, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Étienne Deparis <etienne@depar.is>, 2018
-# jeremy shields <jeremy.shields@orange.fr>, 2018
+# Charles Monzat <c.monzat@laposte.net>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: jeremy shields <jeremy.shields@orange.fr>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: Charles Monzat <c.monzat@laposte.net>, 2019\n"
 "Language-Team: French (https://www.transifex.com/mate/teams/13566/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,103 +21,10 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "Applet de notification"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "MATE"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr ""
-"Un indicateur qui signale que quelque chose réclame votre attention sur le "
-"bureau"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "Applet de notification général"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "Un applet unifié contenant tous les indicateurs."
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "Applet indicateur Appmenu"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "Un applet affichant les menus des applications."
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr ""
-"Ce programme est un logiciel libre : vous pouvez le redistribuer et/ou le "
-"modifier selon les termes de la version 3 de la « GNU General Public License"
-" », telle qu'elle est publiée par la Free Software Foundation."
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE "
-"GARANTIE ; sans même les garanties implicites de CONFORMITÉ, de QUALITÉ "
-"SATISFAISANTE ou  D'ADÉQUATION À UNE UTILISATION PARTICULIÈRE. Voir la « GNU"
-" General Public License » pour plus de précisions."
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Vous devriez avoir reçu une copie de la « GNU General Public License » avec "
-"ce programme. Sinon, voir <http://www.gnu.org/licenses/>."
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "Un applet pour afficher les menus de vos applications."
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "Un applet pour regrouper toutes les notifications du système."
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr ""
-"Contributeurs au projet MATE :\n"
-"Voir https://www.transifex.com/mate/teams/13566/fr/\n"
-"\n"
-"Contributeurs au projet GNOME :\n"
-"Vincent Renardias <vincent@ldsol.com>, 1998-2000.\n"
-"Joaquim Fellmann <joaquim@hrnet.fr>, 2000.\n"
-"Christophe Merlet <redfox@redfoxcenter.org>, 2000-2006.\n"
-"Christophe Fergeau <teuf@users.sourceforge.net>, 2002-2003.\n"
-"Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002.\n"
-"Robert-André Mauchin <zebob.m@pengzone.org>, 2006-2008.\n"
-"Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007.\n"
-"Yannick Tailliez <ytdispatch-libre@yahoo.com>, 2008.\n"
-"Claude Paroz <claude@2xlibre.net>, 2008-2010.\n"
-"Gérard Baylard <gerard dot b at bbox dot fr>, 2010"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr "Site Internet de Mate"
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "_À propos"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "Applet indicateur pour les menus d'applications"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "Pas de notifications"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "Thème MATE par défaut"

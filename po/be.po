@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Mihail Varantsou <meequz@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Mihail Varantsou <meequz@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Mihail Varantsou <meequz@gmail.com>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: Mihail Varantsou <meequz@gmail.com>, 2019\n"
 "Language-Team: Belarusian (https://www.transifex.com/mate/teams/13566/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,89 +22,10 @@ msgstr ""
 "Language: be\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "Індыкатар абвяшчэнняў"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "MATE"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Паказвае тое, што патрабуе вашай ўвагі"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "Агульны аплет індыкатараў"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "Уніфікаваны аплет, які ўтрымлівае ўсе індыкатары"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "Індыкатар з радком меню"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "Аплет, які змяшчае радок меню праграм"
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr ""
-"Гэта свабодная праграма; яе можна распаўсюджваць і/ці змяняць паводле ўмоваў"
-" GNU General Public License версіі 3, апублікаванай Free Software "
-"Foundation."
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"Гэтая праграма распаўсюджваецца з надзеяй на тое, што яна будзе карыснай, "
-"але БЕЗ АНІЯКІХ ГАРАНТЫЙ; нават без відавочных гарантый ДАСТАТКОВАЙ ЯКАСЦІ, "
-"прыдатнасці да КАМЕРЦЫЙНАГА ПРОДАЖУ ці ПЭЎНАЙ МЭТЫ. Па падрабязнасці "
-"звяртайцеся да GNU General Public License."
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Вы мусілі атрымаць копію GNU General Public License разам з гэтай праграмай;"
-" калі не атрымалі, глядзіце <http://www.gnu.org/licenses/>."
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "Аплет, які ўтрымлівае меню вашай праграмы"
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "Аплет, які ўтрымлівае ўсе сістэмныя індыкатары."
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr ""
-"Belarusian Language Linux Team <i18n@mova.org>\n"
-"Mikhas Varantsou <meequz@gmail.com> 2014-2016"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr "Сайт MATE"
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "_Пра аплет"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "Індыкатар з радком меню 2"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "Без індыкатараў"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "Стандартная тэма MATE"

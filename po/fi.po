@@ -4,18 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Lasse Liehu <larso@gmx.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Mikko Harhanen <gitti@mikkoharhanen.fi>, 2018
+# Ammuu5, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Mikko Harhanen <gitti@mikkoharhanen.fi>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: Ammuu5, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/mate/teams/13566/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,92 +21,10 @@ msgstr ""
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "Ilmaisinsovelma"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "MATE"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Työpöydällä huomiota vaativasta asiasta kertova ilmaisin"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "Ilmaisinsovelma (”Complete”)"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "Kaikki ilmaisimet sisältävä yhdistetty sovelma"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "Sovellusvalikkojen ilmaisinsovelma"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "Sovellusvalikot sisältävä sovelma."
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr ""
-"Tämä on vapaa ohjelma; sitä on sallittu levittää edelleen ja muuttaa GNU "
-"yleisen lisenssin (GPL-lisenssin) version 3 ehtojen mukaan sellaisina kuin "
-"Free Software Foundation on ne julkaissut."
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"Tätä ohjelmaa levitetään siinä toivossa, että se olisi hyödyllinen, mutta "
-"ilman mitään takuuta; ilman edes hiljaista takuuta kaupallisesti "
-"hyväksyttävästä laadusta tai soveltuvuudesta tiettyyn tarkoitukseen. Katso "
-"GPL-lisenssistä lisää yksityiskohtia."
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Tämän ohjelman mukana pitäisi tulla kopio GPL-lisenssistä. Jos näin ei ole, "
-"katso <http://www.gnu.org/licenses/>."
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "Sovelma sovelluksen valikkojen näyttämiseen."
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "Sovelma järjestelmäilmaisimien säilyttämiseen."
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr ""
-"Tommi Vainikainen, 2005\n"
-"Ilkka Tuohela, 2005\n"
-"Sami Pesonen, 2004\n"
-"Jarkko Ranta, 2003-2004\n"
-"Johanna Makkonen, 2003"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr "MATE-verkkosivusto"
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "_Tietoja"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "Sovellusvalikkojen ilmaisinsovelma"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "Ei ilmaisimia"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "MATEn oletusteema"

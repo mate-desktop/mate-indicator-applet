@@ -4,17 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2019\n"
 "Language-Team: Catalan (https://www.transifex.com/mate/teams/13566/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,90 +21,10 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "Miniaplicació de l'indicador"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "MATE"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr ""
-"Un indicador per a tot allò que requereixi la vostra atenció a l'escriptori"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "Miniaplicació d'indicador completa"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "Una miniaplicació unificada que conté tots els indicadors."
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "Menú d'aplicacions de la miniaplicació de l'indicador"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "Una miniaplicació que conté els menús de les aplicacions."
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr ""
-"Aquest programa és programari lliure: podeu redistribuir-lo i/o modificar-lo"
-" sota els termes de la Llicència pública general de GNU versió 3, tal com "
-"publica la Free Software Foundation."
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"Aquest programa es distribueix amb l'esperança que sigui útil, però SENSE "
-"CAP GARANTIA; fins i tot sense la garantia implícita de COMERCIALITZACIÓ, "
-"SATISFACCIÓ DE QUALITAT o ADEQUACIÓ A UN ÚS CONCRET. Per obtenir més "
-"informació, consulteu la Llicència Pública General de GNU."
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Hauríeu d'haver rebut una còpia de la Llicència pública general de GNU amb "
-"aquest programa. Si no és el cas, vegeu <http://www.gnu.org/licenses/>."
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "Una miniaplicació que conté els menús de les aplicacions."
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "Una miniaplicació per a contenir tots els indicadors del sistema."
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr ""
-"Pere O. <gotrunks@gmail.com>\n"
-"Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr "Lloc web de MATE"
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "_Quant a"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "Menú d'aplicacions de la miniaplicació de l'indicador"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "Sense indicadors"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "Tema predeterminat de MATE"

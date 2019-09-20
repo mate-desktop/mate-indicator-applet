@@ -4,18 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Mohammadreza Abdollahzadeh <morealaz@gmail.com>, 2018
-# Borderliner <psyringe@yandex.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Dante Marshal <marshal.devilhunter@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
-"PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Borderliner <psyringe@yandex.com>, 2018\n"
+"POT-Creation-Date: 2019-02-23 15:54+0100\n"
+"PO-Revision-Date: 2019-03-13 14:07+0000\n"
+"Last-Translator: Dante Marshal <marshal.devilhunter@gmail.com>, 2019\n"
 "Language-Team: Persian (https://www.transifex.com/mate/teams/13566/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,86 +22,10 @@ msgstr ""
 "Language: fa\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
-msgid "Indicator Applet"
-msgstr "ابزارک نمایشگر"
+#: ../index.theme.in.in.h:1
+msgid "MATE"
+msgstr "گنوم"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
-msgid "An indicator of something that needs your attention on the desktop"
-msgstr "نمایشگری برای برخی چیز‌ها که نیازمند توجه شما در میزکار هستند."
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
-msgid "Indicator Applet Complete"
-msgstr "ابزارک نمایشگر کامل"
-
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
-msgid "A unified applet containing all of the indicators."
-msgstr "ابزارکی برای نمایش متحد تمام نمایشگرها."
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
-msgid "Indicator Applet Appmenu"
-msgstr "فهرست برنامه ابزارک نمایشگر"
-
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
-msgid "A applet containing the application menus."
-msgstr "ابزارکی که فهرست برنامه‌ها را در بر دارد."
-
-#: ../src/applet-main.c:764
-msgid ""
-"This program is free software: you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License version 3, as published by"
-" the Free Software Foundation."
-msgstr ""
-"این برنامه یک نرم افزار رایگان است : شما میتوانید آن را دوباره منتشر کنید "
-"و/یا آنرا تحت بندهای GNU General Public License version 3 که توسط سازمان نرم"
-" افزارهای رایگان منتشر شده،  تغییر دهید."
-
-#: ../src/applet-main.c:767
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
-"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
-"General Public License for more details."
-msgstr ""
-"این نرم افزار به این امید که مفید باشد منتشر شده، ولی بدون هیچگونه تضمینی؛ "
-"حتی بدون تضمین دلالت بر ضمن قابل فروش بودن، کیفت مناسب داشتن و یا مناسب "
-"استفاده خاص بودن. برای جزییات بیشتر به لیسانس کلی عام گنو مراجعه کنید."
-
-#: ../src/applet-main.c:771
-msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"شما با این نرم افزار باید یک نسخه از »لیسانس کلی عموم« دریافت کرده باشید. در"
-" غیر اینصورت به <http://www.gnu.org/licenses/> مراجعه کنید."
-
-#: ../src/applet-main.c:783
-msgid "An applet to hold your application menus."
-msgstr "یک ابزارک برای نگه داشتن فهرست برنامه‌ها."
-
-#: ../src/applet-main.c:785
-msgid "An applet to hold all of the system indicators."
-msgstr "یک ابزارک برای نگه داشتن تمام نمایشگرهای سیستم."
-
-#: ../src/applet-main.c:789
-msgid "translator-credits"
-msgstr "محمدرضا حاجیانپور <psyringe@protonmail.com>"
-
-#: ../src/applet-main.c:793
-msgid "MATE Website"
-msgstr "وب سایت ماته"
-
-#: ../src/applet-main.c:938
-msgid "_About"
-msgstr "_درباره"
-
-#: ../src/applet-main.c:957
-msgid "Indicator Applet Application Menu"
-msgstr "فهرست برنامه ابزارک نمایشگر"
-
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
-msgid "No Indicators"
-msgstr "نمایشگری موجود نیست"
+#: ../index.theme.in.in.h:2
+msgid "Default MATE Theme"
+msgstr "تم پیش‌فرض MATE"

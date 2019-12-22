@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# se7entime <se7entime@openmailbox.org>, 2018
+# se7entime <se7entime@disroot.org>, 2018
 # hpiece 8 <hpiece8@gmail.com>, 2018
 # Kukuh Syafaat <syafaatkukuh@gmail.com>, 2018
 # 

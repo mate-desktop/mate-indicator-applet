@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Piotr Drąg <piotrdrag@gmail.com>, 2018
+# Caarmi, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,39 +13,39 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-21 16:19+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>, 2018\n"
-"Language-Team: Polish (https://www.transifex.com/mate/teams/13566/pl/)\n"
+"Last-Translator: Caarmi, 2019\n"
+"Language-Team: Interlingue (https://www.transifex.com/mate/teams/13566/ie/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pl\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Language: ie\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:951
 msgid "Indicator Applet"
-msgstr "Aplet powiadamiania"
+msgstr "Applette de indicator"
 
 #: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr "Powiadamianie o konieczności zwrócenia uwagi na działania na pulpicie"
+msgstr "Un indicator de coses que postula vor attention"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
 #: ../src/applet-main.c:954
 msgid "Indicator Applet Complete"
-msgstr "Kompletny aplet powiadomień"
+msgstr "Applette de indicator, complet"
 
 #: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
 msgid "A unified applet containing all of the indicators."
-msgstr "Zunifikowany aplet zawierający wszystkie powiadomienia."
+msgstr "Un unificat applette que contene omni indicatores."
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
 msgid "Indicator Applet Appmenu"
-msgstr "Menu programów apletu powiadamiania"
+msgstr "Applette de indicator, Appmenu"
 
 #: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
 msgid "A applet containing the application menus."
-msgstr "Aplet zawierający menu programów."
+msgstr "Un applette que contene li menús de applicationes."
 
 #: ../src/applet-main.c:764
 msgid ""
@@ -54,9 +53,9 @@ msgid ""
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr ""
-"Ten program jest darmowy: możesz go powielać i/lub modyfikować zgodnie z "
-"warunkami 3 wersji Powszechnej Licencji Publicznej GNU, opublikowanej przez "
-"Free Software Foundation."
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License version 3, as published by"
+" the Free Software Foundation."
 
 #: ../src/applet-main.c:767
 msgid ""
@@ -65,54 +64,44 @@ msgid ""
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
 msgstr ""
-"Ten program jest udostępniony z nadzieją, że będzie użyteczny, lecz BEZ "
-"ŻADNYCH GWARANCJI; nawet bez gwarancji PRZYDATNOŚCI HANDLOWEJ, ZADOWALAJĄCEJ"
-" JAKOŚCI, albo PRZYDATNOŚCI DO OKREŚLONEGO CELU. Przeczytaj Powszechną "
-"Licencję Publiczną GNU, aby dowiedzieć się więcej."
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
+"SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
+"General Public License for more details."
 
 #: ../src/applet-main.c:771
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
-"Z pewnością wraz z niniejszym programem dostarczono także egzemplarz "
-"Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli nie "
-"- proszę odwiedzić stronę internetową <http://www.gnu.org/licenses/>."
+"You should have received a copy of the GNU General Public License along with"
+" this program.  If not, see <http://www.gnu.org/licenses/>."
 
 #: ../src/applet-main.c:783
 msgid "An applet to hold your application menus."
-msgstr "Aplet do przechowywania menu programów."
+msgstr "Un applette por contener menús de vor applicationes."
 
 #: ../src/applet-main.c:785
 msgid "An applet to hold all of the system indicators."
-msgstr "Aplet do przechowywania wszystkich powiadomień systemowych."
+msgstr "Un applette por contener omni indicatores del sistema."
 
 #: ../src/applet-main.c:789
 msgid "translator-credits"
-msgstr ""
-"Tłumacze środowiska MATE, 2014-2018\n"
-"\n"
-"Zbigniew Chyla, 2002-2003\n"
-"Artur Flinta, 2003-2005\n"
-"Wadim Dziedzic, 2007-2009\n"
-"Tomasz Dominikowski, 2008-2009\n"
-"Joanna Mazgaj, 2009\n"
-"Piotr Drąg, 2010\n"
-"Aviary.pl, 2007-2010"
+msgstr "OIS <mistresssilvara@hotmail.com>, 2019"
 
 #: ../src/applet-main.c:793
 msgid "MATE Website"
-msgstr "Strona środowiska MATE"
+msgstr "Website de MATE"
 
 #: ../src/applet-main.c:938
 msgid "_About"
-msgstr "_O programie"
+msgstr "_Pri"
 
 #: ../src/applet-main.c:957
 msgid "Indicator Applet Application Menu"
-msgstr "Menu programów apletu powiadamiania"
+msgstr "Applette de indicator, menú de application"
 
 #. A label to allow for click through
 #: ../src/applet-main.c:1020
 msgid "No Indicators"
-msgstr "Brak powiadomień"
+msgstr "Null indicatores"

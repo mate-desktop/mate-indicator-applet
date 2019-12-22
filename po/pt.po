@@ -7,7 +7,7 @@
 # Sérgio Marques <smarquespt@gmail.com>, 2018
 # Carlos Moreira, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# ogalho Carlos Dias Martins <ogalho@gmail.com>, 2018
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-21 16:19+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: ogalho Carlos Dias Martins <ogalho@gmail.com>, 2018\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>, 2019\n"
 "Language-Team: Portuguese (https://www.transifex.com/mate/teams/13566/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -90,7 +90,7 @@ msgstr "Um extra para colocar todos os indicadores do sistema."
 
 #: ../src/applet-main.c:789
 msgid "translator-credits"
-msgstr "créditos de tradução"
+msgstr "Hugo Carvalho <hugokarvalho@gmail.com>"
 
 #: ../src/applet-main.c:793
 msgid "MATE Website"

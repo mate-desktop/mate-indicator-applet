@@ -1,5 +1,10 @@
 ### mate-indicator-applet 1.23.0
 
+  * Translations update
+  * Remove trailing whitespaces
+  * Change url projet's website
+  * Resize indicator icons to fit panel
+
 ### mate-indicator-applet 1.22.0
 
   * bump version

@@ -5,7 +5,8 @@ Name=Indicator Applet Factory
 Description=Indicator Applet Factory
 
 [IndicatorApplet]
-_Name=Indicator Applet
-_Description=An indicator of something that needs your attention on the desktop
+Name=Indicator Applet
+Description=An indicator of something that needs your attention on the desktop
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=mate-indicator-applet
 MateComponentId=OAFIID:MATE_IndicatorApplet

@@ -9,7 +9,6 @@ AM_INIT_AUTOMAKE([no-dist-gzip dist-xz check-news])
 AM_MAINTAINER_MODE
 m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES])
 
-IT_PROG_INTLTOOL([0.35.0])
 AC_PROG_CC
 AM_PROG_CC_C_O
 AC_STDC_HEADERS
@@ -237,13 +236,13 @@ AC_DEFUN([AC_DEFINE_PATH], [
 ###########################
 # Internationalization
 ###########################
+AM_GNU_GETTEXT_VERSION([0.19.8])
+AM_GNU_GETTEXT([external])
 
 GETTEXT_PACKAGE=mate-indicator-applet
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Name of the default gettext domain])
 AC_DEFINE_PATH(MATELOCALEDIR, "${datadir}/locale", [locale directory])
-
-AM_GLIB_GNU_GETTEXT
 
 ##############################
 # ./configure Flags messings

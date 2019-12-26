@@ -6,18 +6,18 @@
 
 appletdir       = $(datadir)/mate-panel/applets
 applet_in_files = \
-	org.ayatana.panel.IndicatorApplet.mate-panel-applet.in \
-	org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in \
-	org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in 
-applet_DATA     = $(applet_in_files:.mate-panel-applet.in=.mate-panel-applet)
+	org.ayatana.panel.IndicatorApplet.mate-panel-applet.desktop.in \
+	org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.desktop.in \
+	org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.desktop.in
+applet_DATA     = $(applet_in_files:.mate-panel-applet.desktop.in=.mate-panel-applet)
 
-%.mate-panel-applet.in: %.mate-panel-applet.in.in Makefile
+%.mate-panel-applet.desktop.in: %.mate-panel-applet.desktop.in.in Makefile
 	$(AM_V_GEN)sed \
 	    -e "s|\@LIBEXECDIR\@|$(libexecdir)|" \
 	    $< > $@
 
-%.mate-panel-applet: %.mate-panel-applet.in $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*po) ; $(AM_V_GEN) LC_ALL=C $(INTLTOOL_MERGE) $(top_srcdir)/po $< $@ -d -u -c $(top_builddir)/po/.intltool-merge-cache
-
+%.mate-panel-applet: %.mate-panel-applet.desktop.in Makefile
+	$(AM_V_GEN) $(MSGFMT) --desktop --keyword=Name --keyword=Description --template $< -d $(top_srcdir)/po -o $@
 
 ##############################
 # DBus Services
@@ -27,14 +27,13 @@ servicedir       = $(datadir)/dbus-1/services
 service_in_files = \
 	org.mate.panel.applet.IndicatorAppletFactory.service.in \
 	org.mate.panel.applet.IndicatorAppletCompleteFactory.service.in \
-	org.mate.panel.applet.IndicatorAppletAppmenuFactory.service.in 
+	org.mate.panel.applet.IndicatorAppletAppmenuFactory.service.in
 service_DATA     = $(service_in_files:.service.in=.service)
 
 %.service: %.service.in Makefile
 	$(AM_V_GEN)sed \
 	    -e "s|\@LIBEXECDIR\@|$(libexecdir)|" \
 	    $< > $@
-
 
 ##############################
 # Icons
@@ -70,10 +69,10 @@ CLEANFILES =					\
 
 EXTRA_DIST =					\
 	$(icons_DATA)				\
-	$(applet_in_files:.in=.in.in)		\
+	org.ayatana.panel.IndicatorApplet.mate-panel-applet.desktop.in.in \
+	org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.desktop.in.in \
+	org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.desktop.in.in	\
 	$(service_in_files)
 
 MAINTAINERCLEANFILES =				\
 	Makefile.in
-
-

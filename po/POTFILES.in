@@ -1,5 +1,4 @@
-[encoding: UTF-8]
-[type: gettext/keys]data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in
-[type: gettext/keys]data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in
-[type: gettext/keys]data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in
+data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.desktop.in.in
+data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.desktop.in.in
+data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.desktop.in.in
 src/applet-main.c

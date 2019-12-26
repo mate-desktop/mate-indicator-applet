@@ -5,7 +5,8 @@ Name=Indicator Applet Complete Factory
 Description=Indicator Applet Complete Factory
 
 [IndicatorAppletComplete]
-_Name=Indicator Applet Complete
-_Description=A unified applet containing all of the indicators.
+Name=Indicator Applet Complete
+Description=A unified applet containing all of the indicators.
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=mate-indicator-applet
 MateComponentId=OAFIID:MATE_IndicatorAppletComplete

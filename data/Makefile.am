@@ -6,9 +6,9 @@
 
 appletdir       = $(datadir)/mate-panel/applets
 applet_in_files = \
-	org.ayatana.panel.IndicatorApplet.mate-panel-applet.desktop.in \
-	org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.desktop.in \
-	org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.desktop.in
+	org.mate.applets.Indicator.mate-panel-applet.desktop.in \
+	org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in \
+	org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in
 applet_DATA     = $(applet_in_files:.mate-panel-applet.desktop.in=.mate-panel-applet)
 
 %.mate-panel-applet.desktop.in: %.mate-panel-applet.desktop.in.in Makefile
@@ -69,9 +69,9 @@ CLEANFILES =					\
 
 EXTRA_DIST =					\
 	$(icons_DATA)				\
-	org.ayatana.panel.IndicatorApplet.mate-panel-applet.desktop.in.in \
-	org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.desktop.in.in \
-	org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.desktop.in.in	\
+	org.mate.applets.Indicator.mate-panel-applet.desktop.in.in \
+	org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in \
+	org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in	\
 	$(service_in_files)
 
 MAINTAINERCLEANFILES =				\

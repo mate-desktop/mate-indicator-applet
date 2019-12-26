@@ -1,4 +1,4 @@
-data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.desktop.in.in
-data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.desktop.in.in
-data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.desktop.in.in
+data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in
+data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in
+data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in
 src/applet-main.c

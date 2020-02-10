@@ -1,3 +1,10 @@
+### mate-indicator-applet 1.24.0
+
+  * Translations update
+  * Update copyright to 2020
+  * rename data/org*mate-panel-applet.desktop.in.in files
+  * migrate from intltools to gettext
+
 ### mate-indicator-applet 1.23.0
 
   * Translations update

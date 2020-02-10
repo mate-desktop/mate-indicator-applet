@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-indicator-applet package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -8,12 +8,11 @@
 # Mooglie <mooglietech@gmail.com>, 2018
 # Maurious Paul Vincent <paulmaurious@gmail.com>, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
+"Project-Id-Version: mate-indicator-applet 1.23.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
+"POT-Creation-Date: 2020-01-12 13:38+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: Maurious Paul Vincent <paulmaurious@gmail.com>, 2018\n"
 "Language-Team: Tamil (https://www.transifex.com/mate/teams/13566/ta/)\n"
@@ -23,33 +22,56 @@ msgstr ""
 "Language: ta\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Factory"
+msgstr ""
+
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
+#: src/applet-main.c:981
 msgid "Indicator Applet"
 msgstr "சுட்டிக்காட்டி குறும்பயன்"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:10
 msgid "An indicator of something that needs your attention on the desktop"
 msgstr "உங்கள் கவனத்தை எதன் மீதோ ஈர்க்க  மேல் மேசையில் காட்டும் சுட்டி"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:12
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
+msgid "mate-indicator-applet"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Complete Factory"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
+#: src/applet-main.c:984
 msgid "Indicator Applet Complete"
 msgstr "சுட்டிக்காட்டி குறு நிரல் முழுமையானது"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:10
 msgid "A unified applet containing all of the indicators."
 msgstr "அனைத்து சுட்டிகாட்டிகளையும் கொண்ட ஒருங்கிணைந்த குறுநிரல்"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Appmenu Factory"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
 msgstr "சுட்டிக்காட்டி குறிநிரல் பயன்பாடு பட்டியல்"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:10
 msgid "A applet containing the application menus."
 msgstr "பயன்பாடுகளின் பட்டியலை கொண்ட குறுநிரல்"
 
-#: ../src/applet-main.c:764
+#: src/applet-main.c:793
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
@@ -59,7 +81,7 @@ msgstr ""
 "அனுமதிக்கான இந்த 3 ஆம் பதிப்பு விதிகளின் படி நீங்கள் (விருப்பப்படி) \r\n"
 "மாற்றலாம். அல்லது மீண்டும் பறிமாறலாம்"
 
-#: ../src/applet-main.c:767
+#: src/applet-main.c:796
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -69,7 +91,7 @@ msgstr ""
 "இந்த நிரல் உபயோகப்படும் என்ற எதிர்பார்ப்புடன் வெளியிடப்படுகிறது. ஆனால் விற்க தகுதி, திருப்தி தரும் தரம், குறிப்பிட்ட \r\n"
 "செயலுக்கான தகுதி உள்பட நேரடியாகவோ உணர்த்தப்பட்டதாகவோ எந்த உத்திரவாதமும் அளிக்கப்படவில்லை. மேற் கொண்டு விவரங்களுக்கு ஜிஎன்யு பொது அனுமதிக்கான விதிகளை பார்க்கவும்"
 
-#: ../src/applet-main.c:771
+#: src/applet-main.c:800
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -78,34 +100,39 @@ msgstr ""
 "கிடைத்திருக்க வேண்டும். இல்லையானால் கீழ் கண்ட வலைப்பக்கத்தை பார்க்கவும் "
 "<http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:783
+#: src/applet-main.c:810
+msgid ""
+"Copyright © 2009-2010 Canonical, Ltd.\n"
+"Copyright © 2011-2020 MATE developers"
+msgstr ""
+
+#: src/applet-main.c:813
 msgid "An applet to hold your application menus."
 msgstr "உங்கள் பயன்பாட்டு பட்டிகளை உள்ளடக்க ஒரு குறுநிரல்"
 
-#: ../src/applet-main.c:785
+#: src/applet-main.c:815
 msgid "An applet to hold all of the system indicators."
 msgstr "கணினி சுட்டிகள் அனைத்தையும் உள்ளடக்க ஒரு குறுநிரல்"
 
-#: ../src/applet-main.c:789
+#: src/applet-main.c:819
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Valmantas Palikša https://launchpad.net/~walmis\n"
 "  bhuvi https://launchpad.net/~bhuvanesh"
 
-#: ../src/applet-main.c:793
+#: src/applet-main.c:823
 msgid "MATE Website"
 msgstr "MATE வலைத்தளம்"
 
-#: ../src/applet-main.c:938
+#: src/applet-main.c:968
 msgid "_About"
 msgstr "பற்றி "
 
-#: ../src/applet-main.c:957
+#: src/applet-main.c:987
 msgid "Indicator Applet Application Menu"
 msgstr "சுட்டிக்காட்டி குறுநிரல் பயன்பாட்டு பட்டி"
 
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
+#: src/applet-main.c:1051
 msgid "No Indicators"
 msgstr "சுட்டிக்காட்டிகள் இல்லை"

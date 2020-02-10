@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-indicator-applet package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # tomoe_musashi <hkg.musashi@gmail.com>, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
+"Project-Id-Version: mate-indicator-applet 1.23.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
+"POT-Creation-Date: 2020-01-12 13:38+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: tomoe_musashi <hkg.musashi@gmail.com>, 2018\n"
 "Language-Team: Chinese (Hong Kong) (https://www.transifex.com/mate/teams/13566/zh_HK/)\n"
@@ -22,40 +21,63 @@ msgstr ""
 "Language: zh_HK\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Factory"
+msgstr ""
+
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
+#: src/applet-main.c:981
 msgid "Indicator Applet"
 msgstr "指示器面板程式"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:10
 msgid "An indicator of something that needs your attention on the desktop"
 msgstr "一個讓您知道桌面上有什麼值得注意的指示器"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:12
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
+msgid "mate-indicator-applet"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Complete Factory"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
+#: src/applet-main.c:984
 msgid "Indicator Applet Complete"
 msgstr "指示器面板完成"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:10
 msgid "A unified applet containing all of the indicators."
 msgstr "一個包含所有的指示器的統合面板程式"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Appmenu Factory"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
 msgstr "指示器面板程式之程式選單"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:10
 msgid "A applet containing the application menus."
 msgstr "包含應用軟體選單的面板程式。"
 
-#: ../src/applet-main.c:764
+#: src/applet-main.c:793
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "這個程式屬於自由軟件：您可以在符合自由軟件基金會公布的 GNU GPLv3 授權的前題下，自由的散佈、修改這個程式。"
 
-#: ../src/applet-main.c:767
+#: src/applet-main.c:796
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -65,41 +87,46 @@ msgstr ""
 "這個程式是在希望能對大家有幫助的前題下散佈的，但「我們不提供任何類型的擔保」，不論是明確的，還是隱含的，包括但不限於可銷售和適合特定用途的隱含保證。全部的風險，如程式的質量和性能問題都由您來承擔。更詳細的資訊，請參見"
 " GNU GPL。"
 
-#: ../src/applet-main.c:771
+#: src/applet-main.c:800
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "您應該已經和程式一起收到一份 GNU 通用公共許可證的副本。如果還沒有，請參訪 <http://www.gnu.org/licenses/>。"
 
-#: ../src/applet-main.c:783
+#: src/applet-main.c:810
+msgid ""
+"Copyright © 2009-2010 Canonical, Ltd.\n"
+"Copyright © 2011-2020 MATE developers"
+msgstr ""
+
+#: src/applet-main.c:813
 msgid "An applet to hold your application menus."
 msgstr "包含您應用程式選單的面板程式。"
 
-#: ../src/applet-main.c:785
+#: src/applet-main.c:815
 msgid "An applet to hold all of the system indicators."
 msgstr "一個記錄所有系統指示的面板程式。"
 
-#: ../src/applet-main.c:789
+#: src/applet-main.c:819
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Valmantas Palikša https://launchpad.net/~walmis\n"
 "  yanq.wang https://launchpad.net/~nile-wangyq"
 
-#: ../src/applet-main.c:793
+#: src/applet-main.c:823
 msgid "MATE Website"
 msgstr ""
 
-#: ../src/applet-main.c:938
+#: src/applet-main.c:968
 msgid "_About"
 msgstr "關於(_A)"
 
-#: ../src/applet-main.c:957
+#: src/applet-main.c:987
 msgid "Indicator Applet Application Menu"
 msgstr "指示器面板程式之應用程式選單"
 
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
+#: src/applet-main.c:1051
 msgid "No Indicators"
 msgstr "沒有指示"

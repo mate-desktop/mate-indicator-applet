@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-indicator-applet package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -9,12 +9,11 @@
 # Marcus Vinícius Marques, 2018
 # 642cf48d39bca7f9ad9d185d4bcea8c8, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
+"Project-Id-Version: mate-indicator-applet 1.23.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
+"POT-Creation-Date: 2020-01-12 13:38+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: 642cf48d39bca7f9ad9d185d4bcea8c8, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/mate/teams/13566/pt_BR/)\n"
@@ -24,33 +23,56 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Factory"
+msgstr ""
+
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
+#: src/applet-main.c:981
 msgid "Indicator Applet"
 msgstr "Miniaplicativo Indicador"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:10
 msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Um indicador de que algo precisa de sua atenção no computador"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:12
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
+msgid "mate-indicator-applet"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Complete Factory"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
+#: src/applet-main.c:984
 msgid "Indicator Applet Complete"
 msgstr "Miniaplicativo Indicador Completo"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:10
 msgid "A unified applet containing all of the indicators."
 msgstr "Um miniaplicativo unificado contendo todos os indicadores"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Appmenu Factory"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
 msgstr "Miniaplicativo Indicador do Appmenu"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:10
 msgid "A applet containing the application menus."
 msgstr "Um miniaplicativo contendo menu de aplicativos."
 
-#: ../src/applet-main.c:764
+#: src/applet-main.c:793
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
@@ -60,7 +82,7 @@ msgstr ""
 " sob os termos da GNU General Public License versão 3, como publicado na "
 "Free Software Foundation."
 
-#: ../src/applet-main.c:767
+#: src/applet-main.c:796
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -72,7 +94,7 @@ msgstr ""
 "SATISFATÓRIA, ou ADEQUAÇÃO PARA UM DETERMINADO PROPÓSITO. Veja a GNU General"
 " Public License para mais detalhes."
 
-#: ../src/applet-main.c:771
+#: src/applet-main.c:800
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -80,15 +102,21 @@ msgstr ""
 "Você deve ter recebido uma cópia da GNU General Public License junto com "
 "este programa. Se não, veja <http://www.gnu.org/licenses/>."
 
-#: ../src/applet-main.c:783
+#: src/applet-main.c:810
+msgid ""
+"Copyright © 2009-2010 Canonical, Ltd.\n"
+"Copyright © 2011-2020 MATE developers"
+msgstr ""
+
+#: src/applet-main.c:813
 msgid "An applet to hold your application menus."
 msgstr "Um miniaplicativo que mantém seus menus de aplicativos."
 
-#: ../src/applet-main.c:785
+#: src/applet-main.c:815
 msgid "An applet to hold all of the system indicators."
 msgstr "Um miniaplicativo que mantém todos os indicadores do sistema."
 
-#: ../src/applet-main.c:789
+#: src/applet-main.c:819
 msgid "translator-credits"
 msgstr ""
 "Equipe de tradução no Transifex:\n"
@@ -113,19 +141,18 @@ msgstr ""
 "Thiago Cangussu https://www.transifex.com/accounts/profile/cangussu.thg\n"
 "vitorgatti https://www.transifex.com/accounts/profile/vitorgatti"
 
-#: ../src/applet-main.c:793
+#: src/applet-main.c:823
 msgid "MATE Website"
 msgstr "Site do MATE"
 
-#: ../src/applet-main.c:938
+#: src/applet-main.c:968
 msgid "_About"
 msgstr "_Sobre"
 
-#: ../src/applet-main.c:957
+#: src/applet-main.c:987
 msgid "Indicator Applet Application Menu"
 msgstr "Menu de Aplicativos do Miniaplicativo Indicador"
 
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
+#: src/applet-main.c:1051
 msgid "No Indicators"
 msgstr "Sem Indicadores"

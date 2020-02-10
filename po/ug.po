@@ -1,17 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-indicator-applet package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
+"Project-Id-Version: mate-indicator-applet 1.23.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
+"POT-Creation-Date: 2020-01-12 13:38+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
 "Language-Team: Uighur (https://www.transifex.com/mate/teams/13566/ug/)\n"
@@ -21,33 +20,56 @@ msgstr ""
 "Language: ug\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Factory"
+msgstr ""
+
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
+#: src/applet-main.c:981
 msgid "Indicator Applet"
 msgstr "Indicator Applet"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:10
 msgid "An indicator of something that needs your attention on the desktop"
 msgstr "ئۈستەل يۈزىدە دىققەت قىلىشقا تېگىشلىك نەرسىلەرنى كۆرسىتىدۇ"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:12
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
+msgid "mate-indicator-applet"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Complete Factory"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
+#: src/applet-main.c:984
 msgid "Indicator Applet Complete"
 msgstr "كۆرسەتكۈچ كىچىك پروگرامما بۆلىكى تاماملاندى."
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:10
 msgid "A unified applet containing all of the indicators."
 msgstr "بارلىق كۆرسەتكۈچنى ئۆزئىچىگە ئالغان كىچىك پروگرامما بۆلىكى."
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Appmenu Factory"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
 msgstr "كۆرسەتكۈچ applet Appmenu"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:10
 msgid "A applet containing the application menus."
 msgstr "پروگرامما تىزىملىكى بار بولغان applet."
 
-#: ../src/applet-main.c:764
+#: src/applet-main.c:793
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
@@ -57,7 +79,7 @@ msgstr ""
 "License 3-نەشرىدىكى ماددىلارغا ئاساسەن، مەزكۇر دېتالنى تۈزىتەلەيسىز، "
 "تارقىتالايسىز."
 
-#: ../src/applet-main.c:767
+#: src/applet-main.c:796
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -69,7 +91,7 @@ msgstr ""
 "ھىچقانداق كاپالەت بېرىلمەيدۇ. سىز GNU ئۇنېۋىرسال ئاممىۋى ئىجازەت كېلىشىمى "
 "ئارقىلىق تېخىمۇ كۆپ ئۇچۇرغا ئېرىشەلەيسز."
 
-#: ../src/applet-main.c:771
+#: src/applet-main.c:800
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -78,15 +100,21 @@ msgstr ""
 "كېلىشىمىنىڭ كۆپەيتىلگەن نۇسخىسىغا ئېرىشەلەيسىز. ئەگەر بولمىسا "
 "<http://www.gnu.org/licenses/> نى زىيارەت قىلىڭ."
 
-#: ../src/applet-main.c:783
+#: src/applet-main.c:810
+msgid ""
+"Copyright © 2009-2010 Canonical, Ltd.\n"
+"Copyright © 2011-2020 MATE developers"
+msgstr ""
+
+#: src/applet-main.c:813
 msgid "An applet to hold your application menus."
 msgstr "پروگرامما تىزىملىكىنى تۇتۇپ تۇرغان applet."
 
-#: ../src/applet-main.c:785
+#: src/applet-main.c:815
 msgid "An applet to hold all of the system indicators."
 msgstr "بىر بارلىق سېستىما كۆرسەتمىسىنى باشتۇرىدىغان قىستۇرما دېتال."
 
-#: ../src/applet-main.c:789
+#: src/applet-main.c:819
 msgid "translator-credits"
 msgstr ""
 "Gheyret Kenji <gheyret@gmail.com>\n"
@@ -99,19 +127,18 @@ msgstr ""
 "  Gheyret T.Kenji https://launchpad.net/~gheyretkenji\n"
 "  Sahran https://launchpad.net/~sahran"
 
-#: ../src/applet-main.c:793
+#: src/applet-main.c:823
 msgid "MATE Website"
 msgstr ""
 
-#: ../src/applet-main.c:938
+#: src/applet-main.c:968
 msgid "_About"
 msgstr "ھەققىدە(_A)"
 
-#: ../src/applet-main.c:957
+#: src/applet-main.c:987
 msgid "Indicator Applet Application Menu"
 msgstr "كۆرسەتكۈچ applet پروگرامما تىزىملىكى"
 
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
+#: src/applet-main.c:1051
 msgid "No Indicators"
 msgstr "كۆرسىتىدىغان نەرسە يوق"

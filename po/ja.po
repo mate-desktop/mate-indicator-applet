@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-indicator-applet package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -8,12 +8,11 @@
 # ABE Tsunehiko, 2018
 # あわしろいくや <ikunya@gmail.com>, 2018
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 16:19+0100\n"
+"Project-Id-Version: mate-indicator-applet 1.23.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
+"POT-Creation-Date: 2020-01-12 13:38+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: あわしろいくや <ikunya@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
@@ -23,33 +22,56 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:951
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Factory"
+msgstr ""
+
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
+#: src/applet-main.c:981
 msgid "Indicator Applet"
 msgstr "インジケーターアプレット"
 
-#: ../data/org.ayatana.panel.IndicatorApplet.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:10
 msgid "An indicator of something that needs your attention on the desktop"
 msgstr "デスクトップで注意する必要があるもの（インジケーター）を表示します"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:1
-#: ../src/applet-main.c:954
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:12
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
+msgid "mate-indicator-applet"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Complete Factory"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
+#: src/applet-main.c:984
 msgid "Indicator Applet Complete"
 msgstr "インジケーターアプレット完全版"
 
-#: ../data/org.ayatana.panel.IndicatorAppletComplete.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:10
 msgid "A unified applet containing all of the indicators."
 msgstr "全てのインジケーターを含んだ統合アプレットです。"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:1
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
+msgid "Indicator Applet Appmenu Factory"
+msgstr ""
+
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
 msgstr "インジケーターアプレット・アプリメニュー"
 
-#: ../data/org.ayatana.panel.IndicatorAppletAppmenu.mate-panel-applet.in.in.h:2
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:10
 msgid "A applet containing the application menus."
 msgstr "アプリケーションメニューを含んだアプレットです。"
 
-#: ../src/applet-main.c:764
+#: src/applet-main.c:793
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
@@ -58,7 +80,7 @@ msgstr ""
 "このプログラムはフリーソフトウェアです: フリーソフトウェア財団 (Free Software Foundation) が発行した GNU "
 "一般公衆利用許諾契約書 (GNU General Public License) 第3版の条件下で当ソフトウェアの改変・再頒布を行うことができます。"
 
-#: ../src/applet-main.c:767
+#: src/applet-main.c:796
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -68,7 +90,7 @@ msgstr ""
 "このプログラムは役に立つことを期待して配布されいていますが、暗黙の商品性や十分な品質、特定の目的への適合を含む、いかなる保証もされません。詳細については"
 " GNU 一般公衆利用許諾書 (GNU General Public License) を参照してください。"
 
-#: ../src/applet-main.c:771
+#: src/applet-main.c:800
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -76,15 +98,21 @@ msgstr ""
 "あなたはこのプログラムと一緒に GNU 一般公衆利用許諾契約書 (GNU General Public License) "
 "を受け取っているはずです。見つからない場合は <http://www.gnu.org/licenses/> を参照してください。"
 
-#: ../src/applet-main.c:783
+#: src/applet-main.c:810
+msgid ""
+"Copyright © 2009-2010 Canonical, Ltd.\n"
+"Copyright © 2011-2020 MATE developers"
+msgstr ""
+
+#: src/applet-main.c:813
 msgid "An applet to hold your application menus."
 msgstr "アプリケーションメニューを保持するアプレットです。"
 
-#: ../src/applet-main.c:785
+#: src/applet-main.c:815
 msgid "An applet to hold all of the system indicators."
 msgstr "すべてのシステム表示を保持するアプレットです。"
 
-#: ../src/applet-main.c:789
+#: src/applet-main.c:819
 msgid "translator-credits"
 msgstr ""
 "相花 毅 <takeshi.aihana@gmail.com>\n"
@@ -99,19 +127,18 @@ msgstr ""
 "松澤 二郎 <jmatsuzawa@gnome.org>\n"
 "日本GNOMEユーザー会 http://www.gnome.gr.jp/"
 
-#: ../src/applet-main.c:793
+#: src/applet-main.c:823
 msgid "MATE Website"
 msgstr "MATEのWebサイト"
 
-#: ../src/applet-main.c:938
+#: src/applet-main.c:968
 msgid "_About"
 msgstr "情報(_A)"
 
-#: ../src/applet-main.c:957
+#: src/applet-main.c:987
 msgid "Indicator Applet Application Menu"
 msgstr "インジケーターアプレット・アプリケーションメニュー"
 
-#. A label to allow for click through
-#: ../src/applet-main.c:1020
+#: src/applet-main.c:1051
 msgid "No Indicators"
 msgstr "インジケーターはありません"

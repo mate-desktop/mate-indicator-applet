@@ -1,0 +1,114 @@
+##########################################################
+# THE FOLLOWING LINES IS USED BY docker-build
+##########################################################
+requires:
+  archlinux:
+    # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/mate-indicator-applet
+    - clang
+    - gcc
+    - git
+    - gtk3
+    - libindicator-gtk3
+    - make
+    - mate-common
+    - mate-panel
+    - which
+
+  debian:
+    # Useful URL: https://github.com/mate-desktop/debian-packages
+    # Useful URL: https://salsa.debian.org/debian-mate-team/mate-indicator-applet
+    - autopoint
+    - clang
+    - clang-tools
+    - cppcheck
+    - gcc
+    - git
+    - libgtk-3-dev
+    - libindicator3-dev
+    - libmate-panel-applet-dev
+    - libtool
+    - libx11-dev
+    - libxml2-dev
+    - make
+    - mate-common
+
+  fedora:
+    # Useful URL: https://src.fedoraproject.org/cgit/rpms/mate-indicator-applet.git
+    - clang
+    - clang-analyzer
+    - cppcheck-htmlreport
+    - gcc
+    - git
+    - gtk3-devel
+    - libindicator-gtk3-devel
+    - make
+    - mate-common
+    - mate-panel-devel
+    - redhat-rpm-config
+
+  ubuntu:
+    - autopoint
+    - clang
+    - clang-tools
+    - git
+    - libgtk-3-dev
+    - libido3-0.1-dev
+    - libindicator3-dev
+    - libmate-panel-applet-dev
+    - libtool
+    - libx11-dev
+    - libxml2-dev
+    - make
+    - mate-common
+
+variables:
+  - CFLAGS="-Wall -Werror=format-security -Wredundant-decls"
+  - 'CHECKERS="
+    -enable-checker deadcode.DeadStores
+    -enable-checker alpha.deadcode.UnreachableCode
+    -enable-checker alpha.core.CastSize
+    -enable-checker alpha.core.CastToStruct
+    -enable-checker alpha.core.IdenticalExpr
+    -enable-checker alpha.core.SizeofPtr
+    -enable-checker alpha.security.ArrayBoundV2
+    -enable-checker alpha.security.MallocOverflow
+    -enable-checker alpha.security.ReturnPtrRange
+    -enable-checker alpha.unix.SimpleStream
+    -enable-checker alpha.unix.cstring.BufferOverlap
+    -enable-checker alpha.unix.cstring.NotNullTerminated
+    -enable-checker alpha.unix.cstring.OutOfBounds
+    -enable-checker alpha.core.FixedAddr
+    -enable-checker security.insecureAPI.strcpy"'
+
+build_scripts:
+  - ./autogen.sh
+  - scan-build $CHECKERS ./configure
+  - if [ $CPU_COUNT -gt 1 ]; then
+  -     scan-build $CHECKERS --keep-cc -o html-report make -j $CPU_COUNT
+  - else
+  -     scan-build $CHECKERS --keep-cc -o html-report make
+  - fi
+  - if [ ${DISTRO_NAME} == "debian" ];then
+  -     cppcheck --enable=warning,style,performance,portability,information,missingInclude .
+  - fi
+
+after_scripts:
+  - if [ ${DISTRO_NAME} == "fedora" ];then
+  -   cppcheck --xml --output-file=cppcheck.xml --enable=warning,style,performance,portability,information,missingInclude .
+  -   cppcheck-htmlreport --title=${REPO_NAME} --file=cppcheck.xml --report-dir=cppcheck-htmlreport
+  -   ./gen-index -l 20
+  - fi
+  - make distcheck
+
+releases:
+  draft: false
+  prerelease: false
+  checksum: true
+  file_glob: true
+  files: mate-indicator-applet-*.tar.xz
+  github_release:
+    tags: true
+    overwrite: true
+    base_version: 1.20.0
+    notify_servers:
+      - https://release.mate-desktop.org/release

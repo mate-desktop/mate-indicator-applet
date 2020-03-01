@@ -7,6 +7,7 @@ requires:
     - gcc
     - git
     - gtk3
+    - intltool
     - libindicator-gtk3
     - make
     - mate-common

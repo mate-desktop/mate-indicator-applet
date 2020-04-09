@@ -541,9 +541,9 @@ menu_show (IndicatorObject * io, IndicatorObjectEntry * entry,
 	if (entry == NULL) {
 		/* Close any open menus instead of opening one */
 		GList * entries = indicator_object_get_entries(io);
-		GList * entry = NULL;
-		for (entry = entries; entry != NULL; entry = g_list_next(entry)) {
-			IndicatorObjectEntry * entrydata = (IndicatorObjectEntry *)entry->data;
+		GList * iterator = NULL;
+		for (iterator = entries; iterator != NULL; iterator = g_list_next(iterator)) {
+			IndicatorObjectEntry * entrydata = (IndicatorObjectEntry *)iterator->data;
 			gtk_menu_popdown(entrydata->menu);
 		}
 		g_list_free(entries);

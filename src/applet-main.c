@@ -926,7 +926,6 @@ log_to_file (const gchar * domain G_GNUC_UNUSED,
 
 			if (error != NULL) {
 				g_error("Unable to make directory '%s' for log file: %s", g_get_user_cache_dir(), error->message);
-				return;
 			}
 		}
 
@@ -938,7 +937,6 @@ log_to_file (const gchar * domain G_GNUC_UNUSED,
 		                          &error); /* error */
 		if (error != NULL) {
 			g_error("Unable to replace file: %s", error->message);
-			return;
 		}
 
 		log_file = g_io_stream_get_output_stream(G_IO_STREAM(io));

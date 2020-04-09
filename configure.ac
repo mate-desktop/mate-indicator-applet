@@ -19,6 +19,8 @@ AC_CONFIG_MACRO_DIR([m4])
 
 m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 
+MATE_COMPILE_WARNINGS
+
 ###########################
 # Dependencies
 ###########################
@@ -308,6 +310,7 @@ AC_MSG_NOTICE([
 Indicator Applet Configuration:
 
 	Prefix:                         $prefix
+	Warning cflags:                 ${WARN_CFLAGS}
 	Indicator implementation:       $indicator_implementation
 	Indicator NG support:           $have_indicator_ng
 	Indicator Directory:            $INDICATORDIR

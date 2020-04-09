@@ -4,6 +4,7 @@
 requires:
   archlinux:
     # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/mate-indicator-applet
+    - autoconf-archive
     - clang
     - gcc
     - git
@@ -17,6 +18,7 @@ requires:
   debian:
     # Useful URL: https://github.com/mate-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-mate-team/mate-indicator-applet
+    - autoconf-archive
     - autopoint
     - clang
     - clang-tools
@@ -34,6 +36,7 @@ requires:
 
   fedora:
     # Useful URL: https://src.fedoraproject.org/cgit/rpms/mate-indicator-applet.git
+    - autoconf-archive
     - clang
     - clang-analyzer
     - cppcheck-htmlreport
@@ -47,6 +50,7 @@ requires:
     - redhat-rpm-config
 
   ubuntu:
+    - autoconf-archive
     - autopoint
     - clang
     - clang-tools

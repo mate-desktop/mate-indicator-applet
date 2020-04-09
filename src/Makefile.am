@@ -25,7 +25,8 @@ mate_indicator_applet_CFLAGS = \
 	-DINDICATOR_APPLET \
 	-I$(srcdir)/.. \
 	$(APPLET_CFLAGS) \
-	$(INDICATOR_CFLAGS)
+	$(INDICATOR_CFLAGS) \
+	$(WARN_CFLAGS)
 
 mate_indicator_applet_SOURCES = \
 	applet-main.c \
@@ -47,7 +48,8 @@ mate_indicator_applet_appmenu_CFLAGS = \
 	-DINDICATOR_APPLET_APPMENU \
 	-I$(srcdir)/.. \
 	$(APPLET_CFLAGS) \
-	$(INDICATOR_CFLAGS)
+	$(INDICATOR_CFLAGS) \
+	$(WARN_CFLAGS)
 
 mate_indicator_applet_appmenu_SOURCES = \
 	applet-main.c \
@@ -69,7 +71,8 @@ mate_indicator_applet_complete_CFLAGS = \
 	-DINDICATOR_APPLET_COMPLETE \
 	-I$(srcdir)/.. \
 	$(APPLET_CFLAGS) \
-	$(INDICATOR_CFLAGS)
+	$(INDICATOR_CFLAGS) \
+	$(WARN_CFLAGS)
 
 mate_indicator_applet_complete_SOURCES =	\
 	applet-main.c \

@@ -7,6 +7,7 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 DISTCHECK_CONFIGURE_FLAGS = \
 	--enable-localinstall \
+	--enable-compile-warnings=no \
 	CFLAGS='-Wno-deprecated-declarations'
 
 DISTCLEANFILES = \

@@ -85,3 +85,5 @@ mate_indicator_applet_complete_LDADD = \
 	$(APPLET_LIBS) \
 	$(INDICATOR_LIBS) \
 	-lX11
+
+-include $(top_srcdir)/git.mk

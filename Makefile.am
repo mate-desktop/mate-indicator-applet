@@ -28,3 +28,4 @@ dist: ChangeLog
 
 .PHONY: ChangeLog
 
+-include $(top_srcdir)/git.mk

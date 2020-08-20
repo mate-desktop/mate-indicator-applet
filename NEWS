@@ -1,3 +1,12 @@
+### mate-indicator-applet 1.25.0
+
+  * Translations update
+  * add git.mk to generate .gitignore
+  * build: silent build warnings for distcheck
+  * applet-main: declaration of ‘entry’ shadows a parameter
+  * applet-main: remove unreachable-code warning reported by scan-build
+  * use MATE_COMPILE_WARNINGS from mate-common
+
 ### mate-indicator-applet 1.24.0
 
   * Translations update

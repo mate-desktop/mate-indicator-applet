@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.23.0\n"
+"Project-Id-Version: mate-indicator-applet 1.24.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/"
 "issues\n"
-"POT-Creation-Date: 2020-01-12 13:38+0100\n"
+"POT-Creation-Date: 2020-08-20 16:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,19 +23,12 @@ msgid "Indicator Applet Factory"
 msgstr ""
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:981
+#: src/applet-main.c:979
 msgid "Indicator Applet"
 msgstr ""
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:10
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:12
-#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
-#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
-msgid "mate-indicator-applet"
 msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
@@ -44,7 +37,7 @@ msgid "Indicator Applet Complete Factory"
 msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:984
+#: src/applet-main.c:982
 msgid "Indicator Applet Complete"
 msgstr ""
 
@@ -108,14 +101,14 @@ msgstr ""
 msgid "MATE Website"
 msgstr ""
 
-#: src/applet-main.c:968
+#: src/applet-main.c:966
 msgid "_About"
 msgstr ""
 
-#: src/applet-main.c:987
+#: src/applet-main.c:985
 msgid "Indicator Applet Application Menu"
 msgstr ""
 
-#: src/applet-main.c:1051
+#: src/applet-main.c:1049
 msgid "No Indicators"
 msgstr ""

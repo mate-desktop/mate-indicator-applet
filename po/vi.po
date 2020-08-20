@@ -6,6 +6,7 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Duy Truong Nguyen <truongap.ars@gmail.com>, 2018
+# Horazone Detex <thmmt2017d@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
 "POT-Creation-Date: 2020-01-12 13:38+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Duy Truong Nguyen <truongap.ars@gmail.com>, 2018\n"
+"Last-Translator: Horazone Detex <thmmt2017d@gmail.com>, 2020\n"
 "Language-Team: Vietnamese (https://www.transifex.com/mate/teams/13566/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Factory"
-msgstr ""
+msgstr "Bộ tạo tiểu dụng chỉ dẫn"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:981
@@ -46,7 +47,7 @@ msgstr ""
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
-msgstr ""
+msgstr "Bộ tạo tiểu dụng chỉ dẫn đã xong"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:984
@@ -60,7 +61,7 @@ msgstr "Một trình tổng hợp tất cả các chỉ dẫn"
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Appmenu Factory"
-msgstr ""
+msgstr "Bộ tạo tiểu dụng chỉ dẫn Appmenu"
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
@@ -104,6 +105,8 @@ msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Bản quyền © 2009-2010 Canonical, Ltd.\n"
+"Bản quyền © 2011-2020 Các lập ập trình viên MATE "
 
 #: src/applet-main.c:813
 msgid "An applet to hold your application menus."

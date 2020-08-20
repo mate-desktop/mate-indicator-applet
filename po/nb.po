@@ -25,7 +25,7 @@ msgstr ""
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Factory"
-msgstr ""
+msgstr "Fabrikk for indikatorpanelprogram"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:981
@@ -42,12 +42,12 @@ msgstr "En indikator for noe som trenger din oppmerksomhet på skrivebordet"
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
 msgid "mate-indicator-applet"
-msgstr ""
+msgstr "mate-indicator-applet"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
-msgstr ""
+msgstr "Fabrikk for komplett indikatorpanelprogram"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:984
@@ -61,7 +61,7 @@ msgstr "Et felles miniprogram som inneholder alle indikatorene."
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Appmenu Factory"
-msgstr ""
+msgstr "Fabrikk for indikatorpanelprogrammets programmeny"
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"

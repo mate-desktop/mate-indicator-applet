@@ -4,11 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# mauron, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# jeremy shields <jeremy.shields@orange.fr>, 2018
-# Rox fr <roxfr@outlook.fr>, 2020
-# Laurent Napias, 2020
+# Slimane Selyan AMIRI <selyan.kab@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -16,29 +12,27 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
 "POT-Creation-Date: 2020-01-12 13:38+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Laurent Napias, 2020\n"
-"Language-Team: French (https://www.transifex.com/mate/teams/13566/fr/)\n"
+"Last-Translator: Slimane Selyan AMIRI <selyan.kab@gmail.com>, 2020\n"
+"Language-Team: Kabyle (https://www.transifex.com/mate/teams/13566/kab/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: kab\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Factory"
-msgstr "Fabrique d'applet d'indicateur"
+msgstr ""
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:981
 msgid "Indicator Applet"
-msgstr "Applet de notification"
+msgstr ""
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:10
 msgid "An indicator of something that needs your attention on the desktop"
 msgstr ""
-"Un indicateur qui signale que quelque chose réclame votre attention sur le "
-"bureau"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon
 #. file name)!
@@ -51,29 +45,29 @@ msgstr ""
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
-msgstr "Fabrique d'applet complet d'indicateur"
+msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:984
 msgid "Indicator Applet Complete"
-msgstr "Applet de notification général"
+msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:10
 msgid "A unified applet containing all of the indicators."
-msgstr "Un applet unifié contenant tous les indicateurs."
+msgstr ""
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Appmenu Factory"
-msgstr "Fabrique d'applet complet d'indicateur"
+msgstr ""
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
-msgstr "Applet indicateur Appmenu"
+msgstr ""
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:10
 msgid "A applet containing the application menus."
-msgstr "Un applet affichant les menus des applications."
+msgstr ""
 
 #: src/applet-main.c:793
 msgid ""
@@ -81,9 +75,6 @@ msgid ""
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr ""
-"Ce programme est un logiciel libre : vous pouvez le redistribuer et/ou le "
-"modifier selon les termes de la version 3 de la « GNU General Public License"
-" », telle qu'elle est publiée par la Free Software Foundation."
 
 #: src/applet-main.c:796
 msgid ""
@@ -92,65 +83,46 @@ msgid ""
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
 msgstr ""
-"Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE "
-"GARANTIE ; sans même les garanties implicites de CONFORMITÉ, de QUALITÉ "
-"SATISFAISANTE ou  D'ADÉQUATION À UNE UTILISATION PARTICULIÈRE. Voir la « GNU"
-" General Public License » pour plus de précisions."
 
 #: src/applet-main.c:800
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
-"Vous devriez avoir reçu une copie de la « GNU General Public License » avec "
-"ce programme. Sinon, voir <http://www.gnu.org/licenses/>."
 
 #: src/applet-main.c:810
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
-"Copyright © 2009-2010 Canonical, Ltd.\n"
-"Copyright © 2011-2020 Les développeurs de MATE"
 
 #: src/applet-main.c:813
 msgid "An applet to hold your application menus."
-msgstr "Un applet pour afficher les menus de vos applications."
+msgstr ""
 
 #: src/applet-main.c:815
 msgid "An applet to hold all of the system indicators."
-msgstr "Un applet pour regrouper toutes les notifications du système."
+msgstr ""
 
 #: src/applet-main.c:819
 msgid "translator-credits"
 msgstr ""
-"Contributeurs au projet MATE :\n"
-"Voir https://www.transifex.com/mate/teams/13566/fr/\n"
-"\n"
-"Contributeurs au projet GNOME :\n"
-"Vincent Renardias <vincent@ldsol.com>, 1998-2000.\n"
-"Joaquim Fellmann <joaquim@hrnet.fr>, 2000.\n"
-"Christophe Merlet <redfox@redfoxcenter.org>, 2000-2006.\n"
-"Christophe Fergeau <teuf@users.sourceforge.net>, 2002-2003.\n"
-"Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002.\n"
-"Robert-André Mauchin <zebob.m@pengzone.org>, 2006-2008.\n"
-"Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007.\n"
-"Yannick Tailliez <ytdispatch-libre@yahoo.com>, 2008.\n"
-"Claude Paroz <claude@2xlibre.net>, 2008-2010.\n"
-"Gérard Baylard <gerard dot b at bbox dot fr>, 2010"
+"Launchpad Contributions:\n"
+"  Belkacem Mohammed https://launchpad.net/~belkacem77\n"
+"  Slimane Amiri https://launchpad.net/~slimaneamiri"
 
 #: src/applet-main.c:823
 msgid "MATE Website"
-msgstr "Site Internet de Mate"
+msgstr ""
 
 #: src/applet-main.c:968
 msgid "_About"
-msgstr "_À propos"
+msgstr "_Ɣef"
 
 #: src/applet-main.c:987
 msgid "Indicator Applet Application Menu"
-msgstr "Applet indicateur pour les menus d'applications"
+msgstr ""
 
 #: src/applet-main.c:1051
 msgid "No Indicators"
-msgstr "Pas de notifications"
+msgstr ""

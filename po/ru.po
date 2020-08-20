@@ -5,9 +5,10 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Alexei Sorokin <sor.alexei@meowr.ru>, 2018
+# Alexei Sorokin, 2018
 # Дмитрий Михирев, 2018
 # monsta <monsta@inbox.ru>, 2018
+# Anna Vyalkova <cybertailor@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
 "POT-Creation-Date: 2020-01-12 13:38+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>, 2018\n"
+"Last-Translator: Anna Vyalkova <cybertailor@gmail.com>, 2020\n"
 "Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +27,7 @@ msgstr ""
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Factory"
-msgstr ""
+msgstr "Фабрика апплета уведомлений"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:981
@@ -43,12 +44,12 @@ msgstr "Уведомления о событиях, требующих ваше�
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
 msgid "mate-indicator-applet"
-msgstr ""
+msgstr "mate-indicator-applet"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
-msgstr ""
+msgstr "Фабрика апплета, включающего все виды уведомлений"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:984
@@ -62,7 +63,7 @@ msgstr "Единый апплет, содержащий все виды увед
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Appmenu Factory"
-msgstr ""
+msgstr "Фабрика меню приложений апплета уведомлений"
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
@@ -107,6 +108,8 @@ msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Copyright © 2009-2010 Canonical, Ltd.\n"
+"Copyright © 2011-2020 MATE developers"
 
 #: src/applet-main.c:813
 msgid "An applet to hold your application menus."

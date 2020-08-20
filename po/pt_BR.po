@@ -6,7 +6,7 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Felipe Rozelio <feliperozelio@gmail.com>, 2018
-# Marcus Vinícius Marques, 2018
+# 65f2af3cfa184c075942a0418b98d2de_d688669, 2018
 # 642cf48d39bca7f9ad9d185d4bcea8c8, 2018
 # 
 msgid ""

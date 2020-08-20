@@ -6,7 +6,8 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Cédric Valmary <cvalmary@yahoo.fr>, 2018
-# Cfpo Miègjorn-Pirenèus <inactive+cfpomp@transifex.com>, 2018
+# 48c2de07903ce5a77a8e90265f95c4c2_8909374 <837c8d0ab97b27e737893c19f79bd4de_348476>, 2018
+# Quentin PAGÈS, 2020
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
 "POT-Creation-Date: 2020-01-12 13:38+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Cfpo Miègjorn-Pirenèus <inactive+cfpomp@transifex.com>, 2018\n"
+"Last-Translator: Quentin PAGÈS, 2020\n"
 "Language-Team: Occitan (post 1500) (https://www.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +26,7 @@ msgstr ""
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Factory"
-msgstr ""
+msgstr "Fabrica per l'appket de notificacion"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:981
@@ -42,12 +43,12 @@ msgstr "Un indicator que senhala que quicòm sul burèu reclama vòstra atencion
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
 msgid "mate-indicator-applet"
-msgstr ""
+msgstr "mate-indicator-applet"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
-msgstr ""
+msgstr "Indicator Applet Complete Factory"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:984
@@ -61,7 +62,7 @@ msgstr "Un applet unificat que conten totes los indicadors."
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Appmenu Factory"
-msgstr ""
+msgstr "Indicator Applet Complete Factory"
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
@@ -106,6 +107,8 @@ msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Copyright © 2009-2010 Canonical, Ltd.\n"
+"Copyright © 2011-2020 los desvolopaires de MATE"
 
 #: src/applet-main.c:813
 msgid "An applet to hold your application menus."
@@ -123,7 +126,7 @@ msgstr ""
 
 #: src/applet-main.c:823
 msgid "MATE Website"
-msgstr ""
+msgstr "Site web de MATE"
 
 #: src/applet-main.c:968
 msgid "_About"
@@ -135,4 +138,4 @@ msgstr "Microaplicacion indicador pels menuts d'aplicacions"
 
 #: src/applet-main.c:1051
 msgid "No Indicators"
-msgstr "Pas de notificacions"
+msgstr "Cap de notificacions"

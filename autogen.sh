@@ -19,7 +19,6 @@ which mate-autogen || {
 
 REQUIRED_AUTOMAKE_VERSION=1.10
 REQUIRED_GTK_DOC_VERSION=1.13
-USE_MATE2_MACROS=1
 
 . mate-autogen
 

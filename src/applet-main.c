@@ -808,7 +808,7 @@ about_cb (GtkAction *action G_GNUC_UNUSED,
 	gtk_show_about_dialog(NULL,
 		"version", VERSION,
 		"copyright", _("Copyright \xc2\xa9 2009-2010 Canonical, Ltd.\n"
-		               "Copyright \xc2\xa9 2011-2020 MATE developers"),
+		               "Copyright \xc2\xa9 2011-2021 MATE developers"),
 #ifdef INDICATOR_APPLET_APPMENU
 		"comments", _("An applet to hold your application menus."),
 #endif

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.24.0\n"
+"Project-Id-Version: mate-indicator-applet 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/"
 "issues\n"
-"POT-Creation-Date: 2020-08-20 16:25+0200\n"
+"POT-Creation-Date: 2021-01-16 14:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgstr ""
 #: src/applet-main.c:810
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
-"Copyright © 2011-2020 MATE developers"
+"Copyright © 2011-2021 MATE developers"
 msgstr ""
 
 #: src/applet-main.c:813

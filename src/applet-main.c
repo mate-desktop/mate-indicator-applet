@@ -963,7 +963,7 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 #endif
 
 	static const GtkActionEntry menu_actions[] = {
-		{"About", GTK_STOCK_ABOUT, N_("_About"), NULL, NULL, G_CALLBACK(about_cb)}
+		{"About", "help-about", N_("_About"), NULL, NULL, G_CALLBACK(about_cb)}
 	};
 	static const gchar *menu_xml = "<menuitem name=\"About\" action=\"About\"/>";
 

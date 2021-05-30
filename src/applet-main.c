@@ -304,6 +304,42 @@ entry_scrolled (GtkWidget *menuitem, GdkEventScroll *event, gpointer data)
 	return FALSE;
 }
 
+static gboolean
+entry_pressed (GtkWidget *menuitem, GdkEvent *event, gpointer data)
+{
+       g_return_val_if_fail(GTK_IS_MENU_ITEM(menuitem), FALSE);
+
+       if (((GdkEventButton*)event)->button == 2) /* middle button */
+       {
+               gtk_widget_grab_focus(menuitem);
+
+               return TRUE;
+       }
+
+       return FALSE;
+}
+
+static gboolean
+entry_released (GtkWidget *menuitem, GdkEvent *event, gpointer data)
+{
+       g_return_val_if_fail(GTK_IS_MENU_ITEM(menuitem), FALSE);
+
+       if (((GdkEventButton*)event)->button == 2) /* middle button */
+       {
+               IndicatorObject *io = g_object_get_data (G_OBJECT (menuitem), MENU_DATA_INDICATOR_OBJECT);
+               IndicatorObjectEntry *entry = g_object_get_data (G_OBJECT (menuitem), MENU_DATA_INDICATOR_ENTRY);
+
+               g_return_val_if_fail(INDICATOR_IS_OBJECT(io), FALSE);
+
+               g_signal_emit_by_name (io, INDICATOR_OBJECT_SIGNAL_SECONDARY_ACTIVATE, entry,
+                       ((GdkEventButton*)event)->time);
+
+               return TRUE;
+       }
+
+       return FALSE;
+}
+
 static void
 accessible_desc_update_cb (GtkWidget * widget, gpointer userdata)
 {
@@ -360,12 +396,16 @@ entry_added (IndicatorObject * io, IndicatorObjectEntry * entry, GtkWidget * men
 
 	/* Allows indicators to receive mouse scroll event */
 	gtk_widget_add_events(GTK_WIDGET(menuitem), GDK_SCROLL_MASK);
+	gtk_widget_add_events(GTK_WIDGET(menuitem), GDK_BUTTON_PRESS_MASK);
+	gtk_widget_add_events(GTK_WIDGET(menuitem), GDK_BUTTON_RELEASE_MASK);
 
 	g_object_set_data (G_OBJECT (menuitem), "indicator", io);
 	g_object_set_data (G_OBJECT (menuitem), "box", box);
 
 	g_signal_connect(G_OBJECT(menuitem), "activate", G_CALLBACK(entry_activated), entry);
 	g_signal_connect(G_OBJECT(menuitem), "scroll-event", G_CALLBACK(entry_scrolled), entry);
+	g_signal_connect(G_OBJECT(menuitem), "button-press-event", G_CALLBACK(entry_pressed), entry);
+	g_signal_connect(G_OBJECT(menuitem), "button-release-event", G_CALLBACK(entry_released), entry);
 
 	if (entry->image != NULL) {
 		/* Resize to fit panel */

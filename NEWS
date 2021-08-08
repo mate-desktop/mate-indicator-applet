@@ -1,3 +1,10 @@
+### mate-indicator-applet 1.26.0
+
+  * Translations update
+  * applet-main: Replace GtkStock icon
+  * Update copyright to 2021
+  * Remove USE_MATE2_MACROS from autogen.sh (legacy)
+
 ### mate-indicator-applet 1.25.0
 
   * Translations update

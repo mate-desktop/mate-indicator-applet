@@ -5,15 +5,15 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2020
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.23.0\n"
+"Project-Id-Version: mate-indicator-applet 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2020-01-12 13:38+0100\n"
+"POT-Creation-Date: 2021-01-16 14:57+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2020\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021\n"
 "Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +27,7 @@ msgid "Indicator Applet Factory"
 msgstr "Фабрика програмчета Указатеља"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:981
+#: src/applet-main.c:979
 msgid "Indicator Applet"
 msgstr "Програмче за указивање"
 
@@ -35,21 +35,13 @@ msgstr "Програмче за указивање"
 msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Указује на нешто што захтева вашу пажњу на радној површи"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:12
-#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
-#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
-msgid "mate-indicator-applet"
-msgstr "mate-indicator-applet"
-
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
 msgstr "Комплет фабрика програмчета за указивање"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:984
+#: src/applet-main.c:982
 msgid "Indicator Applet Complete"
 msgstr "Комплет програмчета за указивање"
 
@@ -103,10 +95,10 @@ msgstr ""
 #: src/applet-main.c:810
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
-"Copyright © 2011-2020 MATE developers"
+"Copyright © 2011-2021 MATE developers"
 msgstr ""
-"Ауторска права © 2009-2010 Каноникал, Лтд.\n"
-"Ауторска права © 2011-2020 Програмери Мејта"
+"Ауторска права © 2009-2010 Canonical, Ltd.\n"
+"Ауторска права © 2011-2021 Програмери Мејта"
 
 #: src/applet-main.c:813
 msgid "An applet to hold your application menus."
@@ -124,14 +116,14 @@ msgstr "Мирослав Николић <miroslavnikolic@rocketmail.com>"
 msgid "MATE Website"
 msgstr "Веб страница Мејта"
 
-#: src/applet-main.c:968
+#: src/applet-main.c:966
 msgid "_About"
 msgstr "_О програму"
 
-#: src/applet-main.c:987
+#: src/applet-main.c:985
 msgid "Indicator Applet Application Menu"
 msgstr "Изборник програма програмчета за указивање"
 
-#: src/applet-main.c:1051
+#: src/applet-main.c:1049
 msgid "No Indicators"
 msgstr "Нема указивача"

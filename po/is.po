@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Sveinn í Felli <sv1@fellsnet.is>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Sveinn í Felli <sv1@fellsnet.is>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.23.0\n"
+"Project-Id-Version: mate-indicator-applet 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2020-01-12 13:38+0100\n"
+"POT-Creation-Date: 2021-01-16 14:57+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>, 2020\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
 "Language-Team: Icelandic (https://www.transifex.com/mate/teams/13566/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +27,7 @@ msgid "Indicator Applet Factory"
 msgstr ""
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:981
+#: src/applet-main.c:979
 msgid "Indicator Applet"
 msgstr "Ábendingar"
 
@@ -35,21 +35,13 @@ msgstr "Ábendingar"
 msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Gefur það til kynna ef eitthvað áhugavert gerist"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:12
-#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
-#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
-msgid "mate-indicator-applet"
-msgstr ""
-
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
 msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:984
+#: src/applet-main.c:982
 msgid "Indicator Applet Complete"
 msgstr "Sameinaðar ábendingar"
 
@@ -102,10 +94,8 @@ msgstr ""
 #: src/applet-main.c:810
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
-"Copyright © 2011-2020 MATE developers"
+"Copyright © 2011-2021 MATE developers"
 msgstr ""
-"Höfundarréttur © 2009-2010 Canonical, Ltd.\n"
-"Höfundarréttur © 2011-2020 MATE forritararnir"
 
 #: src/applet-main.c:813
 msgid "An applet to hold your application menus."
@@ -126,14 +116,14 @@ msgstr ""
 msgid "MATE Website"
 msgstr "MATE vefsvæðið"
 
-#: src/applet-main.c:968
+#: src/applet-main.c:966
 msgid "_About"
 msgstr "_Um"
 
-#: src/applet-main.c:987
+#: src/applet-main.c:985
 msgid "Indicator Applet Application Menu"
 msgstr "Vísir fyrir forritavalmyndaforritling"
 
-#: src/applet-main.c:1051
+#: src/applet-main.c:1049
 msgid "No Indicators"
 msgstr "Engar ábendingar"

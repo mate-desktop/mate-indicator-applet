@@ -6,16 +6,15 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Cédric Valmary <cvalmary@yahoo.fr>, 2018
-# 48c2de07903ce5a77a8e90265f95c4c2_8909374 <837c8d0ab97b27e737893c19f79bd4de_348476>, 2018
-# Quentin PAGÈS, 2020
+# Quentin PAGÈS, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.23.0\n"
+"Project-Id-Version: mate-indicator-applet 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2020-01-12 13:38+0100\n"
+"POT-Creation-Date: 2021-01-16 14:57+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Quentin PAGÈS, 2020\n"
+"Last-Translator: Quentin PAGÈS, 2021\n"
 "Language-Team: Occitan (post 1500) (https://www.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +28,7 @@ msgid "Indicator Applet Factory"
 msgstr "Fabrica per l'appket de notificacion"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:981
+#: src/applet-main.c:979
 msgid "Indicator Applet"
 msgstr "Applet de notificacion"
 
@@ -37,21 +36,13 @@ msgstr "Applet de notificacion"
 msgid "An indicator of something that needs your attention on the desktop"
 msgstr "Un indicator que senhala que quicòm sul burèu reclama vòstra atencion"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:12
-#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
-#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
-msgid "mate-indicator-applet"
-msgstr "mate-indicator-applet"
-
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
 msgstr "Indicator Applet Complete Factory"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:984
+#: src/applet-main.c:982
 msgid "Indicator Applet Complete"
 msgstr "Applet d'indicacion complet"
 
@@ -70,7 +61,7 @@ msgstr "Microaplicacion indicador Appmenu"
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:10
 msgid "A applet containing the application menus."
-msgstr "Una microaplicacion qu'aficha los menuts de las aplicacions."
+msgstr "Una microaplicacion qu'aficha los menús de las aplicacions."
 
 #: src/applet-main.c:793
 msgid ""
@@ -89,30 +80,30 @@ msgid ""
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
 msgstr ""
-"Aqueste programa es distribuit dins l'esper que serà util, mas SENS CAP "
-"GARANTIA ; sens las quitas garantias implicitas de CONFORMITAT, de QUALITAT "
-"SATISFASENTA o D'ADEQÜACION A UNA UTILIZACION PARTICULARA. Vejatz la « GNU "
-"General Public License » per mai de precisions."
+"Aqueste programa es distribuit dins l'espèr que serà util, mas SENS CAP "
+"GARANTIDA ; sens las quitas garantidas implicitas de CONFORMITAT, de "
+"QUALITAT SATISFASENTA o D'ADEQÜACION A UNA UTILIZACION PARTICULARA. Vejatz "
+"la « GNU General Public License » per mai de precisions."
 
 #: src/applet-main.c:800
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
-"Vos caldriá aver recebut una còpia de la « GNU General Public License » amb "
-"aqueste programa. Siquenon, vejatz <http://www.gnu.org/licenses/>."
+"Deuriatz aver recebut una còpia de la « GNU General Public License » amb "
+"aqueste programa. S’es pas lo cas, vejatz <http://www.gnu.org/licenses/>."
 
 #: src/applet-main.c:810
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
-"Copyright © 2011-2020 MATE developers"
+"Copyright © 2011-2021 MATE developers"
 msgstr ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
-"Copyright © 2011-2020 los desvolopaires de MATE"
+"Copyright © 2011-2021 Los desvolopaires de MATE"
 
 #: src/applet-main.c:813
 msgid "An applet to hold your application menus."
-msgstr "Una microaplicacion per afichar los menuts de vòstras aplicacions."
+msgstr "Una microaplicacion per afichar los menús de vòstras aplicacions."
 
 #: src/applet-main.c:815
 msgid "An applet to hold all of the system indicators."
@@ -122,20 +113,20 @@ msgstr "Una applet per acampar totas las notificacions del sistèma."
 msgid "translator-credits"
 msgstr ""
 "Yannig Marchegay (Kokoyaya) <yannig@marchegay.org> & Cédric Valmary "
-"(totenoc.eu) <cvalmary@yahoo.fr>"
+"(totenoc.eu) <cvalmary@yahoo.fr> & Quentin PAGÈS"
 
 #: src/applet-main.c:823
 msgid "MATE Website"
 msgstr "Site web de MATE"
 
-#: src/applet-main.c:968
+#: src/applet-main.c:966
 msgid "_About"
 msgstr "A _prepaus"
 
-#: src/applet-main.c:987
+#: src/applet-main.c:985
 msgid "Indicator Applet Application Menu"
-msgstr "Microaplicacion indicador pels menuts d'aplicacions"
+msgstr "Microaplicacion indicador pels menús d'aplicacions"
 
-#: src/applet-main.c:1051
+#: src/applet-main.c:1049
 msgid "No Indicators"
-msgstr "Cap de notificacions"
+msgstr "Cap d’indicadors"

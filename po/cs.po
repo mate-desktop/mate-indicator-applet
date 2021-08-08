@@ -7,15 +7,16 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Ondřej Kolín <ondrej.kolin@gmail.com>, 2018
 # Lukáš Kvídera <lukas.kvidera@seznam.cz>, 2018
-# Lucas Lommer <drom@kdyne.net>, 2020
+# Lukáš Lommer <drom@kdyne.net>, 2020
+# ToMáš Marný, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.23.0\n"
+"Project-Id-Version: mate-indicator-applet 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2020-01-12 13:38+0100\n"
+"POT-Creation-Date: 2021-01-16 14:57+0100\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Lucas Lommer <drom@kdyne.net>, 2020\n"
+"Last-Translator: ToMáš Marný, 2021\n"
 "Language-Team: Czech (https://www.transifex.com/mate/teams/13566/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +30,7 @@ msgid "Indicator Applet Factory"
 msgstr "Generátor appletu upozornění"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:981
+#: src/applet-main.c:979
 msgid "Indicator Applet"
 msgstr "Applet upozornění"
 
@@ -38,27 +39,19 @@ msgid "An indicator of something that needs your attention on the desktop"
 msgstr ""
 "Indikátor záležitostí, které v pracovním prostředí vyžadují vaši pozornost"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:12
-#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:12
-#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:12
-msgid "mate-indicator-applet"
-msgstr "mate-indicator-applet"
-
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
 msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:984
+#: src/applet-main.c:982
 msgid "Indicator Applet Complete"
 msgstr "Applet upozornění úplný"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:10
 msgid "A unified applet containing all of the indicators."
-msgstr "Jednotný applet obsahující všechny indikátory"
+msgstr "Jednotný applet obsahující všechny indikátory."
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
@@ -106,10 +99,10 @@ msgstr ""
 #: src/applet-main.c:810
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
-"Copyright © 2011-2020 MATE developers"
+"Copyright © 2011-2021 MATE developers"
 msgstr ""
-"Copyright © 2009-2010 Canonical Ltd\n"
-"Copyright © 2011-2020 Vývojáři MATE"
+"Copyright © 2009-2010 Canonical, Ltd.\n"
+"Copyright © 2011-2021 Vývojáři MATE"
 
 #: src/applet-main.c:813
 msgid "An applet to hold your application menus."
@@ -117,7 +110,7 @@ msgstr "Applet obsahující vaše nabídky aplikací."
 
 #: src/applet-main.c:815
 msgid "An applet to hold all of the system indicators."
-msgstr "Applet sdružující všechny systémové indikátory"
+msgstr "Applet sdružující všechny systémové indikátory."
 
 #: src/applet-main.c:819
 msgid "translator-credits"
@@ -135,14 +128,14 @@ msgstr ""
 msgid "MATE Website"
 msgstr "Webové stránky MATE"
 
-#: src/applet-main.c:968
+#: src/applet-main.c:966
 msgid "_About"
 msgstr "O _aplikaci"
 
-#: src/applet-main.c:987
+#: src/applet-main.c:985
 msgid "Indicator Applet Application Menu"
 msgstr "Aplikační menu appletu upozornění"
 
-#: src/applet-main.c:1051
+#: src/applet-main.c:1049
 msgid "No Indicators"
 msgstr "Žádné indikátory"

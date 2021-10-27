@@ -78,5 +78,4 @@ void     egg_keymap_virtualize_modifiers      (GdkKeymap              *keymap,
 
 G_END_DECLS
 
-
 #endif /* __EGG_ACCELERATORS_H__ */

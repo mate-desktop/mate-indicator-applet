@@ -84,7 +84,7 @@ PKG_CHECK_EXISTS(indicator3-0.4 >= $UBUNTU_INDICATOR_NG_VERSION,
 
 ### decide on what Indicators implementation to use...
 
-if   test "x$have_ayatanaindicator" == "xyes" &&
+if   test "x$have_ayatanaindicator" = "xyes" &&
      test "x$have_ubuntuindicator" != "xyes" &&
      test "x$with_ubuntu_indicators" != "xyes"; then
 
@@ -92,7 +92,7 @@ if   test "x$have_ayatanaindicator" == "xyes" &&
     use_ayatanaindicator="yes";
     indicator_enforced="no";
 
-elif test "x$have_ubuntuindicator" == "xyes" &&
+elif test "x$have_ubuntuindicator" = "xyes" &&
      test "x$have_ayatanaindicator" != "xyes" &&
      test "x$with_ayatana_indicators" != "xyes"; then
 
@@ -100,31 +100,31 @@ elif test "x$have_ubuntuindicator" == "xyes" &&
     use_ubuntuindicator="yes";
     indicator_enforced="no";
 
-elif test "x$have_ubuntuindicator" == "xyes" &&
-     test "x$have_ayatanaindicator" == "xyes" &&
-     test "x$with_ayatana_indicators" == "xyes"; then
+elif test "x$have_ubuntuindicator" = "xyes" &&
+     test "x$have_ayatanaindicator" = "xyes" &&
+     test "x$with_ayatana_indicators" = "xyes"; then
 
     # both Indicator implementations are present, and we are asked to use Ayatana Indicators
     use_ayatanaindicator=yes;
     indicator_enforced=yes;
 
-elif test "x$have_ubuntuindicator" == "xyes" &&
-     test "x$have_ayatanaindicator" == "xyes" &&
-     test "x$with_ubuntu_indicators" == "xyes"; then
+elif test "x$have_ubuntuindicator" = "xyes" &&
+     test "x$have_ayatanaindicator" = "xyes" &&
+     test "x$with_ubuntu_indicators" = "xyes"; then
 
     # both Indicator implementations are present, and we are asked to use Ubuntu Indicators
     use_ubuntuindicator=yes;
     indicator_enforced=yes;
 
-elif test "x$have_ubuntuindicator" == "xyes" &&
+elif test "x$have_ubuntuindicator" = "xyes" &&
      test "x$have_ayatanaindicator" != "xyes" &&
-     test "x$with_ayatana_indicators" == "xyes"; then
+     test "x$with_ayatana_indicators" = "xyes"; then
 
     AC_MSG_ERROR([Ubuntu Indicators are present, but you want to build mate-indicator-applet against Ayatana Indicators. This does not match.])
 
 elif test "x$have_ubuntuindicator" != "xyes" &&
-     test "x$have_ayatanaindicator" == "xyes" &&
-     test "x$with_ubuntu_indicators" == "xyes"; then
+     test "x$have_ayatanaindicator" = "xyes" &&
+     test "x$with_ubuntu_indicators" = "xyes"; then
 
     AC_MSG_ERROR([Ayatana Indicators are present, but you want to build mate-indicator-applet against Ubuntu Indicators. This does not match.])
 
@@ -136,13 +136,13 @@ fi
 
 ### prepare Ayatana or Ubuntu Indicators implementation for the build, regarding to the decision reached above...
 
-if   test "x$use_ayatanaindicator" == "xyes"; then
+if   test "x$use_ayatanaindicator" = "xyes"; then
 
     AM_CONDITIONAL(WITH_AYATANA_INDICATOR, true)
     AM_CONDITIONAL(WITH_UBUNTU_INDICATOR, false)
     AC_DEFINE(HAVE_AYATANA_INDICATOR, 1, "Ayatana Indicators Support")
 
-    if test "x$indicator_enforced" == "xyes"; then
+    if test "x$indicator_enforced" = "xyes"; then
         AC_MSG_NOTICE([Using Ayatana Indicators for this build (as requested via configure option).])
     else
         AC_MSG_NOTICE([Using Ayatana Indicators for this build.])
@@ -159,14 +159,14 @@ if   test "x$use_ayatanaindicator" == "xyes"; then
     AC_SUBST(AYATANA_INDICATOR_CFLAGS)
     AC_SUBST(AYATANA_INDICATOR_LIBS)
 
-elif test "x$use_ubuntuindicator" == "xyes"; then
+elif test "x$use_ubuntuindicator" = "xyes"; then
 
     # both Indicator implementations are present, and we are asked to use Ubuntu Indicators
     AM_CONDITIONAL(WITH_UBUNTU_INDICATOR, true)
     AM_CONDITIONAL(WITH_AYATANA_INDICATOR, false)
     AC_DEFINE(HAVE_UBUNTU_INDICATOR, 1, "Ubuntu Indicators Support")
 
-    if test "x$indicator_enforced" == "xyes"; then
+    if test "x$indicator_enforced" = "xyes"; then
         AC_MSG_NOTICE([Using Ubuntu Indicators for this build (as requested via configure option).])
     else
         AC_MSG_NOTICE([Using Ubuntu Indicators for this build.])
@@ -290,18 +290,18 @@ po/Makefile.in
 # Results
 ###########################
 
-if (test "x$use_ayatanaindicator" == "xyes" &&
-    test "x$have_ayatanaindicator_ng" == "xyes") ||
-   (test "x$use_ubuntuindicator" == "xyes" &&
-    test "x$have_ubuntuindicator_ng" == "xyes"); then
+if (test "x$use_ayatanaindicator" = "xyes" &&
+    test "x$have_ayatanaindicator_ng" = "xyes") ||
+   (test "x$use_ubuntuindicator" = "xyes" &&
+    test "x$have_ubuntuindicator_ng" = "xyes"); then
     have_indicator_ng="yes"
 else
     have_indicator_ng="no"
 fi
 
-if test "x$use_ayatanaindicator" == "xyes"; then
+if test "x$use_ayatanaindicator" = "xyes"; then
     indicator_implementation="Ayatana Indicators"
-elif test "x$use_ubuntuindicator" == "xyes"; then
+elif test "x$use_ubuntuindicator" = "xyes"; then
     indicator_implementation="Ubuntu Indicators"
 fi
 

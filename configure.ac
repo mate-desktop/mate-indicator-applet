@@ -279,12 +279,13 @@ AC_DEFINE_PATH(LIBDIR, "${libdir}", [system configuration dir])
 # Files
 ###########################
 
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 src/Makefile
 data/Makefile
 po/Makefile.in
 ])
+AC_OUTPUT
 
 ###########################
 # Results

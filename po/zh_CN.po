@@ -6,17 +6,16 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Ma Xiaojun <damage3025@gmail.com>, 2018
-# Mingcong Bai <jeffbai@aosc.xyz>, 2018
 # 玉堂白鹤 <yjwork@qq.com>, 2020
-# Wenbin Lv <wenbin816@gmail.com>, 2021
+# Wenbin Lv <wenbin816@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.25.0\n"
+"Project-Id-Version: mate-indicator-applet 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2021-01-16 14:57+0100\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Wenbin Lv <wenbin816@gmail.com>, 2021\n"
+"Last-Translator: Wenbin Lv <wenbin816@gmail.com>, 2022\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/mate/teams/13566/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,23 +29,23 @@ msgid "Indicator Applet Factory"
 msgstr "指示器小程序工厂"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:979
+#: src/applet-main.c:1019
 msgid "Indicator Applet"
 msgstr "指示器小程序"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:10
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr "一个需要您注意的桌面指示器"
+msgstr "一个提醒需要您注意的事项的桌面指示器"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
-msgstr "完整指示器小程序工厂"
+msgstr "指示器小程序大全工厂"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:982
+#: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
-msgstr "完整指示器小程序"
+msgstr "指示器小程序大全"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:10
 msgid "A unified applet containing all of the indicators."
@@ -55,57 +54,56 @@ msgstr "一个包含所有指示器的统一小程序。"
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Appmenu Factory"
-msgstr "指示器小程序应用程序菜单工厂"
+msgstr "指示器小程序应用菜单工厂"
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
-msgstr "指示器小程序应用程序菜单"
+msgstr "指示器小程序应用菜单"
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:10
 msgid "A applet containing the application menus."
 msgstr "一个包含应用程序菜单的小程序。"
 
-#: src/applet-main.c:793
+#: src/applet-main.c:833
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
-msgstr "这个软件是自由软件，您可以在自由软件基金会发布的 GNU 通用公共许可协议第三版的约束下重新发布该软件和/或对其进行修改。"
+msgstr ""
+"本程序是自由软件；您可以按照自由软件基金会所发布的 GNU 通用公共许可证再分发和/或修改它；您可以使用此许可证的第二版或（依您所愿）任何更新的版本。"
 
-#: src/applet-main.c:796
+#: src/applet-main.c:836
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
 msgstr ""
-"我们希望此软件能为您提供帮助从而发布该软件，但并不为任何内容提供担保；包括适销性、满意度或者适宜用于特定的目标。请阅读 GNU "
-"通用公共许可协议获取更多信息。"
+"分发本程序的目的是希望它对您有用，但没有任何保证；甚至没有对适销性或特定用途适用性的默示保证。请阅读 GNU 通用公共许可证以了解更多细节。"
 
-#: src/applet-main.c:800
+#: src/applet-main.c:840
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"您应该能够随此软件获得一份 GNU 通用公共许可协议的副本。如果没有，请访问 <http://www.gnu.org/licenses/>。"
+msgstr "您应该能够随本程序获得一份 GNU 通用公共许可证的副本。如果没有，请访问 <http://www.gnu.org/licenses/>。"
 
-#: src/applet-main.c:810
+#: src/applet-main.c:850
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 MATE developers"
 msgstr ""
-"版权所有 © 2009-2010 Canonical, Ltd.\n"
-"版权所有 © 2011-2021 MATE 开发者"
+"Copyright © 2009-2010 Canonical, Ltd.\n"
+"Copyright © 2011-2021 MATE 开发者"
 
-#: src/applet-main.c:813
+#: src/applet-main.c:853
 msgid "An applet to hold your application menus."
 msgstr "一个提供您的应用程序菜单的小程序。"
 
-#: src/applet-main.c:815
+#: src/applet-main.c:855
 msgid "An applet to hold all of the system indicators."
 msgstr "一个控制所有系统提示的插件。"
 
-#: src/applet-main.c:819
+#: src/applet-main.c:859
 msgid "translator-credits"
 msgstr ""
 "Christopher Meng <i@cicku.me>, 2012-2013\n"
@@ -117,20 +115,21 @@ msgstr ""
 "玉堂白鹤 <yjwork@qq.com>, 2015\n"
 "Mingye Wang <arthur200126@gmail.com>, 2015-2016\n"
 "白铭骢 <jeffbai@aosc.xyz>, 2015-2016\n"
-"刘子兴 <liushuyu@aosc.xyz>, 2015-2016"
+"刘子兴 <liushuyu@aosc.xyz>, 2015-2016\n"
+"Wenbin Lv <wenbin816@gmail.com>, 2021-2022"
 
-#: src/applet-main.c:823
+#: src/applet-main.c:863
 msgid "MATE Website"
 msgstr "MATE 网站"
 
-#: src/applet-main.c:966
+#: src/applet-main.c:1006
 msgid "_About"
 msgstr "关于(_A)"
 
-#: src/applet-main.c:985
+#: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
 msgstr "指示器小程序应用程序菜单"
 
-#: src/applet-main.c:1049
+#: src/applet-main.c:1089
 msgid "No Indicators"
 msgstr "无指示器"

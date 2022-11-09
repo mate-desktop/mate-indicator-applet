@@ -9,9 +9,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.25.0\n"
+"Project-Id-Version: mate-indicator-applet 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2021-01-16 14:57+0100\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: Sadgamaya <g.raghavan.g@gmail.com>, 2018\n"
 "Language-Team: Hindi (https://www.transifex.com/mate/teams/13566/hi/)\n"
@@ -27,7 +27,7 @@ msgid "Indicator Applet Factory"
 msgstr ""
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:979
+#: src/applet-main.c:1019
 msgid "Indicator Applet"
 msgstr "इंडिकेटर एप्प्लेट"
 
@@ -41,7 +41,7 @@ msgid "Indicator Applet Complete Factory"
 msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:982
+#: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
 msgstr "पूर्ण इंडिकेटर एप्प्लेट"
 
@@ -62,7 +62,7 @@ msgstr "इंडिकेटर एप्प्लेट ऐप्पमेन�
 msgid "A applet containing the application menus."
 msgstr "एक एप्प्लेट जिसमे आपके ऐप्प्लीकेशन मेनू रखे जाते हैं"
 
-#: src/applet-main.c:793
+#: src/applet-main.c:833
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
@@ -72,7 +72,7 @@ msgstr ""
 "General Public License संस्करण 3 जिसे फ्रि साफ्टवेयर संस्था प्रकाशित करती "
 "है, के शर्तों के अधीन परिवर्तित कर सकते हैं."
 
-#: src/applet-main.c:796
+#: src/applet-main.c:836
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -84,7 +84,7 @@ msgstr ""
 "विशेष उद्देश्य हेतु उपयुक्त के लिए लागु समाश्वासन भी नहीं देता है. विस्तृत "
 "जानकारी हेतु GNU General Public License संस्करण 3 देखें."
 
-#: src/applet-main.c:800
+#: src/applet-main.c:840
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -92,21 +92,21 @@ msgstr ""
 "इस कार्यक्रम के साथ आपको GNU General Public License की प्रतिलिपि मिलनी "
 "चाहिए. यदि नहीं तो देखें<http://www.gnu.org/licenses/>."
 
-#: src/applet-main.c:810
+#: src/applet-main.c:850
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 MATE developers"
 msgstr ""
 
-#: src/applet-main.c:813
+#: src/applet-main.c:853
 msgid "An applet to hold your application menus."
 msgstr "एक एप्प्लेट आपके ऐप्प्लीकेशन मेन्यु को रखने के लिए"
 
-#: src/applet-main.c:815
+#: src/applet-main.c:855
 msgid "An applet to hold all of the system indicators."
 msgstr "तंत्र के सभी इंडिकेटर को रखने हेतु एक एप्प्लेट"
 
-#: src/applet-main.c:819
+#: src/applet-main.c:859
 msgid "translator-credits"
 msgstr ""
 "राजेश रंजन (rajeshkajha@yahoo.com)\n"
@@ -114,18 +114,18 @@ msgstr ""
 "रविशंकर श्रीवास्तव (raviratlami@gmail.com)\n"
 "राघवन गोपालकृष्णन्  (g.raghavan.g@gmail.com)"
 
-#: src/applet-main.c:823
+#: src/applet-main.c:863
 msgid "MATE Website"
 msgstr "माटे वेबसाइट"
 
-#: src/applet-main.c:966
+#: src/applet-main.c:1006
 msgid "_About"
 msgstr "परिचय (_A)"
 
-#: src/applet-main.c:985
+#: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
 msgstr "इंडिकेटर एप्प्लेट ऐप्प्लीकेशन मेन्यु"
 
-#: src/applet-main.c:1049
+#: src/applet-main.c:1089
 msgid "No Indicators"
 msgstr "इंडिकेटर नहीं है"

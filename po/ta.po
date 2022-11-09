@@ -10,9 +10,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.25.0\n"
+"Project-Id-Version: mate-indicator-applet 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2021-01-16 14:57+0100\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: Maurious Paul Vincent <paulmaurious@gmail.com>, 2018\n"
 "Language-Team: Tamil (https://www.transifex.com/mate/teams/13566/ta/)\n"
@@ -28,7 +28,7 @@ msgid "Indicator Applet Factory"
 msgstr ""
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:979
+#: src/applet-main.c:1019
 msgid "Indicator Applet"
 msgstr "சுட்டிக்காட்டி குறும்பயன்"
 
@@ -42,7 +42,7 @@ msgid "Indicator Applet Complete Factory"
 msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:982
+#: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
 msgstr "சுட்டிக்காட்டி குறு நிரல் முழுமையானது"
 
@@ -63,7 +63,7 @@ msgstr "சுட்டிக்காட்டி குறிநிரல் �
 msgid "A applet containing the application menus."
 msgstr "பயன்பாடுகளின் பட்டியலை கொண்ட குறுநிரல்"
 
-#: src/applet-main.c:793
+#: src/applet-main.c:833
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
@@ -73,7 +73,7 @@ msgstr ""
 "அனுமதிக்கான இந்த 3 ஆம் பதிப்பு விதிகளின் படி நீங்கள் (விருப்பப்படி) \r\n"
 "மாற்றலாம். அல்லது மீண்டும் பறிமாறலாம்"
 
-#: src/applet-main.c:796
+#: src/applet-main.c:836
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -83,7 +83,7 @@ msgstr ""
 "இந்த நிரல் உபயோகப்படும் என்ற எதிர்பார்ப்புடன் வெளியிடப்படுகிறது. ஆனால் விற்க தகுதி, திருப்தி தரும் தரம், குறிப்பிட்ட \r\n"
 "செயலுக்கான தகுதி உள்பட நேரடியாகவோ உணர்த்தப்பட்டதாகவோ எந்த உத்திரவாதமும் அளிக்கப்படவில்லை. மேற் கொண்டு விவரங்களுக்கு ஜிஎன்யு பொது அனுமதிக்கான விதிகளை பார்க்கவும்"
 
-#: src/applet-main.c:800
+#: src/applet-main.c:840
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -92,39 +92,39 @@ msgstr ""
 "கிடைத்திருக்க வேண்டும். இல்லையானால் கீழ் கண்ட வலைப்பக்கத்தை பார்க்கவும் "
 "<http://www.gnu.org/licenses/>."
 
-#: src/applet-main.c:810
+#: src/applet-main.c:850
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 MATE developers"
 msgstr ""
 
-#: src/applet-main.c:813
+#: src/applet-main.c:853
 msgid "An applet to hold your application menus."
 msgstr "உங்கள் பயன்பாட்டு பட்டிகளை உள்ளடக்க ஒரு குறுநிரல்"
 
-#: src/applet-main.c:815
+#: src/applet-main.c:855
 msgid "An applet to hold all of the system indicators."
 msgstr "கணினி சுட்டிகள் அனைத்தையும் உள்ளடக்க ஒரு குறுநிரல்"
 
-#: src/applet-main.c:819
+#: src/applet-main.c:859
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Valmantas Palikša https://launchpad.net/~walmis\n"
 "  bhuvi https://launchpad.net/~bhuvanesh"
 
-#: src/applet-main.c:823
+#: src/applet-main.c:863
 msgid "MATE Website"
 msgstr "MATE வலைத்தளம்"
 
-#: src/applet-main.c:966
+#: src/applet-main.c:1006
 msgid "_About"
 msgstr "பற்றி "
 
-#: src/applet-main.c:985
+#: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
 msgstr "சுட்டிக்காட்டி குறுநிரல் பயன்பாட்டு பட்டி"
 
-#: src/applet-main.c:1049
+#: src/applet-main.c:1089
 msgid "No Indicators"
 msgstr "சுட்டிக்காட்டிகள் இல்லை"

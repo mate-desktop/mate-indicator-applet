@@ -9,9 +9,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.25.0\n"
+"Project-Id-Version: mate-indicator-applet 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2021-01-16 14:57+0100\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
 "Language-Team: Icelandic (https://www.transifex.com/mate/teams/13566/is/)\n"
@@ -27,7 +27,7 @@ msgid "Indicator Applet Factory"
 msgstr ""
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:979
+#: src/applet-main.c:1019
 msgid "Indicator Applet"
 msgstr "Ábendingar"
 
@@ -41,7 +41,7 @@ msgid "Indicator Applet Complete Factory"
 msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:982
+#: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
 msgstr "Sameinaðar ábendingar"
 
@@ -62,7 +62,7 @@ msgstr "Vísir fyrir forritavalmyndaforritling"
 msgid "A applet containing the application menus."
 msgstr "Smáforrit sem inniheldur forritavalmyndirnar."
 
-#: src/applet-main.c:793
+#: src/applet-main.c:833
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
@@ -71,7 +71,7 @@ msgstr ""
 "Þetta er frjálst forrit; þú mátt dreyfa því eða breyta samkvæmt  útgáfu 3 af"
 " GNU General Public eins og Frjálsa hugbúnaðarstofnunin gefur út."
 
-#: src/applet-main.c:796
+#: src/applet-main.c:836
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -83,7 +83,7 @@ msgstr ""
 "SELJANLEIKA eða EIGINLEIKUM TIL TILTEKINNA NOTA. Sjá almenna GNU GPL "
 "notkunarleyfið fyrir nánari upplýsingar."
 
-#: src/applet-main.c:800
+#: src/applet-main.c:840
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -91,39 +91,39 @@ msgstr ""
 "Þú hefðir átt að fá eintak af GNU General Public License með þessu forriti. "
 "Ef svo reyndist ekki þá má sjá <http://www.gnu.org/licenses/>."
 
-#: src/applet-main.c:810
+#: src/applet-main.c:850
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 MATE developers"
 msgstr ""
 
-#: src/applet-main.c:813
+#: src/applet-main.c:853
 msgid "An applet to hold your application menus."
 msgstr "Smáforrit til að innihalda forritavalmyndir."
 
-#: src/applet-main.c:815
+#: src/applet-main.c:855
 msgid "An applet to hold all of the system indicators."
 msgstr "Forrit sem lætur þig vita þegar eitthvað gerist."
 
-#: src/applet-main.c:819
+#: src/applet-main.c:859
 msgid "translator-credits"
 msgstr ""
 "Samúel Jón Gunnarsson <sammi@techattack.nu>, 2003\n"
 "Sveinn í Felli <sv1@fellsnet.is>, 2012-2016\n"
 "Aðrir FOSS íslenskuþýðendur"
 
-#: src/applet-main.c:823
+#: src/applet-main.c:863
 msgid "MATE Website"
 msgstr "MATE vefsvæðið"
 
-#: src/applet-main.c:966
+#: src/applet-main.c:1006
 msgid "_About"
 msgstr "_Um"
 
-#: src/applet-main.c:985
+#: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
 msgstr "Vísir fyrir forritavalmyndaforritling"
 
-#: src/applet-main.c:1049
+#: src/applet-main.c:1089
 msgid "No Indicators"
 msgstr "Engar ábendingar"

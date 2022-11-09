@@ -9,9 +9,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.25.0\n"
+"Project-Id-Version: mate-indicator-applet 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2021-01-16 14:57+0100\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: Siranush <ss.m.95@mail.ru>, 2018\n"
 "Language-Team: Armenian (https://www.transifex.com/mate/teams/13566/hy/)\n"
@@ -27,7 +27,7 @@ msgid "Indicator Applet Factory"
 msgstr ""
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:979
+#: src/applet-main.c:1019
 msgid "Indicator Applet"
 msgstr "Ծանուցումների ծրագրույթ"
 
@@ -43,7 +43,7 @@ msgid "Indicator Applet Complete Factory"
 msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:982
+#: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
 msgstr "Ծանուցումների ծրագրույթը պատրաստ է"
 
@@ -64,7 +64,7 @@ msgstr "Հավելվածի ընտրացանկի ծրագրույթի ցուցի�
 msgid "A applet containing the application menus."
 msgstr "Հավելվածների ընտրացանկը պարունակող ծրագրույթ։"
 
-#: src/applet-main.c:793
+#: src/applet-main.c:833
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
@@ -74,7 +74,7 @@ msgstr ""
 "ձեւափոխել այն՝ համաձայն GNU համընդհանուր հանրային արտոնագրի 3 տարբերակի "
 "պայմանների, ինչպես հրապարակվել է ազատ ծրագրային ապահովության հիմնադրամում։"
 
-#: src/applet-main.c:796
+#: src/applet-main.c:836
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -86,7 +86,7 @@ msgstr ""
 "ՈՐԱԿԸ կամ ՈՐՈՇ ՆՊԱՏԱԿՈՎ ԿԻՐԱՌԵԼԻՈՒԹՅՈՒՆԸ։ Մանրամասները տեսեք GNU "
 "համընդհանուր հանրային արտոնագրի մեջ։"
 
-#: src/applet-main.c:800
+#: src/applet-main.c:840
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -94,36 +94,36 @@ msgstr ""
 "Այս ծրագրի հետ Դուք պետք է ստանայիք GNU համընդհանուր հանրային արտոնագրի "
 "պատճենը։ Եթե ոչ, ապա տեսեք այստեղ <http://www.gnu.org/licenses/>։"
 
-#: src/applet-main.c:810
+#: src/applet-main.c:850
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 MATE developers"
 msgstr ""
 
-#: src/applet-main.c:813
+#: src/applet-main.c:853
 msgid "An applet to hold your application menus."
 msgstr "Ձեր հավելվածների ընտրացանկը պարունակող ծրագրույթ"
 
-#: src/applet-main.c:815
+#: src/applet-main.c:855
 msgid "An applet to hold all of the system indicators."
 msgstr "Համակարգի բոլոր ծանուցումները պարունակող ծրագրույթ։"
 
-#: src/applet-main.c:819
+#: src/applet-main.c:859
 msgid "translator-credits"
 msgstr "թարգմանչի կրեդիտներ"
 
-#: src/applet-main.c:823
+#: src/applet-main.c:863
 msgid "MATE Website"
 msgstr "MATE Կայք"
 
-#: src/applet-main.c:966
+#: src/applet-main.c:1006
 msgid "_About"
 msgstr "_Մասին"
 
-#: src/applet-main.c:985
+#: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
 msgstr "Ծանուցումների ծրագրույթի հավելվածների ընտրացանկը"
 
-#: src/applet-main.c:1049
+#: src/applet-main.c:1089
 msgid "No Indicators"
 msgstr "Ծանուցումներ չկան"

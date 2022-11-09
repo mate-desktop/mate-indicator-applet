@@ -11,9 +11,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.25.0\n"
+"Project-Id-Version: mate-indicator-applet 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2021-01-16 14:57+0100\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: 黃柏諺 <s8321414@gmail.com>, 2021\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/mate/teams/13566/zh_TW/)\n"
@@ -29,7 +29,7 @@ msgid "Indicator Applet Factory"
 msgstr "指示器小工具工廠"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:979
+#: src/applet-main.c:1019
 msgid "Indicator Applet"
 msgstr "指示器面板程式"
 
@@ -43,7 +43,7 @@ msgid "Indicator Applet Complete Factory"
 msgstr "指示器小工具完成工廠"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:982
+#: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
 msgstr "指示器面板完成"
 
@@ -64,14 +64,14 @@ msgstr "指示器面板程式之程式選單"
 msgid "A applet containing the application menus."
 msgstr "包含應用軟體選單的面板程式。"
 
-#: src/applet-main.c:793
+#: src/applet-main.c:833
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr "這個程式屬於自由軟體：您可以在符合自由軟體基金會公布的GNU GPLv3授權的前題下，自由的散布、修改這個程式。"
 
-#: src/applet-main.c:796
+#: src/applet-main.c:836
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -81,13 +81,13 @@ msgstr ""
 "這個程式是在希望能對大家有幫助的前題下散布的，但「我們不提供任何類型的擔保」，不論是明確的，還是隱含的，包括但不限於可銷售和適合特定用途的隱含保證。全部的風險，如程式的質量和性能問題都由您來承擔。更詳細的資訊，請參見"
 " GNU GPL。"
 
-#: src/applet-main.c:800
+#: src/applet-main.c:840
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr "您應能在本程式中取得一份 GNU GPL 的複本。如果沒有的話， 請參照 <http://www.gnu.org/licenses/>."
 
-#: src/applet-main.c:810
+#: src/applet-main.c:850
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 MATE developers"
@@ -95,15 +95,15 @@ msgstr ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 MATE 開發者"
 
-#: src/applet-main.c:813
+#: src/applet-main.c:853
 msgid "An applet to hold your application menus."
 msgstr "包含您應用程式選單的面板程式。"
 
-#: src/applet-main.c:815
+#: src/applet-main.c:855
 msgid "An applet to hold all of the system indicators."
 msgstr "一個記錄所有系統指示的面板程式。"
 
-#: src/applet-main.c:819
+#: src/applet-main.c:859
 msgid "translator-credits"
 msgstr ""
 "黃柏諺 <s8321414@yahoo.com.tw>,2013-14\n"
@@ -113,18 +113,18 @@ msgstr ""
 "  fetag https://launchpad.net/~coolfire\n"
 "Walter Cheuk <wwycheuk@gmail.com>, 2016."
 
-#: src/applet-main.c:823
+#: src/applet-main.c:863
 msgid "MATE Website"
 msgstr "MATE 網站"
 
-#: src/applet-main.c:966
+#: src/applet-main.c:1006
 msgid "_About"
 msgstr "關於(_A)"
 
-#: src/applet-main.c:985
+#: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
 msgstr "指示器面板程式之應用程式選單"
 
-#: src/applet-main.c:1049
+#: src/applet-main.c:1089
 msgid "No Indicators"
 msgstr "沒有指示"

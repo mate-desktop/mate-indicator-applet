@@ -9,9 +9,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.25.0\n"
+"Project-Id-Version: mate-indicator-applet 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2021-01-16 14:57+0100\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: abuyop <abuyop@gmail.com>, 2021\n"
 "Language-Team: Malay (https://www.transifex.com/mate/teams/13566/ms/)\n"
@@ -27,7 +27,7 @@ msgid "Indicator Applet Factory"
 msgstr "Kilang Aplet Penunjuk"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:979
+#: src/applet-main.c:1019
 msgid "Indicator Applet"
 msgstr "Aplet Penunjuk"
 
@@ -41,7 +41,7 @@ msgid "Indicator Applet Complete Factory"
 msgstr "Kilang Lengkap Aplet Penunjuk"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:982
+#: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
 msgstr "Aplet Penunjuk Lengkap"
 
@@ -62,7 +62,7 @@ msgstr "Appmenu Aplet Penunjuk"
 msgid "A applet containing the application menus."
 msgstr "Aplet yang mengandungi menu aplikasi."
 
-#: src/applet-main.c:793
+#: src/applet-main.c:833
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
@@ -72,7 +72,7 @@ msgstr ""
 "mengubahnya di bawah terma GNU General Public License versi 3, seperti yang "
 "diterbitkan oleh Free Software Foundation."
 
-#: src/applet-main.c:796
+#: src/applet-main.c:836
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -84,7 +84,7 @@ msgstr ""
 "JAMINAN ATAS APA JUA SEBAB. Sila lihat GNU General Public License untuk "
 "maklumat lanjut."
 
-#: src/applet-main.c:800
+#: src/applet-main.c:840
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -92,7 +92,7 @@ msgstr ""
 "Anda seharusnya menerima salinan GNU General Public License bersama program "
 "ini.  Jika tidak, sila layari <http://www.gnu.org/licenses/>."
 
-#: src/applet-main.c:810
+#: src/applet-main.c:850
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 MATE developers"
@@ -100,30 +100,30 @@ msgstr ""
 "Hak Cipta © 2009-2010 Canonical, Ltd.\n"
 "Hak Cipta © 2011-2021 Pembangun MATE"
 
-#: src/applet-main.c:813
+#: src/applet-main.c:853
 msgid "An applet to hold your application menus."
 msgstr "Aplet untuk letak menu aplikasi anda"
 
-#: src/applet-main.c:815
+#: src/applet-main.c:855
 msgid "An applet to hold all of the system indicators."
 msgstr "Applet untuk letak penunjuk sistem."
 
-#: src/applet-main.c:819
+#: src/applet-main.c:859
 msgid "translator-credits"
 msgstr "Abuyop"
 
-#: src/applet-main.c:823
+#: src/applet-main.c:863
 msgid "MATE Website"
 msgstr "Laman Sesawang MATE"
 
-#: src/applet-main.c:966
+#: src/applet-main.c:1006
 msgid "_About"
 msgstr "Perih_al"
 
-#: src/applet-main.c:985
+#: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
 msgstr "Menu Aplikasi bagi Aplet Penunjuk"
 
-#: src/applet-main.c:1049
+#: src/applet-main.c:1089
 msgid "No Indicators"
 msgstr "Tiada Penunjuk"

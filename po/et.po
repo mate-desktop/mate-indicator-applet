@@ -10,9 +10,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.25.0\n"
+"Project-Id-Version: mate-indicator-applet 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2021-01-16 14:57+0100\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
 "Language-Team: Estonian (https://www.transifex.com/mate/teams/13566/et/)\n"
@@ -28,7 +28,7 @@ msgid "Indicator Applet Factory"
 msgstr ""
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:979
+#: src/applet-main.c:1019
 msgid "Indicator Applet"
 msgstr "Näidikurakend"
 
@@ -42,7 +42,7 @@ msgid "Indicator Applet Complete Factory"
 msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:982
+#: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
 msgstr "Täielik näidikurakend"
 
@@ -63,7 +63,7 @@ msgstr "Rakenduste menüüde rakend"
 msgid "A applet containing the application menus."
 msgstr "Rakenduste menüüsid sisaldav rakend."
 
-#: src/applet-main.c:793
+#: src/applet-main.c:833
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
@@ -73,7 +73,7 @@ msgstr ""
 "vastavalt GNU Üldise Avaliku Litsentsi versioon 3 tingimustele, nagu need on"
 " Vaba Tarkvara Fondi poolt avaldatud."
 
-#: src/applet-main.c:796
+#: src/applet-main.c:836
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -85,7 +85,7 @@ msgstr ""
 "SOBIVUSELE TEATUD KINDLAKS EESMÄRGIKS. Üksikasjade jaoks vaata GNU Üldist "
 "Avalikku Litsentsi."
 
-#: src/applet-main.c:800
+#: src/applet-main.c:840
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -93,21 +93,21 @@ msgstr ""
 "Te peaks olema saanud GNU Üldise Avaliku Litsentsi koopia koos selle "
 "programmiga. Kui ei, vaata <http://www.gnu.org/licenses/>."
 
-#: src/applet-main.c:810
+#: src/applet-main.c:850
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 MATE developers"
 msgstr ""
 
-#: src/applet-main.c:813
+#: src/applet-main.c:853
 msgid "An applet to hold your application menus."
 msgstr "Sinu rakenduste menüüde hoidmiseks mõeldud rakend."
 
-#: src/applet-main.c:815
+#: src/applet-main.c:855
 msgid "An applet to hold all of the system indicators."
 msgstr "Kõigi süsteemi näidikute hoidmiseks mõeldud rakend."
 
-#: src/applet-main.c:819
+#: src/applet-main.c:859
 msgid "translator-credits"
 msgstr ""
 "Lauris Kaplinski, 1999.\n"
@@ -116,18 +116,18 @@ msgstr ""
 "Priit Laes <plaes plaes org>, 2004–2006, 2008, 2009\n"
 "Ivar Smolin <okul linux ee>, 2005–2010, 2014–2015, 2018."
 
-#: src/applet-main.c:823
+#: src/applet-main.c:863
 msgid "MATE Website"
 msgstr "MATE koduleht"
 
-#: src/applet-main.c:966
+#: src/applet-main.c:1006
 msgid "_About"
 msgstr "_Lähemalt"
 
-#: src/applet-main.c:985
+#: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
 msgstr "Rakenduste menüüde rakend"
 
-#: src/applet-main.c:1049
+#: src/applet-main.c:1089
 msgid "No Indicators"
 msgstr "Näidikuid pole"

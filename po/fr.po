@@ -13,9 +13,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.25.0\n"
+"Project-Id-Version: mate-indicator-applet 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2021-01-16 14:57+0100\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: David D, 2021\n"
 "Language-Team: French (https://www.transifex.com/mate/teams/13566/fr/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
@@ -31,7 +31,7 @@ msgid "Indicator Applet Factory"
 msgstr "Fabrique d'applet d'indicateur"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:979
+#: src/applet-main.c:1019
 msgid "Indicator Applet"
 msgstr "Applet de notification"
 
@@ -47,7 +47,7 @@ msgid "Indicator Applet Complete Factory"
 msgstr "Fabrique d'applet complet d'indicateur"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:982
+#: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
 msgstr "Applet de notification général"
 
@@ -68,17 +68,17 @@ msgstr "Applet indicateur Appmenu"
 msgid "A applet containing the application menus."
 msgstr "Un applet affichant les menus des applications."
 
-#: src/applet-main.c:793
+#: src/applet-main.c:833
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr ""
 "Ce programme est un logiciel libre : vous pouvez le redistribuer et/ou le "
-"modifier selon les termes de la version 3 de la « GNU General Public License"
-" », telle qu'elle est publiée par la Free Software Foundation."
+"modifier selon les termes de la version 3 de la « GNU General Public "
+"License », telle qu'elle est publiée par la Free Software Foundation."
 
-#: src/applet-main.c:796
+#: src/applet-main.c:836
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -90,7 +90,7 @@ msgstr ""
 "SATISFAISANTE ou  D'ADÉQUATION À UNE UTILISATION PARTICULIÈRE. Voir la « GNU"
 " General Public License » pour plus de précisions."
 
-#: src/applet-main.c:800
+#: src/applet-main.c:840
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -98,7 +98,7 @@ msgstr ""
 "Vous devriez avoir reçu une copie de la « GNU General Public License » avec "
 "ce programme. Sinon, voir <http://www.gnu.org/licenses/>."
 
-#: src/applet-main.c:810
+#: src/applet-main.c:850
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 MATE developers"
@@ -106,15 +106,15 @@ msgstr ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 Les développeurs de MATE"
 
-#: src/applet-main.c:813
+#: src/applet-main.c:853
 msgid "An applet to hold your application menus."
 msgstr "Un applet pour afficher les menus de vos applications."
 
-#: src/applet-main.c:815
+#: src/applet-main.c:855
 msgid "An applet to hold all of the system indicators."
 msgstr "Un applet pour regrouper toutes les notifications du système."
 
-#: src/applet-main.c:819
+#: src/applet-main.c:859
 msgid "translator-credits"
 msgstr ""
 "Contributeurs au projet MATE :\n"
@@ -132,18 +132,18 @@ msgstr ""
 "Claude Paroz <claude@2xlibre.net>, 2008-2010.\n"
 "Gérard Baylard <gerard dot b at bbox dot fr>, 2010"
 
-#: src/applet-main.c:823
+#: src/applet-main.c:863
 msgid "MATE Website"
 msgstr "Site Internet de Mate"
 
-#: src/applet-main.c:966
+#: src/applet-main.c:1006
 msgid "_About"
 msgstr "_À propos"
 
-#: src/applet-main.c:985
+#: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
 msgstr "Applet indicateur pour les menus d'applications"
 
-#: src/applet-main.c:1049
+#: src/applet-main.c:1089
 msgid "No Indicators"
 msgstr "Pas de notifications"

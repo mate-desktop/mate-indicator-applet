@@ -11,9 +11,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.25.0\n"
+"Project-Id-Version: mate-indicator-applet 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2021-01-16 14:57+0100\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: Микола Ткач <chistomov@gmail.com>, 2021\n"
 "Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
@@ -29,7 +29,7 @@ msgid "Indicator Applet Factory"
 msgstr "Фабрика аплету сповіщення"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:979
+#: src/applet-main.c:1019
 msgid "Indicator Applet"
 msgstr "Аплет сповіщення"
 
@@ -40,10 +40,10 @@ msgstr "Сповіщення про те, що потребує вашої ув�
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
-msgstr ""
+msgstr "Фабрика аплета, що включає всі види сповіщень"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:982
+#: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
 msgstr "Аплет Індикатор готовий"
 
@@ -54,7 +54,7 @@ msgstr "Уніфікований аплет, що містить усі інди
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Appmenu Factory"
-msgstr ""
+msgstr "Фабрика меню додатків аплета сповіщень"
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
@@ -64,7 +64,7 @@ msgstr "Меню програм аплету сповіщень"
 msgid "A applet containing the application menus."
 msgstr "Аплет містить меню програм."
 
-#: src/applet-main.c:793
+#: src/applet-main.c:833
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
@@ -74,7 +74,7 @@ msgstr ""
 "розповсюджувати, та/або змінювати її за умови дотримання вимог ліцензії GNU "
 "General Public License ред.3, виданої Free Software Foundation."
 
-#: src/applet-main.c:796
+#: src/applet-main.c:836
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -86,7 +86,7 @@ msgstr ""
 "ЗАПОРУК ПРАЦЕЗДАТНОСТИ ПРОГРАМИ, чи ДОСТАТНОСТИ ЇЇ ЯКОСТИ чи ВІДПОВІДНОСТИ "
 "ПОСТАВЛЕНІЙ ЗАДАЧІ. Деталі читайте у ліцензії GNU General Public License."
 
-#: src/applet-main.c:800
+#: src/applet-main.c:840
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -94,7 +94,7 @@ msgstr ""
 "Ви мали отримати копію GNU General Public License разом з цією програмою. "
 "Якщо цього не сталося, дивіться <http://www.gnu.org/licenses/>."
 
-#: src/applet-main.c:810
+#: src/applet-main.c:850
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 MATE developers"
@@ -102,15 +102,15 @@ msgstr ""
 "Авторське право © 2009-2010 Canonical, Ltd.\n"
 "Авторське право © 2011-2021 Розробники MATE"
 
-#: src/applet-main.c:813
+#: src/applet-main.c:853
 msgid "An applet to hold your application menus."
 msgstr "Аплет містить меню Ваших програм."
 
-#: src/applet-main.c:815
+#: src/applet-main.c:855
 msgid "An applet to hold all of the system indicators."
 msgstr "Цей Аплет панелі зберігає усі повідомлення системи."
 
-#: src/applet-main.c:819
+#: src/applet-main.c:859
 msgid "translator-credits"
 msgstr ""
 "Yarema aka Knedlyk <yupadmin@gmail.com>,\n"
@@ -118,18 +118,18 @@ msgstr ""
 "Oleh Tsyupka <myr4yk@gmail.com>\n"
 "Юрій Яновський <lytvyn349@ukr.net>"
 
-#: src/applet-main.c:823
+#: src/applet-main.c:863
 msgid "MATE Website"
 msgstr "Сайт MATE"
 
-#: src/applet-main.c:966
+#: src/applet-main.c:1006
 msgid "_About"
 msgstr "_Про програму"
 
-#: src/applet-main.c:985
+#: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
 msgstr "Меню програм аплету сповіщень"
 
-#: src/applet-main.c:1049
+#: src/applet-main.c:1089
 msgid "No Indicators"
 msgstr "Жодного індикатора"

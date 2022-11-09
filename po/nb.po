@@ -10,9 +10,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.25.0\n"
+"Project-Id-Version: mate-indicator-applet 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
-"POT-Creation-Date: 2021-01-16 14:57+0100\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
 "Last-Translator: heskjestad <cato@heskjestad.xyz>, 2021\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/mate/teams/13566/nb/)\n"
@@ -28,7 +28,7 @@ msgid "Indicator Applet Factory"
 msgstr "Fabrikk for indikatorpanelprogram"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:979
+#: src/applet-main.c:1019
 msgid "Indicator Applet"
 msgstr "Indikator miniprogram"
 
@@ -42,7 +42,7 @@ msgid "Indicator Applet Complete Factory"
 msgstr "Fabrikk for komplett indikatorpanelprogram"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
-#: src/applet-main.c:982
+#: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
 msgstr "Indikator miniprogram fullført"
 
@@ -63,7 +63,7 @@ msgstr "Indikator miniprogram."
 msgid "A applet containing the application menus."
 msgstr "Et miniprogram som inneholder programmenyene."
 
-#: src/applet-main.c:793
+#: src/applet-main.c:833
 msgid ""
 "This program is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License version 3, as published by"
@@ -73,7 +73,7 @@ msgstr ""
 "det under betingelsene i GNU General Public License versjon 3, som utgis av "
 "Free Software Foundation."
 
-#: src/applet-main.c:796
+#: src/applet-main.c:836
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranties of MERCHANTABILITY, "
@@ -85,7 +85,7 @@ msgstr ""
 "TILFREDSSTILLENDE KVALITET eller EGNETHET FOR EN BESTEMT HENSIKT. Se GNU "
 "General Public License for flere detaljer."
 
-#: src/applet-main.c:800
+#: src/applet-main.c:840
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
@@ -93,7 +93,7 @@ msgstr ""
 "Du skal ha fått en kopi av GNU General Public License med dette programmet. "
 "Hvis ikke, se <http://www.gnu.org/licenses/>."
 
-#: src/applet-main.c:810
+#: src/applet-main.c:850
 msgid ""
 "Copyright © 2009-2010 Canonical, Ltd.\n"
 "Copyright © 2011-2021 MATE developers"
@@ -101,15 +101,15 @@ msgstr ""
 "Opphavsrett © 2009-2010 Canonical, Ltd.\n"
 "Opphavsrett © 2011-2021 MATE-utviklerne"
 
-#: src/applet-main.c:813
+#: src/applet-main.c:853
 msgid "An applet to hold your application menus."
 msgstr "Et miniprogram som viser programmenyene dine."
 
-#: src/applet-main.c:815
+#: src/applet-main.c:855
 msgid "An applet to hold all of the system indicators."
 msgstr "Et miniprogram som holder orden på systemindikatorene."
 
-#: src/applet-main.c:819
+#: src/applet-main.c:859
 msgid "translator-credits"
 msgstr ""
 "Send en e-post om du finner feil eller mangler i oversettelsen.\n"
@@ -123,18 +123,18 @@ msgstr ""
 "\n"
 "Av totalt 11597 tekststrenger."
 
-#: src/applet-main.c:823
+#: src/applet-main.c:863
 msgid "MATE Website"
 msgstr "Nettsiden til MATE"
 
-#: src/applet-main.c:966
+#: src/applet-main.c:1006
 msgid "_About"
 msgstr "Om"
 
-#: src/applet-main.c:985
+#: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
 msgstr "Indikator miniprogram programmeny"
 
-#: src/applet-main.c:1049
+#: src/applet-main.c:1089
 msgid "No Indicators"
 msgstr "Ingen indikatorer"

@@ -1,3 +1,13 @@
+### mate-indicator-applet 1.27.0
+
+  * tx: sync with transifex
+  * tx: update resource
+  * tx: migrate config file
+  * ci: drop -Wunused-parameter compiler cflag from debian build
+  * applet-main.c: Support mouse middle-click.
+  * eggaccelerators: use a blank line at most
+  * configure.ac: fix incorrect shell test == behavior
+
 ### mate-indicator-applet 1.26.0
 
   * Translations update

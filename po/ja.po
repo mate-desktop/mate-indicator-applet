@@ -6,7 +6,7 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # ABE Tsunehiko, 2018
-# Green, 2021
+# Green <usergreen@users.osdn.me>, 2024
 # 
 msgid ""
 msgstr ""
@@ -14,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Green, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
+"Last-Translator: Green <usergreen@users.osdn.me>, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,39 +25,39 @@ msgstr ""
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Factory"
-msgstr "インジケーターアプレットのファクトリ"
+msgstr "インジケータアプレットのファクトリ"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:1019
 msgid "Indicator Applet"
-msgstr "インジケーターアプレット"
+msgstr "インジケータアプレット"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:10
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr "デスクトップで注意する必要があるもの（インジケーター）を表示します"
+msgstr "デスクトップ上で、注意が必要なことを示すインジケータ。"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
-msgstr "インジケーターアプレット完全版のファクトリ"
+msgstr "インジケータアプレット完全版のファクトリ"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
-msgstr "インジケーターアプレット完全版"
+msgstr "インジケータアプレット完全版"
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:10
 msgid "A unified applet containing all of the indicators."
-msgstr "全てのインジケーターを含んだ統合アプレットです。"
+msgstr "すべてのインジケータを含む統合アプレットです。"
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Appmenu Factory"
-msgstr "インジケーターアプレット・アプリメニューのファクトリ"
+msgstr "インジケータアプレット・アプリメニューのファクトリ"
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
-msgstr "インジケーターアプレット・アプリメニュー"
+msgstr "インジケータアプレット・アプリメニュー"
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:10
 msgid "A applet containing the application menus."
@@ -132,8 +132,8 @@ msgstr "情報(_A)"
 
 #: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
-msgstr "インジケーターアプレット・アプリケーションメニュー"
+msgstr "インジケータアプレット・アプリケーションメニュー"
 
 #: src/applet-main.c:1089
 msgid "No Indicators"
-msgstr "インジケーターはありません"
+msgstr "インジケータはありません"

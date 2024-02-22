@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Sadgamaya <g.raghavan.g@gmail.com>, 2018
+# Tan, Kian-ting, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,13 +12,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2018-03-11 18:40+0000\n"
-"Last-Translator: Sadgamaya <g.raghavan.g@gmail.com>, 2018\n"
-"Language-Team: Hindi (https://app.transifex.com/mate/teams/13566/hi/)\n"
+"Last-Translator: Tan, Kian-ting, 2023\n"
+"Language-Team: Chinese (Min Nan) (https://app.transifex.com/mate/teams/13566/nan/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nan\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
@@ -29,11 +28,11 @@ msgstr ""
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:1019
 msgid "Indicator Applet"
-msgstr "इंडिकेटर एप्प्लेट"
+msgstr ""
 
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:10
 msgid "An indicator of something that needs your attention on the desktop"
-msgstr "किसी चीज का संकेतक जो डेक्सटॉप पर आपका ध्यान आकर्षित करता है"
+msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
@@ -43,11 +42,11 @@ msgstr ""
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
 #: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
-msgstr "पूर्ण इंडिकेटर एप्प्लेट"
+msgstr ""
 
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:10
 msgid "A unified applet containing all of the indicators."
-msgstr "सभी इंडिकेटरों को समूहित किए हुए एकृकित एप्प्लेट"
+msgstr ""
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
@@ -56,11 +55,11 @@ msgstr ""
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "Indicator Applet Appmenu"
-msgstr "इंडिकेटर एप्प्लेट ऐप्पमेन्यु"
+msgstr ""
 
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:10
 msgid "A applet containing the application menus."
-msgstr "एक एप्प्लेट जिसमे आपके ऐप्प्लीकेशन मेनू रखे जाते हैं"
+msgstr ""
 
 #: src/applet-main.c:833
 msgid ""
@@ -68,9 +67,6 @@ msgid ""
 "under the terms of the GNU General Public License version 3, as published by"
 " the Free Software Foundation."
 msgstr ""
-"यह कार्यक्रम मुक्त साफ्टवेयर हैः आप इसे पुनःवितरित कर सकते है अथवा/या GNU "
-"General Public License संस्करण 3 जिसे फ्रि साफ्टवेयर संस्था प्रकाशित करती "
-"है, के शर्तों के अधीन परिवर्तित कर सकते हैं."
 
 #: src/applet-main.c:836
 msgid ""
@@ -79,18 +75,12 @@ msgid ""
 "SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU "
 "General Public License for more details."
 msgstr ""
-"इस कार्यक्रम इस आशा के साथ वितरित किया जा रहा है कि यह उपयोगी होगा लेकिन यह "
-"बिना किसी समाश्वासन के है; यहाँ तक कि यह वाणिज्यिक, संतोषजनक विशेषता, या "
-"विशेष उद्देश्य हेतु उपयुक्त के लिए लागु समाश्वासन भी नहीं देता है. विस्तृत "
-"जानकारी हेतु GNU General Public License संस्करण 3 देखें."
 
 #: src/applet-main.c:840
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " this program.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
-"इस कार्यक्रम के साथ आपको GNU General Public License की प्रतिलिपि मिलनी "
-"चाहिए. यदि नहीं तो देखें<http://www.gnu.org/licenses/>."
 
 #: src/applet-main.c:850
 msgid ""
@@ -100,32 +90,28 @@ msgstr ""
 
 #: src/applet-main.c:853
 msgid "An applet to hold your application menus."
-msgstr "एक एप्प्लेट आपके ऐप्प्लीकेशन मेन्यु को रखने के लिए"
+msgstr ""
 
 #: src/applet-main.c:855
 msgid "An applet to hold all of the system indicators."
-msgstr "तंत्र के सभी इंडिकेटर को रखने हेतु एक एप्प्लेट"
+msgstr ""
 
 #: src/applet-main.c:859
 msgid "translator-credits"
-msgstr ""
-"राजेश रंजन (rajeshkajha@yahoo.com)\n"
-"जी करुणाकर (karunakar@freedomink.org)\n"
-"रविशंकर श्रीवास्तव (raviratlami@gmail.com)\n"
-"राघवन गोपालकृष्णन्  (g.raghavan.g@gmail.com)"
+msgstr "Tan Kian-ting <yoxem@kianting.info>, 2023"
 
 #: src/applet-main.c:863
 msgid "MATE Website"
-msgstr "माटे वेबसाइट"
+msgstr ""
 
 #: src/applet-main.c:1006
 msgid "_About"
-msgstr "परिचय (_A)"
+msgstr ""
 
 #: src/applet-main.c:1025
 msgid "Indicator Applet Application Menu"
-msgstr "इंडिकेटर एप्प्लेट ऐप्प्लीकेशन मेन्यु"
+msgstr ""
 
 #: src/applet-main.c:1089
 msgid "No Indicators"
-msgstr "इंडिकेटर नहीं है"
+msgstr ""

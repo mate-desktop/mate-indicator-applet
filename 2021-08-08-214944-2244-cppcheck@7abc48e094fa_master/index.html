@@ -1,0 +1,117 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cppcheck - HTML report - mate-indicator-applet</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+    <script>
+      function getStyle(el, styleProp) {
+        var y;
+
+        if (el.currentStyle) {
+          y = el.currentStyle[styleProp];
+        } else if (window.getComputedStyle) {
+          y = document.defaultView.getComputedStyle(el, null).getPropertyValue(styleProp);
+        }
+
+        return y;
+      }
+
+      function toggle() {
+        var el = this.expandable_content;
+        var mark = this.expandable_marker;
+
+        if (el.style.display === "block") {
+          el.style.display = "none";
+          mark.textContent = "[+]";
+        } else {
+          el.style.display = "block";
+          mark.textContent = "[-]";
+        }
+      }
+
+      function initExpandables() {
+        var elements = document.querySelectorAll(".expandable");
+
+        for (var i = 0, len = elements.length; i < len; i++) {
+          var el = elements[i];
+          var clickable = el.querySelector("span");
+          var marker = clickable.querySelector(".marker");
+          var content = el.querySelector(".content");
+          var width = clickable.clientWidth - parseInt(getStyle(content, "padding-left")) - parseInt(getStyle(content, "padding-right"));
+          content.style.width = width + "px";
+          clickable.expandable_content = content;
+          clickable.expandable_marker = marker;
+          clickable.addEventListener("click", toggle);
+        }
+      }
+
+      function toggleDisplay(id) {
+        var elements = document.querySelectorAll("." + id);
+
+        for (var i = 0, len = elements.length; i < len; i++) {
+          elements[i].classList.toggle("d-none");
+        }
+      }
+
+      function toggleAll() {
+        var elements = document.querySelectorAll("input");
+
+        // starting from 1 since 0 is the "toggle all" input
+        for (var i = 1, len = elements.length; i < len; i++) {
+          var el = elements[i];
+
+          if (el.checked) {
+            el.checked = false;
+          } else {
+            el.checked = true;
+          }
+
+          toggleDisplay(el.id);
+        }
+      }
+      window.addEventListener("load", initExpandables);
+    </script>
+  </head>
+  <body>
+    <div id="header" class="header">
+      <h1>Cppcheck report - mate-indicator-applet: </h1>
+    </div>
+    <div class="wrapper">
+      <div id="menu_index">
+       <p id="filename"><a href="index.html">Defect summary;</a> </p>
+
+       <label><input type="checkbox" onclick="toggleAll()" checked> Toggle all</label>
+       <table>
+           <tr><th>Show</th><th>#</th><th>Defect ID</th></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="duplicateExpression" name="duplicateExpression" checked></td><td>1</td><td>duplicateExpression</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="missingIncludeSystem" name="missingIncludeSystem" checked></td><td>1</td><td>missingIncludeSystem</td></tr>
+           <tr><td></td><td>2</td><td>total</td></tr>
+       </table>
+       <p><a href="stats.html">Statistics</a></p>
+    </div>
+    <div id="content_index">
+
+       <table>
+       <tr><th>Line</th><th>Id</th><th>CWE</th><th>Severity</th><th>Message</th></tr>
+       <tr><td colspan="5"><a href="1.html"></a></td></tr>
+       <tr class="missingIncludeSystem"><td><a href="1.html#line-0">0</a></td><td>missingIncludeSystem</td><td></td><td>information</td><td >Cppcheck cannot find all the include files (use --check-config for details)</td></tr>
+       <tr><td colspan="5"><a href="0.html">src/eggaccelerators.c</a></td></tr>
+       <tr class="duplicateExpression"><td><a href="0.html#line-321">321</a></td><td>duplicateExpression</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Same expression on both sides of &apos;-=&apos;.</td></tr>
+       </table>
+      </div> <!-- /.wrapper -->
+    </div>
+    <div id="footer" class="footer">
+      <p>
+        Cppcheck 2.5 - a tool for static C/C++ code analysis<br>
+        <br>
+        Internet: <a href="http://cppcheck.net">http://cppcheck.net</a><br>
+        IRC: <a href="irc://irc.freenode.net/cppcheck">irc://irc.freenode.net/cppcheck</a><br>
+      </p>
+    </div>
+  </body>
+</html>

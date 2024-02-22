@@ -1,6 +1,12 @@
+### mate-indicator-applet 1.28.0
+
+  * Translations update
+  * fix warnings in Arabic and Tamil translations
+  * build warning: AC_OUTPUT should be used without arguments
+
 ### mate-indicator-applet 1.27.0
 
-  * tx: sync with transifex
+  * Translations update
   * tx: update resource
   * tx: migrate config file
   * ci: drop -Wunused-parameter compiler cflag from debian build

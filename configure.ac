@@ -32,7 +32,6 @@ UBUNTU_INDICATOR_REQUIRED_VERSION=0.3.90
 UBUNTU_INDICATOR_NG_VERSION=12.10.2
 
 AYATANA_INDICATOR_REQUIRED_VERSION=0.6.0
-AYATANA_INDICATOR_NG_VERSION=0.6.0
 
 PKG_CHECK_MODULES(APPLET, gtk+-3.0 >= $GTK_REQUIRED_VERSION
                           x11
@@ -66,7 +65,7 @@ PKG_CHECK_EXISTS(ayatana-indicator3-0.4,
                  [have_ayatanaindicator="yes"],
                  [have_ayatanaindicator="no"])
 
-PKG_CHECK_EXISTS(ayatana-indicator3-0.4 >= $AYATANA_INDICATOR_NG_VERSION,
+PKG_CHECK_EXISTS(ayatana-ido3-0.4 >= 0.4.0,
                  [have_ayatanaindicator_ng="yes"],
                  [have_ayatanaindicator_ng="no"])
 
@@ -149,7 +148,7 @@ if   test "x$use_ayatanaindicator" = "xyes"; then
     fi
 
     if test "x$have_ayatanaindicator_ng" = "xyes"; then
-        PKG_CHECK_MODULES(AYATANA_INDICATOR_NG, ayatana-indicator3-0.4 >= $AYATANA_INDICATOR_NG_VERSION
+        PKG_CHECK_MODULES(AYATANA_INDICATOR_NG, ayatana-indicator3-0.4 >= $AYATANA_INDICATOR_REQUIRED_VERSION
                           libayatana-ido3-0.4 >= 0.4.0,
                           [AC_DEFINE(HAVE_AYATANA_INDICATOR_NG, 1, "New style indicators support")])
     elif test "x$have_ayatanaindicator" = "xyes"; then

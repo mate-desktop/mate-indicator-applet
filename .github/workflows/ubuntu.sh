@@ -13,6 +13,7 @@ requires=(
 	ccache # Use ccache to speed up build
 )
 
+# https://git.launchpad.net/ubuntu/+source/mate-indicator-applet/tree/debian/control
 requires+=(
 	autoconf-archive
 	autopoint

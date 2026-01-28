@@ -15,6 +15,7 @@ requires=(
 
 requires+=(
 	autoconf-archive
+	clang
 	gcc
 	git
 	gtk3

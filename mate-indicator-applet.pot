@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-indicator-applet 1.26.0\n"
+"Project-Id-Version: mate-indicator-applet 1.28.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-indicator-applet/"
 "issues\n"
-"POT-Creation-Date: 2022-10-29 15:29+0200\n"
+"POT-Creation-Date: 2021-11-20 21:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,44 +17,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:4
 #: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:5
-#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Factory"
 msgstr ""
 
-#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:8
 #: src/applet-main.c:1019
 msgid "Indicator Applet"
 msgstr ""
 
-#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:10
+#: data/org.mate.applets.Indicator.mate-panel-applet.desktop.in.in:9
 msgid "An indicator of something that needs your attention on the desktop"
 msgstr ""
 
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:4
 #: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:5
-#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Complete Factory"
 msgstr ""
 
-#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:8
 #: src/applet-main.c:1022
 msgid "Indicator Applet Complete"
 msgstr ""
 
-#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:10
+#: data/org.mate.applets.IndicatorComplete.mate-panel-applet.desktop.in.in:9
 msgid "A unified applet containing all of the indicators."
 msgstr ""
 
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:4
 #: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:5
-#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:6
 msgid "Indicator Applet Appmenu Factory"
 msgstr ""
 
-#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:8
 msgid "Indicator Applet Appmenu"
 msgstr ""
 
-#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:10
+#: data/org.mate.applets.IndicatorAppmenu.mate-panel-applet.desktop.in.in:9
 msgid "A applet containing the application menus."
 msgstr ""
 

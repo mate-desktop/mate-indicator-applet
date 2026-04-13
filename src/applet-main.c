@@ -380,6 +380,8 @@ entry_resized (GtkWidget *applet, guint newsize, gpointer data)
 		}
 	}
 
+	g_list_free(entries);
+
 	return FALSE;
 }
 

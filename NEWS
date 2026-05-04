@@ -1,3 +1,15 @@
+### mate-indicator-applet 1.28.1
+
+  * ci: migrate from Travis CI to GitHub Actions
+  * build(deps): bump actions/checkout from 5 to 6
+  * Weblate migration
+  * retrieve last transifex translations
+  * add translation coverage badge
+  * remove invalid po files
+  * remove empty po files
+  * fix invalid po files
+  * Fix GList memory leak in entry_resized
+
 ### mate-indicator-applet 1.28.0
 
   * Translations update

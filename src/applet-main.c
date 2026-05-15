@@ -1072,6 +1072,19 @@ applet_fill_cb (MatePanelApplet * applet, const gchar * iid G_GNUC_UNUSED,
 			packdirection);
 	gtk_widget_set_can_focus (menubar, TRUE);
 	gtk_widget_set_name(GTK_WIDGET (menubar), "fast-user-switch-menubar");
+
+	GtkCssProvider *css_provider = gtk_css_provider_new ();
+	gtk_css_provider_load_from_data (css_provider,
+	                                 "#fast-user-switch-menubar {\n"
+	                                 "background-color: transparent;\n"
+	                                 "background-image: none;\n"
+	                                 "}",
+	                                 -1, NULL);
+	gtk_style_context_add_provider (gtk_widget_get_style_context (menubar),
+	                                GTK_STYLE_PROVIDER (css_provider),
+	                                GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
+	g_object_unref (css_provider);
+
 	g_signal_connect(menubar, "button-press-event", G_CALLBACK(menubar_press), NULL);
 	g_signal_connect_after(menubar, "draw", G_CALLBACK(menubar_on_draw), menubar);
 	g_signal_connect(applet, "change-orient",
